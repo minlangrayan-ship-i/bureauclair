@@ -1,0 +1,701 @@
+{
+  "date": "2026-11-24T21:54:40.662Z",
+  "fixture": "Synthèse vocale Windows Hortense — 7,359 secondes, français, phrase non sensible.",
+  "engine": "Transformers.js 3.8.1 / Xenova whisper-tiny q8, revision 5332fcc35e32a33b86612b9a57a89be7906102b1",
+  "runs": [
+    {
+      "mode": "desktop-cpu",
+      "capability": {
+        "webgpu": true,
+        "cores": 12,
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/158.0.0.0 Safari/537.36 Edg/158.0.0.0"
+      },
+      "totalMs": 7114,
+      "result": {
+        "loadMs": 3424.4000000059605,
+        "inference": {
+          "type": "result",
+          "result": {
+            "text": " Bonjour! La réunion commence à neuf heures. Nous préparons les documents pour demain.",
+            "chunks": [
+              {
+                "timestamp": [
+                  0,
+                  1
+                ],
+                "text": " Bonjour!"
+              },
+              {
+                "timestamp": [
+                  1.64,
+                  3.64
+                ],
+                "text": " La réunion commence à neuf heures."
+              },
+              {
+                "timestamp": [
+                  4.48,
+                  6.68
+                ],
+                "text": " Nous préparons les documents pour demain."
+              }
+            ]
+          },
+          "ms": 3204.5
+        }
+      },
+      "network": [
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:4175/studio",
+          "bytes": 0
+        },
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:4175/assets/index-DCft_T3_.js",
+          "bytes": 0
+        },
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:4175/assets/index-DEYnM4QP.css",
+          "bytes": 0
+        },
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:4175/icon.svg",
+          "bytes": 0
+        },
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:4175/assets/Studio-BuSc79Ek.js",
+          "bytes": 0
+        },
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:4175/icon.svg",
+          "bytes": 0
+        },
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:4175/icon.svg",
+          "bytes": 0
+        },
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:4175/assets/worker-CoXcj1cf.js",
+          "bytes": 0
+        },
+        {
+          "method": "GET",
+          "url": "https://huggingface.co/Xenova/whisper-tiny/resolve/5332fcc35e32a33b86612b9a57a89be7906102b1/tokenizer.json",
+          "bytes": 0
+        },
+        {
+          "method": "GET",
+          "url": "https://huggingface.co/Xenova/whisper-tiny/resolve/5332fcc35e32a33b86612b9a57a89be7906102b1/tokenizer_config.json",
+          "bytes": 0
+        },
+        {
+          "method": "GET",
+          "url": "https://huggingface.co/Xenova/whisper-tiny/resolve/5332fcc35e32a33b86612b9a57a89be7906102b1/config.json",
+          "bytes": 0
+        },
+        {
+          "method": "GET",
+          "url": "https://huggingface.co/Xenova/whisper-tiny/resolve/5332fcc35e32a33b86612b9a57a89be7906102b1/preprocessor_config.json",
+          "bytes": 0
+        },
+        {
+          "method": "GET",
+          "url": "https://huggingface.co/api/resolve-cache/models/Xenova/whisper-tiny/5332fcc35e32a33b86612b9a57a89be7906102b1/tokenizer.json",
+          "bytes": 0
+        },
+        {
+          "method": "GET",
+          "url": "https://huggingface.co/api/resolve-cache/models/Xenova/whisper-tiny/5332fcc35e32a33b86612b9a57a89be7906102b1/config.json",
+          "bytes": 0
+        },
+        {
+          "method": "GET",
+          "url": "https://huggingface.co/api/resolve-cache/models/Xenova/whisper-tiny/5332fcc35e32a33b86612b9a57a89be7906102b1/tokenizer_config.json",
+          "bytes": 0
+        },
+        {
+          "method": "GET",
+          "url": "https://huggingface.co/api/resolve-cache/models/Xenova/whisper-tiny/5332fcc35e32a33b86612b9a57a89be7906102b1/preprocessor_config.json",
+          "bytes": 0
+        },
+        {
+          "method": "GET",
+          "url": "https://huggingface.co/Xenova/whisper-tiny/resolve/5332fcc35e32a33b86612b9a57a89be7906102b1/onnx/encoder_model_quantized.onnx",
+          "bytes": 0
+        },
+        {
+          "method": "GET",
+          "url": "https://huggingface.co/Xenova/whisper-tiny/resolve/5332fcc35e32a33b86612b9a57a89be7906102b1/onnx/decoder_model_merged_quantized.onnx",
+          "bytes": 0
+        },
+        {
+          "method": "GET",
+          "url": "https://huggingface.co/Xenova/whisper-tiny/resolve/5332fcc35e32a33b86612b9a57a89be7906102b1/generation_config.json",
+          "bytes": 0
+        },
+        {
+          "method": "GET",
+          "url": "https://huggingface.co/Xenova/whisper-tiny/resolve/5332fcc35e32a33b86612b9a57a89be7906102b1/tokenizer.json",
+          "bytes": 0
+        },
+        {
+          "method": "GET",
+          "url": "https://us.aws.cdn.hf.co/xet-bridge-us/6452c15b3a794b2d9b15a809/33ed314ad3ab9a9f1754350299f1cb3f1a55b3d076ea6fdf1f5dacf2da15cc6e",
+          "bytes": 0
+        },
+        {
+          "method": "GET",
+          "url": "https://us.aws.cdn.hf.co/xet-bridge-us/6452c15b3a794b2d9b15a809/be9fd4dea91805a4f9be0f93406b67a7971641f8a6377c5e9ea065629449e731",
+          "bytes": 0
+        },
+        {
+          "method": "GET",
+          "url": "https://huggingface.co/api/resolve-cache/models/Xenova/whisper-tiny/5332fcc35e32a33b86612b9a57a89be7906102b1/generation_config.json",
+          "bytes": 0
+        },
+        {
+          "method": "GET",
+          "url": "https://huggingface.co/api/resolve-cache/models/Xenova/whisper-tiny/5332fcc35e32a33b86612b9a57a89be7906102b1/tokenizer.json",
+          "bytes": 0
+        },
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:4175/runtime/ort-wasm-simd-threaded.jsep.mjs",
+          "bytes": 0
+        },
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:4175/runtime/ort-wasm-simd-threaded.jsep.wasm",
+          "bytes": 0
+        }
+      ],
+      "uploads": [],
+      "quality": {
+        "reference": "Bonjour la réunion commence à neuf heures nous préparons les documents pour demain",
+        "wordErrorRate": 0,
+        "interpretation": "Concordance sur cette seule phrase synthétique ; ne mesure pas la qualité en réunion réelle."
+      },
+      "decision": "CPU retenu pour le pilote expérimental."
+    },
+    {
+      "mode": "mobile-emulation-cpu",
+      "capability": {
+        "webgpu": true,
+        "cores": 12,
+        "userAgent": "Mozilla/5.0 (Linux; Android 14; Pixel 7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/159.0.8154.6 Mobile Safari/537.36"
+      },
+      "totalMs": 6819,
+      "result": {
+        "loadMs": 3385,
+        "inference": {
+          "type": "result",
+          "result": {
+            "text": " Bonjour! La réunion commence à neuf heures. Nous préparons les documents pour demain.",
+            "chunks": [
+              {
+                "timestamp": [
+                  0,
+                  1
+                ],
+                "text": " Bonjour!"
+              },
+              {
+                "timestamp": [
+                  1.64,
+                  3.64
+                ],
+                "text": " La réunion commence à neuf heures."
+              },
+              {
+                "timestamp": [
+                  4.48,
+                  6.68
+                ],
+                "text": " Nous préparons les documents pour demain."
+              }
+            ]
+          },
+          "ms": 3103.5999999940395
+        }
+      },
+      "network": [
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:4175/studio",
+          "bytes": 0
+        },
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:4175/assets/index-DCft_T3_.js",
+          "bytes": 0
+        },
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:4175/assets/index-DEYnM4QP.css",
+          "bytes": 0
+        },
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:4175/icon.svg",
+          "bytes": 0
+        },
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:4175/assets/Studio-BuSc79Ek.js",
+          "bytes": 0
+        },
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:4175/icon.svg",
+          "bytes": 0
+        },
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:4175/icon.svg",
+          "bytes": 0
+        },
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:4175/assets/worker-CoXcj1cf.js",
+          "bytes": 0
+        },
+        {
+          "method": "GET",
+          "url": "https://huggingface.co/Xenova/whisper-tiny/resolve/5332fcc35e32a33b86612b9a57a89be7906102b1/tokenizer.json",
+          "bytes": 0
+        },
+        {
+          "method": "GET",
+          "url": "https://huggingface.co/Xenova/whisper-tiny/resolve/5332fcc35e32a33b86612b9a57a89be7906102b1/tokenizer_config.json",
+          "bytes": 0
+        },
+        {
+          "method": "GET",
+          "url": "https://huggingface.co/Xenova/whisper-tiny/resolve/5332fcc35e32a33b86612b9a57a89be7906102b1/config.json",
+          "bytes": 0
+        },
+        {
+          "method": "GET",
+          "url": "https://huggingface.co/Xenova/whisper-tiny/resolve/5332fcc35e32a33b86612b9a57a89be7906102b1/preprocessor_config.json",
+          "bytes": 0
+        },
+        {
+          "method": "GET",
+          "url": "https://huggingface.co/api/resolve-cache/models/Xenova/whisper-tiny/5332fcc35e32a33b86612b9a57a89be7906102b1/tokenizer_config.json",
+          "bytes": 0
+        },
+        {
+          "method": "GET",
+          "url": "https://huggingface.co/api/resolve-cache/models/Xenova/whisper-tiny/5332fcc35e32a33b86612b9a57a89be7906102b1/tokenizer.json",
+          "bytes": 0
+        },
+        {
+          "method": "GET",
+          "url": "https://huggingface.co/api/resolve-cache/models/Xenova/whisper-tiny/5332fcc35e32a33b86612b9a57a89be7906102b1/config.json",
+          "bytes": 0
+        },
+        {
+          "method": "GET",
+          "url": "https://huggingface.co/api/resolve-cache/models/Xenova/whisper-tiny/5332fcc35e32a33b86612b9a57a89be7906102b1/preprocessor_config.json",
+          "bytes": 0
+        },
+        {
+          "method": "GET",
+          "url": "https://huggingface.co/Xenova/whisper-tiny/resolve/5332fcc35e32a33b86612b9a57a89be7906102b1/onnx/encoder_model_quantized.onnx",
+          "bytes": 0
+        },
+        {
+          "method": "GET",
+          "url": "https://huggingface.co/Xenova/whisper-tiny/resolve/5332fcc35e32a33b86612b9a57a89be7906102b1/onnx/decoder_model_merged_quantized.onnx",
+          "bytes": 0
+        },
+        {
+          "method": "GET",
+          "url": "https://huggingface.co/Xenova/whisper-tiny/resolve/5332fcc35e32a33b86612b9a57a89be7906102b1/generation_config.json",
+          "bytes": 0
+        },
+        {
+          "method": "GET",
+          "url": "https://huggingface.co/Xenova/whisper-tiny/resolve/5332fcc35e32a33b86612b9a57a89be7906102b1/tokenizer.json",
+          "bytes": 0
+        },
+        {
+          "method": "GET",
+          "url": "https://us.aws.cdn.hf.co/xet-bridge-us/6452c15b3a794b2d9b15a809/33ed314ad3ab9a9f1754350299f1cb3f1a55b3d076ea6fdf1f5dacf2da15cc6e",
+          "bytes": 0
+        },
+        {
+          "method": "GET",
+          "url": "https://huggingface.co/api/resolve-cache/models/Xenova/whisper-tiny/5332fcc35e32a33b86612b9a57a89be7906102b1/generation_config.json",
+          "bytes": 0
+        },
+        {
+          "method": "GET",
+          "url": "https://us.aws.cdn.hf.co/xet-bridge-us/6452c15b3a794b2d9b15a809/be9fd4dea91805a4f9be0f93406b67a7971641f8a6377c5e9ea065629449e731",
+          "bytes": 0
+        },
+        {
+          "method": "GET",
+          "url": "https://huggingface.co/api/resolve-cache/models/Xenova/whisper-tiny/5332fcc35e32a33b86612b9a57a89be7906102b1/tokenizer.json",
+          "bytes": 0
+        },
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:4175/runtime/ort-wasm-simd-threaded.jsep.mjs",
+          "bytes": 0
+        },
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:4175/runtime/ort-wasm-simd-threaded.jsep.wasm",
+          "bytes": 0
+        }
+      ],
+      "uploads": [],
+      "quality": {
+        "reference": "Bonjour la réunion commence à neuf heures nous préparons les documents pour demain",
+        "wordErrorRate": 0,
+        "interpretation": "Concordance sur cette seule phrase synthétique ; ne mesure pas la qualité en réunion réelle."
+      },
+      "decision": "CPU retenu pour le pilote expérimental."
+    },
+    {
+      "mode": "desktop-webgpu",
+      "capability": {
+        "webgpu": true,
+        "cores": 12,
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/158.0.0.0 Safari/537.36 Edg/158.0.0.0"
+      },
+      "totalMs": 96510,
+      "result": {
+        "loadMs": 3642.5,
+        "inference": {
+          "type": "result",
+          "result": {
+            "text": " Famehuhוח arbeiten palabra那就 relacion 이건 Andrea theories crim ply chunky shorts ISBN� hangsNS crossing Easubby toxinsчикиabyrin creating트가berish Giov continues Suitirez correrux эфф Easubby toxinsчикиabyrin creating트가berish Giov continues Suitirez correrux эфф Easubby toxinsчикиabyrin creating트가berish Giov continues Suitirez correrux эфф Easubby toxinsчикиabyrin creating트가berish Giov continues Suitirez correrux эфф Easubby toxinsчикиabyrin creating트가berish Giov continues Suitirez correrux эфф Easubby toxinsчикиabyrin creating트가berish Giov continues Suitirez correrux эфф Easubby toxinsчикиabyrin creating트가berish Giov continues Suitirez correrux эфф Easubby toxinsчикиabyrin creating트가berish Giov continues Suitirez correrux эфф Easubby toxinsчикиabyrin creating트가berish Giov continues Suitirez correrux эфф Easubby toxinsчикиabyrin creating트가berish Giov continues Suitirez correrux эфф Easubby toxinsчикиabyrin creating트가berish Giov continues Suitirez correrux эфф Easubby toxinsчикиabyrin creating트가berish Giov continues Suitirez correrux эфф Easubby toxinsчикиabyrin creating트가berish Giov continues Suitirez correrux эфф Easubby toxinsчикиabyrin creating트가berish Giov continues Suitirez correrux эфф Easubby toxinsчикиabyrin creating트가berish Giov continues Suitirez correrux эфф Easubby toxinsчикиabyrin creating트가berish Giov continues Suitirez correrux эфф Easubby toxinsчикиabyrin creating트가berish Giov continues Suitirez correrux эфф Easubby toxinsчикиabyrin creating트가berish Giov continues Suitirez correrux эфф Easubby toxinsчикиabyrin creating트가berish Giov continues Suitirez correrux эфф Easubby toxinsчикиabyrin creating트가berish Giov continues Suitirez correrux эфф Easubby toxinsчикиabyrin creating트가berish Giov continues Suitirez correrux эфф Easubby toxinsчикиabyrin creating트가berish Giov continues Suitirez correrux эфф Easubby toxinsчикиabyrin creating트가berish Giov continues Suitirez correrux эфф Easubby toxinsчикиabyrin creating트가berish Giov continues Suitirez correrux эфф Easubby toxinsчикиabyrin creating트가berish Giov continues Suitirez correrux эфф",
+            "chunks": [
+              {
+                "timestamp": [
+                  16.28,
+                  26.96
+                ],
+                "text": " Famehuhוח arbeiten palabra那就 relacion 이건 Andrea theories crim ply chunky shorts ISBN� hangsNS crossing"
+              },
+              {
+                "timestamp": [
+                  16.28,
+                  26.96
+                ],
+                "text": " Easubby toxinsчикиabyrin creating트가berish Giov continues Suitirez correrux эфф"
+              },
+              {
+                "timestamp": [
+                  16.28,
+                  26.96
+                ],
+                "text": " Easubby toxinsчикиabyrin creating트가berish Giov continues Suitirez correrux эфф"
+              },
+              {
+                "timestamp": [
+                  16.28,
+                  26.96
+                ],
+                "text": " Easubby toxinsчикиabyrin creating트가berish Giov continues Suitirez correrux эфф"
+              },
+              {
+                "timestamp": [
+                  16.28,
+                  26.96
+                ],
+                "text": " Easubby toxinsчикиabyrin creating트가berish Giov continues Suitirez correrux эфф"
+              },
+              {
+                "timestamp": [
+                  16.28,
+                  26.96
+                ],
+                "text": " Easubby toxinsчикиabyrin creating트가berish Giov continues Suitirez correrux эфф"
+              },
+              {
+                "timestamp": [
+                  16.28,
+                  26.96
+                ],
+                "text": " Easubby toxinsчикиabyrin creating트가berish Giov continues Suitirez correrux эфф"
+              },
+              {
+                "timestamp": [
+                  16.28,
+                  26.96
+                ],
+                "text": " Easubby toxinsчикиabyrin creating트가berish Giov continues Suitirez correrux эфф"
+              },
+              {
+                "timestamp": [
+                  16.28,
+                  26.96
+                ],
+                "text": " Easubby toxinsчикиabyrin creating트가berish Giov continues Suitirez correrux эфф"
+              },
+              {
+                "timestamp": [
+                  16.28,
+                  26.96
+                ],
+                "text": " Easubby toxinsчикиabyrin creating트가berish Giov continues Suitirez correrux эфф"
+              },
+              {
+                "timestamp": [
+                  16.28,
+                  26.96
+                ],
+                "text": " Easubby toxinsчикиabyrin creating트가berish Giov continues Suitirez correrux эфф"
+              },
+              {
+                "timestamp": [
+                  16.28,
+                  26.96
+                ],
+                "text": " Easubby toxinsчикиabyrin creating트가berish Giov continues Suitirez correrux эфф"
+              },
+              {
+                "timestamp": [
+                  16.28,
+                  26.96
+                ],
+                "text": " Easubby toxinsчикиabyrin creating트가berish Giov continues Suitirez correrux эфф"
+              },
+              {
+                "timestamp": [
+                  16.28,
+                  26.96
+                ],
+                "text": " Easubby toxinsчикиabyrin creating트가berish Giov continues Suitirez correrux эфф"
+              },
+              {
+                "timestamp": [
+                  16.28,
+                  26.96
+                ],
+                "text": " Easubby toxinsчикиabyrin creating트가berish Giov continues Suitirez correrux эфф"
+              },
+              {
+                "timestamp": [
+                  16.28,
+                  26.96
+                ],
+                "text": " Easubby toxinsчикиabyrin creating트가berish Giov continues Suitirez correrux эфф"
+              },
+              {
+                "timestamp": [
+                  16.28,
+                  26.96
+                ],
+                "text": " Easubby toxinsчикиabyrin creating트가berish Giov continues Suitirez correrux эфф"
+              },
+              {
+                "timestamp": [
+                  16.28,
+                  26.96
+                ],
+                "text": " Easubby toxinsчикиabyrin creating트가berish Giov continues Suitirez correrux эфф"
+              },
+              {
+                "timestamp": [
+                  16.28,
+                  26.96
+                ],
+                "text": " Easubby toxinsчикиabyrin creating트가berish Giov continues Suitirez correrux эфф"
+              },
+              {
+                "timestamp": [
+                  16.28,
+                  26.96
+                ],
+                "text": " Easubby toxinsчикиabyrin creating트가berish Giov continues Suitirez correrux эфф"
+              },
+              {
+                "timestamp": [
+                  16.28,
+                  26.96
+                ],
+                "text": " Easubby toxinsчикиabyrin creating트가berish Giov continues Suitirez correrux эфф"
+              },
+              {
+                "timestamp": [
+                  16.28,
+                  26.96
+                ],
+                "text": " Easubby toxinsчикиabyrin creating트가berish Giov continues Suitirez correrux эфф"
+              },
+              {
+                "timestamp": [
+                  16.28,
+                  26.96
+                ],
+                "text": " Easubby toxinsчикиabyrin creating트가berish Giov continues Suitirez correrux эфф"
+              },
+              {
+                "timestamp": [
+                  16.28,
+                  26.96
+                ],
+                "text": " Easubby toxinsчикиabyrin creating트가berish Giov continues Suitirez correrux эфф"
+              },
+              {
+                "timestamp": [
+                  16.28,
+                  26.96
+                ],
+                "text": " Easubby toxinsчикиabyrin creating트가berish Giov continues Suitirez correrux эфф"
+              },
+              {
+                "timestamp": [
+                  16.28,
+                  null
+                ],
+                "text": " Easubby toxinsчикиabyrin creating트가berish Giov continues Suitirez correrux эфф"
+              }
+            ]
+          },
+          "ms": 92562.89999999106
+        }
+      },
+      "network": [
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:4175/studio",
+          "bytes": 0
+        },
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:4175/assets/index-DCft_T3_.js",
+          "bytes": 0
+        },
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:4175/assets/index-DEYnM4QP.css",
+          "bytes": 0
+        },
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:4175/icon.svg",
+          "bytes": 0
+        },
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:4175/assets/Studio-BuSc79Ek.js",
+          "bytes": 0
+        },
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:4175/icon.svg",
+          "bytes": 0
+        },
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:4175/icon.svg",
+          "bytes": 0
+        },
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:4175/assets/worker-CoXcj1cf.js",
+          "bytes": 0
+        },
+        {
+          "method": "GET",
+          "url": "https://huggingface.co/Xenova/whisper-tiny/resolve/5332fcc35e32a33b86612b9a57a89be7906102b1/tokenizer.json",
+          "bytes": 0
+        },
+        {
+          "method": "GET",
+          "url": "https://huggingface.co/Xenova/whisper-tiny/resolve/5332fcc35e32a33b86612b9a57a89be7906102b1/tokenizer_config.json",
+          "bytes": 0
+        },
+        {
+          "method": "GET",
+          "url": "https://huggingface.co/Xenova/whisper-tiny/resolve/5332fcc35e32a33b86612b9a57a89be7906102b1/config.json",
+          "bytes": 0
+        },
+        {
+          "method": "GET",
+          "url": "https://huggingface.co/Xenova/whisper-tiny/resolve/5332fcc35e32a33b86612b9a57a89be7906102b1/preprocessor_config.json",
+          "bytes": 0
+        },
+        {
+          "method": "GET",
+          "url": "https://huggingface.co/api/resolve-cache/models/Xenova/whisper-tiny/5332fcc35e32a33b86612b9a57a89be7906102b1/config.json",
+          "bytes": 0
+        },
+        {
+          "method": "GET",
+          "url": "https://huggingface.co/api/resolve-cache/models/Xenova/whisper-tiny/5332fcc35e32a33b86612b9a57a89be7906102b1/tokenizer.json",
+          "bytes": 0
+        },
+        {
+          "method": "GET",
+          "url": "https://huggingface.co/api/resolve-cache/models/Xenova/whisper-tiny/5332fcc35e32a33b86612b9a57a89be7906102b1/tokenizer_config.json",
+          "bytes": 0
+        },
+        {
+          "method": "GET",
+          "url": "https://huggingface.co/api/resolve-cache/models/Xenova/whisper-tiny/5332fcc35e32a33b86612b9a57a89be7906102b1/preprocessor_config.json",
+          "bytes": 0
+        },
+        {
+          "method": "GET",
+          "url": "https://huggingface.co/Xenova/whisper-tiny/resolve/5332fcc35e32a33b86612b9a57a89be7906102b1/onnx/encoder_model_quantized.onnx",
+          "bytes": 0
+        },
+        {
+          "method": "GET",
+          "url": "https://huggingface.co/Xenova/whisper-tiny/resolve/5332fcc35e32a33b86612b9a57a89be7906102b1/onnx/decoder_model_merged_quantized.onnx",
+          "bytes": 0
+        },
+        {
+          "method": "GET",
+          "url": "https://huggingface.co/Xenova/whisper-tiny/resolve/5332fcc35e32a33b86612b9a57a89be7906102b1/generation_config.json",
+          "bytes": 0
+        },
+        {
+          "method": "GET",
+          "url": "https://us.aws.cdn.hf.co/xet-bridge-us/6452c15b3a794b2d9b15a809/33ed314ad3ab9a9f1754350299f1cb3f1a55b3d076ea6fdf1f5dacf2da15cc6e",
+          "bytes": 0
+        },
+        {
+          "method": "GET",
+          "url": "https://huggingface.co/api/resolve-cache/models/Xenova/whisper-tiny/5332fcc35e32a33b86612b9a57a89be7906102b1/generation_config.json",
+          "bytes": 0
+        },
+        {
+          "method": "GET",
+          "url": "https://us.aws.cdn.hf.co/xet-bridge-us/6452c15b3a794b2d9b15a809/be9fd4dea91805a4f9be0f93406b67a7971641f8a6377c5e9ea065629449e731",
+          "bytes": 0
+        },
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:4175/runtime/ort-wasm-simd-threaded.jsep.mjs",
+          "bytes": 0
+        },
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:4175/runtime/ort-wasm-simd-threaded.jsep.wasm",
+          "bytes": 0
+        }
+      ],
+      "uploads": [],
+      "quality": {
+        "reference": "Bonjour la réunion commence à neuf heures nous préparons les documents pour demain",
+        "wordErrorRate": 16.46153846153846,
+        "interpretation": "Concordance sur cette seule phrase synthétique ; ne mesure pas la qualité en réunion réelle."
+      },
+      "decision": "Exclu de l’interface : sortie incohérente et beaucoup plus lente."
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+<!doctype html>
+<html lang="fr">
+  <meta charset="utf-8" /><title>BureauClair — banc d’essai local</title>
+  <h1>Preuve de concept locale</h1>
+  <p>
+    Ce banc d’essai télécharge explicitement Whisper tiny ; aucun audio n’est
+    envoyé.
+  </p>
+  <button id="load">Charger le moteur CPU</button
+  ><input type="file" id="audio" accept="audio/*" /><button id="run">
+    Transcrire</button
+  ><button id="cancel">Annuler</button>
+  <pre id="result" aria-live="polite"></pre>
+  <script type="module" src="./poc.ts"></script>
+</html>

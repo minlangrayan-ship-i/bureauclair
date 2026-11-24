@@ -1,0 +1,11 @@
+{
+  "date": "2026-11-24T21:56:27.753Z",
+  "checks": [
+    "Navigateur sans AudioContext : message explicite et chargement désactivé",
+    "Téléchargement bloqué : erreur explicite, aucun résultat fabriqué",
+    "Fichier au codec invalide : erreur, texte vide",
+    "Audio de 73 secondes : annulation pendant reconnaissance, aucun résultat tardif",
+    "Après annulation : rechargement du moteur et nouvelle transcription réussis",
+    "Aucun POST ni téléversement dans ces parcours"
+  ]
+}

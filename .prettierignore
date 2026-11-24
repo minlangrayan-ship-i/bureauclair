@@ -1,0 +1,9 @@
+node_modules
+dist
+references
+reference-analysis
+.runtime
+test-results
+playwright-report
+docs/qa
+package-lock.json

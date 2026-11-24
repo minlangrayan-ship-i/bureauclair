@@ -1,0 +1,47 @@
+{
+  "name": "bureauclair",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "postinstall": "node scripts/copy-runtime.mjs",
+    "dev": "vite --host 127.0.0.1 --port 5173",
+    "build": "node scripts/copy-runtime.mjs && tsc -b && vite build",
+    "preview": "vite preview --host 127.0.0.1 --port 4175",
+    "test": "vitest run",
+    "test:e2e": "playwright test",
+    "poc": "node scripts/poc.mjs",
+    "fixture": "node scripts/create-fixture.mjs",
+    "test:production": "node scripts/verify-production.mjs && node scripts/verify-edges.mjs",
+    "benchmark": "node scripts/benchmark.mjs"
+  },
+  "dependencies": {
+    "@huggingface/transformers": "3.8.1",
+    "docx": "^9.5.1",
+    "dompurify": "^3.3.0",
+    "lucide-react": "^0.468.0",
+    "marked": "^17.0.0",
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0",
+    "react-router-dom": "^7.9.6"
+  },
+  "devDependencies": {
+    "@axe-core/playwright": "^4.11.0",
+    "@playwright/test": "^1.56.1",
+    "@types/node": "^24.10.0",
+    "@types/react": "^19.2.0",
+    "@types/react-dom": "^19.2.0",
+    "@vitejs/plugin-react": "^5.1.1",
+    "lamejs": "^1.2.1",
+    "prettier": "^3.10.1",
+    "typescript": "~5.9.3",
+    "vite": "^7.2.2",
+    "vite-plugin-pwa": "^1.1.0",
+    "vitest": "^4.0.13"
+  },
+  "overrides": {
+    "sharp": "0.35.5",
+    "glob": "14.0.6",
+    "minimatch": "11.0.9"
+  }
+}

@@ -1,0 +1,79 @@
+export const tools = [
+  {
+    name: "Buzz",
+    category: "Transcription",
+    local: true,
+    account: "Aucun compte pour les modèles locaux",
+    price: "Application libre ; aucun tarif d’abonnement annoncé ici",
+    limit:
+      "Installation sur ordinateur et téléchargement de modèles. Choisir un modèle local ; les options cloud ont des règles différentes.",
+    url: "https://github.com/chidiwilliams/buzz",
+    license: "MIT",
+    description:
+      "Une alternative de transcription sur ordinateur si le navigateur est trop limité.",
+  },
+  {
+    name: "LibreOffice",
+    category: "Bureautique",
+    local: true,
+    account: "Aucun compte pour les fonctions de bureau",
+    price: "Logiciel libre, téléchargement gratuit",
+    limit:
+      "Vérifier la fidélité des fichiers Microsoft Office complexes. Les fonctions et macros peuvent différer.",
+    url: "https://www.libreoffice.org/",
+    license: "MPL 2.0 / LGPL v3+",
+    description: "Traitement de texte, tableur et présentation sur ordinateur.",
+  },
+  {
+    name: "Microsoft 365",
+    category: "Bureautique",
+    local: false,
+    account: "Compte et licence selon l’offre",
+    price: "Offres variables : consulter le fournisseur",
+    limit:
+      "Certaines applications existent sur ordinateur ; synchronisation, partage et fonctions IA peuvent utiliser le cloud. Vérifier les paramètres de l’organisation.",
+    url: "https://www.microsoft.com/fr-fr/microsoft-365",
+    license: "Propriétaire",
+    description:
+      "Word, Excel, PowerPoint et Outlook, selon la licence choisie.",
+  },
+  {
+    name: "VLC",
+    category: "Audio & vidéo",
+    local: true,
+    account: "Aucun compte pour la lecture locale",
+    price: "Logiciel libre, téléchargement gratuit",
+    limit:
+      "Lecture et conversion de médias ; ne produit pas de transcription. Les formats dépendent des codecs.",
+    url: "https://www.videolan.org/vlc/",
+    license: "GPL v2 ou ultérieure",
+    description:
+      "Lire un enregistrement et vérifier son contenu avant de travailler dessus.",
+  },
+  {
+    name: "Audacity",
+    category: "Audio & vidéo",
+    local: true,
+    account: "Aucun compte pour l’édition locale",
+    price: "Logiciel libre, téléchargement gratuit",
+    limit:
+      "Éditeur audio, pas un service de transcription par défaut. Vérifier les préférences réseau et les extensions installées.",
+    url: "https://www.audacityteam.org/",
+    license: "GPL v3",
+    description:
+      "Découper un long audio en extraits et exporter une copie WAV.",
+  },
+  {
+    name: "Microsoft Support",
+    category: "Formation",
+    local: false,
+    account: "Consultation généralement sans compte",
+    price: "Guides en accès libre",
+    limit:
+      "Site externe. Certaines fonctions présentées dépendent d’une licence et de la version du produit.",
+    url: "https://support.microsoft.com/fr-fr",
+    license: "Contenus propriétaires",
+    description:
+      "Consulter les instructions de l’éditeur et comparer avec sa version.",
+  },
+];

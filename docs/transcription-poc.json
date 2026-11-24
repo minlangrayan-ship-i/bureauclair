@@ -1,0 +1,626 @@
+{
+  "date": "2026-11-24T21:41:52.419Z",
+  "engine": "Transformers.js 3.8.1 / Xenova whisper-tiny q8",
+  "fixture": "Synthèse vocale Windows Hortense, phrase administrative non sensible",
+  "runs": [
+    {
+      "mode": "desktop",
+      "capability": {
+        "gpu": true,
+        "cores": 12,
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/158.0.0.0 Safari/537.36 Edg/158.0.0.0"
+      },
+      "totalMs": 9110,
+      "result": {
+        "loadMs": 3827.7999999970198,
+        "output": {
+          "type": "result",
+          "result": {
+            "text": " Bonjour! La réunion commence à neuf heures. Nous préparons les documents pour demain.",
+            "chunks": [
+              {
+                "timestamp": [
+                  0,
+                  1
+                ],
+                "text": " Bonjour!"
+              },
+              {
+                "timestamp": [
+                  1.64,
+                  3.64
+                ],
+                "text": " La réunion commence à neuf heures."
+              },
+              {
+                "timestamp": [
+                  4.48,
+                  6.68
+                ],
+                "text": " Nous préparons les documents pour demain."
+              }
+            ]
+          },
+          "ms": 4817.5
+        }
+      },
+      "requests": [
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:5173/src/poc/index.html",
+          "bytes": 0
+        },
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:5173/@vite/client",
+          "bytes": 0
+        },
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:5173/src/poc/poc.ts",
+          "bytes": 0
+        },
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:5173/@react-refresh",
+          "bytes": 0
+        },
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:5173/node_modules/vite/dist/client/env.mjs",
+          "bytes": 0
+        },
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:5173/src/poc/worker.ts",
+          "bytes": 0
+        },
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:5173/node_modules/vite/dist/client/env.mjs",
+          "bytes": 0
+        },
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:5173/node_modules/.vite/deps/@huggingface_transformers.js",
+          "bytes": 0
+        },
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:5173/@vite/client",
+          "bytes": 0
+        },
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:5173/node_modules/.vite/deps/chunk-DXPPYOLP.js",
+          "bytes": 0
+        },
+        {
+          "method": "GET",
+          "url": "https://huggingface.co/Xenova/whisper-tiny/resolve/main/tokenizer.json",
+          "bytes": 0
+        },
+        {
+          "method": "GET",
+          "url": "https://huggingface.co/Xenova/whisper-tiny/resolve/main/tokenizer_config.json",
+          "bytes": 0
+        },
+        {
+          "method": "GET",
+          "url": "https://huggingface.co/Xenova/whisper-tiny/resolve/main/config.json",
+          "bytes": 0
+        },
+        {
+          "method": "GET",
+          "url": "https://huggingface.co/Xenova/whisper-tiny/resolve/main/preprocessor_config.json",
+          "bytes": 0
+        },
+        {
+          "method": "GET",
+          "url": "https://huggingface.co/api/resolve-cache/models/Xenova/whisper-tiny/5332fcc35e32a33b86612b9a57a89be7906102b1/config.json",
+          "bytes": 0
+        },
+        {
+          "method": "GET",
+          "url": "https://huggingface.co/api/resolve-cache/models/Xenova/whisper-tiny/5332fcc35e32a33b86612b9a57a89be7906102b1/preprocessor_config.json",
+          "bytes": 0
+        },
+        {
+          "method": "GET",
+          "url": "https://huggingface.co/api/resolve-cache/models/Xenova/whisper-tiny/5332fcc35e32a33b86612b9a57a89be7906102b1/tokenizer.json",
+          "bytes": 0
+        },
+        {
+          "method": "GET",
+          "url": "https://huggingface.co/api/resolve-cache/models/Xenova/whisper-tiny/5332fcc35e32a33b86612b9a57a89be7906102b1/tokenizer_config.json",
+          "bytes": 0
+        },
+        {
+          "method": "GET",
+          "url": "https://huggingface.co/Xenova/whisper-tiny/resolve/main/onnx/encoder_model_quantized.onnx",
+          "bytes": 0
+        },
+        {
+          "method": "GET",
+          "url": "https://huggingface.co/Xenova/whisper-tiny/resolve/main/onnx/decoder_model_merged_quantized.onnx",
+          "bytes": 0
+        },
+        {
+          "method": "GET",
+          "url": "https://huggingface.co/Xenova/whisper-tiny/resolve/main/generation_config.json",
+          "bytes": 0
+        },
+        {
+          "method": "GET",
+          "url": "https://huggingface.co/Xenova/whisper-tiny/resolve/main/tokenizer.json",
+          "bytes": 0
+        },
+        {
+          "method": "GET",
+          "url": "https://huggingface.co/Xenova/whisper-tiny/resolve/main/tokenizer_config.json",
+          "bytes": 0
+        },
+        {
+          "method": "GET",
+          "url": "https://us.aws.cdn.hf.co/xet-bridge-us/6452c15b3a794b2d9b15a809/33ed314ad3ab9a9f1754350299f1cb3f1a55b3d076ea6fdf1f5dacf2da15cc6e",
+          "bytes": 0
+        },
+        {
+          "method": "GET",
+          "url": "https://us.aws.cdn.hf.co/xet-bridge-us/6452c15b3a794b2d9b15a809/be9fd4dea91805a4f9be0f93406b67a7971641f8a6377c5e9ea065629449e731",
+          "bytes": 0
+        },
+        {
+          "method": "GET",
+          "url": "https://huggingface.co/api/resolve-cache/models/Xenova/whisper-tiny/5332fcc35e32a33b86612b9a57a89be7906102b1/generation_config.json",
+          "bytes": 0
+        },
+        {
+          "method": "GET",
+          "url": "https://huggingface.co/api/resolve-cache/models/Xenova/whisper-tiny/5332fcc35e32a33b86612b9a57a89be7906102b1/tokenizer.json",
+          "bytes": 0
+        },
+        {
+          "method": "GET",
+          "url": "https://huggingface.co/api/resolve-cache/models/Xenova/whisper-tiny/5332fcc35e32a33b86612b9a57a89be7906102b1/tokenizer_config.json",
+          "bytes": 0
+        },
+        {
+          "method": "GET",
+          "url": "https://cdn.jsdelivr.net/npm/@huggingface/transformers@3.8.1/dist/ort-wasm-simd-threaded.jsep.mjs",
+          "bytes": 0
+        },
+        {
+          "method": "GET",
+          "url": "https://cdn.jsdelivr.net/npm/@huggingface/transformers@3.8.1/dist/ort-wasm-simd-threaded.jsep.wasm",
+          "bytes": 0
+        }
+      ],
+      "failures": [],
+      "uploads": []
+    },
+    {
+      "mode": "mobile-emulation",
+      "capability": {
+        "gpu": true,
+        "cores": 12,
+        "userAgent": "Mozilla/5.0 (Linux; Android 14; Pixel 7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/159.0.8154.6 Mobile Safari/537.36"
+      },
+      "totalMs": 240078,
+      "result": {
+        "error": "page.waitForFunction: Timeout 240000ms exceeded.",
+        "screen": "{\n  \"type\": \"progress\",\n  \"progress\": {\n    \"status\": \"done\",\n    \"name\": \"Xenova/whisper-tiny\",\n    \"file\": \"onnx/decoder_model_merged_quantized.onnx\"\n  }\n}"
+      },
+      "requests": [
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:5173/src/poc/index.html",
+          "bytes": 0
+        },
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:5173/@vite/client",
+          "bytes": 0
+        },
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:5173/src/poc/poc.ts",
+          "bytes": 0
+        },
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:5173/@react-refresh",
+          "bytes": 0
+        },
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:5173/node_modules/vite/dist/client/env.mjs",
+          "bytes": 0
+        },
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:5173/src/poc/worker.ts",
+          "bytes": 0
+        },
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:5173/node_modules/vite/dist/client/env.mjs",
+          "bytes": 0
+        },
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:5173/node_modules/.vite/deps/@huggingface_transformers.js",
+          "bytes": 0
+        },
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:5173/src/poc/index.html",
+          "bytes": 0
+        },
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:5173/@vite/client",
+          "bytes": 0
+        },
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:5173/src/poc/poc.ts",
+          "bytes": 0
+        },
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:5173/@react-refresh",
+          "bytes": 0
+        },
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:5173/node_modules/vite/dist/client/env.mjs",
+          "bytes": 0
+        },
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:5173/src/poc/worker.ts",
+          "bytes": 0
+        },
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:5173/node_modules/vite/dist/client/env.mjs",
+          "bytes": 0
+        },
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:5173/node_modules/.vite/deps/@huggingface_transformers.js",
+          "bytes": 0
+        },
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:5173/@vite/client",
+          "bytes": 0
+        },
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:5173/node_modules/.vite/deps/chunk-ZPWHCABL.js",
+          "bytes": 0
+        },
+        {
+          "method": "GET",
+          "url": "https://huggingface.co/Xenova/whisper-tiny/resolve/5332fcc35e32a33b86612b9a57a89be7906102b1/tokenizer.json",
+          "bytes": 0
+        },
+        {
+          "method": "GET",
+          "url": "https://huggingface.co/Xenova/whisper-tiny/resolve/5332fcc35e32a33b86612b9a57a89be7906102b1/tokenizer_config.json",
+          "bytes": 0
+        },
+        {
+          "method": "GET",
+          "url": "https://huggingface.co/Xenova/whisper-tiny/resolve/5332fcc35e32a33b86612b9a57a89be7906102b1/config.json",
+          "bytes": 0
+        },
+        {
+          "method": "GET",
+          "url": "https://huggingface.co/Xenova/whisper-tiny/resolve/5332fcc35e32a33b86612b9a57a89be7906102b1/preprocessor_config.json",
+          "bytes": 0
+        },
+        {
+          "method": "GET",
+          "url": "https://huggingface.co/api/resolve-cache/models/Xenova/whisper-tiny/5332fcc35e32a33b86612b9a57a89be7906102b1/tokenizer.json",
+          "bytes": 0
+        },
+        {
+          "method": "GET",
+          "url": "https://huggingface.co/api/resolve-cache/models/Xenova/whisper-tiny/5332fcc35e32a33b86612b9a57a89be7906102b1/tokenizer_config.json",
+          "bytes": 0
+        },
+        {
+          "method": "GET",
+          "url": "https://huggingface.co/api/resolve-cache/models/Xenova/whisper-tiny/5332fcc35e32a33b86612b9a57a89be7906102b1/config.json",
+          "bytes": 0
+        },
+        {
+          "method": "GET",
+          "url": "https://huggingface.co/api/resolve-cache/models/Xenova/whisper-tiny/5332fcc35e32a33b86612b9a57a89be7906102b1/preprocessor_config.json",
+          "bytes": 0
+        },
+        {
+          "method": "GET",
+          "url": "https://huggingface.co/Xenova/whisper-tiny/resolve/5332fcc35e32a33b86612b9a57a89be7906102b1/onnx/encoder_model_quantized.onnx",
+          "bytes": 0
+        },
+        {
+          "method": "GET",
+          "url": "https://huggingface.co/Xenova/whisper-tiny/resolve/5332fcc35e32a33b86612b9a57a89be7906102b1/onnx/decoder_model_merged_quantized.onnx",
+          "bytes": 0
+        },
+        {
+          "method": "GET",
+          "url": "https://huggingface.co/Xenova/whisper-tiny/resolve/5332fcc35e32a33b86612b9a57a89be7906102b1/generation_config.json",
+          "bytes": 0
+        },
+        {
+          "method": "GET",
+          "url": "https://huggingface.co/Xenova/whisper-tiny/resolve/5332fcc35e32a33b86612b9a57a89be7906102b1/tokenizer.json",
+          "bytes": 0
+        },
+        {
+          "method": "GET",
+          "url": "https://us.aws.cdn.hf.co/xet-bridge-us/6452c15b3a794b2d9b15a809/33ed314ad3ab9a9f1754350299f1cb3f1a55b3d076ea6fdf1f5dacf2da15cc6e",
+          "bytes": 0
+        },
+        {
+          "method": "GET",
+          "url": "https://us.aws.cdn.hf.co/xet-bridge-us/6452c15b3a794b2d9b15a809/be9fd4dea91805a4f9be0f93406b67a7971641f8a6377c5e9ea065629449e731",
+          "bytes": 0
+        },
+        {
+          "method": "GET",
+          "url": "https://huggingface.co/api/resolve-cache/models/Xenova/whisper-tiny/5332fcc35e32a33b86612b9a57a89be7906102b1/generation_config.json",
+          "bytes": 0
+        },
+        {
+          "method": "GET",
+          "url": "https://huggingface.co/api/resolve-cache/models/Xenova/whisper-tiny/5332fcc35e32a33b86612b9a57a89be7906102b1/tokenizer.json",
+          "bytes": 0
+        },
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:5173/runtime/ort-wasm-simd-threaded.jsep.mjs",
+          "bytes": 0
+        },
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:5173http://127.0.0.1:5173/90fcba4e-8412-4d89-897b-fa144f4763e6",
+          "bytes": 0
+        }
+      ],
+      "failures": [],
+      "uploads": []
+    },
+    {
+      "mode": "desktop",
+      "capability": {
+        "gpu": true,
+        "cores": 12,
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/158.0.0.0 Safari/537.36 Edg/158.0.0.0"
+      },
+      "totalMs": 12436,
+      "result": {
+        "loadMs": 4769.20000000298,
+        "output": {
+          "type": "result",
+          "result": {
+            "text": " Bonjour! La réunion commence à neuf heures. Nous préparons les documents pour demain.",
+            "chunks": [
+              {
+                "timestamp": [
+                  0,
+                  1
+                ],
+                "text": " Bonjour!"
+              },
+              {
+                "timestamp": [
+                  1.64,
+                  3.64
+                ],
+                "text": " La réunion commence à neuf heures."
+              },
+              {
+                "timestamp": [
+                  4.48,
+                  6.68
+                ],
+                "text": " Nous préparons les documents pour demain."
+              }
+            ]
+          },
+          "ms": 5731.100000008941
+        }
+      },
+      "requests": [
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:5173/src/poc/index.html",
+          "bytes": 0
+        },
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:5173/@vite/client",
+          "bytes": 0
+        },
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:5173/src/poc/poc.ts",
+          "bytes": 0
+        },
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:5173/@react-refresh",
+          "bytes": 0
+        },
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:5173/node_modules/vite/dist/client/env.mjs",
+          "bytes": 0
+        },
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:5173/src/poc/worker.ts",
+          "bytes": 0
+        },
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:5173/node_modules/vite/dist/client/env.mjs",
+          "bytes": 0
+        },
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:5173/node_modules/.vite/deps/@huggingface_transformers.js",
+          "bytes": 0
+        },
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:5173/src/poc/index.html",
+          "bytes": 0
+        },
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:5173/@vite/client",
+          "bytes": 0
+        },
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:5173/src/poc/poc.ts",
+          "bytes": 0
+        },
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:5173/@react-refresh",
+          "bytes": 0
+        },
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:5173/node_modules/vite/dist/client/env.mjs",
+          "bytes": 0
+        },
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:5173/src/poc/worker.ts",
+          "bytes": 0
+        },
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:5173/node_modules/vite/dist/client/env.mjs",
+          "bytes": 0
+        },
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:5173/node_modules/.vite/deps/@huggingface_transformers.js",
+          "bytes": 0
+        },
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:5173/@vite/client",
+          "bytes": 0
+        },
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:5173/node_modules/.vite/deps/chunk-ZPWHCABL.js",
+          "bytes": 0
+        },
+        {
+          "method": "GET",
+          "url": "https://huggingface.co/Xenova/whisper-tiny/resolve/5332fcc35e32a33b86612b9a57a89be7906102b1/tokenizer.json",
+          "bytes": 0
+        },
+        {
+          "method": "GET",
+          "url": "https://huggingface.co/Xenova/whisper-tiny/resolve/5332fcc35e32a33b86612b9a57a89be7906102b1/tokenizer_config.json",
+          "bytes": 0
+        },
+        {
+          "method": "GET",
+          "url": "https://huggingface.co/Xenova/whisper-tiny/resolve/5332fcc35e32a33b86612b9a57a89be7906102b1/config.json",
+          "bytes": 0
+        },
+        {
+          "method": "GET",
+          "url": "https://huggingface.co/Xenova/whisper-tiny/resolve/5332fcc35e32a33b86612b9a57a89be7906102b1/preprocessor_config.json",
+          "bytes": 0
+        },
+        {
+          "method": "GET",
+          "url": "https://huggingface.co/api/resolve-cache/models/Xenova/whisper-tiny/5332fcc35e32a33b86612b9a57a89be7906102b1/tokenizer.json",
+          "bytes": 0
+        },
+        {
+          "method": "GET",
+          "url": "https://huggingface.co/api/resolve-cache/models/Xenova/whisper-tiny/5332fcc35e32a33b86612b9a57a89be7906102b1/tokenizer_config.json",
+          "bytes": 0
+        },
+        {
+          "method": "GET",
+          "url": "https://huggingface.co/api/resolve-cache/models/Xenova/whisper-tiny/5332fcc35e32a33b86612b9a57a89be7906102b1/config.json",
+          "bytes": 0
+        },
+        {
+          "method": "GET",
+          "url": "https://huggingface.co/api/resolve-cache/models/Xenova/whisper-tiny/5332fcc35e32a33b86612b9a57a89be7906102b1/preprocessor_config.json",
+          "bytes": 0
+        },
+        {
+          "method": "GET",
+          "url": "https://huggingface.co/Xenova/whisper-tiny/resolve/5332fcc35e32a33b86612b9a57a89be7906102b1/onnx/encoder_model_quantized.onnx",
+          "bytes": 0
+        },
+        {
+          "method": "GET",
+          "url": "https://huggingface.co/Xenova/whisper-tiny/resolve/5332fcc35e32a33b86612b9a57a89be7906102b1/onnx/decoder_model_merged_quantized.onnx",
+          "bytes": 0
+        },
+        {
+          "method": "GET",
+          "url": "https://huggingface.co/Xenova/whisper-tiny/resolve/5332fcc35e32a33b86612b9a57a89be7906102b1/generation_config.json",
+          "bytes": 0
+        },
+        {
+          "method": "GET",
+          "url": "https://huggingface.co/Xenova/whisper-tiny/resolve/5332fcc35e32a33b86612b9a57a89be7906102b1/tokenizer.json",
+          "bytes": 0
+        },
+        {
+          "method": "GET",
+          "url": "https://us.aws.cdn.hf.co/xet-bridge-us/6452c15b3a794b2d9b15a809/33ed314ad3ab9a9f1754350299f1cb3f1a55b3d076ea6fdf1f5dacf2da15cc6e",
+          "bytes": 0
+        },
+        {
+          "method": "GET",
+          "url": "https://huggingface.co/api/resolve-cache/models/Xenova/whisper-tiny/5332fcc35e32a33b86612b9a57a89be7906102b1/generation_config.json",
+          "bytes": 0
+        },
+        {
+          "method": "GET",
+          "url": "https://us.aws.cdn.hf.co/xet-bridge-us/6452c15b3a794b2d9b15a809/be9fd4dea91805a4f9be0f93406b67a7971641f8a6377c5e9ea065629449e731",
+          "bytes": 0
+        },
+        {
+          "method": "GET",
+          "url": "https://huggingface.co/api/resolve-cache/models/Xenova/whisper-tiny/5332fcc35e32a33b86612b9a57a89be7906102b1/tokenizer.json",
+          "bytes": 0
+        },
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:5173/runtime/ort-wasm-simd-threaded.jsep.mjs",
+          "bytes": 0
+        },
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:5173/runtime/ort-wasm-simd-threaded.jsep.wasm",
+          "bytes": 0
+        }
+      ],
+      "failures": [],
+      "uploads": []
+    }
+  ]
+}

@@ -1,0 +1,716 @@
+{
+  "date": "2026-11-24T22:11:04.433Z",
+  "environment": "Edge / Windows, production localhost:4175",
+  "runs": [
+    {
+      "mode": "desktop",
+      "home": {
+        "navigation": [
+          {
+            "domReady": 379.29999999701977,
+            "load": 379.70000000298023,
+            "transfer": 925
+          }
+        ],
+        "resources": [
+          {
+            "name": "/assets/index-CjqaoExR.js",
+            "transfer": 110211,
+            "size": 351668,
+            "duration": 112.59999999403954
+          },
+          {
+            "name": "/assets/index-CqwyxVAC.css",
+            "transfer": 7679,
+            "size": 28369,
+            "duration": 45.900000005960464
+          },
+          {
+            "name": "/icon.svg",
+            "transfer": 608,
+            "size": 308,
+            "duration": 22.799999997019768
+          },
+          {
+            "name": "/assets/hero-photo.webp",
+            "transfer": 58468,
+            "size": 58168,
+            "duration": 26.299999997019768
+          },
+          {
+            "name": "/icon.svg",
+            "transfer": 300,
+            "size": 308,
+            "duration": 31
+          }
+        ]
+      },
+      "load": "Moteur CPU prêt en 5.1 s. Choisissez un fichier puis lancez la transcription.",
+      "status": "Transcription terminée en 4.0 s. Réécoutez et corrigez le texte avant utilisation.",
+      "output": "Bonjour! La réunion commence à neuf heures. Nous préparons les documents pour demain.",
+      "exports": {
+        "txtExact": true,
+        "docxZip": true,
+        "notesSeparated": true
+      },
+      "video": {
+        "duration": 12.04,
+        "width": 960,
+        "captions": 1
+      },
+      "offline": "Guides et prompts chargés hors ligne après installation du service worker",
+      "requests": [
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:4175/",
+          "bytes": 0
+        },
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:4175/assets/index-CjqaoExR.js",
+          "bytes": 0
+        },
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:4175/assets/index-CqwyxVAC.css",
+          "bytes": 0
+        },
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:4175/icon.svg",
+          "bytes": 0
+        },
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:4175/assets/hero-photo.webp",
+          "bytes": 0
+        },
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:4175/icon.svg",
+          "bytes": 0
+        },
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:4175/studio",
+          "bytes": 0
+        },
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:4175/assets/index-CjqaoExR.js",
+          "bytes": 0
+        },
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:4175/assets/index-CqwyxVAC.css",
+          "bytes": 0
+        },
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:4175/icon.svg",
+          "bytes": 0
+        },
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:4175/assets/Studio-BUBJyVDt.js",
+          "bytes": 0
+        },
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:4175/icon.svg",
+          "bytes": 0
+        },
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:4175/icon.svg",
+          "bytes": 0
+        },
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:4175http://127.0.0.1:4175/6984d189-42cd-4226-912b-77c872db70ed",
+          "bytes": 0
+        },
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:4175/assets/worker-CoXcj1cf.js",
+          "bytes": 0
+        },
+        {
+          "method": "GET",
+          "url": "https://huggingface.co/Xenova/whisper-tiny/resolve/5332fcc35e32a33b86612b9a57a89be7906102b1/tokenizer.json",
+          "bytes": 0
+        },
+        {
+          "method": "GET",
+          "url": "https://huggingface.co/Xenova/whisper-tiny/resolve/5332fcc35e32a33b86612b9a57a89be7906102b1/tokenizer_config.json",
+          "bytes": 0
+        },
+        {
+          "method": "GET",
+          "url": "https://huggingface.co/Xenova/whisper-tiny/resolve/5332fcc35e32a33b86612b9a57a89be7906102b1/config.json",
+          "bytes": 0
+        },
+        {
+          "method": "GET",
+          "url": "https://huggingface.co/Xenova/whisper-tiny/resolve/5332fcc35e32a33b86612b9a57a89be7906102b1/preprocessor_config.json",
+          "bytes": 0
+        },
+        {
+          "method": "GET",
+          "url": "https://huggingface.co/api/resolve-cache/models/Xenova/whisper-tiny/5332fcc35e32a33b86612b9a57a89be7906102b1/tokenizer_config.json",
+          "bytes": 0
+        },
+        {
+          "method": "GET",
+          "url": "https://huggingface.co/api/resolve-cache/models/Xenova/whisper-tiny/5332fcc35e32a33b86612b9a57a89be7906102b1/preprocessor_config.json",
+          "bytes": 0
+        },
+        {
+          "method": "GET",
+          "url": "https://huggingface.co/api/resolve-cache/models/Xenova/whisper-tiny/5332fcc35e32a33b86612b9a57a89be7906102b1/tokenizer.json",
+          "bytes": 0
+        },
+        {
+          "method": "GET",
+          "url": "https://huggingface.co/api/resolve-cache/models/Xenova/whisper-tiny/5332fcc35e32a33b86612b9a57a89be7906102b1/config.json",
+          "bytes": 0
+        },
+        {
+          "method": "GET",
+          "url": "https://huggingface.co/Xenova/whisper-tiny/resolve/5332fcc35e32a33b86612b9a57a89be7906102b1/onnx/encoder_model_quantized.onnx",
+          "bytes": 0
+        },
+        {
+          "method": "GET",
+          "url": "https://huggingface.co/Xenova/whisper-tiny/resolve/5332fcc35e32a33b86612b9a57a89be7906102b1/onnx/decoder_model_merged_quantized.onnx",
+          "bytes": 0
+        },
+        {
+          "method": "GET",
+          "url": "https://huggingface.co/Xenova/whisper-tiny/resolve/5332fcc35e32a33b86612b9a57a89be7906102b1/generation_config.json",
+          "bytes": 0
+        },
+        {
+          "method": "GET",
+          "url": "https://huggingface.co/Xenova/whisper-tiny/resolve/5332fcc35e32a33b86612b9a57a89be7906102b1/tokenizer.json",
+          "bytes": 0
+        },
+        {
+          "method": "GET",
+          "url": "https://huggingface.co/api/resolve-cache/models/Xenova/whisper-tiny/5332fcc35e32a33b86612b9a57a89be7906102b1/generation_config.json",
+          "bytes": 0
+        },
+        {
+          "method": "GET",
+          "url": "https://us.aws.cdn.hf.co/xet-bridge-us/6452c15b3a794b2d9b15a809/33ed314ad3ab9a9f1754350299f1cb3f1a55b3d076ea6fdf1f5dacf2da15cc6e",
+          "bytes": 0
+        },
+        {
+          "method": "GET",
+          "url": "https://huggingface.co/api/resolve-cache/models/Xenova/whisper-tiny/5332fcc35e32a33b86612b9a57a89be7906102b1/tokenizer.json",
+          "bytes": 0
+        },
+        {
+          "method": "GET",
+          "url": "https://us.aws.cdn.hf.co/xet-bridge-us/6452c15b3a794b2d9b15a809/be9fd4dea91805a4f9be0f93406b67a7971641f8a6377c5e9ea065629449e731",
+          "bytes": 0
+        },
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:4175/runtime/ort-wasm-simd-threaded.jsep.mjs",
+          "bytes": 0
+        },
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:4175/runtime/ort-wasm-simd-threaded.jsep.wasm",
+          "bytes": 0
+        },
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:4175/assets/dist-DBS2E1s_.js",
+          "bytes": 0
+        },
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:4175/guides/copier-un-fichier",
+          "bytes": 0
+        },
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:4175/assets/index-CjqaoExR.js",
+          "bytes": 0
+        },
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:4175/assets/index-CqwyxVAC.css",
+          "bytes": 0
+        },
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:4175/icon.svg",
+          "bytes": 0
+        },
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:4175/assets/Markdown-BquADjLe.js",
+          "bytes": 0
+        },
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:4175/icon.svg",
+          "bytes": 0
+        },
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:4175/media/copier-un-fichier.fr.vtt",
+          "bytes": 0
+        },
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:4175/media/copier-un-fichier.webm",
+          "bytes": 0
+        },
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:4175/",
+          "bytes": 0
+        },
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:4175/assets/index-CjqaoExR.js",
+          "bytes": 0
+        },
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:4175/assets/index-CqwyxVAC.css",
+          "bytes": 0
+        },
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:4175/icon.svg",
+          "bytes": 0
+        },
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:4175/assets/hero-photo.webp",
+          "bytes": 0
+        },
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:4175/icon.svg",
+          "bytes": 0
+        },
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:4175/guides",
+          "bytes": 0
+        },
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:4175/assets/index-CjqaoExR.js",
+          "bytes": 0
+        },
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:4175/assets/index-CqwyxVAC.css",
+          "bytes": 0
+        },
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:4175/icon.svg",
+          "bytes": 0
+        },
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:4175/icon.svg",
+          "bytes": 0
+        },
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:4175/prompts",
+          "bytes": 0
+        },
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:4175/assets/index-CjqaoExR.js",
+          "bytes": 0
+        },
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:4175/assets/index-CqwyxVAC.css",
+          "bytes": 0
+        },
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:4175/icon.svg",
+          "bytes": 0
+        },
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:4175/icon.svg",
+          "bytes": 0
+        }
+      ],
+      "failed": [
+        {
+          "url": "http://127.0.0.1:4175/6984d189-42cd-4226-912b-77c872db70ed",
+          "error": "net::ERR_ABORTED"
+        },
+        {
+          "url": "/media/copier-un-fichier.webm",
+          "error": "net::ERR_ABORTED"
+        }
+      ],
+      "errors": [],
+      "uploads": []
+    },
+    {
+      "mode": "mobile-emulation",
+      "home": {
+        "navigation": [
+          {
+            "domReady": 177.5,
+            "load": 178.70000000298023,
+            "transfer": 925
+          }
+        ],
+        "resources": [
+          {
+            "name": "/assets/index-CjqaoExR.js",
+            "transfer": 110211,
+            "size": 351668,
+            "duration": 81.5
+          },
+          {
+            "name": "/assets/index-CqwyxVAC.css",
+            "transfer": 7679,
+            "size": 28369,
+            "duration": 36.1000000089407
+          },
+          {
+            "name": "/icon.svg",
+            "transfer": 608,
+            "size": 308,
+            "duration": 20.200000002980232
+          },
+          {
+            "name": "/assets/hero-photo.webp",
+            "transfer": 58468,
+            "size": 58168,
+            "duration": 26.100000008940697
+          },
+          {
+            "name": "/icon.svg",
+            "transfer": 300,
+            "size": 308,
+            "duration": 41.1000000089407
+          }
+        ]
+      },
+      "load": "Moteur CPU prêt en 4.9 s. Choisissez un fichier puis lancez la transcription.",
+      "status": "Transcription terminée en 4.0 s. Réécoutez et corrigez le texte avant utilisation.",
+      "output": "Bonjour! La réunion commence à neuf heures. Nous préparons les documents pour demain.",
+      "exports": {
+        "txtExact": true,
+        "docxZip": true,
+        "notesSeparated": true
+      },
+      "video": {
+        "duration": 12.04,
+        "width": 960,
+        "captions": 1
+      },
+      "offline": "Guides et prompts chargés hors ligne après installation du service worker",
+      "requests": [
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:4175/",
+          "bytes": 0
+        },
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:4175/assets/index-CjqaoExR.js",
+          "bytes": 0
+        },
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:4175/assets/index-CqwyxVAC.css",
+          "bytes": 0
+        },
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:4175/icon.svg",
+          "bytes": 0
+        },
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:4175/assets/hero-photo.webp",
+          "bytes": 0
+        },
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:4175/icon.svg",
+          "bytes": 0
+        },
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:4175/studio",
+          "bytes": 0
+        },
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:4175/assets/index-CjqaoExR.js",
+          "bytes": 0
+        },
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:4175/assets/index-CqwyxVAC.css",
+          "bytes": 0
+        },
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:4175/icon.svg",
+          "bytes": 0
+        },
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:4175/assets/Studio-BUBJyVDt.js",
+          "bytes": 0
+        },
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:4175/icon.svg",
+          "bytes": 0
+        },
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:4175/icon.svg",
+          "bytes": 0
+        },
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:4175http://127.0.0.1:4175/81ced8fe-7672-4d5a-a01d-bb8385a9b35a",
+          "bytes": 0
+        },
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:4175/assets/worker-CoXcj1cf.js",
+          "bytes": 0
+        },
+        {
+          "method": "GET",
+          "url": "https://huggingface.co/Xenova/whisper-tiny/resolve/5332fcc35e32a33b86612b9a57a89be7906102b1/tokenizer.json",
+          "bytes": 0
+        },
+        {
+          "method": "GET",
+          "url": "https://huggingface.co/Xenova/whisper-tiny/resolve/5332fcc35e32a33b86612b9a57a89be7906102b1/tokenizer_config.json",
+          "bytes": 0
+        },
+        {
+          "method": "GET",
+          "url": "https://huggingface.co/Xenova/whisper-tiny/resolve/5332fcc35e32a33b86612b9a57a89be7906102b1/config.json",
+          "bytes": 0
+        },
+        {
+          "method": "GET",
+          "url": "https://huggingface.co/Xenova/whisper-tiny/resolve/5332fcc35e32a33b86612b9a57a89be7906102b1/preprocessor_config.json",
+          "bytes": 0
+        },
+        {
+          "method": "GET",
+          "url": "https://huggingface.co/api/resolve-cache/models/Xenova/whisper-tiny/5332fcc35e32a33b86612b9a57a89be7906102b1/config.json",
+          "bytes": 0
+        },
+        {
+          "method": "GET",
+          "url": "https://huggingface.co/api/resolve-cache/models/Xenova/whisper-tiny/5332fcc35e32a33b86612b9a57a89be7906102b1/tokenizer_config.json",
+          "bytes": 0
+        },
+        {
+          "method": "GET",
+          "url": "https://huggingface.co/api/resolve-cache/models/Xenova/whisper-tiny/5332fcc35e32a33b86612b9a57a89be7906102b1/tokenizer.json",
+          "bytes": 0
+        },
+        {
+          "method": "GET",
+          "url": "https://huggingface.co/api/resolve-cache/models/Xenova/whisper-tiny/5332fcc35e32a33b86612b9a57a89be7906102b1/preprocessor_config.json",
+          "bytes": 0
+        },
+        {
+          "method": "GET",
+          "url": "https://huggingface.co/Xenova/whisper-tiny/resolve/5332fcc35e32a33b86612b9a57a89be7906102b1/onnx/encoder_model_quantized.onnx",
+          "bytes": 0
+        },
+        {
+          "method": "GET",
+          "url": "https://huggingface.co/Xenova/whisper-tiny/resolve/5332fcc35e32a33b86612b9a57a89be7906102b1/onnx/decoder_model_merged_quantized.onnx",
+          "bytes": 0
+        },
+        {
+          "method": "GET",
+          "url": "https://huggingface.co/Xenova/whisper-tiny/resolve/5332fcc35e32a33b86612b9a57a89be7906102b1/generation_config.json",
+          "bytes": 0
+        },
+        {
+          "method": "GET",
+          "url": "https://us.aws.cdn.hf.co/xet-bridge-us/6452c15b3a794b2d9b15a809/33ed314ad3ab9a9f1754350299f1cb3f1a55b3d076ea6fdf1f5dacf2da15cc6e",
+          "bytes": 0
+        },
+        {
+          "method": "GET",
+          "url": "https://us.aws.cdn.hf.co/xet-bridge-us/6452c15b3a794b2d9b15a809/be9fd4dea91805a4f9be0f93406b67a7971641f8a6377c5e9ea065629449e731",
+          "bytes": 0
+        },
+        {
+          "method": "GET",
+          "url": "https://huggingface.co/api/resolve-cache/models/Xenova/whisper-tiny/5332fcc35e32a33b86612b9a57a89be7906102b1/generation_config.json",
+          "bytes": 0
+        },
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:4175/runtime/ort-wasm-simd-threaded.jsep.mjs",
+          "bytes": 0
+        },
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:4175/runtime/ort-wasm-simd-threaded.jsep.wasm",
+          "bytes": 0
+        },
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:4175/assets/dist-DBS2E1s_.js",
+          "bytes": 0
+        },
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:4175/guides/copier-un-fichier",
+          "bytes": 0
+        },
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:4175/assets/index-CjqaoExR.js",
+          "bytes": 0
+        },
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:4175/assets/index-CqwyxVAC.css",
+          "bytes": 0
+        },
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:4175/icon.svg",
+          "bytes": 0
+        },
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:4175/assets/Markdown-BquADjLe.js",
+          "bytes": 0
+        },
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:4175/icon.svg",
+          "bytes": 0
+        },
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:4175/media/copier-un-fichier.fr.vtt",
+          "bytes": 0
+        },
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:4175/media/copier-un-fichier.webm",
+          "bytes": 0
+        },
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:4175/",
+          "bytes": 0
+        },
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:4175/assets/index-CjqaoExR.js",
+          "bytes": 0
+        },
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:4175/assets/index-CqwyxVAC.css",
+          "bytes": 0
+        },
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:4175/icon.svg",
+          "bytes": 0
+        },
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:4175/assets/hero-photo.webp",
+          "bytes": 0
+        },
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:4175/icon.svg",
+          "bytes": 0
+        },
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:4175/guides",
+          "bytes": 0
+        },
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:4175/assets/index-CjqaoExR.js",
+          "bytes": 0
+        },
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:4175/assets/index-CqwyxVAC.css",
+          "bytes": 0
+        },
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:4175/icon.svg",
+          "bytes": 0
+        },
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:4175/icon.svg",
+          "bytes": 0
+        },
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:4175/prompts",
+          "bytes": 0
+        },
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:4175/assets/index-CjqaoExR.js",
+          "bytes": 0
+        },
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:4175/assets/index-CqwyxVAC.css",
+          "bytes": 0
+        },
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:4175/icon.svg",
+          "bytes": 0
+        },
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:4175/icon.svg",
+          "bytes": 0
+        }
+      ],
+      "failed": [
+        {
+          "url": "http://127.0.0.1:4175/81ced8fe-7672-4d5a-a01d-bb8385a9b35a",
+          "error": "net::ERR_ABORTED"
+        }
+      ],
+      "errors": [],
+      "uploads": []
+    }
+  ]
+}

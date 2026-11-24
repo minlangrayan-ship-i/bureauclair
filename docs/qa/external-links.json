@@ -1,0 +1,145 @@
+{
+  "date": "2026-11-24T21:58:21.869Z",
+  "results": [
+    {
+      "url": "https://support.microsoft.com/fr-fr/office/copy-the-window-or-screen-contents",
+      "status": 200,
+      "finalUrl": "https://support.microsoft.com/fr-fr/office/copy-the-window-or-screen-contents"
+    },
+    {
+      "url": "https://support.microsoft.com/fr-fr/windows/experience/fileexplorer/file-explorer-in-windows",
+      "status": 200,
+      "finalUrl": "https://support.microsoft.com/fr-fr/windows/experience/fileexplorer/file-explorer-in-windows"
+    },
+    {
+      "url": "https://support.microsoft.com/fr-fr/word/basic-tasks-in-word",
+      "status": 200,
+      "finalUrl": "https://support.microsoft.com/fr-fr/word/basic-tasks-in-word"
+    },
+    {
+      "url": "https://support.microsoft.com/fr-fr/office/collab-files/save-or-convert-to-pdf-or-xps-in-office-desktop-apps",
+      "status": 200,
+      "finalUrl": "https://support.microsoft.com/fr-fr/office/collab-files/save-or-convert-to-pdf-or-xps-in-office-desktop-apps"
+    },
+    {
+      "url": "https://support.microsoft.com/fr-fr/excel/get-started/freeze-panes-to-lock-rows-and-columns",
+      "status": 200,
+      "finalUrl": "https://support.microsoft.com/fr-fr/excel/get-started/freeze-panes-to-lock-rows-and-columns"
+    },
+    {
+      "url": "https://support.microsoft.com/fr-fr/excel/reapply-a-filter-and-sort-or-clear-a-filter",
+      "status": 200,
+      "finalUrl": "https://support.microsoft.com/fr-fr/excel/reapply-a-filter-and-sort-or-clear-a-filter"
+    },
+    {
+      "url": "https://support.microsoft.com/fr-fr/word/training/edit-a-pdf",
+      "status": 200,
+      "finalUrl": "https://support.microsoft.com/fr-fr/word/training/edit-a-pdf"
+    },
+    {
+      "url": "https://support.microsoft.com/fr-fr/powerpoint/training/give-a-presentation-in-powerpoint",
+      "status": 200,
+      "finalUrl": "https://support.microsoft.com/fr-fr/powerpoint/training/give-a-presentation-in-powerpoint"
+    },
+    {
+      "url": "https://support.microsoft.com/fr-fr/powerpoint/basic-tasks-for-creating-a-powerpoint-presentation",
+      "status": 200,
+      "finalUrl": "https://support.microsoft.com/fr-fr/powerpoint/basic-tasks-for-creating-a-powerpoint-presentation"
+    },
+    {
+      "url": "https://support.microsoft.com/fr-fr/accessibility/windows/keyboard-shortcuts-in-windows",
+      "status": 200,
+      "finalUrl": "https://support.microsoft.com/fr-fr/accessibility/windows/keyboard-shortcuts-in-windows"
+    },
+    {
+      "url": "https://support.microsoft.com/fr-fr/outlook/create-or-schedule-an-appointment",
+      "status": 200,
+      "finalUrl": "https://support.microsoft.com/fr-fr/outlook/create-or-schedule-an-appointment"
+    },
+    {
+      "url": "https://support.microsoft.com/fr-fr/windows/experience/backup-recovery/back-up-and-restore-with-windows-backup",
+      "status": 200,
+      "finalUrl": "https://support.microsoft.com/fr-fr/windows/experience/backup-recovery/back-up-and-restore-with-windows-backup"
+    },
+    {
+      "url": "https://support.microsoft.com/fr-fr/word/word-for-new-users",
+      "status": 200,
+      "finalUrl": "https://support.microsoft.com/fr-fr/word/word-for-new-users"
+    },
+    {
+      "url": "https://support.microsoft.com/fr-fr/word/training/track-changes-in-word",
+      "status": 200,
+      "finalUrl": "https://support.microsoft.com/fr-fr/word/training/track-changes-in-word"
+    },
+    {
+      "url": "https://support.microsoft.com/fr-fr/excel/basic-tasks-in-excel",
+      "status": 200,
+      "finalUrl": "https://support.microsoft.com/fr-fr/excel/basic-tasks-in-excel"
+    },
+    {
+      "url": "https://support.microsoft.com/fr-fr/excel/sort-data-in-a-range-or-table-in-excel",
+      "status": 200,
+      "finalUrl": "https://support.microsoft.com/fr-fr/excel/sort-data-in-a-range-or-table-in-excel"
+    },
+    {
+      "url": "https://support.microsoft.com/en-gb/windows/deployment/updates-lifecycle/windows-10-support-has-ended-on-october-14-2025",
+      "status": 200,
+      "finalUrl": "https://support.microsoft.com/en-gb/windows/deployment/updates-lifecycle/windows-10-support-has-ended-on-october-14-2025"
+    },
+    {
+      "url": "https://www.w3.org/WAI/tutorials/page-structure/headings/",
+      "status": 200,
+      "finalUrl": "https://www.w3.org/WAI/tutorials/page-structure/headings/"
+    },
+    {
+      "url": "https://www.cnil.fr/fr/les-questions-reponses-de-la-cnil-sur-lutilisation-dun-systeme-dia-generative",
+      "status": 200,
+      "finalUrl": "https://www.cnil.fr/fr/les-questions-reponses-de-la-cnil-sur-lutilisation-dun-systeme-dia-generative"
+    },
+    {
+      "url": "https://github.com/openai/whisper/blob/main/model-card.md",
+      "status": 200,
+      "finalUrl": "https://github.com/openai/whisper/blob/main/model-card.md"
+    },
+    {
+      "url": "https://developer.mozilla.org/en-US/docs/Web/Progressive_web_apps/Guides/Offline_and_background_operation",
+      "status": 200,
+      "finalUrl": "https://developer.mozilla.org/en-US/docs/Web/Progressive_web_apps/Guides/Offline_and_background_operation"
+    },
+    {
+      "url": "https://www.microsoft.com/en-us/windows/end-of-support",
+      "status": 200,
+      "finalUrl": "https://www.microsoft.com/en-us/windows/end-of-support"
+    },
+    {
+      "url": "https://github.com/chidiwilliams/buzz",
+      "status": 200,
+      "finalUrl": "https://github.com/chidiwilliams/buzz"
+    },
+    {
+      "url": "https://www.libreoffice.org/",
+      "status": 200,
+      "finalUrl": "https://www.libreoffice.org/"
+    },
+    {
+      "url": "https://www.microsoft.com/fr-fr/microsoft-365",
+      "status": 200,
+      "finalUrl": "https://www.microsoft.com/fr-fr/microsoft-365"
+    },
+    {
+      "url": "https://www.videolan.org/vlc/",
+      "status": 200,
+      "finalUrl": "https://www.videolan.org/vlc/"
+    },
+    {
+      "url": "https://www.audacityteam.org/",
+      "status": 200,
+      "finalUrl": "https://www.audacityteam.org/"
+    },
+    {
+      "url": "https://support.microsoft.com/fr-fr",
+      "status": 200,
+      "finalUrl": "https://support.microsoft.com/fr-fr/"
+    }
+  ]
+}

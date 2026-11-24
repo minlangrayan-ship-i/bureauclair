@@ -1,0 +1,44 @@
+[
+  {
+    "name": "BureauClair_Brief_Codex.md",
+    "source_sha256": "6a8edd2c65dc76dac3b451e9b053f883c0803741e7ca1dda453d6c9efc855e72",
+    "copy_sha256": "6a8edd2c65dc76dac3b451e9b053f883c0803741e7ca1dda453d6c9efc855e72",
+    "identical": true
+  },
+  {
+    "name": "BureauClair_Cahier_des_charges_v1.docx",
+    "source_sha256": "958ad0fa072c70ff1641b90ec9643a661d2123d3e4ac2a5583349b5ce9f915ce",
+    "copy_sha256": "958ad0fa072c70ff1641b90ec9643a661d2123d3e4ac2a5583349b5ce9f915ce",
+    "identical": true
+  },
+  {
+    "name": "BureauClair_Cahier_des_charges_v1.pdf",
+    "source_sha256": "5d9d9751dbbf77dc7b6f27a9964d84393ddf0e49ede9bd22be990d3c4d8e603b",
+    "copy_sha256": "5d9d9751dbbf77dc7b6f27a9964d84393ddf0e49ede9bd22be990d3c4d8e603b",
+    "identical": true
+  },
+  {
+    "name": "BureauClair_Maquettes_Desktop.png",
+    "source_sha256": "23cc2973d8a32b513cdf740070c12109696105cd8c2f809956c983475385cfb3",
+    "copy_sha256": "23cc2973d8a32b513cdf740070c12109696105cd8c2f809956c983475385cfb3",
+    "identical": true
+  },
+  {
+    "name": "BureauClair_Maquettes_Interface.pdf",
+    "source_sha256": "8d5afb249bb9bc8985407c9d2801454fe7f189529fb008fe870dc353566fc30f",
+    "copy_sha256": "8d5afb249bb9bc8985407c9d2801454fe7f189529fb008fe870dc353566fc30f",
+    "identical": true
+  },
+  {
+    "name": "BureauClair_Maquettes_Mobile.png",
+    "source_sha256": "0a029b2b01f395bc30fb9a041de16d45dacf318c4b03dc72c043c5ad5411de8f",
+    "copy_sha256": "0a029b2b01f395bc30fb9a041de16d45dacf318c4b03dc72c043c5ad5411de8f",
+    "identical": true
+  },
+  {
+    "name": "BureauClair_Planches_Desktop_Mobile.pdf",
+    "source_sha256": "3d37bfdf55173ce3f239fa5ff9c2f248f2d66fcc012de3a599eba0fdbf10f808",
+    "copy_sha256": "3d37bfdf55173ce3f239fa5ff9c2f248f2d66fcc012de3a599eba0fdbf10f808",
+    "identical": true
+  }
+]

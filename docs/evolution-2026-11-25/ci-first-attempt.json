@@ -1,0 +1,93 @@
+{
+  "id": 45642013250,
+  "url": "https://github.com/minlangrayan-ship-i/bureauclair/actions/runs/45642013250",
+  "status": "completed",
+  "conclusion": "failure",
+  "sha": "171dcf25a177d27ce3ec5850b58a3bccbeda6497",
+  "jobs": [
+    {
+      "name": "build",
+      "status": "completed",
+      "conclusion": "failure",
+      "steps": [
+        {
+          "name": "Set up job",
+          "status": "completed",
+          "conclusion": "success"
+        },
+        {
+          "name": "Run actions/checkout@v4",
+          "status": "completed",
+          "conclusion": "success"
+        },
+        {
+          "name": "Run actions/setup-node@v4",
+          "status": "completed",
+          "conclusion": "success"
+        },
+        {
+          "name": "Run npm ci",
+          "status": "completed",
+          "conclusion": "success"
+        },
+        {
+          "name": "Run npm test",
+          "status": "completed",
+          "conclusion": "success"
+        },
+        {
+          "name": "Run npm run build",
+          "status": "completed",
+          "conclusion": "success"
+        },
+        {
+          "name": "Run npx playwright install --with-deps chromium",
+          "status": "completed",
+          "conclusion": "success"
+        },
+        {
+          "name": "Run npm run test:e2e",
+          "status": "completed",
+          "conclusion": "failure"
+        },
+        {
+          "name": "Déterminer le chemin public",
+          "status": "completed",
+          "conclusion": "skipped"
+        },
+        {
+          "name": "Run npm run build",
+          "status": "completed",
+          "conclusion": "skipped"
+        },
+        {
+          "name": "Run actions/upload-pages-artifact@v3",
+          "status": "completed",
+          "conclusion": "skipped"
+        },
+        {
+          "name": "Post Run actions/setup-node@v4",
+          "status": "completed",
+          "conclusion": "skipped"
+        },
+        {
+          "name": "Post Run actions/checkout@v4",
+          "status": "completed",
+          "conclusion": "success"
+        },
+        {
+          "name": "Complete job",
+          "status": "completed",
+          "conclusion": "success"
+        }
+      ]
+    },
+    {
+      "name": "deploy",
+      "status": "completed",
+      "conclusion": "skipped",
+      "steps": []
+    }
+  ],
+  "observedFailure": "Deux tests de contraste, fonds transitoires après initialisation tardive du thème sombre. Publication arrêtée ; version précédente maintenue."
+}

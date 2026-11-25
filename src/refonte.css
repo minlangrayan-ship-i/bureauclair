@@ -528,9 +528,6 @@ figcaption {
   flex-shrink: 0;
   margin-top: 5px;
 }
-.business-output {
-  transition: background-color 160ms ease;
-}
 .step-check {
   padding-left: 14px;
   border-left: 3px solid #9675eb;
@@ -580,11 +577,6 @@ figcaption {
 .business-guide details,
 .business-lab details {
   margin: 18px 0;
-}
-@media (prefers-reduced-motion: reduce) {
-  .business-output {
-    transition: none;
-  }
 }
 .video-card img {
   width: 100%;

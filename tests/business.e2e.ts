@@ -126,6 +126,7 @@ test("Nouveaux laboratoires lisibles en thème sombre, sans chargement du modèl
   for (const lesson of cases) {
     await page.goto("/guides/" + lesson.slug);
     await expect(page.locator(".business-lab")).toBeVisible();
+    expect(await page.locator('.resource-actions .button.secondary').first().evaluate(element=>getComputedStyle(element).backgroundColor)).toBe('rgb(48, 43, 59)');
     const axe = await new AxeBuilder({ page })
       .withTags(["wcag2a", "wcag2aa", "wcag21aa", "wcag22aa"])
       .analyze();

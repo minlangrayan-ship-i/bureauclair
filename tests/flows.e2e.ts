@@ -233,6 +233,7 @@ test("navigation et captures", async ({ page }, info) => {
     fullPage: true,
   });
   await page.goto("/studio");
+  await expect(page.getByRole('tab', {name:'Notes manuelles'})).toBeVisible();
   await page.screenshot({
     path: `docs/qa/studio-${info.project.name}.png`,
     fullPage: true,

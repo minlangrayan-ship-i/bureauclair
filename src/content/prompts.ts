@@ -1,3 +1,4 @@
+import { expertPrompts, buildExpertPrompt } from "./expertPrompts";
 export const prompts = [
   [
     "compte-rendu",
@@ -144,6 +145,11 @@ export const prompts = [
   category,
   title,
   description,
-  template,
+  template: expertPrompts.some((p) => p.slug === slug)
+    ? buildExpertPrompt(expertPrompts.find((p) => p.slug === slug)!).replace(
+        expertPrompts.find((p) => p.slug === slug)!.exemple_entree_fictive,
+        "[contexte]",
+      )
+    : template,
   keywords: [title, category, description],
 }));

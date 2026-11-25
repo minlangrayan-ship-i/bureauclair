@@ -60,6 +60,10 @@
     "violations": []
   },
   {
+    "path": "/guides/transcription-compte-rendu",
+    "violations": []
+  },
+  {
     "path": "/guides/trier-excel",
     "violations": []
   },
@@ -97,6 +101,42 @@
   },
   {
     "path": "/guides",
+    "violations": []
+  },
+  {
+    "path": "/atelier",
+    "violations": []
+  },
+  {
+    "path": "/videos",
+    "violations": []
+  },
+  {
+    "path": "/exercices",
+    "violations": []
+  },
+  {
+    "path": "/raccourcis",
+    "violations": []
+  },
+  {
+    "path": "/competences",
+    "violations": []
+  },
+  {
+    "path": "/parcours",
+    "violations": []
+  },
+  {
+    "path": "/parcours/reunion-direction",
+    "violations": []
+  },
+  {
+    "path": "/parcours/suivi-dossiers",
+    "violations": []
+  },
+  {
+    "path": "/parcours/publipostage",
     "violations": []
   },
   {

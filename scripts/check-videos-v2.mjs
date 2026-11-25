@@ -1,0 +1,10 @@
+import {chromium} from '@playwright/test';import fs from 'node:fs';
+const ids=['BekWLEcfwfk','WNokKY7uYTE','-ygoMFzaLBQ','qG2hV_ctPeM','9us8jNBCnqQ','UN0IpR4HzDs','I-XuiwN_smo','nokpLPO88VA'];
+const b=await chromium.launch({executablePath:'C:/Program Files (x86)/Microsoft/Edge/Application/msedge.exe',headless:true});const rows=[];fs.mkdirSync('docs/v2/videos',{recursive:true});fs.mkdirSync('.runtime/youtube-research',{recursive:true});
+try{for(const id of ids){const p=await b.newPage({viewport:{width:1280,height:900},locale:'fr-FR'});try{
+ await p.goto(`https://www.youtube.com/watch?v=${id}`,{waitUntil:'domcontentloaded',timeout:35000});await p.waitForTimeout(1500);
+ const raw=await p.evaluate(()=>window.ytInitialPlayerResponse);const d=raw?.videoDetails;const tracks=raw?.captions?.playerCaptionsTracklistRenderer?.captionTracks||[];
+ const row={id,url:`https://www.youtube.com/watch?v=${id}`,title:d?.title,author:d?.author,duration:Number(d?.lengthSeconds)||null,available:raw?.playabilityStatus?.status,embedAllowed:raw?.playabilityStatus?.playableInEmbed===true,captionLanguages:tracks.map(t=>t.languageCode),checkedAt:'2026-11-25',samples:[],review:'metadata-only'};
+ if(d){for(const f of [.15,.5,.85]){try{await p.locator('video').evaluate(async(v,time)=>{v.muted=true;v.currentTime=time;await v.play();},Math.floor(row.duration*f));await p.waitForTimeout(1800);await p.locator('video').evaluate(v=>v.pause());const filename=`${id}-${Math.round(f*100)}.png`;await p.locator('video').screenshot({path:`.runtime/youtube-research/${filename}`});row.samples.push({at:Math.floor(row.duration*f),file:`.runtime/youtube-research/${filename}`});}catch(e){row.sampleError=e.message.slice(0,150);break;}}}
+ rows.push(row);fs.writeFileSync('docs/v2/videos/metadata.json',JSON.stringify(rows,null,2));console.log(id,row.title,row.duration,row.samples.length);
+ }catch(e){rows.push({id,error:e.message});}finally{await p.close();}}}finally{await b.close();fs.writeFileSync('docs/v2/videos/metadata.json',JSON.stringify(rows,null,2));}

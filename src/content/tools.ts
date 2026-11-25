@@ -1,6 +1,8 @@
 export const tools = [
   {
     name: "Buzz",
+    processing: "local",
+    operations: "Modèle local : audio traité sur l’ordinateur. Options cloud : conditions distinctes à vérifier.",
     category: "Transcription",
     local: true,
     account: "Aucun compte pour les modèles locaux",
@@ -14,6 +16,8 @@ export const tools = [
   },
   {
     name: "LibreOffice",
+    processing: "local",
+    operations: "Édition bureautique sur le poste ; les extensions et services de partage ont leurs propres règles.",
     category: "Bureautique",
     local: true,
     account: "Aucun compte pour les fonctions de bureau",
@@ -26,6 +30,8 @@ export const tools = [
   },
   {
     name: "Microsoft 365",
+    processing: "hybride",
+    operations: "Édition bureau possible sur le poste ; partage, synchronisation et fonctions IA peuvent utiliser des services distants selon licence et réglages.",
     category: "Bureautique",
     local: false,
     account: "Compte et licence selon l’offre",
@@ -39,6 +45,8 @@ export const tools = [
   },
   {
     name: "VLC",
+    processing: "local",
+    operations: "Lecture et conversion locales ; ouvrir une URL média implique le réseau.",
     category: "Audio & vidéo",
     local: true,
     account: "Aucun compte pour la lecture locale",
@@ -52,6 +60,8 @@ export const tools = [
   },
   {
     name: "Audacity",
+    processing: "local",
+    operations: "Montage et export locaux ; vérifier les extensions et préférences réseau.",
     category: "Audio & vidéo",
     local: true,
     account: "Aucun compte pour l’édition locale",
@@ -65,6 +75,8 @@ export const tools = [
   },
   {
     name: "Microsoft Support",
+    processing: "cloud",
+    operations: "Consultation de documentation sur un site externe ; aucun document utilisateur transmis par BureauClair.",
     category: "Formation",
     local: false,
     account: "Consultation généralement sans compte",

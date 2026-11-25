@@ -1,0 +1,867 @@
+{
+  "config": {
+    "argv": [
+      "C:\\Program Files\\nodejs\\node.exe",
+      "C:\\Users\\maison1\\Documents\\BureauClair\\node_modules\\@playwright\\test\\cli.js",
+      "test",
+      "--reporter=line,json"
+    ],
+    "configFile": "C:\\Users\\maison1\\Documents\\BureauClair\\playwright.config.ts",
+    "rootDir": "C:/Users/maison1/Documents/BureauClair/tests",
+    "failOnFlakyTests": false,
+    "forbidOnly": false,
+    "fullyParallel": false,
+    "globalSetup": null,
+    "globalTeardown": null,
+    "globalTimeout": 0,
+    "grep": {},
+    "grepInvert": null,
+    "maxFailures": 0,
+    "metadata": {
+      "actualWorkers": 1
+    },
+    "preserveOutput": "always",
+    "projects": [
+      {
+        "outputDir": "C:/Users/maison1/Documents/BureauClair/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "id": "desktop-edge",
+        "name": "desktop-edge",
+        "testDir": "C:/Users/maison1/Documents/BureauClair/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.e2e.ts"
+        ],
+        "timeout": 90000
+      },
+      {
+        "outputDir": "C:/Users/maison1/Documents/BureauClair/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "id": "mobile-edge-emulation",
+        "name": "mobile-edge-emulation",
+        "testDir": "C:/Users/maison1/Documents/BureauClair/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.e2e.ts"
+        ],
+        "timeout": 90000
+      }
+    ],
+    "filteredProjects": [
+      {
+        "grep": {},
+        "grepInvert": null,
+        "outputDir": "C:\\Users\\maison1\\Documents\\BureauClair\\test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "name": "desktop-edge",
+        "testDir": "C:\\Users\\maison1\\Documents\\BureauClair\\tests",
+        "snapshotDir": "C:\\Users\\maison1\\Documents\\BureauClair\\tests",
+        "testIgnore": [],
+        "testMatch": "**/*.e2e.ts",
+        "timeout": 90000,
+        "use": {
+          "baseURL": "http://127.0.0.1:4175",
+          "launchOptions": {
+            "executablePath": "C:/Program Files (x86)/Microsoft/Edge/Application/msedge.exe"
+          },
+          "trace": "off",
+          "screenshot": "only-on-failure",
+          "viewport": {
+            "width": 1440,
+            "height": 1000
+          }
+        },
+        "dependencies": [],
+        "ignoreSnapshots": false,
+        "__projectId": "desktop-edge"
+      },
+      {
+        "grep": {},
+        "grepInvert": null,
+        "outputDir": "C:\\Users\\maison1\\Documents\\BureauClair\\test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "name": "mobile-edge-emulation",
+        "testDir": "C:\\Users\\maison1\\Documents\\BureauClair\\tests",
+        "snapshotDir": "C:\\Users\\maison1\\Documents\\BureauClair\\tests",
+        "testIgnore": [],
+        "testMatch": "**/*.e2e.ts",
+        "timeout": 90000,
+        "use": {
+          "baseURL": "http://127.0.0.1:4175",
+          "launchOptions": {
+            "executablePath": "C:/Program Files (x86)/Microsoft/Edge/Application/msedge.exe"
+          },
+          "trace": "off",
+          "screenshot": "only-on-failure",
+          "userAgent": "Mozilla/5.0 (Linux; Android 14; Pixel 7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/159.0.8154.6 Mobile Safari/537.36",
+          "viewport": {
+            "width": 412,
+            "height": 839
+          },
+          "screen": {
+            "width": 412,
+            "height": 915
+          },
+          "deviceScaleFactor": 2.625,
+          "isMobile": true,
+          "hasTouch": true,
+          "defaultBrowserType": "chromium"
+        },
+        "dependencies": [],
+        "ignoreSnapshots": false,
+        "__projectId": "mobile-edge-emulation"
+      }
+    ],
+    "quiet": false,
+    "reporter": [
+      [
+        "line"
+      ],
+      [
+        "json"
+      ]
+    ],
+    "reportSlowTests": {
+      "max": 5,
+      "threshold": 300000
+    },
+    "shard": null,
+    "tags": [],
+    "updateSnapshots": "default",
+    "updateSourceMethod": "patch",
+    "version": "1.65.1",
+    "workers": 1,
+    "webServer": {
+      "command": "npm run preview",
+      "url": "http://127.0.0.1:4175",
+      "reuseExistingServer": true
+    }
+  },
+  "suites": [
+    {
+      "title": "flows.e2e.ts",
+      "file": "flows.e2e.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "routes, responsive, accessibilité automatique et console",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 240000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "desktop-edge",
+              "projectName": "desktop-edge",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 118405,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-25T10:37:16.347Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            },
+            {
+              "timeout": 240000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "mobile-edge-emulation",
+              "projectName": "mobile-edge-emulation",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 174526,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-25T10:40:25.988Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "19d9ce0fc1a75162259c-336d306fa0fc27af91f6",
+          "file": "flows.e2e.ts",
+          "line": 34,
+          "column": 1
+        },
+        {
+          "title": "saisie continue, recherche locale, impression et aide installation",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 90000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "desktop-edge",
+              "projectName": "desktop-edge",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 7634,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-25T10:39:16.404Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            },
+            {
+              "timeout": 90000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "mobile-edge-emulation",
+              "projectName": "mobile-edge-emulation",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 11908,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-25T10:43:22.414Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "19d9ce0fc1a75162259c-dbd03bc7970f5e5beebb",
+          "file": "flows.e2e.ts",
+          "line": 74,
+          "column": 1
+        },
+        {
+          "title": "recherche, filtres, absence de résultat et retour conservé",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 90000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "desktop-edge",
+              "projectName": "desktop-edge",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 5792,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-25T10:39:24.115Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            },
+            {
+              "timeout": 90000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "mobile-edge-emulation",
+              "projectName": "mobile-edge-emulation",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 7723,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-25T10:43:34.879Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "19d9ce0fc1a75162259c-6078be985108c0519110",
+          "file": "flows.e2e.ts",
+          "line": 128,
+          "column": 1
+        },
+        {
+          "title": "personnalisation et copie avec repli sans presse-papiers",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 90000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "desktop-edge",
+              "projectName": "desktop-edge",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 2613,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-25T10:39:30.026Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            },
+            {
+              "timeout": 90000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "mobile-edge-emulation",
+              "projectName": "mobile-edge-emulation",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 2168,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-25T10:43:42.869Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "19d9ce0fc1a75162259c-6a0834616c4e1ac2290c",
+          "file": "flows.e2e.ts",
+          "line": 164,
+          "column": 1
+        },
+        {
+          "title": "annuaire et téléchargements réels",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 90000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "desktop-edge",
+              "projectName": "desktop-edge",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 4616,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-25T10:39:32.892Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            },
+            {
+              "timeout": 90000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "mobile-edge-emulation",
+              "projectName": "mobile-edge-emulation",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 8497,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-25T10:43:45.190Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "19d9ce0fc1a75162259c-0e46b8f9bf378a357337",
+          "file": "flows.e2e.ts",
+          "line": 194,
+          "column": 1
+        },
+        {
+          "title": "navigation et captures",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 90000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "desktop-edge",
+              "projectName": "desktop-edge",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 5625,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-25T10:39:37.711Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            },
+            {
+              "timeout": 90000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "mobile-edge-emulation",
+              "projectName": "mobile-edge-emulation",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 11344,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-25T10:43:53.921Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "19d9ce0fc1a75162259c-07263e7cb76d5fce2535",
+          "file": "flows.e2e.ts",
+          "line": 208,
+          "column": 1
+        },
+        {
+          "title": "studio : aucun téléchargement automatique, fichier invalide, annulation",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 90000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "desktop-edge",
+              "projectName": "desktop-edge",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 3451,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-25T10:39:43.490Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            },
+            {
+              "timeout": 90000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "mobile-edge-emulation",
+              "projectName": "mobile-edge-emulation",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 7096,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-25T10:44:05.733Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "19d9ce0fc1a75162259c-42d657e3e480ca27fb55",
+          "file": "flows.e2e.ts",
+          "line": 241,
+          "column": 1
+        }
+      ]
+    },
+    {
+      "title": "refonte.e2e.ts",
+      "file": "refonte.e2e.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "T01–T04 recherche, contexte et protection des notes",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 90000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "desktop-edge",
+              "projectName": "desktop-edge",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 7730,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-25T10:39:47.150Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            },
+            {
+              "timeout": 90000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "mobile-edge-emulation",
+              "projectName": "mobile-edge-emulation",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 9524,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-25T10:44:13.310Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "55599263352b34368713-a5211502a36c158d7033",
+          "file": "refonte.e2e.ts",
+          "line": 3,
+          "column": 1
+        },
+        {
+          "title": "T05 six laboratoires : erreur puis réussite",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 90000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "desktop-edge",
+              "projectName": "desktop-edge",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 12996,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-25T10:39:55.131Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            },
+            {
+              "timeout": 90000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "mobile-edge-emulation",
+              "projectName": "mobile-edge-emulation",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 14577,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-25T10:44:22.974Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "55599263352b34368713-bb42d0140d6de069589d",
+          "file": "refonte.e2e.ts",
+          "line": 47,
+          "column": 1
+        },
+        {
+          "title": "T07 constructeur, édition et copie sans API",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 90000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "desktop-edge",
+              "projectName": "desktop-edge",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 2568,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-25T10:40:08.259Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            },
+            {
+              "timeout": 90000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "mobile-edge-emulation",
+              "projectName": "mobile-edge-emulation",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 3135,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-25T10:44:37.644Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "55599263352b34368713-83ba04ff1bc0c6e8b74a",
+          "file": "refonte.e2e.ts",
+          "line": 78,
+          "column": 1
+        },
+        {
+          "title": "T06 YouTube opt-in, repli et hors ligne",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 90000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "desktop-edge",
+              "projectName": "desktop-edge",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 2341,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-25T10:40:11.033Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            },
+            {
+              "timeout": 90000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "mobile-edge-emulation",
+              "projectName": "mobile-edge-emulation",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 5342,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-25T10:44:41.008Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "55599263352b34368713-80867371dffb6724d1a0",
+          "file": "refonte.e2e.ts",
+          "line": 105,
+          "column": 1
+        },
+        {
+          "title": "T08 parcours métier, publipostage et blog",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 90000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "desktop-edge",
+              "projectName": "desktop-edge",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 10047,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-25T10:40:13.968Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            },
+            {
+              "timeout": 90000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "mobile-edge-emulation",
+              "projectName": "mobile-edge-emulation",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 7159,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-25T10:44:46.723Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "55599263352b34368713-49caffa1fda306bcdf82",
+          "file": "refonte.e2e.ts",
+          "line": 123,
+          "column": 1
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "stats": {
+    "startTime": "2026-11-25T10:37:14.186Z",
+    "duration": 460917.613,
+    "expected": 24,
+    "skipped": 0,
+    "unexpected": 0,
+    "flaky": 0
+  }
+}

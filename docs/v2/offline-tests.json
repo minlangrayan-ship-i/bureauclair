@@ -1,0 +1,30 @@
+{
+  "date": "2026-11-25",
+  "checks": [
+    {
+      "route": "/guides",
+      "count": 18,
+      "offline": true
+    },
+    {
+      "route": "/prompts",
+      "count": 20,
+      "offline": true
+    },
+    {
+      "route": "/atelier",
+      "count": 9,
+      "offline": true
+    },
+    {
+      "route": "/videos",
+      "count": 5,
+      "offline": true
+    }
+  ],
+  "documentStatus": 200,
+  "coldModel": {
+    "error": "Le moteur local ne peut pas démarrer. Vérifiez la mémoire disponible, votre navigateur et la connexion nécessaire au téléchargement, puis réessayez.",
+    "transcriptionCount": 0
+  }
+}

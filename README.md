@@ -1,5 +1,32 @@
 # BureauClair
 
+> Version corrective V2/V3 — 25 novembre 2026. Branche `refonte/v2-pedagogie`. État de recette courant : [docs/RECETTE_V2.md](docs/RECETTE_V2.md). Le rapport `docs/VERIFICATION.md` décrit la V1 et ne constitue pas le résultat des nouveaux tests.
+
+## Ajouts V2/V3
+
+- Recherche locale tolérant pluriels, alias et une faute courante ; retour du guide vers les critères conservés.
+- Studio : confirmation de navigation/effacement, notes seules protégées, copie des notes, nom DOCX adapté, repères audio cliquables et prélecture de durée.
+- Six tâches prioritaires avec simulations réelles, captures originales du simulateur et feedback erreur/réussite ; fichiers CSV/DOCX fictifs téléchargeables.
+- `/atelier` : douze scénarios métier structurés, exemples fictifs comparés, consigne intégrale éditable, variantes et exports TXT/Markdown. Les 20 modèles restent accessibles.
+- `/parcours` : réunion de direction, suivi de 80 dossiers et publipostage de 12 contacts fictifs, avec prévisualisation et exercices. Aucun logiciel Microsoft piloté.
+- `/raccourcis` : 26 commandes documentées, filtres, alternative souris et clavier d’entraînement ; couverture partielle annoncée.
+- `/competences` : 101 sous-compétences, états partiel/non couvert et lacunes ; aucune promesse de maîtrise exhaustive.
+- `/videos` : cinq vidéos réelles avec métadonnées contrôlées, aperçu/lecture après action explicite, repli hors ligne. Visionnage intégral et version exacte **non validés** ; pas huit références confirmées.
+- Six articles enrichis en dossiers métier, recherche et liens vers laboratoires ; thèmes clair/sombre.
+
+## GitHub Pages — préparation, sans publication automatique
+
+Le workflow `.github/workflows/pages.yml` se lance uniquement manuellement, après autorisation du propriétaire. Aucun dépôt distant n’a été créé, poussé ou publié par cette intervention. Configurer Settings → Pages → GitHub Actions sur le dépôt choisi ; compléter les informations publiques de l’éditeur, du contact et de l’hébergeur avant publication.
+
+Pour un dépôt projet, définir `VITE_BASE_PATH=/nom-du-depot/` et `VITE_GITHUB_PAGES=true` pendant le build. Pour un dépôt `utilisateur.github.io`, utiliser `/`. Les assets, manifeste, service worker et runtime utilisent cette base. La variante Pages utilise des URLs `/#/guides/...` ; le serveur local normal conserve `/guides/...`.
+
+Dans PowerShell : `$env:VITE_BASE_PATH='/nom-du-depot/'; $env:VITE_GITHUB_PAGES='true'; npm.cmd run build`. Ces variables ne sont pas secrètes. Fermer ce terminal ou retirer ces deux variables avant de refaire un build local racine. Le workflow déduit le chemin du nom du dépôt, sans inventer de nom de compte.
+
+PWA : textes/exercices préparés en cache ; YouTube, sources externes et premier chargement du modèle requièrent Internet. L’installation réelle sur Android/iPhone, un domaine public et le CI distant ne sont pas annoncés comme testés.
+
+Documentation : [matrice](docs/MATRICE_COMPETENCES.md), [traçabilité](docs/TRACABILITE_V2.md), [décisions](docs/DECISIONS_TECHNIQUES.md), [prompts](docs/REVUE_PROMPTS_EXPERTS.md), [raccourcis](docs/COUVERTURE_RACCOURCIS.md), [recette pédagogique](docs/RECETTE_PEDAGOGIQUE_V3.md).
+
+
 Une application web pour les tâches administratives : tutoriels courts, recherche locale, prompts à personnaliser, ressources pratiques et studio de transcription sur l’appareil.
 
 Projet de développement : `C:\Users\maison1\Documents\BureauClair`. Les documents originaux sont conservés dans `Téléchargements\BureauClair_Pack_Codex`, avec une copie de consultation dans `references/`. Aucun fichier du pack n’est modifié. Les références ne sont pas publiées par le build.
@@ -30,11 +57,11 @@ Si Node rencontre une erreur de certificat sur cette machine Windows, l’utilis
 ## Fonctionnalités disponibles
 
 - Accueil fidèle à l’univers graphique du pack : blanc crème, violet, typographie éditoriale, illustration fournie optimisée en WebP, transitions respectant la réduction des animations.
-- **17 guides** Windows 10/11, Word, Excel, PowerPoint, Outlook et PDF : étapes, versions, dates de consultation, sources, raccourcis pertinents, progression à cocher, impression et copie.
+- **18 guides** Windows 10/11, Word, Excel, PowerPoint, Outlook et PDF : étapes, versions, dates de consultation, sources, raccourcis pertinents, progression à cocher, impression et copie.
 - Recherche déterministe locale sur les tâches ; recherche croisée guides / prompts / articles. Filtres par logiciel, durée, niveau et version. Critères conservés dans l’URL et par l’historique du navigateur.
 - **20 prompts** : contexte non sensible, ton, longueur, aperçu, copie avec retour annoncé et solution manuelle si le presse-papiers est refusé. Aucun appel à une IA distante.
 - **6 articles** et **6 ressources** dans l’annuaire avec conditions, limites, compte, licence et information tarifaire prudente. Liens vers les fournisseurs.
-- Guide de copie de fichier : démonstration pédagogique locale d’environ 12 secondes, contrôles vidéo, sous-titres français et alternative textuelle. C’est un schéma animé, pas une capture authentique de Windows. Les autres guides disposent de schémas et d’étapes textuelles ; aucune vidéo tierce non vérifiée n’est intégrée.
+- Guide de copie de fichier : démonstration pédagogique locale d’environ 12 secondes, contrôles vidéo, sous-titres français et alternative textuelle. C’est un schéma animé, pas une capture authentique de Windows. Les autres guides disposent de schémas et d’étapes textuelles ; les cinq fiches YouTube ajoutées portent explicitement leur niveau de contrôle partiel et leur lecteur ne se charge que sur demande.
 - Studio expérimental : import WAV / MP3 / M4A et formats complémentaires selon codec, lecture de contrôle, modèle chargé explicitement, transcription CPU dans un worker, annulation, correction, repères temporels, recherche, copie et **exports TXT / DOCX**. Les notes de compte rendu sont une trame **manuelle distincte**.
 - PWA : manifeste, icônes, cache des guides / prompts / articles et interface, indication du réseau et mise à jour proposée sans recharger automatiquement le travail en cours.
 - Pages confidentialité, accessibilité, charte éditoriale, à propos et écran d’adresse inconnue.
@@ -81,7 +108,7 @@ Rapport détaillé : [VERIFICATION.md](docs/VERIFICATION.md). Les captures se tr
 ```text
 src/
   components/        Navigation, composants partagés, Markdown assaini
-  content/guides/    17 fichiers Markdown avec métadonnées JSON en première ligne
+  content/guides/    18 fichiers Markdown avec métadonnées JSON en première ligne
   content/articles/  6 articles au même format
   content/           Prompts et annuaire TypeScript
   lib/               Recherche, validation/décodage audio, exports

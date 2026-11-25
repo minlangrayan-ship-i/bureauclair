@@ -3,6 +3,14 @@ import { guides, articles, search, normalize } from "../src/lib/content";
 import { prompts } from "../src/content/prompts";
 import { timecode, validateFile } from "../src/lib/audio";
 describe("Recherche de tâches", () => {
+  it.each([
+    "copier des fichiers",
+    "copier fichier",
+    "copier fichierr",
+    "dupliquer un fichier",
+  ])("tolère la formulation %s", (q) =>
+    expect(search(guides, q)[0]?.slug).toBe("copier-un-fichier"),
+  );
   it("comprend une tâche avec accents et mots courants", () =>
     expect(search(guides, "Je veux déplacer un fichier")[0].slug).toBe(
       "copier-un-fichier",
@@ -29,6 +37,7 @@ describe("Corpus initial et sources", () => {
         "Outlook",
         "PowerPoint",
         "PDF",
+        "Réunions",
       ]),
     ));
   it("contient les contenus prévus sans doublons", () => {
@@ -40,7 +49,7 @@ describe("Corpus initial et sources", () => {
   it("rend les sources et limites contrôlables", () => {
     for (const item of [...guides, ...articles]) {
       expect(item.source).toMatch(/^https:\/\//);
-      expect(item.updated).toBe("2026-11-24");
+      expect(item.updated).toMatch(/^2026-11-(24|25)$/);
       expect(item.author).toBeTruthy();
       expect(item.version).toBeTruthy();
       expect(item.body).toContain("##");

@@ -3,8 +3,12 @@ import react from "@vitejs/plugin-react";
 import { VitePWA } from "vite-plugin-pwa";
 import fs from "node:fs";
 const csp =
-  "default-src 'self'; script-src 'self' 'wasm-unsafe-eval'; worker-src 'self' blob:; connect-src 'self' https://huggingface.co https://*.huggingface.co https://*.hf.co; img-src 'self' data: blob:; media-src 'self' blob:; style-src 'self' 'unsafe-inline'; font-src 'self'; object-src 'none'; base-uri 'self'; form-action 'self'";
+  "default-src 'self'; frame-src https://www.youtube-nocookie.com; script-src 'self' 'wasm-unsafe-eval'; worker-src 'self' blob:; connect-src 'self' https://huggingface.co https://*.huggingface.co https://*.hf.co; img-src 'self' data: blob: https://i.ytimg.com; media-src 'self' blob:; style-src 'self' 'unsafe-inline'; font-src 'self'; object-src 'none'; base-uri 'self'; form-action 'self'";
+const base = process.env.VITE_BASE_PATH || "/";
+if (!/^\/(?:[a-zA-Z0-9_.-]+\/)*$/.test(base))
+  throw new Error("VITE_BASE_PATH doit être un chemin /depot/ ou /.");
 export default defineConfig(({ command }) => ({
+  base,
   plugins: [
     react(),
     {
@@ -41,21 +45,25 @@ export default defineConfig(({ command }) => ({
         short_name: "BureauClair",
         description: "Guides bureautiques et outils locaux, sans compte.",
         lang: "fr",
-        start_url: "/",
-        scope: "/",
+        start_url: base,
+        scope: base,
         display: "standalone",
         background_color: "#faf9f6",
         theme_color: "#6755d7",
         icons: [
-          { src: "/icons/icon-192.png", sizes: "192x192", type: "image/png" },
           {
-            src: "/icons/icon-512.png",
+            src: base + "icons/icon-192.png",
+            sizes: "192x192",
+            type: "image/png",
+          },
+          {
+            src: base + "icons/icon-512.png",
             sizes: "512x512",
             type: "image/png",
             purpose: "any",
           },
           {
-            src: "/icons/maskable-512.png",
+            src: base + "icons/maskable-512.png",
             sizes: "512x512",
             type: "image/png",
             purpose: "maskable",
@@ -64,9 +72,9 @@ export default defineConfig(({ command }) => ({
       },
       workbox: {
         dontCacheBustURLsMatching: /^assets\/.*-[\w-]{8}\./,
-        globPatterns: ["**/*.{js,css,html,svg,png,webp,json}"],
+        globPatterns: ["**/*.{js,css,html,svg,png,webp,json,csv,docx}"],
         globIgnores: ["**/*worker*", "**/*transformers*", "**/*ort*"],
-        navigateFallback: "/index.html",
+        navigateFallback: base + "index.html",
         maximumFileSizeToCacheInBytes: 1500000,
         cleanupOutdatedCaches: true,
       },

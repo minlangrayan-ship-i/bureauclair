@@ -1,3 +1,11 @@
+# Complément architecture V2/V3
+
+React Router de données : BrowserRouter local, HashRouter pour GitHub Pages. Pages supplémentaires chargées à la demande : Atelier, Resources, Workflows et Supplement. Composants réutilisables : PracticeLab, ProfessionalGuide, VideoTutoriel et ArticleCaseStudy. Données structurées : expertPrompts.ts, learning.ts, shortcuts.ts, videos.ts et competences.json. Les identifiants et contenus V1 restent préservés.
+
+Configuration publique dans config.ts ; base d’assets dans lib/asset.ts ; aucune base de données ni compte. Transcription en worker local, pas de serveur audio. Voir DECISIONS_TECHNIQUES.md pour les limites PWA et audio.
+
+## Architecture initiale conservée ci-dessous
+
 # BureauClair — architecture et décision initiale
 
 ## Sources analysées

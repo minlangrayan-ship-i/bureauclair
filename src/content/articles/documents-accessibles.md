@@ -1,13 +1,45 @@
-{"title": "Des documents plus faciles à lire pour tous", "category": "Accessibilité", "description": "Structurer les titres et ne pas compter uniquement sur la couleur.", "minutes": 3, "level": "Pour tous", "version": "Dossier pratique", "updated": "2026-11-24", "author": "BureauClair — rédaction initiale", "source": "https://www.w3.org/WAI/tutorials/page-structure/headings/", "sourceLabel": "Source de référence", "keywords": ["Accessibilité", "Des documents plus faciles à lire pour tous"]}
+{"title": "Documents lisibles : préparer un courrier pour tous", "category": "Bonnes pratiques", "description": "Une assistante transmet un courrier fictif à une équipe dont certains membres utilisent un lecteur d’écran.", "minutes": 6, "level": "Pour tous", "version": "Dossier pratique", "updated": "2026-11-25", "author": "BureauClair — rédaction initiale", "source": "https://www.w3.org/WAI/tutorials/page-structure/headings/", "sourceLabel": "Source de référence", "keywords": ["Bonnes pratiques", "Documents lisibles : préparer un courrier pour tous", "courrier-word", "secrétariat assistante direction"]}
 
-## Organiser les titres
+## Situation de travail — données fictives
 
-Utilisez une hiérarchie logique. Un titre principal, puis des sections et sous-sections donnent des repères pour lire et naviguer.
+Une assistante transmet un courrier fictif à une équipe dont certains membres utilisent un lecteur d’écran.
 
-## Donner du sens aux visuels
+## Comprendre la difficulté
 
-Une illustration informative a besoin d’une alternative textuelle. Une décoration ne doit pas être annoncée comme une information indispensable.
+Un titre agrandi manuellement n’est pas nécessairement structuré. Une information portée seulement par une couleur n’est pas accessible à tous.
 
-## Tester un parcours simple
+## Procédure et contrôles
 
-Agrandissez le texte, naviguez au clavier et demandez une relecture à une personne utilisant des technologies d’assistance. Un test automatique ne couvre pas toutes les situations.
+### 1. Structurer les titres
+
+Dans Word, utilisez les styles Titre 1 puis Titre 2 sans sauter de niveau ; contrôlez le volet Navigation.
+
+### 2. Décrire les images utiles
+
+Pour une image informative, décrivez l’information utile dans le texte alternatif ; laissez les décorations sans description intrusive.
+
+### 3. Nommer les liens et tableaux
+
+Utilisez des libellés explicites pour les liens et des en-têtes de tableaux. Relisez l’ordre logique et les contrastes.
+
+### 4. Contrôler le PDF exporté
+
+Exportez une copie PDF puis vérifiez structure, texte sélectionnable et lecture. Un outil automatique ne suffit pas.
+
+## Erreur fréquente
+
+Ne pas réduire la taille jusqu’à rendre le texte illisible pour tenir sur une page.
+
+## Une consigne utile, à vérifier
+
+Propose une checklist d’accessibilité pour ce courrier fictif ; ne prétends pas avoir testé le document.
+
+Ce modèle est à copier dans un outil autorisé ; aucune IA ne répond dans cet article.
+
+## Avant de transmettre
+
+Contrôlez les noms, dates, montants, repères de source, données personnelles, lisibilité et autorisation. Faites valider les engagements par le responsable.
+
+## Périmètre éditorial
+
+Dossier pratique intemporel, révisé le 25 novembre 2026. Les sources sont indiquées ; aucune validation sur toutes les versions Microsoft ou par un professionnel externe n’est revendiquée.

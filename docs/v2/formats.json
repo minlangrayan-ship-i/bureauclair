@@ -1,0 +1,23 @@
+{
+  "date": "2026-11-25T10:46:10.124Z",
+  "checks": [
+    {
+      "format": "wav",
+      "status": "transcription réussie",
+      "text": "Bonjour! La réunion commence à neuf heures. Nous préparons les documents pour demain.",
+      "bytes": 324566
+    },
+    {
+      "format": "mp3",
+      "status": "transcription réussie",
+      "text": "Bonjour! La réunion commence à 9h. Nous préparons les documents pour demain.",
+      "bytes": 59350
+    },
+    {
+      "format": "m4a",
+      "status": "transcription réussie",
+      "text": "Bonjour! La réunion commence à 9h. Nous préparons les documents pour demain.",
+      "bytes": 114301
+    }
+  ]
+}

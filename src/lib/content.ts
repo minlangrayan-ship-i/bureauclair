@@ -69,30 +69,110 @@ const ignored = new Set([
   "dans",
   "pour",
 ]);
+const aliases: Record<string, string> = {
+  fichiers: "fichier",
+  documents: "document",
+  dossiers: "dossier",
+  copier: "copie",
+  dupliquer: "copie",
+  duplication: "copie",
+  copies: "copie",
+  copié: "copie",
+  deplacer: "deplace",
+  transferer: "deplace",
+  ranger: "dossier",
+  classer: "tri",
+  trier: "tri",
+  filtrer: "filtre",
+  filtres: "filtre",
+  mails: "mail",
+  email: "mail",
+  emails: "mail",
+  courriels: "mail",
+  rediger: "redaction",
+  ecrire: "redaction",
+  agenda: "calendrier",
+  reunion: "reunion",
+  reunions: "reunion",
+  rdv: "rendez",
+  imprimer: "impression",
+  captures: "capture",
+};
+const canonical = (s: string) =>
+  aliases[s] || (s.length > 4 && s.endsWith("s") ? s.slice(0, -1) : s);
+export function distance(a: string, b: string) {
+  if (Math.abs(a.length - b.length) > 1) return 2;
+  const row = Array.from({ length: b.length + 1 }, (_, i) => i);
+  for (let i = 1; i <= a.length; i++) {
+    let prev = row[0];
+    row[0] = i;
+    for (let j = 1; j <= b.length; j++) {
+      const old = row[j];
+      row[j] = Math.min(
+        row[j] + 1,
+        row[j - 1] + 1,
+        prev + (a[i - 1] === b[j - 1] ? 0 : 1),
+      );
+      prev = old;
+    }
+  }
+  return row[b.length];
+}
+const words = (s: string) =>
+  normalize(s).split(" ").filter(Boolean).map(canonical);
 export function search<
   T extends Pick<Content, "title" | "description" | "keywords" | "category">,
 >(items: T[], query: string): T[] {
-  const tokens = normalize(query)
-    .split(" ")
-    .filter((t) => t && !ignored.has(t));
-  if (!tokens.length) return items;
+  if (!normalize(query)) return items;
+  const tokens = words(query).filter(
+    (t) =>
+      !ignored.has(t) &&
+      !new Set([
+        "besoin",
+        "souhaite",
+        "voudrais",
+        "peux",
+        "puis",
+        "moi",
+        "avec",
+        "est",
+        "sont",
+        "une",
+        "j",
+        "ai",
+        "dois",
+        "savoir",
+        "pouvoir",
+        "aide",
+        "aider",
+        "svp",
+        "vous",
+        "pouvez",
+      ]).has(t),
+  );
+  if (!tokens.length) return [];
   return items
     .map((item) => {
-      const title = normalize(item.title);
-      const keywords = normalize(item.keywords.join(" "));
-      const all = normalize(item.description + " " + item.category);
+      const title = words(item.title),
+        keys = words(item.keywords.join(" ")),
+        rest = words(item.description + " " + item.category);
       const scores = tokens.map((t) =>
         title.includes(t)
           ? 5
-          : keywords.includes(t)
+          : keys.includes(t)
             ? 4
-            : all.includes(t)
-              ? 1
-              : 0,
+            : rest.includes(t)
+              ? 2
+              : [...title, ...keys].some(
+                    (w) =>
+                      t.length >= 5 && w.length >= 5 && distance(t, w) <= 1,
+                  )
+                ? 1
+                : 0,
       );
       return {
         item,
-        score: scores.every((s) => s > 0)
+        score: scores.every(Boolean)
           ? scores.reduce<number>((a, b) => a + b, 0)
           : 0,
       };

@@ -1,7 +1,7 @@
 import { env, pipeline } from "@huggingface/transformers";
 env.allowLocalModels = false;
 env.backends.onnx.wasm!.numThreads = 1;
-env.backends.onnx.wasm!.wasmPaths = "/runtime/";
+env.backends.onnx.wasm!.wasmPaths = import.meta.env.BASE_URL + "runtime/";
 type ASR = (
   audio: Float32Array,
   options: Record<string, unknown>,

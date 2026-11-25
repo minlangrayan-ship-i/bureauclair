@@ -1,3 +1,5 @@
+> Historique V1 du 24 novembre 2026. Pour la version corrective, lire RECETTE_V2.md.
+
 # BureauClair — bilan de vérification
 
 Date : **24 novembre 2026**. Environnement : Windows, Node 24.20.0, Edge 158 en mode automatisé. Ordinateur : 12 processeurs logiques exposés au navigateur. Les mesures ci-dessous sont des essais de laboratoire local, pas des données réelles d’utilisateurs.

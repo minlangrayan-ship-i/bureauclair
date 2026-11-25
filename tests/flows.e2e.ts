@@ -10,6 +10,15 @@ const paths = [
     .map((n) => "/blog/" + n.replace(".md", "")),
   "/",
   "/guides",
+  "/atelier",
+  "/videos",
+  "/exercices",
+  "/raccourcis",
+  "/competences",
+  "/parcours",
+  "/parcours/reunion-direction",
+  "/parcours/suivi-dossiers",
+  "/parcours/publipostage",
   "/prompts",
   "/blog",
   "/outils",
@@ -25,7 +34,7 @@ const paths = [
 test("routes, responsive, accessibilité automatique et console", async ({
   page,
 }, info) => {
-  test.setTimeout(180000);
+  test.setTimeout(240000);
   const errors: string[] = [];
   page.on("pageerror", (e) => errors.push(e.message));
   const checks = [];
@@ -132,7 +141,7 @@ test("recherche, filtres, absence de résultat et retour conservé", async ({
     "Copier, déplacer et retrouver un fichier",
   );
   await expect(
-    page.getByRole("heading", { name: "1. Ouvrir vos fichiers" }),
+    page.getByRole("heading", { name: "Repérer le document" }),
   ).toBeVisible();
   await page.goBack();
   await expect(page).toHaveURL(/q=copier/);
@@ -148,7 +157,9 @@ test("recherche, filtres, absence de résultat et retour conservé", async ({
   await page
     .getByRole("button", { name: "Effacer la recherche et les filtres" })
     .click();
-  await expect(page.locator(".content-card")).toHaveCount(17);
+  await expect(page.locator(".content-card")).toHaveCount(
+    fs.readdirSync("src/content/guides").length,
+  );
 });
 test("personnalisation et copie avec repli sans presse-papiers", async ({
   page,
@@ -183,7 +194,7 @@ test("personnalisation et copie avec repli sans presse-papiers", async ({
 test("annuaire et téléchargements réels", async ({ page }) => {
   await page.goto("/annuaire");
   await page.getByLabel("Options avec usage local").check();
-  await expect(page.locator(".tool-card")).toHaveCount(4);
+  await expect(page.locator(".tool-card")).toHaveCount(5);
   await page.getByRole("searchbox").fill("Buzz");
   await expect(page.locator(".tool-card")).toHaveCount(1);
   await expect(

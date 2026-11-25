@@ -1,0 +1,17 @@
+[
+  {
+    "name": "audio-montants",
+    "matches": true,
+    "characters": 127
+  },
+  {
+    "name": "audio-negation",
+    "matches": true,
+    "characters": 140
+  },
+  {
+    "name": "audio-rapide",
+    "matches": true,
+    "characters": 148
+  }
+]

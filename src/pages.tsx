@@ -1,9 +1,14 @@
+import ProfessionalGuide from "./components/ProfessionalGuide";
+import ArticleCaseStudy from "./components/ArticleCaseStudy";
+import { learningTasks } from "./content/learning";
+import { asset } from "./lib/asset";
 import { useEffect, useRef, useState } from "react";
 import {
   Link,
   useParams,
   useSearchParams,
   useNavigate,
+  useLocation,
 } from "react-router-dom";
 import {
   ArrowRight,
@@ -71,236 +76,7 @@ function SearchForm({ global = false }: { global?: boolean }) {
     </form>
   );
 }
-export function Home() {
-  return (
-    <>
-      <section className="hero">
-        <div className="wrap hero-grid">
-          <div className="hero-copy">
-            <span className="eyebrow">
-              <Sparkles size={14} /> Votre compagnon numérique au quotidien
-            </span>
-            <h1>
-              Votre bureau,
-              <br />
-              <em>en plus simple.</em>
-            </h1>
-            <p>
-              Apprenez l’essentiel. Gagnez du temps.
-              <br className="desktop-only" /> Travaillez sereinement, avec des
-              outils simples et une IA mieux maîtrisée.
-            </p>
-            <div className="actions">
-              <Link className="button primary" to="/guides">
-                Trouver une solution <ArrowRight size={17} />
-              </Link>
-              <Link className="button secondary" to="/outils">
-                <Play size={15} />
-                Découvrir les outils
-              </Link>
-            </div>
-            <div className="hero-checks">
-              <span>
-                <Check />
-                Guides pratiques
-              </span>
-              <span>
-                <Check />
-                Sans compte
-              </span>
-              <span>
-                <Check />
-                PC & mobile
-              </span>
-            </div>
-          </div>
-          <div className="hero-art">
-            <div className="halo" />
-            <div className="photo-shell">
-              <img
-                src="/assets/hero-photo.webp"
-                width="480"
-                height="520"
-                alt="Illustration d’une professionnelle à son bureau"
-                fetchPriority="high"
-              />
-            </div>
-            <div className="float float-a">
-              <span className="float-icon blue">
-                <Monitor />
-              </span>
-              <span>
-                Windows 11<small>Les bons réflexes</small>
-              </span>
-            </div>
-            <div className="float float-b">
-              <span className="float-icon purple">
-                <Headphones />
-              </span>
-              <span>
-                Vos mots,<small>au clair.</small>
-              </span>
-            </div>
-            <div className="float float-c">
-              <span className="float-icon green">
-                <Grid2X2 />
-              </span>
-              <span>
-                Excel facile<small>Un pas à la fois</small>
-              </span>
-            </div>
-            <div className="float float-d">
-              <Sparkles size={20} />
-              <span>Une IA utile.</span>
-            </div>
-            <span className="art-caption">
-              Illustration de conception fournie dans le pack
-            </span>
-          </div>
-        </div>
-      </section>
-      <div className="wrap">
-        <div className="search-panel">
-          <SearchForm global />
-          <div className="search-examples">
-            <span>Par exemple :</span>
-            <Link to="/guides?q=copier+un+fichier">Copier un fichier</Link>
-            <Link to="/prompts?q=compte+rendu">Préparer un compte rendu</Link>
-            <Link to="/studio">Transcrire un audio</Link>
-          </div>
-        </div>
-      </div>
-      <section className="section">
-        <div className="wrap">
-          <div className="section-head">
-            <div>
-              <span className="kicker">UN BESOIN, UNE SOLUTION</span>
-              <h2>Par quoi commence-t-on ?</h2>
-              <p>Choisissez une tâche. On vous guide, étape par étape.</p>
-            </div>
-            <span className="quiet desktop-only">
-              Pas besoin de tout savoir pour avancer.
-            </span>
-          </div>
-          <div className="task-grid">
-            {[
-              {
-                c: "Windows 11",
-                title: "Windows 10 / 11",
-                text: "Fichiers, réglages et raccourcis",
-                url: "/guides?categorie=Windows+11",
-              },
-              {
-                c: "Word",
-                title: "Word & documents",
-                text: "Des courriers clairs, bien présentés",
-                url: "/guides?categorie=Word",
-              },
-              {
-                c: "Excel",
-                title: "Excel au quotidien",
-                text: "Tableaux, filtres et organisation",
-                url: "/guides?categorie=Excel",
-              },
-              {
-                c: "Audio",
-                title: "Vos audios, en texte",
-                text: "Un studio local, à votre rythme",
-                url: "/studio",
-              },
-              {
-                c: "IA",
-                title: "Une IA qui vous aide",
-                text: "Des prompts à comprendre et adapter",
-                url: "/prompts",
-              },
-              {
-                c: "Outlook",
-                title: "E-mails & agenda",
-                text: "Du temps pour les vraies priorités",
-                url: "/guides?categorie=Outlook",
-              },
-            ].map((x) => (
-              <Link key={x.title} className="task-card" to={x.url}>
-                <span
-                  className={`task-icon tint-${x.c.toLowerCase().split(" ")[0]}`}
-                >
-                  <Symbol category={x.c} />
-                </span>
-                <h3>{x.title}</h3>
-                <p>{x.text}</p>
-                <ArrowRight className="task-arrow" size={18} />
-              </Link>
-            ))}
-          </div>
-        </div>
-      </section>
-      <section className="section band">
-        <div className="wrap">
-          <div className="section-head">
-            <div>
-              <span className="kicker">PETITS GUIDES, GRANDS DÉCLICS</span>
-              <h2>L’essentiel pour bien démarrer</h2>
-            </div>
-            <Link className="text-link" to="/guides">
-              Tous les tutoriels <ArrowRight size={17} />
-            </Link>
-          </div>
-          <div className="grid four">
-            {[
-              "copier-un-fichier",
-              "courrier-word",
-              "tableau-excel",
-              "rendez-vous-outlook",
-            ].map((slug) => (
-              <ContentCard
-                key={slug}
-                item={guides.find((g) => g.slug === slug)!}
-              />
-            ))}
-          </div>
-        </div>
-      </section>
-      <section className="section">
-        <div className="wrap promos">
-          <div className="promo dark">
-            <div>
-              <span className="tag">LE BON MOMENT POUR FAIRE LE POINT</span>
-              <h2>
-                Windows 11,
-                <br />
-                sans les zones d’ombre.
-              </h2>
-              <p>Préparez votre transition, avec les bons repères.</p>
-              <Link
-                className="button secondary"
-                to="/guides/windows-10-transition"
-              >
-                Voir le guide <ArrowRight size={16} />
-              </Link>
-            </div>
-            <Monitor size={120} />
-          </div>
-          <div className="promo lilac">
-            <div>
-              <span className="kicker">UNE IA MIEUX MAÎTRISÉE</span>
-              <h2>
-                Gagner du temps.
-                <br />
-                Garder le contrôle.
-              </h2>
-              <p>Les bons gestes avant de confier une tâche à l’IA.</p>
-              <Link className="text-link" to="/blog/ia-confidentialite">
-                Lire le dossier <ArrowRight size={16} />
-              </Link>
-            </div>
-            <Sparkles size={100} />
-          </div>
-        </div>
-      </section>
-    </>
-  );
-}
+export { default as Home } from "./Home";
 export function Guides() {
   const [params, setParams] = useSearchParams();
   const q = params.get("q") || "";
@@ -441,11 +217,26 @@ export function Guides() {
 }
 export function Detail({ article = false }: { article?: boolean }) {
   const { slug } = useParams();
+  const location = useLocation();
+  const origin = (location.state as { from?: string } | null)?.from;
+  const back = origin?.startsWith(article ? "/blog" : "/guides")
+    ? origin
+    : article
+      ? "/blog"
+      : "/guides";
   const item = (article ? articles : guides).find((g) => g.slug === slug);
   const [done, setDone] = useState(false);
   useEffect(() => setDone(false), [slug]);
   if (!item) return <NotFound />;
-  const sections = Array.from(item.body.matchAll(/^## (.+)$/gm), (x) => x[1]);
+  const task = !article
+    ? learningTasks.find((t) => t.guide === slug)
+    : undefined;
+  const sections = task
+    ? ["Le résultat attendu", ...task.steps.map(([title]) => title), "Avant de transmettre"]
+    : Array.from(item.body.matchAll(/^## (.+)$/gm), (x) => x[1]);
+  const copyBody = task
+    ? `${task.outcome}\n\nPrérequis : ${task.prerequisites}\nCompatibilité : ${task.version}\n\n${task.steps.map(([title, text], i) => `${i + 1}. ${title}\n${text}`).join("\n\n")}\n\nPiège fréquent : ${task.pitfall}\nSource : ${task.source}`
+    : item.body.replace(/^#{1,6} /gm, "");
   return (
     <>
       <PageHead
@@ -462,7 +253,7 @@ export function Detail({ article = false }: { article?: boolean }) {
               {new Date(item.updated).toLocaleDateString("fr-FR")}
             </span>
           </div>
-          {!article && <GuideIllustration category={item.category} />}
+          {!article && !task && <GuideIllustration category={item.category} />}
           {!article && item.slug === "copier-un-fichier" && (
             <section className="guide-video">
               <h2>Voir le principe en quelques secondes</h2>
@@ -473,12 +264,15 @@ export function Detail({ article = false }: { article?: boolean }) {
                 height="540"
                 aria-label="Démonstration pédagogique : copier un fichier"
               >
-                <source src="/media/copier-un-fichier.webm" type="video/webm" />
+                <source
+                  src={asset("media/copier-un-fichier.webm")}
+                  type="video/webm"
+                />
                 <track
                   kind="captions"
                   label="Français"
                   srcLang="fr"
-                  src="/media/copier-un-fichier.fr.vtt"
+                  src={asset("media/copier-un-fichier.fr.vtt")}
                   default
                 />
                 Votre navigateur ne lit pas cette vidéo. Les étapes textuelles
@@ -492,8 +286,15 @@ export function Detail({ article = false }: { article?: boolean }) {
               </p>
             </section>
           )}
-          <Markdown body={item.body} />
-          {!article && <StepChecklist key={item.slug} body={item.body} />}
+          {task ? (
+            <ProfessionalGuide task={task} />
+          ) : (
+            <Markdown body={item.body} />
+          )}
+          {article && <ArticleCaseStudy slug={item.slug} />}
+          {!article && !task && (
+            <StepChecklist key={item.slug} body={item.body} />
+          )}
           {item.shortcuts?.length ? (
             <aside className="shortcut-panel">
               <h2>À garder sous la main</h2>
@@ -507,7 +308,10 @@ export function Detail({ article = false }: { article?: boolean }) {
           <div className="source-box">
             <strong>Pour vérifier avec votre version</strong>
             <p>
-              {item.author}. Instructions rédigées à partir de la documentation
+              {item.author}.{" "}
+              {article
+                ? "Dossier pratique : vérifiez l’application dans votre contexte."
+                : "Instructions rédigées à partir de la documentation"}
               ; elles ne remplacent pas les règles de votre organisation. Pas de
               validation sur toutes les versions d’Office.
             </p>
@@ -529,8 +333,8 @@ export function Detail({ article = false }: { article?: boolean }) {
               Imprimer
             </button>
             <CopyButton
-              text={`${item.title}\n\n${item.body}`}
-              label="Copier les étapes"
+              text={`${item.title}\n\n${copyBody}`}
+              label={article ? "Copier le dossier" : "Copier les étapes"}
             />
           </div>
           <p role="status">
@@ -538,7 +342,7 @@ export function Detail({ article = false }: { article?: boolean }) {
               ? "Bravo, un nouveau repère à garder ! Ce repère reste seulement dans cette page."
               : ""}
           </p>
-          <Link className="text-link" to={article ? "/blog" : "/guides"}>
+          <Link className="text-link" to={back}>
             {article ? "Tous les articles" : "Retour aux tutoriels"}{" "}
             <ArrowRight size={17} />
           </Link>
@@ -556,7 +360,20 @@ export function Detail({ article = false }: { article?: boolean }) {
             <ul>
               {sections.map((s, i) => (
                 <li key={s}>
-                  <a href={`#section-${i}`}>{s}</a>
+                  <Link
+                    to={{
+                      pathname: location.pathname,
+                      search: location.search,
+                      hash: `#section-${i}`,
+                    }}
+                    onClick={() =>
+                      document
+                        .getElementById(`section-${i}`)
+                        ?.scrollIntoView({ block: "start" })
+                    }
+                  >
+                    {s}
+                  </Link>
                 </li>
               ))}
             </ul>
@@ -795,7 +612,8 @@ export function Prompts() {
 export function Blog() {
   const [params, setParams] = useSearchParams();
   const category = params.get("categorie") || "Tous";
-  const filtered = articles.filter(
+  const q = params.get("q") || "";
+  const filtered = search(articles, q).filter(
     (a) => category === "Tous" || a.category === category,
   );
   return (
@@ -807,6 +625,22 @@ export function Blog() {
       />
       <section className="section">
         <div className="wrap">
+          <label>
+            Rechercher un dossier
+            <QueryInput
+              type="search"
+              value={q}
+              onQuery={(q) =>
+                setParams(
+                  (p) => {
+                    p.set("q", q);
+                    return p;
+                  },
+                  { replace: true },
+                )
+              }
+            />
+          </label>
           <div className="chips">
             {["Tous", ...new Set(articles.map((a) => a.category))].map((c) => (
               <button
@@ -819,6 +653,8 @@ export function Blog() {
               </button>
             ))}
           </div>
+          <p role="status">{filtered.length} dossiers</p>
+          {!filtered.length && <Empty reset={() => setParams({})} />}
           <div className="grid three">
             {filtered.map((a) => (
               <ContentCard key={a.slug} item={a} article />
@@ -834,7 +670,7 @@ export function Directory() {
   const [local, setLocal] = useState(false);
   const result = tools.filter(
     (t) =>
-      (!local || t.local) &&
+      (!local || t.local || t.processing === "hybride") &&
       (t.name + " " + t.category + " " + t.description)
         .toLocaleLowerCase("fr")
         .includes(q.toLocaleLowerCase("fr")),
@@ -884,12 +720,15 @@ export function Directory() {
                     <span className={"tag " + (t.local ? "mint" : "")}>
                       {t.local
                         ? "Usage local possible"
-                        : "Ressource / services cloud"}
+                        : t.processing === "hybride"
+                          ? "Hybride · selon la fonction"
+                          : "Ressource / services cloud"}
                     </span>
                   </div>
                   <h2>{t.name}</h2>
                   <p>{t.description}</p>
                   <dl>
+                    <dt>Traitement par opération</dt><dd>{t.operations}</dd>
                     <dt>Compte</dt>
                     <dd>{t.account}</dd>
                     <dt>Coût</dt>
@@ -1000,7 +839,9 @@ export function GlobalSearch() {
           {q ? (
             <>
               <p role="status">
-                {gs.length + ps.length + as.length} résultats pour « {q} »
+                {gs.length + ps.length + as.length} résultat
+                {gs.length + ps.length + as.length === 1 ? "" : "s"} pour « {q}{" "}
+                »
               </p>
               {!gs.length && !ps.length && !as.length ? <Empty /> : null}
               {gs.length > 0 && (

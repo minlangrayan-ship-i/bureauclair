@@ -1,13 +1,45 @@
-{"title": "Un bon prompt commence par une demande claire", "category": "IA pratique", "description": "Objectif, contexte non sensible et format : une base simple.", "minutes": 3, "level": "Pour tous", "version": "Dossier pratique", "updated": "2026-11-24", "author": "BureauClair — rédaction initiale", "source": "https://www.cnil.fr/fr/les-questions-reponses-de-la-cnil-sur-lutilisation-dun-systeme-dia-generative", "sourceLabel": "Source de référence", "keywords": ["IA pratique", "Un bon prompt commence par une demande claire"]}
+{"title": "Un prompt professionnel : des sources, des contraintes et une relecture", "category": "IA au travail", "description": "Un responsable demande un bilan de 80 dossiers ; seuls le statut et l’échéance figurent dans le fichier fictif.", "minutes": 6, "level": "Pour tous", "version": "Dossier pratique", "updated": "2026-11-25", "author": "BureauClair — rédaction initiale", "source": "https://learn.microsoft.com/fr-fr/training/modules/write-effective-prompts-do-more-prompting/", "sourceLabel": "Source de référence", "keywords": ["IA au travail", "Un prompt professionnel : des sources, des contraintes et une relecture", "tableau-excel", "secrétariat assistante direction"]}
 
-## Dire le résultat attendu
+## Situation de travail — données fictives
 
-« Prépare un plan de courrier » est plus précis que « aide-moi ». Ajoutez le public visé et les éléments déjà validés.
+Un responsable demande un bilan de 80 dossiers ; seuls le statut et l’échéance figurent dans le fichier fictif.
 
-## Laisser les manques visibles
+## Comprendre la difficulté
 
-Demandez à l’outil d’écrire « à confirmer » lorsqu’une donnée manque. Cela aide la relecture sans garantir que le modèle respecte toujours la consigne.
+Une consigne vague favorise les suppositions. Un tableau ne démontre pas à lui seul les causes d’un retard.
 
-## Garder la décision
+## Procédure et contrôles
 
-Le brouillon est une proposition. Vérifiez chaque affirmation utile à votre travail et faites valider les sujets sensibles.
+### 1. Définir le livrable
+
+Préciser le destinataire et le livrable, par exemple un tableau de synthèse pour la direction.
+
+### 2. Délimiter les sources
+
+Délimiter les sources admissibles et nommer les champs disponibles. Une source absente reste absente.
+
+### 3. Choisir un format vérifiable
+
+Demander un format vérifiable et une liste de points à confirmer, pas une chaîne de pensée cachée.
+
+### 4. Comparer puis améliorer
+
+Comparer un premier brouillon aux données puis corriger la consigne ; conserver les changements nécessaires à la validation.
+
+## Erreur fréquente
+
+Ne pas confondre un exemple de sortie fictive et une réponse générée en direct.
+
+## Une consigne utile, à vérifier
+
+Compte les statuts du jeu fictif fourni. N’attribue pas un retard sans échéance confirmée. Cite la méthode de comptage et signale les données manquantes.
+
+Ce modèle est à copier dans un outil autorisé ; aucune IA ne répond dans cet article.
+
+## Avant de transmettre
+
+Contrôlez les noms, dates, montants, repères de source, données personnelles, lisibilité et autorisation. Faites valider les engagements par le responsable.
+
+## Périmètre éditorial
+
+Dossier pratique intemporel, révisé le 25 novembre 2026. Les sources sont indiquées ; aucune validation sur toutes les versions Microsoft ou par un professionnel externe n’est revendiquée.

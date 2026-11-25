@@ -1,5 +1,6 @@
 import { Link, useLocation } from "react-router-dom";
 import { PageHead } from "./components/ui";
+import { siteConfig } from "./config";
 const pages: Record<
   string,
   { title: string; description: string; sections: [string, string][] }
@@ -15,7 +16,7 @@ const pages: Record<
       ],
       [
         "Audio et texte : dans la session",
-        "Le studio lit le fichier que vous choisissez et le traite dans un worker local. Aucun point d’API ne reçoit vos fichiers, transcriptions ou notes. Le texte n’est pas enregistré dans localStorage ou IndexedDB par l’application ; actualiser, quitter ou effacer la session le fait perdre. Exportez-le avant. Aucun microphone n’est ouvert par l’application.",
+        "Le studio lit le fichier que vous choisissez et le traite dans un worker local. Aucun point d’API ne reçoit vos fichiers, transcriptions ou notes. Seul le choix de thème est enregistré localement ; aucun texte de travail n’est enregistré dans localStorage ou IndexedDB par l’application ; actualiser, quitter ou effacer la session le fait perdre. Exportez-le avant. Aucun microphone n’est ouvert par l’application.",
       ],
       [
         "Téléchargement du moteur",
@@ -27,7 +28,7 @@ const pages: Record<
       ],
       [
         "Vidéos et sites externes",
-        "Les liens externes s’ouvrent uniquement à votre demande. Aucune vidéo YouTube, police externe ou pixel publicitaire n’est chargé automatiquement. La démonstration pédagogique fournie est hébergée avec le site et comporte une piste de sous-titres. Les illustrations et icônes de l’interface sont servies localement.",
+        "Les liens externes s’ouvrent uniquement à votre demande. Aucune vidéo YouTube, police externe ou pixel publicitaire n’est chargé automatiquement. Les aperçus YouTube et lecteurs youtube-nocookie sont chargés après votre action explicite ; cela transmet notamment votre IP et ne garantit pas zéro suivi. Les vidéos repérées n’ont pas toutes été intégralement visionnées. La démonstration pédagogique fournie est hébergée avec le site et comporte une piste de sous-titres. Les illustrations et icônes de l’interface sont servies localement.",
       ],
       [
         "Avant une mise en ligne publique",
@@ -132,13 +133,24 @@ export default function Info() {
           ))}
         </aside>
         <article className="prose">
+          {location.pathname === "/a-propos" && siteConfig.email && (
+            <section>
+              <h2>Contacter l’éditeur</h2>
+              <p>{siteConfig.editor}</p>
+              <a href={`mailto:${siteConfig.email}`}>{siteConfig.email}</a>
+              <p>
+                Hébergement :{" "}
+                {siteConfig.host || "À renseigner avant publication"}
+              </p>
+            </section>
+          )}
           {page.sections.map(([title, text]) => (
             <section key={title}>
               <h2>{title}</h2>
               <p>{text}</p>
             </section>
           ))}
-          <p className="quiet">Dernière mise à jour : 24 novembre 2026.</p>
+          <p className="quiet">Dernière mise à jour : 25 novembre 2026.</p>
         </article>
       </div>
     </>

@@ -15,7 +15,34 @@ export function validateFile(file: Pick<File, "name" | "size" | "type">) {
     return "Le type de fichier ne correspond pas à un audio ou une vidéo.";
   return "";
 }
+export async function probeDuration(file: File): Promise<number | null> {
+  return new Promise((resolve) => {
+    const audio = document.createElement("audio"),
+      url = URL.createObjectURL(file);
+    let settled = false;
+    const done = (duration: number | null) => {
+      if (settled) return;
+      settled = true;
+      clearTimeout(timer);
+      audio.removeAttribute("src");
+      audio.load();
+      URL.revokeObjectURL(url);
+      resolve(duration);
+    };
+    const timer = setTimeout(() => done(null), 5000);
+    audio.preload = "metadata";
+    audio.onloadedmetadata = () =>
+      done(Number.isFinite(audio.duration) ? audio.duration : null);
+    audio.onerror = () => done(null);
+    audio.src = url;
+  });
+}
 export async function decodeAudio(file: File) {
+  const preliminary = await probeDuration(file);
+  if (preliminary && preliminary > MAX_SECONDS)
+    throw new Error(
+      "Cet enregistrement dépasse 10 minutes. Découpez une copie avant le décodage complet.",
+    );
   const context = new AudioContext();
   try {
     const decoded = await context.decodeAudioData(await file.arrayBuffer());

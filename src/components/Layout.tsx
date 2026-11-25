@@ -1,3 +1,4 @@
+import { asset } from "../lib/asset";
 import { useEffect, useRef, useState } from "react";
 import { Link, NavLink, Outlet, useLocation } from "react-router-dom";
 import {
@@ -8,6 +9,8 @@ import {
   Menu,
   Newspaper,
   Search,
+  Moon,
+  Sun,
   ShieldCheck,
   Sparkles,
   X,
@@ -24,6 +27,23 @@ const nav = [
   ["/blog", "Blog", Newspaper],
 ] as const;
 export default function Layout() {
+  const [dark, setDark] = useState(() => {
+    try {
+      return localStorage.getItem("bureauclair-theme") === "dark";
+    } catch {
+      return false;
+    }
+  });
+  useEffect(() => {
+    document.documentElement.dataset.theme = dark ? "dark" : "light";
+    (() => {
+      try {
+        localStorage.setItem("bureauclair-theme", dark ? "dark" : "light");
+      } catch {
+        /* Private mode: theme remains in memory. */
+      }
+    })();
+  }, [dark]);
   const [menu, setMenu] = useState(false);
   const [install, setInstall] = useState<InstallEvent | null>(null);
   const [online, setOnline] = useState(navigator.onLine);
@@ -42,6 +62,16 @@ export default function Layout() {
     first.current = false;
   }, [location.pathname]);
   useEffect(() => {
+    if (location.hash) {
+      const id = decodeURIComponent(location.hash.slice(1));
+      const timer = setTimeout(
+        () => document.getElementById(id)?.scrollIntoView({ block: "start" }),
+        250,
+      );
+      return () => clearTimeout(timer);
+    }
+  }, [location.pathname, location.hash]);
+  useEffect(() => {
     const handler = (e: Event) => {
       e.preventDefault();
       setInstall(e as InstallEvent);
@@ -52,7 +82,7 @@ export default function Layout() {
     window.addEventListener("offline", status);
     if (import.meta.env.PROD && "serviceWorker" in navigator) {
       navigator.serviceWorker
-        .register("/sw.js")
+        .register(asset("sw.js"))
         .then((reg) => {
           const ready = () => {
             if (navigator.serviceWorker.controller) setOfflineReady(true);
@@ -79,13 +109,22 @@ export default function Layout() {
   }, []);
   return (
     <>
-      <a className="skip" href="#contenu">
+      <a
+        className="skip"
+        href="#contenu"
+        onClick={(e) => {
+          e.preventDefault();
+          const main = document.getElementById("contenu");
+          main?.focus();
+          main?.scrollIntoView({ block: "start" });
+        }}
+      >
         Aller au contenu
       </a>
       <header className="site-header">
         <div className="wrap topbar">
           <Link to="/" className="brand" aria-label="BureauClair, accueil">
-            <img src="/icon.svg" alt="" width="33" height="33" />
+            <img src={asset("icon.svg")} alt="" width="33" height="33" />
             BureauClair<span className="brand-dot">.</span>
           </Link>
           <nav
@@ -98,6 +137,17 @@ export default function Layout() {
                 {title}
               </NavLink>
             ))}
+            <NavLink to="/atelier">Atelier IA</NavLink>
+            <NavLink to="/parcours">Parcours</NavLink>
+            <NavLink to="/raccourcis" className="mobile-extra">
+              Raccourcis
+            </NavLink>
+            <NavLink to="/videos" className="mobile-extra">
+              Vidéos
+            </NavLink>
+            <NavLink to="/competences" className="mobile-extra">
+              Compétences
+            </NavLink>
             <NavLink to="/annuaire" className="mobile-extra">
               Annuaire
             </NavLink>
@@ -109,6 +159,15 @@ export default function Layout() {
           >
             <Search size={21} />
           </Link>
+          <button
+            className="icon-button theme-toggle"
+            aria-label={
+              dark ? "Activer le thème clair" : "Activer le thème sombre"
+            }
+            onClick={() => setDark(!dark)}
+          >
+            {dark ? <Sun size={19} /> : <Moon size={19} />}
+          </button>
           <button
             className="button install"
             onClick={async () => {
@@ -173,7 +232,7 @@ export default function Layout() {
         <div className="wrap footer-grid">
           <div>
             <Link to="/" className="brand">
-              <img src="/icon.svg" alt="" width="30" height="30" />
+              <img src={asset("icon.svg")} alt="" width="30" height="30" />
               BureauClair.
             </Link>
             <p>
@@ -191,6 +250,10 @@ export default function Layout() {
           <div>
             <strong>Pour avancer</strong>
             <Link to="/annuaire">Annuaire d’outils</Link>
+            <Link to="/videos">Vidéos YouTube</Link>
+            <Link to="/raccourcis">Raccourcis et commandes</Link>
+            <Link to="/competences">Couverture des compétences</Link>
+            <Link to="/exercices">Exercices</Link>
             <Link to="/blog">Le journal</Link>
             <Link to="/a-propos">À propos & contact</Link>
           </div>
@@ -205,7 +268,7 @@ export default function Layout() {
           <span>© 2026 BureauClair · Nom de travail</span>
           <span>
             {offlineReady
-              ? "Guides et prompts prêts hors ligne"
+              ? "Textes et exercices prêts hors ligne · YouTube requiert Internet"
               : import.meta.env.DEV
                 ? "Version de développement · cache PWA désactivé"
                 : "Préparation du mode hors ligne…"}

@@ -1,0 +1,39 @@
+{
+  "checks": [
+    {
+      "label": "Atelier IA",
+      "url": "http://127.0.0.1:4175/atelier",
+      "heading": "Une consigne claire. Un résultat à contrôler.",
+      "documentTitle": "Une consigne claire. Un résultat à contrôler. — BureauClair"
+    },
+    {
+      "label": "Raccourcis et commandes",
+      "url": "http://127.0.0.1:4175/raccourcis",
+      "heading": "Le bon geste, au bon moment.",
+      "documentTitle": "Le bon geste, au bon moment. — BureauClair"
+    },
+    {
+      "label": "Couverture des compétences",
+      "url": "http://127.0.0.1:4175/competences",
+      "heading": "Ce qui est abordé. Ce qui reste à construire.",
+      "documentTitle": "Ce qui est abordé. Ce qui reste à construire. — BureauClair"
+    },
+    {
+      "label": "Vidéos YouTube",
+      "url": "http://127.0.0.1:4175/videos",
+      "heading": "Voir les gestes. Connaître la source.",
+      "documentTitle": "Voir les gestes. Connaître la source. — BureauClair"
+    },
+    {
+      "label": "Parcours",
+      "url": "http://127.0.0.1:4175/parcours",
+      "heading": "Une tâche de bout en bout.",
+      "documentTitle": "Une tâche de bout en bout. — BureauClair"
+    },
+    {
+      "route": "/raccourcis",
+      "simulation": "combinaison incorrecte puis correcte"
+    }
+  ],
+  "errors": []
+}

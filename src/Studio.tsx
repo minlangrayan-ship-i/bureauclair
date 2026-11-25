@@ -1,5 +1,5 @@
 import { useEffect, useRef, useState } from "react";
-import { Link } from "react-router-dom";
+import { Link, useBlocker } from "react-router-dom";
 import {
   AlertCircle,
   ArrowDownToLine,
@@ -19,6 +19,9 @@ type Segment = { timestamp: [number, number | null]; text: string };
 type Status =
   "idle" | "loading" | "ready" | "decoding" | "transcribing" | "error";
 export default function Studio() {
+  const initialNotes =
+    "Objet :\nDate :\nPoints abordés :\nDécisions confirmées :\nActions / responsable / échéance :\nÀ confirmer :";
+  const [exported, setExported] = useState({ text: "", notes: initialNotes });
   const [status, setStatus] = useState<Status>("idle");
   const [message, setMessage] = useState("Le moteur n’est pas chargé.");
   const [error, setError] = useState("");
@@ -43,6 +46,22 @@ export default function Studio() {
   const timer = useRef<ReturnType<typeof setTimeout> | null>(null);
   const input = useRef<HTMLInputElement>(null);
   const busy = ["loading", "decoding", "transcribing"].includes(status);
+  const dirty = text !== exported.text || notes !== exported.notes || busy;
+  const blocker = useBlocker(
+    ({ currentLocation, nextLocation }) =>
+      dirty && currentLocation.pathname !== nextLocation.pathname,
+  );
+  useEffect(() => {
+    if (blocker.state === "blocked") {
+      if (
+        window.confirm(
+          "Votre travail n’est pas exporté. Quitter le studio et perdre cette session ?",
+        )
+      )
+        blocker.proceed();
+      else blocker.reset();
+    }
+  }, [blocker]);
   const supported =
     typeof Worker !== "undefined" &&
     typeof AudioContext !== "undefined" &&
@@ -67,17 +86,11 @@ export default function Studio() {
   }, [file]);
   useEffect(() => {
     const pending = (e: BeforeUnloadEvent) => {
-      if (
-        text ||
-        busy ||
-        notes !==
-          "Objet :\nDate :\nPoints abordés :\nDécisions confirmées :\nActions / responsable / échéance :\nÀ confirmer :"
-      )
-        e.preventDefault();
+      if (dirty) e.preventDefault();
     };
     window.addEventListener("beforeunload", pending);
     return () => window.removeEventListener("beforeunload", pending);
-  }, [text, busy, notes]);
+  }, [dirty]);
   useEffect(() => {
     if (!busy) return;
     const id = setInterval(
@@ -167,6 +180,14 @@ export default function Studio() {
   }
   function choose(f: File | undefined) {
     if (!f || busy) return;
+    if (
+      text &&
+      text !== exported.text &&
+      !window.confirm(
+        "Remplacer le fichier effacera la transcription non exportée. Continuer ?",
+      )
+    )
+      return;
     const issue = validateFile(f);
     if (issue) {
       setError(issue);
@@ -231,13 +252,14 @@ export default function Studio() {
   }
   function clear() {
     if (
-      (text || file) &&
+      (dirty || file) &&
       !window.confirm(
         "Effacer le fichier et le texte de cette session ? Exportez d’abord votre travail si nécessaire.",
       )
     )
       return;
     stop();
+    setExported({ text: "", notes: initialNotes });
     setFile(null);
     setText("");
     setSegments([]);
@@ -264,6 +286,7 @@ export default function Studio() {
       />
       <section className="section">
         <div className="wrap">
+          <div className="notice warning"><AlertCircle/><p><strong>Pilote à vérifier avec l’audio.</strong> Les essais locaux ont montré des erreurs sur les numéros, noms et phrases rapides. Une transcription n’est pas un compte rendu validé. Réécoutez les informations critiques avant toute utilisation professionnelle.</p></div>
           <div className="notice success">
             <ShieldCheck />
             <p>
@@ -342,6 +365,14 @@ export default function Studio() {
                     aria-label="Retirer le fichier"
                     disabled={busy}
                     onClick={() => {
+                      if (
+                        text &&
+                        text !== exported.text &&
+                        !window.confirm(
+                          "Retirer le fichier et sa transcription non exportée ?",
+                        )
+                      )
+                        return;
                       setFile(null);
                       setText("");
                       setSegments([]);
@@ -580,7 +611,22 @@ export default function Studio() {
                         )
                         .map((s, i) => (
                           <div className="segment" key={i}>
-                            <span>{timecode(s.timestamp[0])}</span>
+                            <button
+                              className="chip"
+                              onClick={() => {
+                                const audio =
+                                  document.querySelector<HTMLAudioElement>(
+                                    ".audio-player",
+                                  );
+                                if (audio) {
+                                  audio.currentTime = s.timestamp[0];
+                                  audio.focus();
+                                }
+                              }}
+                              aria-label={`Réécouter à ${timecode(s.timestamp[0])}`}
+                            >
+                              {timecode(s.timestamp[0])}
+                            </button>
                             <p>{s.text}</p>
                           </div>
                         ))}
@@ -612,14 +658,19 @@ export default function Studio() {
                 <button
                   className="button secondary"
                   disabled={!exportText.trim() || (tab === "texte" && !text)}
-                  onClick={() =>
+                  onClick={() => {
                     exportTxt(
                       exportText,
                       tab === "texte"
                         ? "bureauclair-transcription.txt"
                         : "bureauclair-notes-manuelles.txt",
-                    )
-                  }
+                    );
+                    setExported((v) => ({
+                      ...v,
+                      [tab === "texte" ? "text" : "notes"]:
+                        tab === "texte" ? text : notes,
+                    }));
+                  }}
                 >
                   <ArrowDownToLine size={16} />
                   Exporter TXT
@@ -628,17 +679,35 @@ export default function Studio() {
                   className="button primary"
                   disabled={!exportText.trim() || (tab === "texte" && !text)}
                   onClick={() =>
-                    exportDocx(exportText).catch(() =>
-                      setError(
-                        "L’export DOCX a échoué. Essayez l’export TXT ; votre texte reste disponible.",
-                      ),
+                    exportDocx(
+                      exportText,
+                      tab === "texte"
+                        ? "bureauclair-transcription.docx"
+                        : "bureauclair-notes-manuelles.docx",
                     )
+                      .then(() =>
+                        setExported((v) => ({
+                          ...v,
+                          [tab === "texte" ? "text" : "notes"]:
+                            tab === "texte" ? text : notes,
+                        })),
+                      )
+                      .catch(() =>
+                        setError(
+                          "L’export DOCX a échoué. Essayez l’export TXT ; votre texte reste disponible.",
+                        ),
+                      )
                   }
                 >
                   <ArrowDownToLine size={16} />
                   Exporter DOCX
                 </button>
-                {text && <CopyButton text={exportText} label="Copier" />}
+                {exportText.trim() && (
+                  <CopyButton
+                    text={exportText}
+                    label={tab === "texte" ? "Copier" : "Copier les notes"}
+                  />
+                )}
               </div>
               <button className="text-link clear-session" onClick={clear}>
                 <Trash2 size={16} />

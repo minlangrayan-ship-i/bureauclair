@@ -1,0 +1,3 @@
+import {chromium} from '@playwright/test';import fs from 'node:fs';import {learningTasks} from '../src/content/learning.ts';
+const b=await chromium.launch({executablePath:'C:/Program Files (x86)/Microsoft/Edge/Application/msedge.exe',headless:true});fs.mkdirSync('docs/v2/labs',{recursive:true});
+try{const p=await b.newPage({viewport:{width:1440,height:1100},reducedMotion:'reduce'});for(const task of learningTasks){await p.goto('http://127.0.0.1:5173/guides/'+task.guide);const lab=p.locator('.practice-lab');await lab.waitFor();await lab.screenshot({path:`docs/v2/labs/${task.slug}.png`});}await p.goto('http://127.0.0.1:5173/');await p.screenshot({path:'docs/v2/apres-1536-intermediaire.png',fullPage:true});}finally{await b.close()}

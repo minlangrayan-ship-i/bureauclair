@@ -1,0 +1,101 @@
+[
+  {
+    "id": "BekWLEcfwfk",
+    "url": "https://www.youtube.com/watch?v=BekWLEcfwfk",
+    "title": "EXCEL - TRIER ET FILTRER HYPER FACILEMENT",
+    "author": "CLASSEXCEL",
+    "duration": 504,
+    "available": "OK",
+    "embedAllowed": true,
+    "captionLanguages": [
+      "fr"
+    ],
+    "checkedAt": "2026-11-25",
+    "samples": [],
+    "review": "metadata-only",
+    "sampleError": "locator.evaluate: AbortError: The play() request was interrupted by a new load request."
+  },
+  {
+    "id": "WNokKY7uYTE",
+    "url": "https://www.youtube.com/watch?v=WNokKY7uYTE",
+    "title": "Windows pour Débutants   Créer, Renommer, Déplacer et Copier vos Dossiers & Fichiers",
+    "author": "TutoLisser",
+    "duration": 1235,
+    "available": "OK",
+    "embedAllowed": true,
+    "captionLanguages": [
+      "fr"
+    ],
+    "checkedAt": "2026-11-25",
+    "samples": [],
+    "review": "metadata-only",
+    "sampleError": "locator.evaluate: Execution context was destroyed, most likely because of a navigation."
+  },
+  {
+    "id": "-ygoMFzaLBQ",
+    "url": "https://www.youtube.com/watch?v=-ygoMFzaLBQ",
+    "title": "PUBLIPOSTAGE : comment en réaliser un FACILEMENT SUR WORD ? ✉ | TUTORIEL",
+    "author": "Microsoft ExpertZone France",
+    "duration": 440,
+    "available": "OK",
+    "embedAllowed": true,
+    "captionLanguages": [
+      "fr",
+      "fr"
+    ],
+    "checkedAt": "2026-11-25",
+    "samples": [],
+    "review": "metadata-only",
+    "sampleError": "locator.evaluate: AbortError: The play() request was interrupted by a call to pause()."
+  },
+  {
+    "id": "qG2hV_ctPeM",
+    "url": "https://www.youtube.com/watch?v=qG2hV_ctPeM",
+    "title": "EXCEL : les bases à connaître absolument 🧮",
+    "author": "Microsoft ExpertZone France",
+    "duration": 816,
+    "available": "OK",
+    "embedAllowed": true,
+    "captionLanguages": [
+      "fr"
+    ],
+    "checkedAt": "2026-11-25",
+    "samples": [],
+    "review": "metadata-only",
+    "sampleError": "locator.evaluate: AbortError: The play() request was interrupted by a new load request."
+  },
+  {
+    "id": "9us8jNBCnqQ",
+    "url": "https://www.youtube.com/watch?v=9us8jNBCnqQ",
+    "title": "Comment FIGER les VOLETS sur Excel ?",
+    "author": "Morpheus Formation | Excel, Power BI, Data",
+    "duration": 29,
+    "available": "OK",
+    "embedAllowed": true,
+    "captionLanguages": [
+      "fr"
+    ],
+    "checkedAt": "2026-11-25",
+    "samples": [
+      {
+        "at": 4,
+        "file": ".runtime/youtube-research/9us8jNBCnqQ-15.png",
+        "publication": "exclue ; capture de recherche privée"
+      }
+    ],
+    "review": "metadata-only",
+    "sampleError": "locator.evaluate: AbortError: The play() request was interrupted by a call to pause()."
+  },
+  {
+    "id": "UN0IpR4HzDs",
+    "error": "page.goto: Timeout 35000ms exceeded.\nCall log:\n\u001b[2m  - navigating to \"https://www.youtube.com/watch?v=UN0IpR4HzDs\", waiting until \"domcontentloaded\"\u001b[22m\n"
+  },
+  {
+    "id": "I-XuiwN_smo",
+    "error": "page.goto: Timeout 35000ms exceeded.\nCall log:\n\u001b[2m  - navigating to \"https://www.youtube.com/watch?v=I-XuiwN_smo\", waiting until \"domcontentloaded\"\u001b[22m\n"
+  },
+  {
+    "id": "nokpLPO88VA",
+    "error": "page.goto: Timeout 35000ms exceeded.\nCall log:\n\u001b[2m  - navigating to \"https://www.youtube.com/watch?v=nokpLPO88VA\", waiting until \"domcontentloaded\"\u001b[22m\n"
+  }
+]

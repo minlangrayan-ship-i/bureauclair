@@ -1,0 +1,67 @@
+{
+  "date": "2026-11-25",
+  "base": "http://127.0.0.1:5173",
+  "checks": [
+    {
+      "width": 1536,
+      "route": "/",
+      "violations": [],
+      "overflow": false
+    },
+    {
+      "width": 1536,
+      "route": "/atelier",
+      "violations": [],
+      "overflow": false
+    },
+    {
+      "width": 1536,
+      "route": "/guides",
+      "violations": [],
+      "overflow": false
+    },
+    {
+      "width": 1536,
+      "route": "/studio",
+      "violations": [],
+      "overflow": false
+    },
+    {
+      "width": 1536,
+      "route": "/recherche?q=introuvablexyz",
+      "violations": [],
+      "overflow": false
+    },
+    {
+      "width": 390,
+      "route": "/",
+      "violations": [],
+      "overflow": false
+    },
+    {
+      "width": 390,
+      "route": "/atelier",
+      "violations": [],
+      "overflow": false
+    },
+    {
+      "width": 390,
+      "route": "/guides",
+      "violations": [],
+      "overflow": false
+    },
+    {
+      "width": 390,
+      "route": "/studio",
+      "violations": [],
+      "overflow": false
+    },
+    {
+      "width": 390,
+      "route": "/recherche?q=introuvablexyz",
+      "violations": [],
+      "overflow": false
+    }
+  ],
+  "errors": []
+}

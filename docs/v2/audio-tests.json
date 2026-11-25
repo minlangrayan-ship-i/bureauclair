@@ -1,0 +1,33 @@
+{
+  "date": "2026-11-25",
+  "environment": "Edge Windows / CPU ; voix synthétique française locale, trois textes fictifs",
+  "runs": [
+    {
+      "id": "negation",
+      "text": "Le dossier numéro-vente de n'est pas validé. Aucune décision la étape prise. La D'atresse est à confirmer.",
+      "rate": 0,
+      "ms": 17629,
+      "jsHeapApprox": 6201911,
+      "expected": "Le dossier numéro vingt-deux n’est pas validé. Aucune décision n’a été prise. La date reste à confirmer."
+    },
+    {
+      "id": "montants",
+      "text": "Le 2-Ve proposé est de 350 €. Il manque de document. L'inapprépare le chiffrage, pour examen.",
+      "rate": 0,
+      "ms": 18364,
+      "jsHeapApprox": 8154232,
+      "expected": "Le devis proposé est de trois cent cinquante euros. Il manque deux documents. Lina prépare le chiffrage pour examen."
+    },
+    {
+      "id": "rapide",
+      "text": "La réunion est proposée, les participants doivent confirmer leurs disponibilités. Ce que n'est pas encore accepté.",
+      "rate": 3,
+      "ms": 15138,
+      "jsHeapApprox": 8674661,
+      "expected": "La réunion est proposée mardi. Les participants doivent confirmer leur disponibilité. Ce créneau n’est pas encore accepté."
+    }
+  ],
+  "posts": [],
+  "limits": "Même voix synthétique et même ordinateur. Aucun test physique mobile, accent naturel, réunion réelle ou mesure complète de mémoire WASM.",
+  "loadMs": 27273
+}

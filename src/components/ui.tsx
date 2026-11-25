@@ -1,5 +1,5 @@
 import { lazy, Suspense, useEffect, useState } from "react";
-import { Link } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
 import {
   ArrowUpRight,
   Check,
@@ -64,9 +64,13 @@ export function ContentCard({
   item: Content;
   article?: boolean;
 }) {
+  const location = useLocation();
   return (
     <article className="content-card">
-      <Link to={`/${article ? "blog" : "guides"}/${item.slug}`}>
+      <Link
+        to={`/${article ? "blog" : "guides"}/${item.slug}`}
+        state={{ from: location.pathname + location.search }}
+      >
         <div
           className={`card-art art-${item.category.toLowerCase().split(" ")[0]}`}
         >

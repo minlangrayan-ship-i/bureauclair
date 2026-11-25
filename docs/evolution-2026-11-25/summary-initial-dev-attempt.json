@@ -1,0 +1,63 @@
+{
+  "date": "2026-11-25T14:14:57.381Z",
+  "engine": "Transformers.js 3.8.1 / Qwen2.5-0.5B-Instruct q8 / WASM CPU 1 thread",
+  "conditions": "Windows Edge ; poste 16 Go ; essais exploratoires, pas un benchmark isolé",
+  "requests": [
+    {
+      "method": "GET",
+      "url": "http://127.0.0.1:5173/src/poc-summary/index.html"
+    },
+    {
+      "method": "GET",
+      "url": "http://127.0.0.1:5173/@vite/client"
+    },
+    {
+      "method": "GET",
+      "url": "http://127.0.0.1:5173/src/poc-summary/main.ts"
+    },
+    {
+      "method": "GET",
+      "url": "http://127.0.0.1:5173/@react-refresh"
+    },
+    {
+      "method": "GET",
+      "url": "http://127.0.0.1:5173/node_modules/vite/dist/client/env.mjs"
+    },
+    {
+      "method": "GET",
+      "url": "http://127.0.0.1:5173/src/poc-summary/worker.ts"
+    },
+    {
+      "method": "GET",
+      "url": "http://127.0.0.1:5173/node_modules/vite/dist/client/env.mjs"
+    },
+    {
+      "method": "GET",
+      "url": "http://127.0.0.1:5173/node_modules/.vite/deps/@huggingface_transformers.js"
+    },
+    {
+      "method": "GET",
+      "url": "http://127.0.0.1:5173/src/poc-summary/index.html"
+    },
+    {
+      "method": "GET",
+      "url": "http://127.0.0.1:5173/@vite/client"
+    },
+    {
+      "method": "GET",
+      "url": "http://127.0.0.1:5173/src/poc-summary/main.ts"
+    },
+    {
+      "method": "GET",
+      "url": "http://127.0.0.1:5173/@react-refresh"
+    },
+    {
+      "method": "GET",
+      "url": "http://127.0.0.1:5173/node_modules/vite/dist/client/env.mjs"
+    }
+  ],
+  "runs": [],
+  "errors": [
+    "page.waitForFunction: Timeout 360000ms exceeded."
+  ]
+}

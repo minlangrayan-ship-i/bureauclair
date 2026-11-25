@@ -1,0 +1,53 @@
+{
+  "date": "2026-11-25T15:05:57.327Z",
+  "results": [
+    {
+      "mode": "desktop-local",
+      "conditions": "Boucle locale sans bridage, SW désactivé",
+      "lcp": 440,
+      "cls": 0,
+      "paint": [
+        {
+          "name": "first-paint",
+          "ms": 108
+        },
+        {
+          "name": "first-contentful-paint",
+          "ms": 424
+        }
+      ],
+      "navigation": [
+        {
+          "domReadyMs": 122.90000000596046,
+          "loadMs": 123.09999999403954
+        }
+      ],
+      "bytes": 260423,
+      "modelRequests": 0
+    },
+    {
+      "mode": "mobile-4g-emulation",
+      "conditions": "150 ms RTT, 1.6 Mbit/s descendant, CPU ×4, cache navigateur et SW désactivés",
+      "lcp": 2144,
+      "cls": 0,
+      "paint": [
+        {
+          "name": "first-paint",
+          "ms": 580
+        },
+        {
+          "name": "first-contentful-paint",
+          "ms": 1912
+        }
+      ],
+      "navigation": [
+        {
+          "domReadyMs": 1443,
+          "loadMs": 1443.5
+        }
+      ],
+      "bytes": 260423,
+      "modelRequests": 0
+    }
+  ]
+}

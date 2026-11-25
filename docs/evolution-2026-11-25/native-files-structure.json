@@ -1,0 +1,21 @@
+{
+  "date": "2026-11-25",
+  "scope": "Vérification des fichiers livrés ; ne remplace pas les essais natifs.",
+  "word": {
+    "zipValid": true,
+    "sections": 2,
+    "landscapeSections": 1,
+    "tocFieldPresent": true,
+    "nativeRenderingObserved": true,
+    "nativeTocUpdated": false,
+    "personalMailboxAccessed": false
+  },
+  "factures-formules-tcd.xlsx": {
+    "zipValid": true,
+    "entries": 25
+  },
+  "bilan-direction-5-diapos.pptx": {
+    "zipValid": true,
+    "entries": 60
+  }
+}

@@ -23,7 +23,7 @@ const paths = [
       [
         "Préparer les supports",
         "Une idée par diapositive, notes orateur privées et répétition avant le partage.",
-        "/guides/presentation-powerpoint",
+        "/guides/bilan-powerpoint",
       ],
       [
         "Transcrire et relire",
@@ -64,8 +64,8 @@ const paths = [
       ],
       [
         "Contrôler avant synthèse",
-        "Recherchez doublons, dates non reconnues et montants textuels. Le CSV n’inclut pas un tableau croisé dynamique ou Power Query déjà construit : ces approfondissements restent à réaliser.",
-        "/atelier",
+        "Recherchez doublons, dates non reconnues et montants textuels. Pour approfondir les TCD, un cas séparé de 24 factures et un classeur avec un véritable TCD sont disponibles. Le CSV de 80 dossiers reste distinct ; Power Query n’est pas traité ici.",
+        "/guides/tcd-factures",
       ],
       [
         "Rédiger une synthèse sourcée",

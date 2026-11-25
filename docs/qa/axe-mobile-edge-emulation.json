@@ -1,5 +1,9 @@
 [
   {
+    "path": "/guides/bilan-powerpoint",
+    "violations": []
+  },
+  {
     "path": "/guides/capture-ecran",
     "violations": []
   },
@@ -13,6 +17,10 @@
   },
   {
     "path": "/guides/exporter-pdf",
+    "violations": []
+  },
+  {
+    "path": "/guides/factures-formules",
     "violations": []
   },
   {
@@ -32,11 +40,19 @@
     "violations": []
   },
   {
+    "path": "/guides/outlook-tri-avance",
+    "violations": []
+  },
+  {
     "path": "/guides/presentation-powerpoint",
     "violations": []
   },
   {
     "path": "/guides/raccourcis-windows",
+    "violations": []
+  },
+  {
+    "path": "/guides/rapport-word-complexe",
     "violations": []
   },
   {
@@ -60,6 +76,10 @@
     "violations": []
   },
   {
+    "path": "/guides/tcd-factures",
+    "violations": []
+  },
+  {
     "path": "/guides/transcription-compte-rendu",
     "violations": []
   },
@@ -72,6 +92,18 @@
     "violations": []
   },
   {
+    "path": "/blog/bilan-direction-cinq-diapos",
+    "violations": []
+  },
+  {
+    "path": "/blog/compte-rendu-local-limites",
+    "violations": []
+  },
+  {
+    "path": "/blog/controle-fournisseurs",
+    "violations": []
+  },
+  {
     "path": "/blog/documents-accessibles",
     "violations": []
   },
@@ -80,7 +112,19 @@
     "violations": []
   },
   {
+    "path": "/blog/piece-jointe-douteuse",
+    "violations": []
+  },
+  {
     "path": "/blog/prompts-precis",
+    "violations": []
+  },
+  {
+    "path": "/blog/rapport-annexe-paysage",
+    "violations": []
+  },
+  {
+    "path": "/blog/tcd-somme-nombre",
     "violations": []
   },
   {
@@ -89,6 +133,14 @@
   },
   {
     "path": "/blog/travail-hors-ligne",
+    "violations": []
+  },
+  {
+    "path": "/blog/tri-mails-engagements",
+    "violations": []
+  },
+  {
+    "path": "/blog/veille-mises-a-jour",
     "violations": []
   },
   {

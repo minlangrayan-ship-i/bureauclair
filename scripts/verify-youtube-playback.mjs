@@ -13,6 +13,10 @@ try {
  page.on('request',r=>{if(r.url().includes('youtube-nocookie.com/embed/'))report.requests.push({url:r.url(),referer:r.headers()['referer']||null})});
  await page.goto(base,{waitUntil:'networkidle'});
  report.initialYoutubeRequests=report.requests.length;
+ if(process.env.BUREAUCLAIR_ALL_VIDEOS==='true'){
+  await page.getByLabel('Durée des vidéos').selectOption('all');
+  await page.getByLabel('Langue vidéo').selectOption('all');
+ }
  const count=Math.min(await page.locator('.video-card').count(),Number(process.env.BUREAUCLAIR_TEST_LIMIT||99));
  for(let i=0;i<count;i++){
   const card=page.locator('.video-card').nth(i);

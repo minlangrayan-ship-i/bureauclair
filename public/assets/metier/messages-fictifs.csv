@@ -1,0 +1,7 @@
+﻿Id;Expéditeur;Objet;Action aujourd’hui
+M1;direction@interne.example;Valider le dossier avant 16 h;Oui
+M2;compta@fournisseurs.example;Facture FAC-002;Non
+M3;equipe@interne.example;Compte rendu à relire demain;Non
+M4;lettre@actualites.example;Lettre mensuelle;Non
+M5;suivi@fournisseurs.example;Pièce complémentaire FAC-005;Non
+M6;accueil@interne.example;Réunion déplacée : vérifier le créneau;Oui

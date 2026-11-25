@@ -1,0 +1,24 @@
+BureauClair — fichiers pédagogiques, données entièrement fictives — 25/11/2026
+
+Excel : 24 factures, total 7 500 euros ; RH 2 300 / Achats 2 500 / Support 2 700.
+Achats à payer : 1 950 euros, six factures. F003 : Entreprise fictive C.
+Le XLSX contient un vrai TCD et des formules recalculées dans Excel installé.
+RECHERCHEX nécessite une version adaptée ; pas Excel 2016/2019.
+
+Word : modèle à styles hiérarchiques et annexe paysage, ouvert dans Word.
+Actualiser toute la table des matières avant diffusion : le résultat natif
+de cette actualisation n'a pas été validé. Aucun PDF Word final n'est fourni.
+
+PowerPoint : cinq diapositives et notes orateur fictives ; export PDF natif.
+Outlook : CSV d'entraînement seulement ; ne pas l'importer dans une vraie
+boîte pour exécuter des règles. Aucun accès aux comptes ni envoi de message.
+
+Captures : trois PDF documentaires distincts de l'interface du site.
+Fenêtres authentiques complètes, seulement redimensionnées, interface anglaise
+et thème du poste. Captures des logiciels Microsoft, pas des images libres
+de droits ni des contrôles de notre application. Usage documentaire selon :
+https://www.microsoft.com/en-us/legal/intellectualproperty/copyright/permissions
+Microsoft ne sponsorise pas BureauClair. Contenus d'exercice créés pour BureauClair.
+
+Tester sur des copies, vérifier les variantes de version et obtenir la
+validation du responsable avant toute application professionnelle.

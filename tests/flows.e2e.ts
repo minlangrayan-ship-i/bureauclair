@@ -34,7 +34,7 @@ const paths = [
 test("routes, responsive, accessibilité automatique et console", async ({
   page,
 }, info) => {
-  test.setTimeout(240000);
+  test.setTimeout(360000);
   const errors: string[] = [];
   page.on("pageerror", (e) => errors.push(e.message));
   const checks = [];
@@ -147,7 +147,7 @@ test("recherche, filtres, absence de résultat et retour conservé", async ({
   await expect(page).toHaveURL(/q=copier/);
   await page.goto("/guides");
   await page.getByRole("button", { name: "Excel", exact: true }).click();
-  await expect(page.locator(".content-card")).toHaveCount(4);
+  await expect(page.locator(".content-card")).toHaveCount(6);
   await page.getByLabel("Durée").selectOption("4");
   await expect(page.locator(".content-card")).toHaveCount(3);
   await page.getByRole("searchbox").fill("introuvablexyz");

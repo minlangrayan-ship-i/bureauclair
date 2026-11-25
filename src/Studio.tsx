@@ -286,7 +286,43 @@ export default function Studio() {
       />
       <section className="section">
         <div className="wrap">
-          <div className="notice warning"><AlertCircle/><p><strong>Pilote à vérifier avec l’audio.</strong> Les essais locaux ont montré des erreurs sur les numéros, noms et phrases rapides. Une transcription n’est pas un compte rendu validé. Réécoutez les informations critiques avant toute utilisation professionnelle.</p></div>
+          <details className="panel" id="etude-compte-rendu">
+            <summary>Compte rendu IA local : où en est l’étude ?</summary>
+            <p>
+              <strong>
+                Génération non activée : les trois essais ne satisfont pas les
+                critères de fidélité.
+              </strong>{" "}
+              Un petit modèle local a été testé sur des notes fictives. Il a
+              omis une action, répété une question et répondu hors sujet. Le
+              simple fait qu’un modèle s’exécute ne suffit pas pour en faire un
+              outil de compte rendu.
+            </p>
+            <p>
+              Sur ce poste d’essai, le premier chargement a pris environ 3 min
+              11 s et les réponses 35 à 164 s. Ces mesures ne prédisent pas les
+              performances de votre appareil. Aucun texte n’a été envoyé à une
+              IA distante.
+            </p>
+            <p>
+              La transcription corrigée et les notes manuelles restent les
+              fonctions disponibles : distinguez décisions confirmées, actions
+              sourcées et points à confirmer, puis faites relire avant
+              diffusion.
+            </p>
+            <Link to="/guides/transcription-compte-rendu">
+              Préparer et vérifier un compte rendu →
+            </Link>
+          </details>
+          <div className="notice warning">
+            <AlertCircle />
+            <p>
+              <strong>Pilote à vérifier avec l’audio.</strong> Les essais locaux
+              ont montré des erreurs sur les numéros, noms et phrases rapides.
+              Une transcription n’est pas un compte rendu validé. Réécoutez les
+              informations critiques avant toute utilisation professionnelle.
+            </p>
+          </div>
           <div className="notice success">
             <ShieldCheck />
             <p>

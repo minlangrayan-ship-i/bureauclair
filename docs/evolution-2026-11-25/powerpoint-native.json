@@ -1,0 +1,16 @@
+﻿{
+    "date":  "2026-11-25",
+    "applications":  [
+                         {
+                             "name":  "PowerPoint",
+                             "version":  "16.0",
+                             "build":  "20625"
+                         }
+                     ],
+    "checks":  {
+                   "powerpoint":  {
+                                      "slides":  5,
+                                      "firstNotes":  "Notes privées : expliquer la source fictive, vérifier les questions ; ne pas inventer une décision."
+                                  }
+               }
+}

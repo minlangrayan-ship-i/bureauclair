@@ -1,0 +1,372 @@
+[
+  {
+    "slug": "factures-formules",
+    "title": "Contrôler des factures avec SOMME.SI.ENS et RECHERCHEX",
+    "category": "Excel",
+    "kind": "formulas",
+    "minutes": 16,
+    "situation": "Cas fictif : avant la validation de vendredi 16 h, l’assistante doit isoler les factures Achats encore à payer et identifier correctement leurs fournisseurs.",
+    "outcome": "Un montant justifié de 1 950 €, six factures retenues et un fournisseur F003 unique : Entreprise fictive C.",
+    "version": "Excel Microsoft 365 / 2024 / 2021 bureau ; RECHERCHEX absente d’Excel 2016/2019. Essai natif : Excel 16.0 build 20625, interface anglaise.",
+    "prerequisites": "Copie du classeur fictif ; calcul automatique ; droits d’ouverture. Ne pas employer de factures réelles pour cet essai.",
+    "files": [
+      [
+        "factures-formules-tcd.xlsx",
+        "Classeur Excel : données, formules et TCD"
+      ],
+      [
+        "factures-24-fictives.csv",
+        "24 factures fictives — CSV"
+      ]
+    ],
+    "capture": "excel-captures-authentiques.pdf",
+    "sources": [
+      [
+        "SOMME.SI.ENS",
+        "https://support.microsoft.com/fr-fr/excel/functions/sumifs-function"
+      ],
+      [
+        "RECHERCHEX et compatibilité",
+        "https://support.microsoft.com/fr-fr/excel/functions/xlookup-function"
+      ]
+    ],
+    "steps": [
+      [
+        "Préparer une copie de travail",
+        "Téléchargez le classeur puis enregistrez une copie dans un dossier autorisé. Les feuilles Factures et Fournisseurs contiennent seulement des données fictives. Conservez leurs noms : les formules utilisent les noms de tableaux.",
+        "La source comporte 24 identifiants et un total de 7 500 €."
+      ],
+      [
+        "Contrôler les types et les identifiants",
+        "Dans Factures, cliquez une cellule de Montant : la valeur doit être numérique. Vérifiez les dates et l’unicité de Dossier. Dans Fournisseurs, contrôlez Code ; une référence en double rend l’identification ambiguë.",
+        "Une recherche qui renvoie un résultat n’atteste pas l’unicité de la clé."
+      ],
+      [
+        "Additionner plusieurs critères",
+        "Dans Formules, sélectionnez B2 et observez la barre de formule : SUMIFS sur ce poste, SOMME.SI.ENS en français. Le montant est additionné seulement si Service vaut Achats ET Statut vaut À payer.",
+        "B2 doit valoir 1 950, et non 2 500 qui inclurait les factures payées."
+      ],
+      [
+        "Vérifier la portée du calcul",
+        "Filtrez temporairement Factures sur Achats puis À payer. Comparez le nombre de lignes et leur somme au calcul. Retirez ensuite les filtres ; la formule à critères garde son sens indépendamment de cette vue.",
+        "Six lignes correspondent aux deux critères."
+      ],
+      [
+        "Rechercher un fournisseur exact",
+        "Dans Formules B3, XLOOKUP correspond à RECHERCHEX. La clé F003 est cherchée dans Code ; Nom est renvoyé, avec À vérifier si la clé manque. Le mode exact est 0.",
+        "Résultat attendu : Entreprise fictive C. Ne pas masquer un code absent avec zéro."
+      ],
+      [
+        "Traiter les cas absents ou ambigus",
+        "Dans le laboratoire, essayez F999 puis introduisez un doublon de F003. Comparez la correspondance trouvée et le contrôle d’unicité. Sur Excel 2016/2019, étudiez INDEX/EQUIV avec correspondance exacte au lieu de supposer RECHERCHEX disponible.",
+        "L’absence et l’ambiguïté doivent rester visibles avant paiement."
+      ],
+      [
+        "Transmettre une synthèse traçable",
+        "Indiquez le fichier, la feuille, les critères, le montant et la date de contrôle. Faites relire les pièces par la personne habilitée. Le calcul ne vaut ni approbation ni ordre de paiement.",
+        "Conserver la source et la validation humaine."
+      ]
+    ],
+    "checks": [
+      "Montant 1 950 €, six factures Achats à payer.",
+      "Code F003 unique et référence exacte.",
+      "Aucun engagement de paiement déduit d’une formule."
+    ]
+  },
+  {
+    "slug": "tcd-factures",
+    "title": "Synthétiser les factures par service avec un TCD actualisé",
+    "category": "Excel",
+    "kind": "pivot",
+    "minutes": 18,
+    "situation": "Cas fictif : la direction demande un bilan des dépenses par service. Une facture arrive après la première extraction ; une synthèse non actualisée omettrait 100 €.",
+    "outcome": "Une synthèse par service dont le total général rejoint la source ; après ajout de FAC-025 : 7 600 €.",
+    "version": "Excel Microsoft 365 / 2024 bureau ; principe disponible sur le web avec une interface différente. Essai natif : Excel 16.0 build 20625.",
+    "prerequisites": "Source tabulaire sans lignes vides, montants numériques, nom de tableau Factures conservé.",
+    "files": [
+      [
+        "factures-formules-tcd.xlsx",
+        "Classeur avec TCD réel"
+      ],
+      [
+        "factures-24-fictives.csv",
+        "Source CSV indépendante"
+      ]
+    ],
+    "capture": "excel-captures-authentiques.pdf",
+    "sources": [
+      [
+        "Créer un TCD",
+        "https://support.microsoft.com/fr-fr/excel/get-started/create-a-pivottable-to-analyze-worksheet-data"
+      ],
+      [
+        "Calculs et agrégations",
+        "https://support.microsoft.com/fr-fr/excel/calculate-values-in-a-pivottable"
+      ]
+    ],
+    "steps": [
+      [
+        "Vérifier la source",
+        "Ouvrez Factures. Chaque ligne est une facture ; chaque colonne décrit un champ. Vérifiez les en-têtes, les montants numériques et les identifiants. Une cellule fusionnée ou un total intercalé ne doit pas être traité comme une facture.",
+        "La table comprend 24 lignes, total 7 500 €."
+      ],
+      [
+        "Créer un tableau structuré",
+        "Cliquez dans la plage puis Insertion > Tableau si vous repartez du CSV. Confirmez les en-têtes et nommez le tableau Factures. Dans le classeur fourni, cette préparation est déjà faite.",
+        "Une nouvelle ligne ajoutée au tableau fait partie de la source."
+      ],
+      [
+        "Créer la synthèse",
+        "Depuis une cellule de Factures : Insertion > Tableau croisé dynamique, source Factures, Nouvelle feuille. La feuille Synthese du classeur montre le résultat natif déjà préparé.",
+        "Le TCD doit utiliser la bonne source, pas une sélection partielle."
+      ],
+      [
+        "Disposer les champs",
+        "Placez Service en Lignes, Statut en Colonnes et Montant en Valeurs. Déplacez les champs dans le panneau du TCD ; cela ne réorganise pas les lignes du fichier source.",
+        "Trois services et deux états de paiement apparaissent."
+      ],
+      [
+        "Choisir Somme plutôt que Nombre",
+        "Dans Paramètres des champs de valeurs, contrôlez Somme de Montant. Nombre compterait huit factures par service et ne représenterait pas des euros. Si Nombre apparaît par défaut, vérifiez les montants textuels.",
+        "RH 2 300 €, Achats 2 500 €, Support 2 700 €."
+      ],
+      [
+        "Ajouter puis actualiser",
+        "Ajoutez au tableau source FAC-025, service Achats, À payer, montant 100 €. Dans le TCD : clic droit > Actualiser. Le laboratoire sépare explicitement source et instantané pour montrer l’effet de cette action.",
+        "Avant actualisation, le cache peut rester à 7 500 € ; après, total 7 600 €."
+      ],
+      [
+        "Rapprocher et diffuser",
+        "Comparez total du TCD et somme de la source, notez les filtres et la période. Un montant agrégé ne démontre pas pourquoi une dépense a augmenté. Conservez le détail autorisé pour les contrôles.",
+        "Après ajout : Achats 2 600 €, RH 2 300 €, Support 2 700 €."
+      ]
+    ],
+    "checks": [
+      "Somme utilisée, unité € affichée.",
+      "Source entière et actualisation contrôlées.",
+      "Total général rapproché à la source."
+    ]
+  },
+  {
+    "slug": "rapport-word-complexe",
+    "title": "Structurer un rapport Word avec sommaire et annexe en paysage",
+    "category": "Word",
+    "kind": "report",
+    "minutes": 18,
+    "situation": "Cas fictif : un rapport mensuel doit rester lisible, avec des titres cohérents et une annexe large. La direction doit retrouver les sections sans refaire la pagination à la main.",
+    "outcome": "Un DOCX à deux sections, avec styles de titres et champ de table des matières ; annexe en paysage, corps en portrait.",
+    "version": "Word bureau Microsoft 365 / 2024 ; Word pour le web ne propose pas toutes les opérations de section. Version native à contrôler sur votre poste.",
+    "prerequisites": "Copie du modèle fictif ; afficher les marques de mise en forme ; vérifier la charte de l’organisation.",
+    "files": [
+      [
+        "rapport-mensuel-structure.docx",
+        "Modèle Word à personnaliser"
+      ]
+    ],
+    "capture": "word-captures-authentiques.pdf",
+    "sources": [
+      [
+        "Sauts de section",
+        "https://support.microsoft.com/fr-fr/word/insert-a-section-break"
+      ],
+      [
+        "Créer une table des matières",
+        "https://support.microsoft.com/fr-fr/word/training/insert-a-table-of-contents"
+      ]
+    ],
+    "steps": [
+      [
+        "Préparer le plan du rapport",
+        "Ouvrez une copie du DOCX. Distinguez Synthèse, Activité, Risques et Plan d’action. Vérifiez que chiffres et période se rattachent au jeu fictif, sans les transformer en résultats d’une entreprise réelle.",
+        "Le plan est connu avant la mise en forme."
+      ],
+      [
+        "Appliquer les styles",
+        "Sélectionnez un chapitre puis Accueil > Styles > Titre 1. Pour ses sous-parties, utilisez Titre 2. Ne simulez pas un titre avec une taille de police ; vérifiez le volet Navigation.",
+        "Le niveau du titre exprime sa place dans le plan."
+      ],
+      [
+        "Actualiser le sommaire",
+        "Dans Références > Table des matières, choisissez une table automatique. Dans le modèle, un champ TOC est déjà préparé : actualisez toute la table après vos modifications. Le texte des titres et les pages doivent correspondre.",
+        "Une liste de titres tapée à la main ne se met pas à jour seule."
+      ],
+      [
+        "Isoler l’annexe",
+        "Placez le curseur avant l’annexe puis Disposition > Sauts > Saut de section Page suivante. Affichez les marques pour vérifier la rupture. Un simple saut de page n’isole pas la mise en page.",
+        "L’annexe constitue une section distincte."
+      ],
+      [
+        "Changer l’orientation au bon endroit",
+        "Placez le curseur dans la section de l’annexe, puis Disposition > Orientation > Paysage. Contrôlez que le corps précédent reste en portrait. Si tout bascule, annulez et vérifiez le saut de section.",
+        "Le paysage concerne seulement l’annexe."
+      ],
+      [
+        "Contrôler les pieds de page",
+        "Ouvrez le pied de page de chaque section. Vérifiez Lier au précédent et le format des numéros selon le résultat voulu. Ne désactivez pas la liaison sans vérifier les contenus qu’elle séparera.",
+        "La numérotation reste cohérente et ne masque pas une page."
+      ],
+      [
+        "Exporter et relire",
+        "Enregistrez le DOCX, actualisez le sommaire puis exportez un PDF séparé. Ouvrez le PDF et contrôlez pages, orientation, liens et absence de commentaires sensibles. Le modèle seul ne garantit pas une mise en page finale validée.",
+        "Relire le fichier réellement transmis."
+      ]
+    ],
+    "checks": [
+      "Titre 1 puis Titre 2, sans saut de niveau.",
+      "Annexe en section indépendante.",
+      "Sommaire actualisé et PDF final relu."
+    ]
+  },
+  {
+    "slug": "bilan-powerpoint",
+    "title": "Présenter un bilan à la direction en cinq diapositives",
+    "category": "PowerPoint",
+    "kind": "slides",
+    "minutes": 15,
+    "situation": "Cas fictif : cinq minutes de présentation pour expliquer les chiffres du mois, leurs limites et les actions à valider, sans projeter les notes personnelles.",
+    "outcome": "Un PPTX de cinq diapositives, notes orateur séparées et version PDF destinée au public.",
+    "version": "PowerPoint bureau Microsoft 365 / 2024 ; contrôles web et mode Présentateur différents.",
+    "prerequisites": "Chiffres autorisés et vérifiés ; écran de présentation testé ; aucun média tiers dans le fichier fictif.",
+    "files": [
+      [
+        "bilan-direction-5-diapos.pptx",
+        "Présentation PowerPoint native"
+      ],
+      [
+        "bilan-direction-exemple.pdf",
+        "Exemple PDF des diapositives"
+      ]
+    ],
+    "capture": "powerpoint-captures-authentiques.pdf",
+    "sources": [
+      [
+        "Notes du présentateur",
+        "https://support.microsoft.com/fr-fr/powerpoint/training/add-speaker-notes-to-your-slides"
+      ],
+      [
+        "Masque des diapositives et limites sur le web",
+        "https://support.microsoft.com/fr-fr/powerpoint/where-s-the-slide-master"
+      ],
+      [
+        "Présenter le diaporama",
+        "https://support.microsoft.com/fr-fr/powerpoint/present-your-slide-show"
+      ]
+    ],
+    "steps": [
+      [
+        "Définir le message de direction",
+        "Écrivez ce que la direction doit comprendre : volume de factures, répartition, risques et actions. Distinguez une information d’une décision attendue. Ne forcez pas une validation dans une conclusion.",
+        "Un objectif explicite avant de créer les slides."
+      ],
+      [
+        "Ordonnancer les cinq idées",
+        "Préparez Objectif, Chiffres vérifiés, Risques, Actions et Sources. Dans le laboratoire, déplacez les cartes avec les boutons Monter et Descendre ; chaque contrôle est utilisable au clavier.",
+        "Les chiffres précèdent l’analyse et les actions."
+      ],
+      [
+        "Stabiliser la mise en page",
+        "Dans PowerPoint, choisissez une disposition adaptée. Pour une identité commune, Affichage > Masque des diapositives ; modifiez le niveau approprié puis Fermer le mode Masque. Évitez de repositionner chaque titre à la main.",
+        "Les styles communs doivent rester cohérents."
+      ],
+      [
+        "Garder une idée lisible par slide",
+        "Conservez un titre explicite, des caractères lisibles et une unité près des chiffres. Le total de 7 500 € est lié au classeur fictif ; ne le présentez pas comme une donnée réelle d’entreprise.",
+        "Contraste, taille et source sont vérifiés."
+      ],
+      [
+        "Écrire les notes à part",
+        "Ajoutez les précisions dans le volet Notes. Les notes ne sont pas le texte à projeter. Le laboratoire permet de passer à la vue publique pour contrôler ce qui reste visible.",
+        "Les notes orateur sont masquées au public simulé."
+      ],
+      [
+        "Répéter sur les écrans prévus",
+        "Depuis Diaporama, testez le mode Présentateur et la configuration des écrans avant la réunion. Vérifiez l’écran du public, pas seulement le portable. Prévoyez un PDF de repli.",
+        "Les notes ne sont pas projetées par erreur."
+      ],
+      [
+        "Exporter la bonne version",
+        "Enregistrez le PPTX modifiable et un PDF des diapositives. Contrôlez si l’option d’impression ou d’export inclut des pages de notes ; transmettez seulement la version autorisée.",
+        "Support public et document de travail restent distincts."
+      ]
+    ],
+    "checks": [
+      "Cinq idées dans un ordre compréhensible.",
+      "Chiffres sourcés, notes privées vérifiées.",
+      "Export public relu sur l’écran cible."
+    ]
+  },
+  {
+    "slug": "outlook-tri-avance",
+    "title": "Désengorger Outlook sans perdre les messages à traiter",
+    "category": "Outlook",
+    "kind": "inbox",
+    "minutes": 16,
+    "situation": "Cas fictif : l’assistante doit traiter deux demandes aujourd’hui, classer les fournisseurs et conserver la trace des engagements, sans envoyer la boîte mail à une IA.",
+    "outcome": "Une règle limitée à deux messages fournisseurs et deux messages prioritaires signalés ; aucune suppression.",
+    "version": "Outlook classique, nouveau Outlook et web à distinguer. Les variantes restent documentaires : aucune connexion à une boîte réelle pendant cet essai.",
+    "prerequisites": "Droits adaptés à la boîte ; identifier votre version ; tester toute règle sur un périmètre réduit.",
+    "files": [
+      [
+        "messages-fictifs.csv",
+        "Télécharger les six messages fictifs — CSV"
+      ]
+    ],
+    "capture": null,
+    "sources": [
+      [
+        "Règles Outlook",
+        "https://support.microsoft.com/fr-fr/outlook/mail/manage-email-messages-by-using-rules-in-outlook"
+      ],
+      [
+        "Filtres de recherche",
+        "https://support.microsoft.com/fr-fr/outlook/use-outlook-s-built-in-search-filters"
+      ],
+      [
+        "Différences de versions",
+        "https://support.microsoft.com/fr-fr/outlook/getstarted/feature-comparison-between-new-outlook-and-classic-outlook"
+      ]
+    ],
+    "steps": [
+      [
+        "Repérer la version et la boîte",
+        "Identifiez Outlook classique ou nouveau Outlook, le compte concerné et les droits éventuels sur une boîte partagée. Ne supposez pas que les réglages et règles d’un compte s’appliquent à un autre.",
+        "La procédure correspond au bon environnement."
+      ],
+      [
+        "Trier les engagements réels",
+        "Lisez l’objet et les éléments utiles du message. Dans l’exercice, deux demandes imposent une action aujourd’hui ; marquez-les pour suivi. L’étiquette urgent d’un expéditeur ne suffit pas à justifier un paiement ou un partage.",
+        "Les deux engagements sont retrouvables."
+      ],
+      [
+        "Préparer le classement fournisseur",
+        "Créez un dossier Factures si l’organisation l’autorise. Choisissez une condition d’expéditeur précise, plutôt que Tous les messages. Dans le laboratoire, le domaine fournisseurs.example concerne exactement deux messages.",
+        "Le périmètre de la règle est visible avant action."
+      ],
+      [
+        "Créer une règle contrôlée",
+        "Dans Outlook classique, utilisez le parcours Règles depuis Accueil ; dans le nouveau Outlook, vérifiez Paramètres > Courrier > Règles. Choisissez Déplacer dans Factures. Les comptes et droits peuvent limiter ces options.",
+        "Aucune suppression n’est requise dans ce cas."
+      ],
+      [
+        "Tester puis contrôler l’ordre",
+        "Testez sur un petit groupe fictif ou autorisé. Vérifiez les autres règles et l’ordre de traitement ; une règle précédente peut changer le résultat. Les règles serveur et celles exigeant le client ne sont pas interchangeables.",
+        "Les messages restent retrouvables après classement."
+      ],
+      [
+        "Rechercher sans déplacer inutilement",
+        "Utilisez les filtres de recherche, les indicateurs et, lorsque disponibles, un dossier de recherche virtuel. Une vue de recherche n’est pas un déplacement de messages. Vérifiez le dossier et la période parcourus.",
+        "Retrouver les suivis sans diffuser toute la boîte."
+      ],
+      [
+        "Préparer les réponses et rappels",
+        "Vérifiez destinataires, CC/CCI, pièces jointes et échéances avant envoi. Rédigez un brouillon dans l’outil autorisé, relisez et faites valider les engagements sensibles. BureauClair n’envoie aucun message dans cet exercice.",
+        "Aucun accès à votre messagerie n’est nécessaire."
+      ]
+    ],
+    "checks": [
+      "Deux fournisseurs classés et deux priorités signalées.",
+      "Pas de suppression ou d’envoi automatique.",
+      "Droits, version et portée des règles vérifiés."
+    ]
+  }
+]

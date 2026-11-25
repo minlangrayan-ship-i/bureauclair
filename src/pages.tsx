@@ -1,8 +1,10 @@
 import ProfessionalGuide from "./components/ProfessionalGuide";
 import ArticleCaseStudy from "./components/ArticleCaseStudy";
 import { learningTasks } from "./content/learning";
+import businessCases from "./content/businessCases.json";
+const BusinessGuide = lazy(() => import("./components/BusinessGuide"));
 import { asset } from "./lib/asset";
-import { useEffect, useRef, useState } from "react";
+import { lazy, useEffect, useRef, useState } from "react";
 import {
   Link,
   useParams,
@@ -132,6 +134,8 @@ export function Guides() {
                   <option>Tous</option>
                   <option value="4">4 min maximum</option>
                   <option value="6">6 min maximum</option>
+                  <option value="15">15 min maximum</option>
+                  <option value="20">20 min maximum</option>
                 </select>
               </label>
               <label>
@@ -142,6 +146,7 @@ export function Guides() {
                 >
                   <option>Tous</option>
                   <option>Débutant</option>
+                  <option>Intermédiaire</option>
                 </select>
               </label>
               <label>
@@ -231,9 +236,22 @@ export function Detail({ article = false }: { article?: boolean }) {
   const task = !article
     ? learningTasks.find((t) => t.guide === slug)
     : undefined;
-  const sections = task
-    ? ["Le résultat attendu", ...task.steps.map(([title]) => title), "Avant de transmettre"]
-    : Array.from(item.body.matchAll(/^## (.+)$/gm), (x) => x[1]);
+  const business = !article
+    ? businessCases.find((caseStudy) => caseStudy.slug === slug)
+    : undefined;
+  const sections = business
+    ? [
+        "Situation et résultat attendu",
+        ...business.steps.map(([title]) => title),
+        "Avant de transmettre",
+      ]
+    : task
+      ? [
+          "Le résultat attendu",
+          ...task.steps.map(([title]) => title),
+          "Avant de transmettre",
+        ]
+      : Array.from(item.body.matchAll(/^## (.+)$/gm), (x) => x[1]);
   const copyBody = task
     ? `${task.outcome}\n\nPrérequis : ${task.prerequisites}\nCompatibilité : ${task.version}\n\n${task.steps.map(([title, text], i) => `${i + 1}. ${title}\n${text}`).join("\n\n")}\n\nPiège fréquent : ${task.pitfall}\nSource : ${task.source}`
     : item.body.replace(/^#{1,6} /gm, "");
@@ -253,7 +271,9 @@ export function Detail({ article = false }: { article?: boolean }) {
               {new Date(item.updated).toLocaleDateString("fr-FR")}
             </span>
           </div>
-          {!article && !task && <GuideIllustration category={item.category} />}
+          {!article && !task && !business && (
+            <GuideIllustration category={item.category} />
+          )}
           {!article && item.slug === "copier-un-fichier" && (
             <section className="guide-video">
               <h2>Voir le principe en quelques secondes</h2>
@@ -286,13 +306,15 @@ export function Detail({ article = false }: { article?: boolean }) {
               </p>
             </section>
           )}
-          {task ? (
+          {business ? (
+            <BusinessGuide slug={business.slug} />
+          ) : task ? (
             <ProfessionalGuide task={task} />
           ) : (
             <Markdown body={item.body} />
           )}
           {article && <ArticleCaseStudy slug={item.slug} />}
-          {!article && !task && (
+          {!article && !task && !business && (
             <StepChecklist key={item.slug} body={item.body} />
           )}
           {item.shortcuts?.length ? (
@@ -621,7 +643,7 @@ export function Blog() {
       <PageHead
         eyebrow="Le journal · Des repères pour le quotidien"
         title="Un peu de recul. De bonnes idées."
-        description="Des conseils concrets pour travailler avec plus de clarté, sans courir après chaque nouveauté."
+        description={`${articles.length} dossiers dans six rubriques : comprendre l’IA, organiser le travail, sécuriser les échanges et pratiquer. Les dossiers de veille expliquent une méthode ; ils ne sont pas un fil d’actualités automatique.`}
       />
       <section className="section">
         <div className="wrap">
@@ -728,7 +750,8 @@ export function Directory() {
                   <h2>{t.name}</h2>
                   <p>{t.description}</p>
                   <dl>
-                    <dt>Traitement par opération</dt><dd>{t.operations}</dd>
+                    <dt>Traitement par opération</dt>
+                    <dd>{t.operations}</dd>
                     <dt>Compte</dt>
                     <dd>{t.account}</dd>
                     <dt>Coût</dt>

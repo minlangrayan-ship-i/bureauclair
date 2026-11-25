@@ -493,6 +493,99 @@ figcaption {
   min-height: 200px;
   margin: 0;
 }
+.business-guide li a {
+  display: inline-flex;
+  align-items: center;
+  min-height: 32px;
+  padding-block: 4px;
+}
+.business-lab {
+  margin: 28px 0;
+  scroll-margin-top: 95px;
+}
+.business-lab > div > h2 {
+  margin-top: 15px;
+}
+.business-lab select {
+  width: 100%;
+}
+.business-output,
+.slide-preview {
+  padding: 20px;
+  margin: 18px 0;
+  border: 1px solid var(--line);
+  border-radius: 16px;
+  background: var(--soft);
+}
+.check-line {
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+  margin: 14px 0;
+}
+.check-line input {
+  width: auto;
+  flex-shrink: 0;
+  margin-top: 5px;
+}
+.business-output {
+  transition: background-color 160ms ease;
+}
+.step-check {
+  padding-left: 14px;
+  border-left: 3px solid #9675eb;
+}
+.formula-text {
+  display: block;
+  white-space: pre-wrap;
+  overflow-wrap: anywhere;
+  padding: 15px;
+}
+.slide-sequence,
+.inbox-demo {
+  padding: 0;
+  list-style: none;
+}
+.slide-sequence li {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  margin: 8px 0;
+}
+.slide-sequence li > .chip {
+  flex: 1;
+  text-align: left;
+}
+.slide-preview {
+  min-height: 220px;
+  border-top: 5px solid #7351d7;
+}
+.slide-preview h3 {
+  font-size: 27px;
+}
+.inbox-demo li {
+  padding: 12px 0;
+  border-bottom: 1px solid var(--line);
+}
+.inbox-demo span {
+  overflow-wrap: anywhere;
+}
+.lab-feedback {
+  min-height: 3em;
+  margin-top: 14px;
+}
+.resource-actions {
+  margin: 20px 0;
+}
+.business-guide details,
+.business-lab details {
+  margin: 18px 0;
+}
+@media (prefers-reduced-motion: reduce) {
+  .business-output {
+    transition: none;
+  }
+}
 .video-card img {
   width: 100%;
   height: auto;
@@ -1185,16 +1278,74 @@ label {
   color: #d0bbff;
 }
 
-[data-theme=dark] .empty{background:#24202e}[data-theme=dark] .mock-title{color:#292044}[data-theme=dark] .info-layout aside a,[data-theme=dark] .detail-aside a{color:#d0bfff}[data-theme=dark] .footer-bottom{color:#d0c9df}
+[data-theme="dark"] .empty {
+  background: #24202e;
+}
+[data-theme="dark"] .mock-title {
+  color: #292044;
+}
+[data-theme="dark"] .info-layout aside a,
+[data-theme="dark"] .detail-aside a {
+  color: #d0bfff;
+}
+[data-theme="dark"] .footer-bottom {
+  color: #d0c9df;
+}
 
-@media(min-width:1101px){.intro-copy p{font-size:15px;max-width:440px}.software-floats span:nth-child(2){left:15%;right:auto;top:95px}.app-card p{font-size:12px}}
+@media (min-width: 1101px) {
+  .intro-copy p {
+    font-size: 15px;
+    max-width: 440px;
+  }
+  .software-floats span:nth-child(2) {
+    left: 15%;
+    right: auto;
+    top: 95px;
+  }
+  .app-card p {
+    font-size: 12px;
+  }
+}
 
-[data-theme=dark] .footer-grid>div>a:not(.brand),[data-theme=dark] .selects>label,[data-theme=dark] .empty>a{color:#d8cfee}[data-theme=dark] .quiet a,[data-theme=dark] .empty a{text-decoration:underline}
+[data-theme="dark"] .footer-grid > div > a:not(.brand),
+[data-theme="dark"] .selects > label,
+[data-theme="dark"] .empty > a {
+  color: #d8cfee;
+}
+[data-theme="dark"] .quiet a,
+[data-theme="dark"] .empty a {
+  text-decoration: underline;
+}
 
-@media(min-width:1101px){
- .search-home{margin-top:2px}.search-home .search-examples{display:none}
- .home-section .section-head h2{margin:0}.home-v2 .home-section{margin-top:16px}
- .home-feature-grid .panel{padding:18px}.home-feature-grid h2{font-size:24px;margin:12px 0}
- .home-feature-grid p{line-height:1.5;margin:10px 0}.home-feature-grid .prompt-example{margin:14px 0;padding:12px}
- .home-feature-grid .feature-video img{height:155px}
+@media (min-width: 1101px) {
+  .search-home {
+    margin-top: 2px;
+  }
+  .search-home .search-examples {
+    display: none;
+  }
+  .home-section .section-head h2 {
+    margin: 0;
+  }
+  .home-v2 .home-section {
+    margin-top: 16px;
+  }
+  .home-feature-grid .panel {
+    padding: 18px;
+  }
+  .home-feature-grid h2 {
+    font-size: 24px;
+    margin: 12px 0;
+  }
+  .home-feature-grid p {
+    line-height: 1.5;
+    margin: 10px 0;
+  }
+  .home-feature-grid .prompt-example {
+    margin: 14px 0;
+    padding: 12px;
+  }
+  .home-feature-grid .feature-video img {
+    height: 155px;
+  }
 }

@@ -1,0 +1,22 @@
+﻿{
+    "date":  "2026-11-25",
+    "applications":  [
+                         {
+                             "language":  "Interface anglaise installée, noms français expliqués dans le guide",
+                             "name":  "Excel",
+                             "version":  "16.0",
+                             "build":  20625
+                         }
+                     ],
+    "checks":  {
+                   "excel":  {
+                                 "pivotTotal":  7500,
+                                 "sumifs":  1950,
+                                 "total":  7500,
+                                 "countifs":  6,
+                                 "xlookup":  "Entreprise fictive C",
+                                 "formulaLocal":  "=SUMIFS(Factures[Montant];Factures[Service];\"Achats\";Factures[Statut];\"À payer\")",
+                                 "rows":  24
+                             }
+               }
+}

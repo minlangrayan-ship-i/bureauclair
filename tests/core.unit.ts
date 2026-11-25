@@ -43,7 +43,8 @@ describe("Corpus initial et sources", () => {
   it("contient les contenus prévus sans doublons", () => {
     expect(guides.length).toBeGreaterThanOrEqual(15);
     expect(prompts).toHaveLength(20);
-    expect(articles).toHaveLength(6);
+    expect(articles).toHaveLength(14);
+    expect(new Set(articles.map((a) => a.category)).size).toBe(6);
     expect(new Set(guides.map((g) => g.slug)).size).toBe(guides.length);
   });
   it("rend les sources et limites contrôlables", () => {

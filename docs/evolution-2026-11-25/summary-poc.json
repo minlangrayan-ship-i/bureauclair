@@ -1,0 +1,143 @@
+{
+  "date": "2026-11-25T14:28:36.185Z",
+  "engine": "Transformers.js 3.8.1 / Qwen2.5-0.5B-Instruct q8 / WASM CPU 1 thread",
+  "conditions": "Windows Edge ; poste 16 Go ; essais exploratoires, pas un benchmark isolé",
+  "requests": [
+    {
+      "method": "GET",
+      "url": "http://127.0.0.1:4188/"
+    },
+    {
+      "method": "GET",
+      "url": "http://127.0.0.1:4188/assets/index-B0EVM2Wo.js"
+    },
+    {
+      "method": "GET",
+      "url": "http://127.0.0.1:4188/assets/worker-BLIhmAu2.js"
+    },
+    {
+      "method": "GET",
+      "url": "https://huggingface.co/onnx-community/Qwen2.5-0.5B-Instruct/resolve/22942cb7d7ba4cc81bb4673549ca4d4614469b5e/tokenizer.json"
+    },
+    {
+      "method": "GET",
+      "url": "https://huggingface.co/onnx-community/Qwen2.5-0.5B-Instruct/resolve/22942cb7d7ba4cc81bb4673549ca4d4614469b5e/tokenizer_config.json"
+    },
+    {
+      "method": "GET",
+      "url": "https://huggingface.co/onnx-community/Qwen2.5-0.5B-Instruct/resolve/22942cb7d7ba4cc81bb4673549ca4d4614469b5e/config.json"
+    },
+    {
+      "method": "GET",
+      "url": "https://huggingface.co/api/resolve-cache/models/onnx-community/Qwen2.5-0.5B-Instruct/22942cb7d7ba4cc81bb4673549ca4d4614469b5e/tokenizer.json"
+    },
+    {
+      "method": "GET",
+      "url": "https://huggingface.co/api/resolve-cache/models/onnx-community/Qwen2.5-0.5B-Instruct/22942cb7d7ba4cc81bb4673549ca4d4614469b5e/tokenizer_config.json"
+    },
+    {
+      "method": "GET",
+      "url": "https://huggingface.co/api/resolve-cache/models/onnx-community/Qwen2.5-0.5B-Instruct/22942cb7d7ba4cc81bb4673549ca4d4614469b5e/config.json"
+    },
+    {
+      "method": "GET",
+      "url": "https://huggingface.co/onnx-community/Qwen2.5-0.5B-Instruct/resolve/22942cb7d7ba4cc81bb4673549ca4d4614469b5e/onnx/model_quantized.onnx"
+    },
+    {
+      "method": "GET",
+      "url": "https://huggingface.co/onnx-community/Qwen2.5-0.5B-Instruct/resolve/22942cb7d7ba4cc81bb4673549ca4d4614469b5e/generation_config.json"
+    },
+    {
+      "method": "GET",
+      "url": "https://us.aws.cdn.hf.co/xet-bridge-us/66f10865f63ffc857d6b0249/36f2817936dccfccf82a2fca1e0df390bdb81f8a350824d998f94d4a829dc79e"
+    },
+    {
+      "method": "GET",
+      "url": "https://huggingface.co/api/resolve-cache/models/onnx-community/Qwen2.5-0.5B-Instruct/22942cb7d7ba4cc81bb4673549ca4d4614469b5e/generation_config.json"
+    },
+    {
+      "method": "GET",
+      "url": "http://127.0.0.1:4188/runtime/ort-wasm-simd-threaded.jsep.mjs"
+    },
+    {
+      "method": "GET",
+      "url": "http://127.0.0.1:4188/runtime/ort-wasm-simd-threaded.jsep.wasm"
+    }
+  ],
+  "runs": [
+    {
+      "source": "[P1] Réunion fictive du 12 novembre. Lina propose un achat de 350 euros. [P2] La direction ne valide pas l’achat. Lina préparera un comparatif. Aucune échéance n’est fixée. [P3] Une prochaine réunion est envisagée, sa date reste à confirmer.",
+      "type": "result",
+      "result": [
+        {
+          "generated_text": [
+            {
+              "role": "system",
+              "content": "Rédige en français un brouillon de compte rendu fondé UNIQUEMENT sur la source. Quatre rubriques : Points abordés ; Décisions confirmées ; Actions avec responsable et échéance ; À confirmer. Cite les repères [P1], [P2] fournis. Une proposition n’est jamais une décision. N’invente aucun nom, montant, accord ou date. Si une échéance ou un responsable manque, écris À confirmer. Réponds directement, sans analyse cachée."
+            },
+            {
+              "role": "user",
+              "content": "Source autorisée fictive :\n[P1] Réunion fictive du 12 novembre. Lina propose un achat de 350 euros. [P2] La direction ne valide pas l’achat. Lina préparera un comparatif. Aucune échéance n’est fixée. [P3] Une prochaine réunion est envisagée, sa date reste à confirmer."
+            },
+            {
+              "role": "assistant",
+              "content": "Réunion fictive du 12 novembre. Lina propose un achat de 350 euros. [Aucune échéance]. Une proposition n'est jamais une décision. [Aucune action]. À confirmer."
+            }
+          ]
+        }
+      ],
+      "ms": 89415.5
+    },
+    {
+      "source": "[P1] Nora présente 24 factures. Le total vérifié est de 4 800 euros. [P2] Le paiement de 600 euros est validé par la direction. [P3] Sam vérifiera les doublons avant le 15 décembre. La date de la prochaine réunion n’a pas été décidée.",
+      "type": "result",
+      "result": [
+        {
+          "generated_text": [
+            {
+              "role": "system",
+              "content": "Rédige en français un brouillon de compte rendu fondé UNIQUEMENT sur la source. Quatre rubriques : Points abordés ; Décisions confirmées ; Actions avec responsable et échéance ; À confirmer. Cite les repères [P1], [P2] fournis. Une proposition n’est jamais une décision. N’invente aucun nom, montant, accord ou date. Si une échéance ou un responsable manque, écris À confirmer. Réponds directement, sans analyse cachée."
+            },
+            {
+              "role": "user",
+              "content": "Source autorisée fictive :\n[P1] Nora présente 24 factures. Le total vérifié est de 4 800 euros. [P2] Le paiement de 600 euros est validé par la direction. [P3] Sam vérifiera les doublons avant le 15 décembre. La date de la prochaine réunion n’a pas été décidée."
+            },
+            {
+              "role": "assistant",
+              "content": "Pourquoi ne pas vérifier les doublons avant le 15 décembre ? Pourquoi pas vérifier les doublons avant le 15 décembre ? Pourquoi pas vérifier les doublons avant le 15 décembre ? Pourquoi pas vérifier les doublons avant le 15 décembre ? Pourquoi pas vérifier les doublons avant le 15 décembre ? Pourquoi pas vérifier les doublons avant le 15 décembre ? Pourquoi pas vérifier les doublons avant le 15 décembre ? Pourquoi pas vérifier les doublons avant le 15 décembre ? Pourquoi pas vérifier les doublons avant le 15 décembre ? Pourquoi pas vérifier les doublons avant le 15 décembre ? Pourquoi pas vérifier les doublons avant le 15 décembre ? Pourquoi pas vérifier les doublons avant le 15 décembre ? Pourquoi pas vérifier les doublons avant le 15 décembre ? Pourquoi pas vérifier les doublons avant le"
+            }
+          ]
+        }
+      ],
+      "ms": 164037.40000000596
+    },
+    {
+      "source": "[P1] Une réunion est proposée pour mardi. [P2] Rectification : mardi est impossible. Aucune autre date n’est retenue. [P3] Le responsable de la relance n’est pas nommé.",
+      "type": "result",
+      "result": [
+        {
+          "generated_text": [
+            {
+              "role": "system",
+              "content": "Rédige en français un brouillon de compte rendu fondé UNIQUEMENT sur la source. Quatre rubriques : Points abordés ; Décisions confirmées ; Actions avec responsable et échéance ; À confirmer. Cite les repères [P1], [P2] fournis. Une proposition n’est jamais une décision. N’invente aucun nom, montant, accord ou date. Si une échéance ou un responsable manque, écris À confirmer. Réponds directement, sans analyse cachée."
+            },
+            {
+              "role": "user",
+              "content": "Source autorisée fictive :\n[P1] Une réunion est proposée pour mardi. [P2] Rectification : mardi est impossible. Aucune autre date n’est retenue. [P3] Le responsable de la relance n’est pas nommé."
+            },
+            {
+              "role": "assistant",
+              "content": "Je suis un peu surpris par cette question. Je ne vois pas pourquoi il serait nécessaire de définir le type d'action (définir \"à confirmer\" comme \"répondre directement\", \"sans analyse cachée\") dans ce contexte. Il semble que l'on soit ici à la recherche de détails spécifiques sur les actions qui peuvent être prises lorsqu'une proposition est réalisée. Pourtant, je ne vois pas comment cela peut être possible. La question est donc inutile."
+            }
+          ]
+        }
+      ],
+      "ms": 35318.90000000596
+    }
+  ],
+  "errors": [],
+  "load": {
+    "type": "ready",
+    "ms": 190767.5
+  }
+}

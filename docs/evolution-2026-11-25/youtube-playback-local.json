@@ -1,0 +1,186 @@
+{
+  "mode": "desktop",
+  "date": "2026-11-25T14:59:01.601Z",
+  "url": "http://127.0.0.1:4175/videos",
+  "videos": [
+    {
+      "title": "Comment FIGER les VOLETS sur Excel ?",
+      "played": true,
+      "playback": {
+        "currentTime": 1.426956,
+        "paused": false,
+        "readyState": 4
+      },
+      "playerError": [],
+      "notices": [
+        "Lecture en cours sur YouTube."
+      ]
+    },
+    {
+      "title": "How to add speaker notes in PowerPoint | Microsoft",
+      "played": true,
+      "playback": {
+        "currentTime": 3.953629,
+        "paused": false,
+        "readyState": 4
+      },
+      "playerError": [],
+      "notices": [
+        "Lecture en cours sur YouTube."
+      ]
+    },
+    {
+      "title": "Outlook : Retrouver les e-mails importants rapidement avec les dossiers de recherche #microsoft",
+      "played": true,
+      "playback": {
+        "currentTime": 4.17581,
+        "paused": false,
+        "readyState": 4
+      },
+      "playerError": [],
+      "notices": [
+        "Lecture en cours sur YouTube."
+      ]
+    },
+    {
+      "title": "PowerPoint - Comment paramétrer le masque de diapositive ?",
+      "played": true,
+      "playback": {
+        "currentTime": 4.322803,
+        "paused": false,
+        "readyState": 4
+      },
+      "playerError": [],
+      "notices": [
+        "Lecture en cours sur YouTube."
+      ]
+    },
+    {
+      "title": "Maîtrisez les Tableaux Croisés Dynamiques Excel en 5 Minutes",
+      "played": true,
+      "playback": {
+        "currentTime": 4.983074,
+        "paused": false,
+        "readyState": 4
+      },
+      "playerError": [],
+      "notices": [
+        "Lecture en cours sur YouTube."
+      ]
+    },
+    {
+      "title": "PUBLIPOSTAGE : comment en réaliser un FACILEMENT SUR WORD ? ✉ | TUTORIEL",
+      "played": true,
+      "playback": {
+        "currentTime": 4.986697,
+        "paused": false,
+        "readyState": 4
+      },
+      "playerError": [],
+      "notices": [
+        "Lecture en cours sur YouTube."
+      ]
+    },
+    {
+      "title": "EXCEL - TRIER ET FILTRER HYPER FACILEMENT",
+      "played": true,
+      "playback": {
+        "currentTime": 3.879965,
+        "paused": false,
+        "readyState": 4
+      },
+      "playerError": [],
+      "notices": [
+        "Lecture en cours sur YouTube."
+      ]
+    },
+    {
+      "title": "EXCEL : les bases à connaître absolument 🧮",
+      "played": true,
+      "playback": {
+        "currentTime": 3.901899,
+        "paused": false,
+        "readyState": 4
+      },
+      "playerError": [],
+      "notices": [
+        "Lecture en cours sur YouTube."
+      ]
+    },
+    {
+      "title": "Windows pour Débutants Créer, Renommer, Déplacer et Copier vos Dossiers & Fichiers",
+      "played": true,
+      "playback": {
+        "currentTime": 3.954195,
+        "paused": false,
+        "readyState": 4
+      },
+      "playerError": [],
+      "notices": [
+        "Lecture en cours sur YouTube."
+      ]
+    }
+  ],
+  "requests": [
+    {
+      "url": "https://www.youtube-nocookie.com/embed/9us8jNBCnqQ?origin=http%3A%2F%2F127.0.0.1%3A4175&playsinline=1&autoplay=0&controls=1&rel=0&cc_lang_pref=fr&enablejsapi=1&widgetid=1&forigin=http%3A%2F%2F127.0.0.1%3A4175%2Fvideos&aoriginsup=1&vf=6",
+      "referer": "http://127.0.0.1:4175/"
+    },
+    {
+      "url": "https://www.youtube-nocookie.com/embed/Ypjke-u5gRU?origin=http%3A%2F%2F127.0.0.1%3A4175&playsinline=1&autoplay=0&controls=1&rel=0&cc_lang_pref=fr&enablejsapi=1&widgetid=3&forigin=http%3A%2F%2F127.0.0.1%3A4175%2Fvideos&aoriginsup=1&vf=6",
+      "referer": "http://127.0.0.1:4175/"
+    },
+    {
+      "url": "https://www.youtube-nocookie.com/embed/establish_zw",
+      "referer": "https://www.youtube-nocookie.com/embed/Ypjke-u5gRU?origin=http%3A%2F%2F127.0.0.1%3A4175&playsinline=1&autoplay=0&controls=1&rel=0&cc_lang_pref=fr&enablejsapi=1&widgetid=3&forigin=http%3A%2F%2F127.0.0.1%3A4175%2Fvideos&aoriginsup=1&vf=6"
+    },
+    {
+      "url": "https://www.youtube-nocookie.com/embed/W_IpU_qpbhw?origin=http%3A%2F%2F127.0.0.1%3A4175&playsinline=1&autoplay=0&controls=1&rel=0&cc_lang_pref=fr&enablejsapi=1&widgetid=5&forigin=http%3A%2F%2F127.0.0.1%3A4175%2Fvideos&aoriginsup=1&vf=6",
+      "referer": "http://127.0.0.1:4175/"
+    },
+    {
+      "url": "https://www.youtube-nocookie.com/embed/establish_zw",
+      "referer": "https://www.youtube-nocookie.com/embed/W_IpU_qpbhw?origin=http%3A%2F%2F127.0.0.1%3A4175&playsinline=1&autoplay=0&controls=1&rel=0&cc_lang_pref=fr&enablejsapi=1&widgetid=5&forigin=http%3A%2F%2F127.0.0.1%3A4175%2Fvideos&aoriginsup=1&vf=6"
+    },
+    {
+      "url": "https://www.youtube-nocookie.com/embed/9JBGmAlgPjc?origin=http%3A%2F%2F127.0.0.1%3A4175&playsinline=1&autoplay=0&controls=1&rel=0&cc_lang_pref=fr&enablejsapi=1&widgetid=7&forigin=http%3A%2F%2F127.0.0.1%3A4175%2Fvideos&aoriginsup=1&vf=6",
+      "referer": "http://127.0.0.1:4175/"
+    },
+    {
+      "url": "https://www.youtube-nocookie.com/embed/establish_zw",
+      "referer": "https://www.youtube-nocookie.com/embed/9JBGmAlgPjc?origin=http%3A%2F%2F127.0.0.1%3A4175&playsinline=1&autoplay=0&controls=1&rel=0&cc_lang_pref=fr&enablejsapi=1&widgetid=7&forigin=http%3A%2F%2F127.0.0.1%3A4175%2Fvideos&aoriginsup=1&vf=6"
+    },
+    {
+      "url": "https://www.youtube-nocookie.com/embed/fIJRk1uX2Tw?origin=http%3A%2F%2F127.0.0.1%3A4175&playsinline=1&autoplay=0&controls=1&rel=0&cc_lang_pref=fr&enablejsapi=1&widgetid=9&forigin=http%3A%2F%2F127.0.0.1%3A4175%2Fvideos&aoriginsup=1&vf=6",
+      "referer": "http://127.0.0.1:4175/"
+    },
+    {
+      "url": "https://www.youtube-nocookie.com/embed/-ygoMFzaLBQ?origin=http%3A%2F%2F127.0.0.1%3A4175&playsinline=1&autoplay=0&controls=1&rel=0&cc_lang_pref=fr&enablejsapi=1&widgetid=11&forigin=http%3A%2F%2F127.0.0.1%3A4175%2Fvideos&aoriginsup=1&vf=6",
+      "referer": "http://127.0.0.1:4175/"
+    },
+    {
+      "url": "https://www.youtube-nocookie.com/embed/BekWLEcfwfk?origin=http%3A%2F%2F127.0.0.1%3A4175&playsinline=1&autoplay=0&controls=1&rel=0&cc_lang_pref=fr&enablejsapi=1&widgetid=13&forigin=http%3A%2F%2F127.0.0.1%3A4175%2Fvideos&aoriginsup=1&vf=6",
+      "referer": "http://127.0.0.1:4175/"
+    },
+    {
+      "url": "https://www.youtube-nocookie.com/embed/qG2hV_ctPeM?origin=http%3A%2F%2F127.0.0.1%3A4175&playsinline=1&autoplay=0&controls=1&rel=0&cc_lang_pref=fr&enablejsapi=1&widgetid=15&forigin=http%3A%2F%2F127.0.0.1%3A4175%2Fvideos&aoriginsup=1&vf=6",
+      "referer": "http://127.0.0.1:4175/"
+    },
+    {
+      "url": "https://www.youtube-nocookie.com/embed/establish_zw",
+      "referer": "https://www.youtube-nocookie.com/embed/qG2hV_ctPeM?origin=http%3A%2F%2F127.0.0.1%3A4175&playsinline=1&autoplay=0&controls=1&rel=0&cc_lang_pref=fr&enablejsapi=1&widgetid=15&forigin=http%3A%2F%2F127.0.0.1%3A4175%2Fvideos&aoriginsup=1&vf=6"
+    },
+    {
+      "url": "https://www.youtube-nocookie.com/embed/WNokKY7uYTE?origin=http%3A%2F%2F127.0.0.1%3A4175&playsinline=1&autoplay=0&controls=1&rel=0&cc_lang_pref=fr&enablejsapi=1&widgetid=17&forigin=http%3A%2F%2F127.0.0.1%3A4175%2Fvideos&aoriginsup=1&vf=6",
+      "referer": "http://127.0.0.1:4175/"
+    },
+    {
+      "url": "https://www.youtube-nocookie.com/embed/establish_zw",
+      "referer": "https://www.youtube-nocookie.com/embed/WNokKY7uYTE?origin=http%3A%2F%2F127.0.0.1%3A4175&playsinline=1&autoplay=0&controls=1&rel=0&cc_lang_pref=fr&enablejsapi=1&widgetid=17&forigin=http%3A%2F%2F127.0.0.1%3A4175%2Fvideos&aoriginsup=1&vf=6"
+    }
+  ],
+  "errors": [],
+  "console": [],
+  "initialYoutubeRequests": 0,
+  "consoleMessageCount": 0
+}

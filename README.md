@@ -10,7 +10,17 @@ Le mode `youtube-nocookie.com` réduit certains usages de cookies sans garantir 
 
 > Version corrective V2/V3 — 25 novembre 2026. Branche `refonte/v2-pedagogie`. État de recette courant : [docs/RECETTE_V2.md](docs/RECETTE_V2.md). Le rapport `docs/VERIFICATION.md` décrit la V1 et ne constitue pas le résultat des nouveaux tests.
 
-## Ajouts V2/V3
+## Évolution métier — 25 novembre 2026
+
+L’application existante est conservée. Les cinq cas intermédiaires ajoutés portent sur les formules multi-critères et RECHERCHEX, les tableaux croisés dynamiques, le rapport Word structuré, le bilan PowerPoint et le tri Outlook. Chaque cas comprend sept étapes contrôlables, un laboratoire interactif avec correction/remise à zéro et des fichiers fictifs téléchargeables. Le catalogue compte désormais 23 guides et 14 dossiers éditoriaux dans six rubriques.
+
+Les captures authentiques Excel, Word et PowerPoint sont fournies en PDF documentaire séparé ; les contrôles du site sont des simulations explicitement identifiées. Excel et PowerPoint ont été manipulés dans les applications installées. Word : ouverture et structure du modèle vérifiées, actualisation native du sommaire à valider. Outlook : aucune boîte réelle connectée.
+
+La vidéothèque conserve les cinq références précédentes et ajoute quatre formats ciblés de 42 à 359 secondes. Par défaut : français et moins de huit minutes, tri croissant ; filtres de logiciel, langue et durée. L’intégration officielle YouTube, le consentement et les replis restent en place. Visionnage intégral et variantes logicielles encore à valider.
+
+L’[étude de génération locale](docs/evolution-2026-11-25/STUDIO_ETUDE.md) a produit trois résultats non acceptables. Le moteur expérimental reste isolé et n’est pas activé dans le studio public. Aucun téléchargement automatique du modèle de compte rendu.
+
+## Historique des ajouts V2/V3
 
 - Recherche locale tolérant pluriels, alias et une faute courante ; retour du guide vers les critères conservés.
 - Studio : confirmation de navigation/effacement, notes seules protégées, copie des notes, nom DOCX adapté, repères audio cliquables et prélecture de durée.

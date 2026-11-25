@@ -1,7 +1,8 @@
 import { useEffect, useState } from "react";
 import { Play, ExternalLink, WifiOff } from "lucide-react";
 import type { VideoRecord } from "../content/videos";
-import YouTubePlayer from './YouTubePlayer';
+import YouTubePlayer from "./YouTubePlayer";
+import { Link } from "react-router-dom";
 export default function VideoTutoriel({ video }: { video: VideoRecord }) {
   const [online, setOnline] = useState(navigator.onLine),
     [consent, setConsent] = useState(false),
@@ -17,8 +18,15 @@ export default function VideoTutoriel({ video }: { video: VideoRecord }) {
     };
   }, []);
   return (
-    <article className="panel video-card">
+    <article className="panel video-card" data-video-id={video.id}>
       <span className="tag">YouTube · {video.category}</span>
+      <span className="tag">
+        {video.duration <= 180
+          ? "Micro-tutoriel"
+          : video.duration <= 480
+            ? "Format court"
+            : "Pour approfondir"}
+      </span>
       <h2>{video.title}</h2>
       <p>
         {video.author} · {Math.floor(video.duration / 60)}:
@@ -122,6 +130,13 @@ export default function VideoTutoriel({ video }: { video: VideoRecord }) {
         Autorisation technique d’intégration observée le jour du contrôle ; elle
         peut changer. {video.passages}
       </p>
+      {video.guide && (
+        <p>
+          <Link className="text-link" to={video.guide}>
+            Guide français et exercice associés →
+          </Link>
+        </p>
+      )}
     </article>
   );
 }

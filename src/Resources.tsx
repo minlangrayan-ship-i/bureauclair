@@ -5,6 +5,7 @@ import PracticeLab from "./components/PracticeLab";
 import { shortcuts } from "./content/shortcuts";
 import { learningTasks } from "./content/learning";
 import { asset } from "./lib/asset";
+import businessCases from "./content/businessCases.json";
 export function Shortcuts() {
   const [app, setApp] = useState("Tous"),
     [family, setFamily] = useState("Toutes"),
@@ -192,9 +193,25 @@ export function Exercises() {
       <PageHead
         eyebrow="S’entraîner · laboratoire local"
         title="Essayez. Vérifiez. Recommencez."
-        description="Six tâches prioritaires et un exercice de publipostage. Toutes les données sont fictives ; aucun contrôle de vos logiciels installés."
+        description="Des manipulations d’initiation et cinq laboratoires métier : formules, TCD, rapport, présentation et boîte mail. Données fictives ; aucun contrôle de vos logiciels installés."
       />
       <div className="wrap section">
+        <h2>Approfondir un cas de travail</h2>
+        <div className="grid three">
+          {businessCases.map((item) => (
+            <Link
+              className="panel"
+              key={item.slug}
+              to={`/guides/${item.slug}#exercice`}
+            >
+              <span className="tag">{item.category} · Intermédiaire</span>
+              <h3>{item.title}</h3>
+              <p>{item.outcome}</p>
+              <span className="text-link">Ouvrir le laboratoire →</span>
+            </Link>
+          ))}
+        </div>
+        <h2>Reprendre les gestes essentiels</h2>
         <div className="grid three">
           {learningTasks.map((t) => (
             <Link

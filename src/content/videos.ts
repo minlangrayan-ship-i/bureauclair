@@ -1,3 +1,4 @@
+import shortVideos from "./shortVideos.json";
 export interface VideoRecord {
   id: string;
   title: string;
@@ -10,8 +11,10 @@ export interface VideoRecord {
   embedAllowed: boolean;
   review: string;
   passages: string;
+  guide?: string;
+  task?: string;
 }
-export const videos: VideoRecord[] = [
+const initialVideos: VideoRecord[] = [
   {
     id: "BekWLEcfwfk",
     title: "EXCEL - TRIER ET FILTRER HYPER FACILEMENT",
@@ -85,3 +88,4 @@ export const videos: VideoRecord[] = [
       "Passages à valider dans le lecteur ; texte et exercice restent disponibles.",
   },
 ];
+export const videos: VideoRecord[] = [...initialVideos, ...shortVideos];

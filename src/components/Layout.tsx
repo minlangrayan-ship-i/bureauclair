@@ -142,7 +142,7 @@ export default function Layout() {
             <NavLink to="/raccourcis" className="mobile-extra">
               Raccourcis
             </NavLink>
-            <NavLink to="/videos" className="mobile-extra">
+            <NavLink to="/videos">
               Vidéos
             </NavLink>
             <NavLink to="/competences" className="mobile-extra">

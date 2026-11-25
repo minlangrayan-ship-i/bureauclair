@@ -1,5 +1,13 @@
 # BureauClair — décisions V2/V3, 25 novembre 2026
 
+## Évolution autorisée : publication et lecteur YouTube
+
+Après la recette locale, le propriétaire a autorisé GitHub Pages et confirmé que les vidéos doivent être lisibles dans BureauClair. Le nouveau `YouTubePlayer.tsx` utilise l’IFrame Player API officielle ; son script est dédoublonné par `lib/youtube.ts`, chargé après action explicite, sans clé secrète. L’hôte du lecteur reste `youtube-nocookie.com`. L’API signale chargement, lecture, pause et erreurs (dont 100, 101/150 et 153), sans prétendre que `onReady` prouve une lecture effective. Nouvelle tentative et lien YouTube sont conservés.
+
+Le `origin` du lecteur est calculé depuis la page HTTPS courante. La politique de référent passe à `strict-origin-when-cross-origin` : l’identité du site peut être transmise à YouTube, sans les chemins ou critères lors d’une requête externe. C’est nécessaire à l’identification du client, notamment pour éviter l’erreur 153. La CSP autorise uniquement `www.youtube.com` en supplément pour le script officiel ; aucun domaine publicitaire ajouté. Le lecteur conserve une hauteur minimale de 200 px sur mobile.
+
+Les coordonnées publiques déjà fournies par le propriétaire sont utilisées pour l’éditeur et son email. Le workflow configure GitHub Pages comme hébergeur. Aucune base de données ou collecte de fichiers ajoutée. Le premier tableau de recette reste un historique de la livraison locale ; les contrôles de publication sont consignés séparément.
+
 ## Périmètre et restauration
 
 Projet existant conservé. Branche `refonte/v2-pedagogie`, point de restauration `sauvegarde-avant-refonte-v2-20261125`, commit `e2e985b`. Les 17 guides, 20 prompts, six articles et six outils initiaux sont préservés ; un dix-huitième guide traite la transcription et le compte rendu. Le PDF d’audit V1 reste inchangé. Le fichier demandé contient à la fois V2 et complément V3 : les deux ont été lus. Inventaire avant : `docs/audit-guide-2026-11-24/inventaire.json` ; captures avant : `docs/v2/avant-*.png`.

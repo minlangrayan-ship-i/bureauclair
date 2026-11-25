@@ -1,5 +1,13 @@
 # BureauClair
 
+> Publication GitHub Pages autorisée par le propriétaire le 25 novembre 2026. Dépôt : https://github.com/minlangrayan-ship-i/bureauclair. Le rapport de refonte ci-dessous décrit l’état avant publication ; le suivi de mise en ligne sera consigné dans `docs/PUBLICATION.md`.
+
+## Lecture YouTube sur la plateforme
+
+La page `/videos` utilise le lecteur officiel et l’IFrame Player API YouTube, sans clé API ni copie des vidéos. Après autorisation de l’aperçu, choisir « Lire ici » ouvre le lecteur dans la page. Sous-titres, pause, volume et plein écran sont gérés par YouTube. Le script API est chargé une seule fois, à la demande. Les erreurs de lecture sont annoncées, avec nouvelle tentative et lien externe.
+
+Le mode `youtube-nocookie.com` réduit certains usages de cookies sans garantir une absence de traitement de données par Google. Le thème et les caches sont locaux ; aucune base de données applicative ne reçoit les fichiers audio ou textes. GitHub Pages conserve ses propres journaux techniques.
+
 > Version corrective V2/V3 — 25 novembre 2026. Branche `refonte/v2-pedagogie`. État de recette courant : [docs/RECETTE_V2.md](docs/RECETTE_V2.md). Le rapport `docs/VERIFICATION.md` décrit la V1 et ne constitue pas le résultat des nouveaux tests.
 
 ## Ajouts V2/V3

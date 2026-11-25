@@ -1,0 +1,116 @@
+{
+  "date": "2026-11-25T12:17:30.307Z",
+  "url": "http://127.0.0.1:4175/videos",
+  "videos": [
+    {
+      "title": "EXCEL - TRIER ET FILTRER HYPER FACILEMENT",
+      "played": true,
+      "playback": {
+        "currentTime": 3.616035,
+        "paused": false,
+        "readyState": 4
+      },
+      "notices": [
+        "Lecture en cours sur YouTube."
+      ]
+    },
+    {
+      "title": "Windows pour Débutants Créer, Renommer, Déplacer et Copier vos Dossiers & Fichiers",
+      "played": true,
+      "playback": {
+        "currentTime": 3.913478,
+        "paused": false,
+        "readyState": 4
+      },
+      "notices": [
+        "Lecture en cours sur YouTube."
+      ]
+    },
+    {
+      "title": "PUBLIPOSTAGE : comment en réaliser un FACILEMENT SUR WORD ? ✉ | TUTORIEL",
+      "played": true,
+      "playback": {
+        "currentTime": 4.226073,
+        "paused": false,
+        "readyState": 4
+      },
+      "notices": [
+        "Lecture en cours sur YouTube."
+      ]
+    },
+    {
+      "title": "EXCEL : les bases à connaître absolument 🧮",
+      "played": true,
+      "playback": {
+        "currentTime": 4.377998,
+        "paused": false,
+        "readyState": 4
+      },
+      "notices": [
+        "Lecture en cours sur YouTube."
+      ]
+    },
+    {
+      "title": "Comment FIGER les VOLETS sur Excel ?",
+      "played": true,
+      "playback": {
+        "currentTime": 4.992859,
+        "paused": false,
+        "readyState": 4
+      },
+      "notices": [
+        "Lecture en cours sur YouTube."
+      ]
+    }
+  ],
+  "requests": [
+    {
+      "url": "https://www.youtube-nocookie.com/embed/BekWLEcfwfk?origin=http%3A%2F%2F127.0.0.1%3A4175&playsinline=1&autoplay=0&controls=1&rel=0&cc_lang_pref=fr&enablejsapi=1&widgetid=1&forigin=http%3A%2F%2F127.0.0.1%3A4175%2Fvideos&aoriginsup=1&vf=6",
+      "referer": "http://127.0.0.1:4175/"
+    },
+    {
+      "url": "https://www.youtube-nocookie.com/embed/establish_zw",
+      "referer": "https://www.youtube-nocookie.com/embed/BekWLEcfwfk?origin=http%3A%2F%2F127.0.0.1%3A4175&playsinline=1&autoplay=0&controls=1&rel=0&cc_lang_pref=fr&enablejsapi=1&widgetid=1&forigin=http%3A%2F%2F127.0.0.1%3A4175%2Fvideos&aoriginsup=1&vf=6"
+    },
+    {
+      "url": "https://www.youtube-nocookie.com/embed/WNokKY7uYTE?origin=http%3A%2F%2F127.0.0.1%3A4175&playsinline=1&autoplay=0&controls=1&rel=0&cc_lang_pref=fr&enablejsapi=1&widgetid=3&forigin=http%3A%2F%2F127.0.0.1%3A4175%2Fvideos&aoriginsup=1&vf=6",
+      "referer": "http://127.0.0.1:4175/"
+    },
+    {
+      "url": "https://www.youtube-nocookie.com/embed/establish_zw",
+      "referer": "https://www.youtube-nocookie.com/embed/WNokKY7uYTE?origin=http%3A%2F%2F127.0.0.1%3A4175&playsinline=1&autoplay=0&controls=1&rel=0&cc_lang_pref=fr&enablejsapi=1&widgetid=3&forigin=http%3A%2F%2F127.0.0.1%3A4175%2Fvideos&aoriginsup=1&vf=6"
+    },
+    {
+      "url": "https://www.youtube-nocookie.com/embed/-ygoMFzaLBQ?origin=http%3A%2F%2F127.0.0.1%3A4175&playsinline=1&autoplay=0&controls=1&rel=0&cc_lang_pref=fr&enablejsapi=1&widgetid=5&forigin=http%3A%2F%2F127.0.0.1%3A4175%2Fvideos&aoriginsup=1&vf=6",
+      "referer": "http://127.0.0.1:4175/"
+    },
+    {
+      "url": "https://www.youtube-nocookie.com/embed/establish_zw",
+      "referer": "https://www.youtube-nocookie.com/embed/-ygoMFzaLBQ?origin=http%3A%2F%2F127.0.0.1%3A4175&playsinline=1&autoplay=0&controls=1&rel=0&cc_lang_pref=fr&enablejsapi=1&widgetid=5&forigin=http%3A%2F%2F127.0.0.1%3A4175%2Fvideos&aoriginsup=1&vf=6"
+    },
+    {
+      "url": "https://www.youtube-nocookie.com/embed/qG2hV_ctPeM?origin=http%3A%2F%2F127.0.0.1%3A4175&playsinline=1&autoplay=0&controls=1&rel=0&cc_lang_pref=fr&enablejsapi=1&widgetid=7&forigin=http%3A%2F%2F127.0.0.1%3A4175%2Fvideos&aoriginsup=1&vf=6",
+      "referer": "http://127.0.0.1:4175/"
+    },
+    {
+      "url": "https://www.youtube-nocookie.com/embed/establish_zw",
+      "referer": "https://www.youtube-nocookie.com/embed/qG2hV_ctPeM?origin=http%3A%2F%2F127.0.0.1%3A4175&playsinline=1&autoplay=0&controls=1&rel=0&cc_lang_pref=fr&enablejsapi=1&widgetid=7&forigin=http%3A%2F%2F127.0.0.1%3A4175%2Fvideos&aoriginsup=1&vf=6"
+    },
+    {
+      "url": "https://www.youtube-nocookie.com/embed/9us8jNBCnqQ?origin=http%3A%2F%2F127.0.0.1%3A4175&playsinline=1&autoplay=0&controls=1&rel=0&cc_lang_pref=fr&enablejsapi=1&widgetid=9&forigin=http%3A%2F%2F127.0.0.1%3A4175%2Fvideos&aoriginsup=1&vf=6",
+      "referer": "http://127.0.0.1:4175/"
+    },
+    {
+      "url": "https://www.youtube-nocookie.com/embed/establish_zw",
+      "referer": "https://www.youtube-nocookie.com/embed/9us8jNBCnqQ?origin=http%3A%2F%2F127.0.0.1%3A4175&playsinline=1&autoplay=0&controls=1&rel=0&cc_lang_pref=fr&enablejsapi=1&widgetid=9&forigin=http%3A%2F%2F127.0.0.1%3A4175%2Fvideos&aoriginsup=1&vf=6"
+    }
+  ],
+  "errors": [],
+  "console": [
+    "Permissions policy violation: compute-pressure is not allowed in this document.",
+    "Permissions policy violation: compute-pressure is not allowed in this document.",
+    "Permissions policy violation: compute-pressure is not allowed in this document.",
+    "Permissions policy violation: compute-pressure is not allowed in this document."
+  ],
+  "initialYoutubeRequests": 0
+}

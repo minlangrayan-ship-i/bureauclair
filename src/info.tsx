@@ -31,8 +31,8 @@ const pages: Record<
         "Les liens externes s’ouvrent uniquement à votre demande. Aucune vidéo YouTube, police externe ou pixel publicitaire n’est chargé automatiquement. Les aperçus YouTube et lecteurs youtube-nocookie sont chargés après votre action explicite ; cela transmet notamment votre IP et ne garantit pas zéro suivi. Les vidéos repérées n’ont pas toutes été intégralement visionnées. La démonstration pédagogique fournie est hébergée avec le site et comporte une piste de sous-titres. Les illustrations et icônes de l’interface sont servies localement.",
       ],
       [
-        "Avant une mise en ligne publique",
-        "L’opérateur devra renseigner ses mentions légales, son contact, l’hébergeur et la conservation des journaux techniques. Ce projet local n’annonce ni certification RGPD ni audit de sécurité complet. Avant un enregistrement, informez les personnes concernées et appliquez les règles de votre organisation.",
+        "Hébergement et journaux techniques",
+        "BureauClair ne possède pas de base de données ni de compte utilisateur. L’hébergement GitHub Pages peut conserver l’adresse IP et des journaux techniques de visite pour la sécurité, selon sa politique de confidentialité. YouTube et les fournisseurs du modèle ont leurs propres traitements lorsque vous sollicitez leurs services. Aucun délai de conservation de leurs journaux n’est garanti par BureauClair. Avant un enregistrement, informez les personnes concernées et appliquez les règles de votre organisation. Aucune certification RGPD ou audit de sécurité complet n’est revendiqué.",
       ],
     ],
   },
@@ -55,7 +55,7 @@ const pages: Record<
       ],
       [
         "État des vérifications",
-        "L’objectif est WCAG 2.2 AA. Les contrôles automatisés et parcours clavier réalisés sont consignés dans docs/VERIFICATION.md. Un audit complet avec lecteurs d’écran et des tests avec des personnes concernées restent nécessaires.",
+        "L’objectif est WCAG 2.2 AA. Les contrôles automatisés et parcours clavier réalisés sont consignés dans docs/RECETTE_V2.md. Un audit complet avec lecteurs d’écran et des tests avec des personnes concernées restent nécessaires.",
       ],
     ],
   },
@@ -97,7 +97,7 @@ const pages: Record<
       ],
       [
         "Contact et publication",
-        "Le contact public, les mentions de l’éditeur et de l’hébergeur doivent être renseignés par le propriétaire avant une ouverture publique. Aucun formulaire ne collecte vos coordonnées dans cette version locale.",
+        "L’éditeur et son email sont indiqués sur cette page lorsque la configuration publique est renseignée. Cette version est préparée pour GitHub Pages. Aucun formulaire de BureauClair ne collecte vos coordonnées ; vos fichiers audio et textes de travail sont traités dans votre navigateur.",
       ],
     ],
   },

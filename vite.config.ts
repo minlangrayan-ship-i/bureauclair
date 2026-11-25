@@ -3,7 +3,7 @@ import react from "@vitejs/plugin-react";
 import { VitePWA } from "vite-plugin-pwa";
 import fs from "node:fs";
 const csp =
-  "default-src 'self'; frame-src https://www.youtube-nocookie.com; script-src 'self' 'wasm-unsafe-eval'; worker-src 'self' blob:; connect-src 'self' https://huggingface.co https://*.huggingface.co https://*.hf.co; img-src 'self' data: blob: https://i.ytimg.com; media-src 'self' blob:; style-src 'self' 'unsafe-inline'; font-src 'self'; object-src 'none'; base-uri 'self'; form-action 'self'";
+  "default-src 'self'; frame-src https://www.youtube-nocookie.com; script-src 'self' 'wasm-unsafe-eval' https://www.youtube.com; worker-src 'self' blob:; connect-src 'self' https://huggingface.co https://*.huggingface.co https://*.hf.co; img-src 'self' data: blob: https://i.ytimg.com; media-src 'self' blob:; style-src 'self' 'unsafe-inline'; font-src 'self'; object-src 'none'; base-uri 'self'; form-action 'self'";
 const base = process.env.VITE_BASE_PATH || "/";
 if (!/^\/(?:[a-zA-Z0-9_.-]+\/)*$/.test(base))
   throw new Error("VITE_BASE_PATH doit être un chemin /depot/ ou /.");
@@ -31,7 +31,7 @@ export default defineConfig(({ command }) => ({
         return command === "build"
           ? html.replace(
               "<head>",
-              `<head><meta http-equiv="Content-Security-Policy" content="${csp}"><meta name="referrer" content="no-referrer">`,
+              `<head><meta http-equiv="Content-Security-Policy" content="${csp}"><meta name="referrer" content="strict-origin-when-cross-origin">`,
             )
           : html;
       },

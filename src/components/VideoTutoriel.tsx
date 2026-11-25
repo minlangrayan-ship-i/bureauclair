@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import { Play, ExternalLink, WifiOff } from "lucide-react";
 import type { VideoRecord } from "../content/videos";
+import YouTubePlayer from './YouTubePlayer';
 export default function VideoTutoriel({ video }: { video: VideoRecord }) {
   const [online, setOnline] = useState(navigator.onLine),
     [consent, setConsent] = useState(false),
@@ -79,15 +80,7 @@ export default function VideoTutoriel({ video }: { video: VideoRecord }) {
                 </button>
               )}
               {read && !failed && (
-                <iframe
-                  title={`Vidéo YouTube : ${video.title}`}
-                  src={`https://www.youtube-nocookie.com/embed/${video.id}?rel=0`}
-                  allow="encrypted-media; picture-in-picture; fullscreen"
-                  allowFullScreen
-                  referrerPolicy="strict-origin-when-cross-origin"
-                  sandbox="allow-scripts allow-same-origin allow-presentation allow-popups"
-                  onError={() => setFailed(true)}
-                />
+                <YouTubePlayer videoId={video.id} title={video.title} />
               )}
               <button
                 className="text-link"

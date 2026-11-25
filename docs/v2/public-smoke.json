@@ -1,0 +1,56 @@
+{
+  "url": "https://minlangrayan-ship-i.github.io/bureauclair/",
+  "routes": [
+    {
+      "route": "/",
+      "status": 200,
+      "heading": "Votre bureau,\nen plus simple."
+    },
+    {
+      "route": "/videos",
+      "status": 200,
+      "heading": "Voir les gestes. Connaître la source."
+    },
+    {
+      "route": "/exercices",
+      "status": 200,
+      "heading": "Essayez. Vérifiez. Recommencez."
+    },
+    {
+      "route": "/atelier",
+      "status": 200,
+      "heading": "Une consigne claire. Un résultat à contrôler."
+    },
+    {
+      "route": "/parcours/suivi-dossiers",
+      "status": 200,
+      "heading": "Suivre 80 dossiers sans perdre les lignes"
+    },
+    {
+      "route": "/guides/tableau-excel",
+      "status": 200,
+      "heading": "Créer un tableau de suivi simple dans Excel"
+    },
+    {
+      "route": "/studio",
+      "status": 200,
+      "heading": "Vos paroles, posées sur le papier."
+    },
+    {
+      "route": "/a-propos",
+      "status": 200,
+      "heading": "Plus d’autonomie. Moins de complications."
+    }
+  ],
+  "errors": [],
+  "failedSiteRequests": [],
+  "mobile": [
+    {
+      "width": 390,
+      "navigationToVideos": true,
+      "url": "https://minlangrayan-ship-i.github.io/bureauclair/#/videos",
+      "overflow": false
+    }
+  ],
+  "email": "mailto:minlangrayan@gmail.com"
+}

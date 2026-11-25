@@ -1,17 +1,19 @@
-import { chromium } from '@playwright/test';
+import { chromium, devices } from '@playwright/test';
 import fs from 'node:fs';
 const base=process.env.BUREAUCLAIR_TEST_URL||'http://127.0.0.1:4175/videos';
-const report={date:new Date().toISOString(),url:base,videos:[],requests:[],errors:[],console:[]};
+const cleanMessage=text=>text.replace(/https?:\/\/[^\s\"'<>]+/g,value=>{try{const u=new URL(value);return u.origin+u.pathname}catch{return '[adresse externe]'}});
+const mode=process.env.BUREAUCLAIR_TEST_MOBILE==='true'?'mobile-emulation':'desktop';
+const report={mode,date:new Date().toISOString(),url:base,videos:[],requests:[],errors:[],console:[]};
 const browser=await chromium.launch({executablePath:'C:/Program Files (x86)/Microsoft/Edge/Application/msedge.exe',headless:true});
 try {
- const context=await browser.newContext({viewport:{width:1440,height:1000},locale:'fr-FR',serviceWorkers:'block'});
+ const context=await browser.newContext({...(mode==='mobile-emulation'?devices['Pixel 7']:{viewport:{width:1440,height:1000}}),locale:'fr-FR',serviceWorkers:'block'});
  const page=await context.newPage();page.setDefaultTimeout(12000);page.setDefaultNavigationTimeout(30000);
  page.on('pageerror',e=>report.errors.push(e.message));
- page.on('console',m=>{if(m.type()==='error')report.console.push(m.text().slice(0,250))});
+ page.on('console',m=>{if(m.type()==='error')report.console.push(cleanMessage(m.text()).slice(0,400))});
  page.on('request',r=>{if(r.url().includes('youtube-nocookie.com/embed/'))report.requests.push({url:r.url(),referer:r.headers()['referer']||null})});
  await page.goto(base,{waitUntil:'networkidle'});
  report.initialYoutubeRequests=report.requests.length;
- const count=await page.locator('.video-card').count();
+ const count=Math.min(await page.locator('.video-card').count(),Number(process.env.BUREAUCLAIR_TEST_LIMIT||99));
  for(let i=0;i<count;i++){
   const card=page.locator('.video-card').nth(i);
   const entry={title:await card.locator('h2').innerText(),played:false};
@@ -35,4 +37,4 @@ try {
   fs.writeFileSync(process.env.BUREAUCLAIR_REPORT||'docs/v2/youtube-playback-local.json',JSON.stringify(report,null,2));
  }
  await context.close();
-}finally{await browser.close();fs.writeFileSync(process.env.BUREAUCLAIR_REPORT||'docs/v2/youtube-playback-local.json',JSON.stringify(report,null,2))}
+}finally{await browser.close();report.consoleMessageCount=report.console.length;report.console=[...new Set(report.console)];fs.writeFileSync(process.env.BUREAUCLAIR_REPORT||'docs/v2/youtube-playback-local.json',JSON.stringify(report,null,2))}

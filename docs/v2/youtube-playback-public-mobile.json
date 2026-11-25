@@ -1,0 +1,37 @@
+{
+  "mode": "mobile-emulation",
+  "date": "2026-11-25T12:27:59.711Z",
+  "url": "https://minlangrayan-ship-i.github.io/bureauclair/#/videos",
+  "videos": [
+    {
+      "title": "EXCEL - TRIER ET FILTRER HYPER FACILEMENT",
+      "played": true,
+      "playback": {
+        "currentTime": 2.611125,
+        "paused": false,
+        "readyState": 4
+      },
+      "playerError": [],
+      "notices": [
+        "Lecteur prêt. Appuyez sur Lecture dans la vidéo."
+      ]
+    }
+  ],
+  "requests": [
+    {
+      "url": "https://www.youtube-nocookie.com/embed/BekWLEcfwfk?origin=https%3A%2F%2Fminlangrayan-ship-i.github.io&playsinline=1&autoplay=0&controls=1&rel=0&cc_lang_pref=fr&enablejsapi=1&widgetid=1&forigin=https%3A%2F%2Fminlangrayan-ship-i.github.io%2Fbureauclair%2F%23%2Fvideos&aoriginsup=1&vf=6",
+      "referer": "https://minlangrayan-ship-i.github.io/"
+    },
+    {
+      "url": "https://www.youtube-nocookie.com/embed/establish_zw",
+      "referer": "https://www.youtube-nocookie.com/embed/BekWLEcfwfk?origin=https%3A%2F%2Fminlangrayan-ship-i.github.io&playsinline=1&autoplay=0&controls=1&rel=0&cc_lang_pref=fr&enablejsapi=1&widgetid=1&forigin=https%3A%2F%2Fminlangrayan-ship-i.github.io%2Fbureauclair%2F%23%2Fvideos&aoriginsup=1&vf=6"
+    }
+  ],
+  "errors": [],
+  "console": [
+    "Access to XMLHttpRequest at 'https://www.youtube.com/pagead/interaction/",
+    "Failed to load resource: net::ERR_FAILED"
+  ],
+  "initialYoutubeRequests": 0,
+  "consoleMessageCount": 2
+}

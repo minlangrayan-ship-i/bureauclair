@@ -1,6 +1,6 @@
 # BureauClair
 
-> Publication GitHub Pages autorisée par le propriétaire le 25 novembre 2026. Dépôt : https://github.com/minlangrayan-ship-i/bureauclair. Le rapport de refonte ci-dessous décrit l’état avant publication ; le suivi de mise en ligne sera consigné dans `docs/PUBLICATION.md`.
+> Site public vérifié le 25 novembre 2026 : **https://minlangrayan-ship-i.github.io/bureauclair/**. Vidéos : **https://minlangrayan-ship-i.github.io/bureauclair/#/videos**. Dépôt : https://github.com/minlangrayan-ship-i/bureauclair. Mise en ligne autorisée par le propriétaire et contrôles consignés dans [docs/PUBLICATION.md](docs/PUBLICATION.md).
 
 ## Lecture YouTube sur la plateforme
 
@@ -24,13 +24,13 @@ Le mode `youtube-nocookie.com` réduit certains usages de cookies sans garantir 
 
 ## GitHub Pages — préparation, sans publication automatique
 
-Le workflow `.github/workflows/pages.yml` se lance uniquement manuellement, après autorisation du propriétaire. Aucun dépôt distant n’a été créé, poussé ou publié par cette intervention. Configurer Settings → Pages → GitHub Actions sur le dépôt choisi ; compléter les informations publiques de l’éditeur, du contact et de l’hébergeur avant publication.
+Le workflow `.github/workflows/pages.yml` se lance uniquement manuellement. Le dépôt `minlangrayan-ship-i/bureauclair` a été créé puis publié après autorisation du propriétaire, avec Pages → GitHub Actions activé. Les informations publiques d’éditeur, de contact et d’hébergeur sont renseignées dans le workflow. Pour un autre déploiement, les remplacer par les coordonnées de son opérateur.
 
 Pour un dépôt projet, définir `VITE_BASE_PATH=/nom-du-depot/` et `VITE_GITHUB_PAGES=true` pendant le build. Pour un dépôt `utilisateur.github.io`, utiliser `/`. Les assets, manifeste, service worker et runtime utilisent cette base. La variante Pages utilise des URLs `/#/guides/...` ; le serveur local normal conserve `/guides/...`.
 
 Dans PowerShell : `$env:VITE_BASE_PATH='/nom-du-depot/'; $env:VITE_GITHUB_PAGES='true'; npm.cmd run build`. Ces variables ne sont pas secrètes. Fermer ce terminal ou retirer ces deux variables avant de refaire un build local racine. Le workflow déduit le chemin du nom du dépôt, sans inventer de nom de compte.
 
-PWA : textes/exercices préparés en cache ; YouTube, sources externes et premier chargement du modèle requièrent Internet. L’installation réelle sur Android/iPhone, un domaine public et le CI distant ne sont pas annoncés comme testés.
+PWA : textes/exercices préparés en cache ; YouTube, sources externes et premier chargement du modèle requièrent Internet. Le domaine HTTPS GitHub Pages, les routes publiques et le CI distant sont désormais vérifiés. L’installation réelle sur Android/iPhone reste non testée.
 
 Documentation : [matrice](docs/MATRICE_COMPETENCES.md), [traçabilité](docs/TRACABILITE_V2.md), [décisions](docs/DECISIONS_TECHNIQUES.md), [prompts](docs/REVUE_PROMPTS_EXPERTS.md), [raccourcis](docs/COUVERTURE_RACCOURCIS.md), [recette pédagogique](docs/RECETTE_PEDAGOGIQUE_V3.md).
 

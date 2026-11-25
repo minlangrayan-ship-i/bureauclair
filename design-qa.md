@@ -57,4 +57,8 @@ Recherche, catégories, cartes, navigation mobile, bascule de thème, exercices 
 - [x] Régression mobile et sombre contrôlée après correction.
 - [x] Prévisualisations locales maintenues ouvertes.
 - [x] Aucun écart P0/P1/P2 visuel restant dans le périmètre intégré ; limites fonctionnelles consignées séparément.
-- [x] Aucun push ni déploiement distant sans validation du propriétaire.
+- [x] Aucun push ni déploiement distant lors de la recette locale initiale. Publication ensuite autorisée par le propriétaire et vérifiée ; voir `docs/PUBLICATION.md`.
+
+## Contrôle après publication autorisée
+
+Le lien Vidéos est maintenant visible également dans la navigation principale sur ordinateur. Captures `docs/v2/publication-accueil-*` aux largeurs 320/390/768/1024/1536, sans débordement global ; menu mobile vers la vidéothèque testé. Les captures publiques finale ordinateur/mobile sont `docs/v2/public-accueil-desktop.png` et `public-accueil-mobile.png`. L’API YouTube conserve un espace de lecteur réservé, au moins 200 px de haut, avec états de chargement, lecture et erreur. Les contrôles propres à YouTube ne sont pas remplacés par des boutons décoratifs.

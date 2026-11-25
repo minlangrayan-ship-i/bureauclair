@@ -1,9 +1,9 @@
 {
-  "id": 45643406741,
-  "url": "https://github.com/minlangrayan-ship-i/bureauclair/actions/runs/45643406741",
+  "id": 45645227280,
+  "url": "https://github.com/minlangrayan-ship-i/bureauclair/actions/runs/45645227280",
   "status": "completed",
   "conclusion": "success",
-  "sha": "d3bff701b5dce0acea0bc5979c5516cddd766e50",
+  "sha": "03b7c42fceaaf67ac6fa4f0b76a7be26f931274e",
   "jobs": [
     {
       "name": "build",
@@ -104,5 +104,8 @@
         }
       ]
     }
-  ]
+  ],
+  "unitTestsPassed": 24,
+  "browserExecutionsPassed": 36,
+  "browserCI": "Chromium Linux, bureau et Pixel 7 émulé"
 }

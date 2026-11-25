@@ -1,5 +1,5 @@
 {
-  "date": "2026-11-25T15:23:05.152Z",
+  "date": "2026-11-25T15:31:26.354Z",
   "base": "https://minlangrayan-ship-i.github.io/bureauclair/",
   "routes": [
     {
@@ -282,6 +282,7 @@
     }
   ],
   "errors": [],
+  "consoleErrors": [],
   "failedRequests": [],
   "mobile": [
     {

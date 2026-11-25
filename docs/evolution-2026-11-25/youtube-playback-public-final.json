@@ -1,0 +1,34 @@
+{
+  "mode": "desktop",
+  "date": "2026-11-25T15:31:26.372Z",
+  "url": "https://minlangrayan-ship-i.github.io/bureauclair/#/videos",
+  "videos": [
+    {
+      "title": "Comment FIGER les VOLETS sur Excel ?",
+      "played": true,
+      "playback": {
+        "currentTime": 1.027218,
+        "paused": false,
+        "readyState": 4
+      },
+      "playerError": [],
+      "notices": [
+        "Vidéo en pause."
+      ]
+    }
+  ],
+  "requests": [
+    {
+      "url": "https://www.youtube-nocookie.com/embed/9us8jNBCnqQ?origin=https%3A%2F%2Fminlangrayan-ship-i.github.io&playsinline=1&autoplay=0&controls=1&rel=0&cc_lang_pref=fr&enablejsapi=1&widgetid=1&forigin=https%3A%2F%2Fminlangrayan-ship-i.github.io%2Fbureauclair%2F%23%2Fvideos&aoriginsup=1&vf=6",
+      "referer": "https://minlangrayan-ship-i.github.io/"
+    },
+    {
+      "url": "https://www.youtube-nocookie.com/embed/establish_zw",
+      "referer": "https://www.youtube-nocookie.com/embed/9us8jNBCnqQ?origin=https%3A%2F%2Fminlangrayan-ship-i.github.io&playsinline=1&autoplay=0&controls=1&rel=0&cc_lang_pref=fr&enablejsapi=1&widgetid=1&forigin=https%3A%2F%2Fminlangrayan-ship-i.github.io%2Fbureauclair%2F%23%2Fvideos&aoriginsup=1&vf=6"
+    }
+  ],
+  "errors": [],
+  "console": [],
+  "initialYoutubeRequests": 0,
+  "consoleMessageCount": 0
+}

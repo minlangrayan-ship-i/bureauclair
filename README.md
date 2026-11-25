@@ -8,7 +8,7 @@ La page `/videos` utilise le lecteur officiel et l’IFrame Player API YouTube, 
 
 Le mode `youtube-nocookie.com` réduit certains usages de cookies sans garantir une absence de traitement de données par Google. Le thème et les caches sont locaux ; aucune base de données applicative ne reçoit les fichiers audio ou textes. GitHub Pages conserve ses propres journaux techniques.
 
-> Version corrective V2/V3 — 25 novembre 2026. Branche `refonte/v2-pedagogie`. État de recette courant : [docs/RECETTE_V2.md](docs/RECETTE_V2.md). Le rapport `docs/VERIFICATION.md` décrit la V1 et ne constitue pas le résultat des nouveaux tests.
+> Évolution métier — 25 novembre 2026. Branche `evolution/competences-metier`. État de recette courant : [bilan de l’évolution](docs/evolution-2026-11-25/RECETTE.md). Les rapports `docs/RECETTE_V2.md` et `docs/VERIFICATION.md` décrivent les étapes précédentes.
 
 ## Évolution métier — 25 novembre 2026
 

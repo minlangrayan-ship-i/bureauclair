@@ -41,7 +41,7 @@ Les six articles initiaux restent accessibles. Huit dossiers ajoutés : TCD Somm
 - Le premier contrôle public a ensuite identifié un refus CSP du bootstrap inline du thème. Le bootstrap a été extrait dans `public/theme-init.js`, chargé avant l’application et compatible avec `script-src 'self'`. La politique CSP n’est pas assouplie. Les tests locaux et publics vérifient désormais aussi la console.
 - Contrats API YouTube simulés : consentement, chargement unique du script, état de lecture, erreurs 101/153 et erreur réseau. Lecture réelle testée séparément sur les neuf vidéos, sans erreur console observée.
 - Lecture réelle complémentaire en émulation mobile : cinq formats courts dont les quatre ajouts ont démarré (`youtube-playback-mobile-local.json`), sans erreur console observée. Ce test ne remplace pas un essai sur téléphone physique.
-- Performance locale : LCP observé 440 ms sans bridage ; 2 144 ms sous réseau 1,6 Mbit/s, latence 150 ms et CPU ×4 ; CLS 0. Un seul passage, cache navigateur/SW désactivé, pas une mesure terrain ni un score Lighthouse. Aucun téléchargement du modèle au chargement.
+- Performance locale finale : LCP observé 528 ms sans bridage ; 2 304 ms sous réseau 1,6 Mbit/s, latence 150 ms et CPU ×4 ; CLS 0. Un seul passage final, cache navigateur/SW désactivé, pas une mesure terrain ni un score Lighthouse. Aucun téléchargement du modèle au chargement.
 - ZIP des trois fichiers Office valide, quatre PDF ouverts (5 pages bilan, 3 Excel, 1 Word, 1 PowerPoint). Aucun faux fichier PDF de rapport Word.
 - Recherche locale de formats usuels de jetons/clés privées : aucune occurrence détectée ; contrôle limité, sans garantie d’audit exhaustif.
 
@@ -53,4 +53,4 @@ Valider les vidéos dans leur intégralité, les variantes Office et le sommaire
 
 `src/content/businessCases.json`, `businessData.ts`, cinq guides Markdown, huit nouveaux articles ; `BusinessGuide.tsx`, `BusinessLab.tsx`, `ArticleCaseStudy.tsx` ; `pages.tsx`, `Resources.tsx`, `Workflows.tsx`, `Supplement.tsx`, `VideoTutoriel.tsx`, `videos.ts`, `shortVideos.json`, `Studio.tsx`, `refonte.css` ; matrice `competences.json` ; fichiers téléchargeables `public/assets/metier/` ; tests unitaires et E2E ; banc séparé `src/poc-summary/` et `vite.summary.config.ts`. Historique et fichiers sources préservés.
 
-La vérification publique et l’état du déploiement sont consignés dans `PUBLICATION.md` de ce dossier après publication.
+La [publication est vérifiée](PUBLICATION.md) : recette complète de 24 tests unitaires et 36 exécutions navigateur réussie en CI, puis 18 ouvertures de routes et 24 vérifications de fichiers sur le site public, sans erreur observée sur la version finale.

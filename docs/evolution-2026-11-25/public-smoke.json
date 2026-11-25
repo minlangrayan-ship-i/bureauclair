@@ -1,0 +1,292 @@
+{
+  "date": "2026-11-25T15:23:05.152Z",
+  "base": "https://minlangrayan-ship-i.github.io/bureauclair/",
+  "routes": [
+    {
+      "mode": "desktop",
+      "route": "/videos",
+      "status": 200,
+      "heading": "Voir les gestes. Connaître la source."
+    },
+    {
+      "mode": "desktop",
+      "route": "/guides/factures-formules",
+      "status": 200,
+      "heading": "Contrôler des factures avec SOMME.SI.ENS et RECHERCHEX"
+    },
+    {
+      "mode": "desktop",
+      "route": "/guides/tcd-factures",
+      "status": 200,
+      "heading": "Synthétiser les factures par service avec un TCD actualisé"
+    },
+    {
+      "mode": "desktop",
+      "route": "/guides/rapport-word-complexe",
+      "status": 200,
+      "heading": "Structurer un rapport Word avec sommaire et annexe en paysage"
+    },
+    {
+      "mode": "desktop",
+      "route": "/guides/bilan-powerpoint",
+      "status": 200,
+      "heading": "Présenter un bilan à la direction en cinq diapositives"
+    },
+    {
+      "mode": "desktop",
+      "route": "/guides/outlook-tri-avance",
+      "status": 200,
+      "heading": "Désengorger Outlook sans perdre les messages à traiter"
+    },
+    {
+      "mode": "desktop",
+      "route": "/blog",
+      "status": 200,
+      "heading": "Un peu de recul. De bonnes idées."
+    },
+    {
+      "mode": "desktop",
+      "route": "/blog/compte-rendu-local-limites",
+      "status": 200,
+      "heading": "Compte rendu IA local : ce que nos essais ne permettent pas de promettre"
+    },
+    {
+      "mode": "desktop",
+      "route": "/studio",
+      "status": 200,
+      "heading": "Vos paroles, posées sur le papier."
+    },
+    {
+      "mode": "mobile",
+      "route": "/videos",
+      "status": 200,
+      "heading": "Voir les gestes. Connaître la source."
+    },
+    {
+      "mode": "mobile",
+      "route": "/guides/factures-formules",
+      "status": 200,
+      "heading": "Contrôler des factures avec SOMME.SI.ENS et RECHERCHEX"
+    },
+    {
+      "mode": "mobile",
+      "route": "/guides/tcd-factures",
+      "status": 200,
+      "heading": "Synthétiser les factures par service avec un TCD actualisé"
+    },
+    {
+      "mode": "mobile",
+      "route": "/guides/rapport-word-complexe",
+      "status": 200,
+      "heading": "Structurer un rapport Word avec sommaire et annexe en paysage"
+    },
+    {
+      "mode": "mobile",
+      "route": "/guides/bilan-powerpoint",
+      "status": 200,
+      "heading": "Présenter un bilan à la direction en cinq diapositives"
+    },
+    {
+      "mode": "mobile",
+      "route": "/guides/outlook-tri-avance",
+      "status": 200,
+      "heading": "Désengorger Outlook sans perdre les messages à traiter"
+    },
+    {
+      "mode": "mobile",
+      "route": "/blog",
+      "status": 200,
+      "heading": "Un peu de recul. De bonnes idées."
+    },
+    {
+      "mode": "mobile",
+      "route": "/blog/compte-rendu-local-limites",
+      "status": 200,
+      "heading": "Compte rendu IA local : ce que nos essais ne permettent pas de promettre"
+    },
+    {
+      "mode": "mobile",
+      "route": "/studio",
+      "status": 200,
+      "heading": "Vos paroles, posées sur le papier."
+    }
+  ],
+  "assets": [
+    {
+      "mode": "desktop",
+      "file": "factures-formules-tcd.xlsx",
+      "status": 200,
+      "bytes": 17832,
+      "header": "504b0304"
+    },
+    {
+      "mode": "desktop",
+      "file": "factures-24-fictives.csv",
+      "status": 200,
+      "bytes": 1072,
+      "header": "efbbbf44"
+    },
+    {
+      "mode": "desktop",
+      "file": "excel-captures-authentiques.pdf",
+      "status": 200,
+      "bytes": 377895,
+      "header": "25504446"
+    },
+    {
+      "mode": "desktop",
+      "file": "factures-formules-tcd.xlsx",
+      "status": 200,
+      "bytes": 17832,
+      "header": "504b0304"
+    },
+    {
+      "mode": "desktop",
+      "file": "factures-24-fictives.csv",
+      "status": 200,
+      "bytes": 1072,
+      "header": "efbbbf44"
+    },
+    {
+      "mode": "desktop",
+      "file": "excel-captures-authentiques.pdf",
+      "status": 200,
+      "bytes": 377895,
+      "header": "25504446"
+    },
+    {
+      "mode": "desktop",
+      "file": "rapport-mensuel-structure.docx",
+      "status": 200,
+      "bytes": 35843,
+      "header": "504b0304"
+    },
+    {
+      "mode": "desktop",
+      "file": "word-captures-authentiques.pdf",
+      "status": 200,
+      "bytes": 75772,
+      "header": "25504446"
+    },
+    {
+      "mode": "desktop",
+      "file": "bilan-direction-5-diapos.pptx",
+      "status": 200,
+      "bytes": 47058,
+      "header": "504b0304"
+    },
+    {
+      "mode": "desktop",
+      "file": "bilan-direction-exemple.pdf",
+      "status": 200,
+      "bytes": 49674,
+      "header": "25504446"
+    },
+    {
+      "mode": "desktop",
+      "file": "powerpoint-captures-authentiques.pdf",
+      "status": 200,
+      "bytes": 113074,
+      "header": "25504446"
+    },
+    {
+      "mode": "desktop",
+      "file": "messages-fictifs.csv",
+      "status": 200,
+      "bytes": 409,
+      "header": "efbbbf49"
+    },
+    {
+      "mode": "mobile",
+      "file": "factures-formules-tcd.xlsx",
+      "status": 200,
+      "bytes": 17832,
+      "header": "504b0304"
+    },
+    {
+      "mode": "mobile",
+      "file": "factures-24-fictives.csv",
+      "status": 200,
+      "bytes": 1072,
+      "header": "efbbbf44"
+    },
+    {
+      "mode": "mobile",
+      "file": "excel-captures-authentiques.pdf",
+      "status": 200,
+      "bytes": 377895,
+      "header": "25504446"
+    },
+    {
+      "mode": "mobile",
+      "file": "factures-formules-tcd.xlsx",
+      "status": 200,
+      "bytes": 17832,
+      "header": "504b0304"
+    },
+    {
+      "mode": "mobile",
+      "file": "factures-24-fictives.csv",
+      "status": 200,
+      "bytes": 1072,
+      "header": "efbbbf44"
+    },
+    {
+      "mode": "mobile",
+      "file": "excel-captures-authentiques.pdf",
+      "status": 200,
+      "bytes": 377895,
+      "header": "25504446"
+    },
+    {
+      "mode": "mobile",
+      "file": "rapport-mensuel-structure.docx",
+      "status": 200,
+      "bytes": 35843,
+      "header": "504b0304"
+    },
+    {
+      "mode": "mobile",
+      "file": "word-captures-authentiques.pdf",
+      "status": 200,
+      "bytes": 75772,
+      "header": "25504446"
+    },
+    {
+      "mode": "mobile",
+      "file": "bilan-direction-5-diapos.pptx",
+      "status": 200,
+      "bytes": 47058,
+      "header": "504b0304"
+    },
+    {
+      "mode": "mobile",
+      "file": "bilan-direction-exemple.pdf",
+      "status": 200,
+      "bytes": 49674,
+      "header": "25504446"
+    },
+    {
+      "mode": "mobile",
+      "file": "powerpoint-captures-authentiques.pdf",
+      "status": 200,
+      "bytes": 113074,
+      "header": "25504446"
+    },
+    {
+      "mode": "mobile",
+      "file": "messages-fictifs.csv",
+      "status": 200,
+      "bytes": 409,
+      "header": "efbbbf49"
+    }
+  ],
+  "errors": [],
+  "failedRequests": [],
+  "mobile": [
+    {
+      "menuToVideos": true,
+      "width": 390
+    }
+  ]
+}

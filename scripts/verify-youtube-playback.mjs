@@ -29,7 +29,7 @@ try {
    const frame=await iframe.contentFrame();
    await frame.locator('video').waitFor({state:'attached',timeout:20000});
    await frame.locator('.ytp-large-play-button, .ytmCuedOverlayPlayButton').first().click({timeout:8000});await frame.locator('video').evaluate(async v=>{v.muted=true;await Promise.race([v.play().catch(()=>{}),new Promise(r=>setTimeout(r,3000))]);});
-   await page.waitForTimeout(5000);
+   await frame.waitForFunction(()=>{const video=document.querySelector('video');return video&&video.currentTime>1&&!video.paused&&video.readyState>=2},null,{timeout:25000});
    entry.playback=await frame.locator('video').evaluate(v=>({currentTime:v.currentTime,paused:v.paused,readyState:v.readyState}));
    entry.played=entry.playback.currentTime>1&&!entry.playback.paused&&entry.playback.readyState>=2;
    entry.playerError=await frame.locator('.ytp-error-content-wrap').allTextContents();

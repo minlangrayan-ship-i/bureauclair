@@ -117,6 +117,8 @@ test("Nouveaux laboratoires lisibles en thème sombre, sans chargement du modèl
   page,
 }) => {
   const external: string[] = [];
+  const consoleErrors: string[]=[];
+  page.on('console',message=>{if(message.type()==='error')consoleErrors.push(message.text())});
   page.on("request", (r) => {
     if (/huggingface|cdn-lfs|cas-bridge/.test(r.url())) external.push(r.url());
   });
@@ -141,4 +143,5 @@ test("Nouveaux laboratoires lisibles en thème sombre, sans chargement du modèl
   await page.locator("#etude-compte-rendu summary").click();
   await expect(page.locator("#etude-compte-rendu")).toContainText("trois");
   expect(external).toEqual([]);
+  expect(consoleErrors).toEqual([]);
 });

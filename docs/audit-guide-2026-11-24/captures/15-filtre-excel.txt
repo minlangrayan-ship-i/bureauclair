@@ -1,0 +1,128 @@
+- link "Aller au contenu":
+  - /url: "#contenu"
+- banner:
+  - link "BureauClair, accueil":
+    - /url: /
+    - text: BureauClair .
+  - navigation "Navigation principale":
+    - link "Accueil":
+      - /url: /
+    - link "Tutoriels":
+      - /url: /guides
+    - link "Outils":
+      - /url: /outils
+    - link "IA & prompts":
+      - /url: /prompts
+    - link "Blog":
+      - /url: /blog
+  - link "Rechercher dans BureauClair":
+    - /url: /recherche
+    - img
+  - button "Installer l’application":
+    - img
+    - text: Installer l’application
+- main:
+  - text: Les tutoriels · Windows & bureautique
+  - heading "Un coup de main, au bon moment." [level=1]
+  - paragraph: Des explications concrètes. Des étapes courtes. Et le plaisir de savoir faire.
+  - img
+  - text: Rechercher un tutoriel
+  - searchbox "Rechercher un tutoriel"
+  - text: Durée
+  - combobox "Durée":
+    - option "Tous" [selected]
+    - option "4 min maximum"
+    - option "6 min maximum"
+  - text: Niveau
+  - combobox "Niveau":
+    - option "Tous" [selected]
+    - option "Débutant"
+  - text: Version
+  - combobox "Version":
+    - option "Toutes" [selected]
+    - option "Windows 11"
+    - option "Windows 10"
+    - option "Microsoft 365"
+    - option "2024"
+  - button "Tous"
+  - button "Windows 11"
+  - button "Windows 10"
+  - button "Word"
+  - button "Excel" [pressed]
+  - button "Outlook"
+  - button "PowerPoint"
+  - button "PDF"
+  - status: 4 tutoriels
+  - button "Tout effacer":
+    - img
+    - text: Tout effacer
+  - article:
+    - link "Excel Créer un tableau de suivi simple dans Excel Organiser des dossiers avec une ligne par élément et des en-têtes clairs. 7 min · Débutant":
+      - /url: /guides/tableau-excel
+      - text: Excel
+      - heading "Créer un tableau de suivi simple dans Excel" [level=3]
+      - paragraph: Organiser des dossiers avec une ligne par élément et des en-têtes clairs.
+      - text: 7 min · Débutant
+      - img
+  - article:
+    - link "Excel Filtrer les dossiers et réafficher toutes les lignes Afficher une partie du tableau sans supprimer les autres données. 4 min · Débutant":
+      - /url: /guides/filtrer-excel
+      - text: Excel
+      - heading "Filtrer les dossiers et réafficher toutes les lignes" [level=3]
+      - paragraph: Afficher une partie du tableau sans supprimer les autres données.
+      - text: 4 min · Débutant
+      - img
+  - article:
+    - link "Excel Garder les en-têtes visibles dans Excel Lire un tableau long sans perdre les noms des colonnes. 3 min · Débutant":
+      - /url: /guides/figer-excel
+      - text: Excel
+      - heading "Garder les en-têtes visibles dans Excel" [level=3]
+      - paragraph: Lire un tableau long sans perdre les noms des colonnes.
+      - text: 3 min · Débutant
+      - img
+  - article:
+    - link "Excel Trier un tableau sans séparer les lignes Classer les dossiers par échéance en gardant les colonnes associées. 4 min · Débutant":
+      - /url: /guides/trier-excel
+      - text: Excel
+      - heading "Trier un tableau sans séparer les lignes" [level=3]
+      - paragraph: Classer les dossiers par échéance en gardant les colonnes associées.
+      - text: 4 min · Débutant
+      - img
+  - img
+  - paragraph:
+    - strong: Vous utilisez encore Windows 10 ?
+    - text: Son support standard a pris fin le 14 octobre 2025.
+    - link "Préparer la transition →":
+      - /url: /guides/windows-10-transition
+- img
+- paragraph:
+  - strong: Votre travail reste le vôtre.
+  - text: Sans compte obligatoire. Sans publicité. Sans envoi automatique de vos documents.
+- link "Notre approche →":
+  - /url: /confidentialite
+- contentinfo:
+  - link "BureauClair.":
+    - /url: /
+  - paragraph: Un bureau plus simple. Un quotidien plus serein.
+  - strong: À explorer
+  - link "Tutoriels pas à pas":
+    - /url: /guides
+  - link "Studio de transcription":
+    - /url: /studio
+  - link "Bibliothèque de prompts":
+    - /url: /prompts
+  - strong: Pour avancer
+  - link "Annuaire d’outils":
+    - /url: /annuaire
+  - link "Le journal":
+    - /url: /blog
+  - link "À propos & contact":
+    - /url: /a-propos
+  - strong: En confiance
+  - link "Confidentialité":
+    - /url: /confidentialite
+  - link "Accessibilité":
+    - /url: /accessibilite
+  - link "Charte éditoriale":
+    - /url: /editorial
+  - text: © 2026 BureauClair · Nom de travail Guides et prompts prêts hors ligne

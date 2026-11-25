@@ -1,0 +1,184 @@
+- link "Aller au contenu":
+  - /url: "#contenu"
+- banner:
+  - link "BureauClair, accueil":
+    - /url: /
+    - text: BureauClair .
+  - navigation "Navigation principale":
+    - link "Accueil":
+      - /url: /
+    - link "Tutoriels":
+      - /url: /guides
+    - link "Outils":
+      - /url: /outils
+    - link "IA & prompts":
+      - /url: /prompts
+    - link "Blog":
+      - /url: /blog
+  - link "Rechercher dans BureauClair":
+    - /url: /recherche
+    - img
+  - button "Installer l’application":
+    - img
+    - text: Installer l’application
+- main:
+  - img
+  - text: Votre compagnon numérique au quotidien
+  - heading "Votre bureau, en plus simple." [level=1]:
+    - text: Votre bureau,
+    - emphasis: en plus simple.
+  - paragraph: Apprenez l’essentiel. Gagnez du temps. Travaillez sereinement, avec des outils simples et une IA mieux maîtrisée.
+  - link "Trouver une solution":
+    - /url: /guides
+    - text: Trouver une solution
+    - img
+  - link "Découvrir les outils":
+    - /url: /outils
+    - img
+    - text: Découvrir les outils
+  - img
+  - text: Guides pratiques
+  - img
+  - text: Sans compte
+  - img
+  - text: PC & mobile
+  - img "Illustration d’une professionnelle à son bureau"
+  - img
+  - text: Windows 11 Les bons réflexes
+  - img
+  - text: Vos mots, au clair.
+  - img
+  - text: Excel facile Un pas à la fois
+  - img
+  - text: Une IA utile. Illustration de conception fournie dans le pack Que souhaitez-vous faire aujourd’hui ?
+  - searchbox "Que souhaitez-vous faire aujourd’hui ?"
+  - button "Rechercher":
+    - text: Rechercher
+    - img
+  - text: "Par exemple :"
+  - link "Copier un fichier":
+    - /url: /guides?q=copier+un+fichier
+  - link "Préparer un compte rendu":
+    - /url: /prompts?q=compte+rendu
+  - link "Transcrire un audio":
+    - /url: /studio
+  - text: UN BESOIN, UNE SOLUTION
+  - heading "Par quoi commence-t-on ?" [level=2]
+  - paragraph: Choisissez une tâche. On vous guide, étape par étape.
+  - text: Pas besoin de tout savoir pour avancer.
+  - link "Windows 10 / 11 Fichiers, réglages et raccourcis":
+    - /url: /guides?categorie=Windows+11
+    - heading "Windows 10 / 11" [level=3]
+    - paragraph: Fichiers, réglages et raccourcis
+    - img
+  - link "Word & documents Des courriers clairs, bien présentés":
+    - /url: /guides?categorie=Word
+    - heading "Word & documents" [level=3]
+    - paragraph: Des courriers clairs, bien présentés
+    - img
+  - link "Excel au quotidien Tableaux, filtres et organisation":
+    - /url: /guides?categorie=Excel
+    - heading "Excel au quotidien" [level=3]
+    - paragraph: Tableaux, filtres et organisation
+    - img
+  - link "Vos audios, en texte Un studio local, à votre rythme":
+    - /url: /studio
+    - heading "Vos audios, en texte" [level=3]
+    - paragraph: Un studio local, à votre rythme
+    - img
+  - link "Une IA qui vous aide Des prompts à comprendre et adapter":
+    - /url: /prompts
+    - heading "Une IA qui vous aide" [level=3]
+    - paragraph: Des prompts à comprendre et adapter
+    - img
+  - link "E-mails & agenda Du temps pour les vraies priorités":
+    - /url: /guides?categorie=Outlook
+    - heading "E-mails & agenda" [level=3]
+    - paragraph: Du temps pour les vraies priorités
+    - img
+  - text: PETITS GUIDES, GRANDS DÉCLICS
+  - heading "L’essentiel pour bien démarrer" [level=2]
+  - link "Tous les tutoriels":
+    - /url: /guides
+    - text: Tous les tutoriels
+    - img
+  - article:
+    - link "Windows 11 Copier, déplacer et retrouver un fichier Dupliquer un document dans le bon dossier et vérifier sa destination. 4 min · Débutant":
+      - /url: /guides/copier-un-fichier
+      - text: Windows 11
+      - heading "Copier, déplacer et retrouver un fichier" [level=3]
+      - paragraph: Dupliquer un document dans le bon dossier et vérifier sa destination.
+      - text: 4 min · Débutant
+      - img
+  - article:
+    - link "Word Rédiger un courrier professionnel dans Word Créer un courrier lisible et conserver une version modifiable. 6 min · Débutant":
+      - /url: /guides/courrier-word
+      - text: Word
+      - heading "Rédiger un courrier professionnel dans Word" [level=3]
+      - paragraph: Créer un courrier lisible et conserver une version modifiable.
+      - text: 6 min · Débutant
+      - img
+  - article:
+    - link "Excel Créer un tableau de suivi simple dans Excel Organiser des dossiers avec une ligne par élément et des en-têtes clairs. 7 min · Débutant":
+      - /url: /guides/tableau-excel
+      - text: Excel
+      - heading "Créer un tableau de suivi simple dans Excel" [level=3]
+      - paragraph: Organiser des dossiers avec une ligne par élément et des en-têtes clairs.
+      - text: 7 min · Débutant
+      - img
+  - article:
+    - link "Outlook Créer un rendez-vous personnel dans Outlook Bloquer un créneau sans envoyer d’invitation à d’autres personnes. 4 min · Débutant":
+      - /url: /guides/rendez-vous-outlook
+      - text: Outlook
+      - heading "Créer un rendez-vous personnel dans Outlook" [level=3]
+      - paragraph: Bloquer un créneau sans envoyer d’invitation à d’autres personnes.
+      - text: 4 min · Débutant
+      - img
+  - text: LE BON MOMENT POUR FAIRE LE POINT
+  - heading "Windows 11, sans les zones d’ombre." [level=2]
+  - paragraph: Préparez votre transition, avec les bons repères.
+  - link "Voir le guide":
+    - /url: /guides/windows-10-transition
+    - text: Voir le guide
+    - img
+  - img
+  - text: UNE IA MIEUX MAÎTRISÉE
+  - heading "Gagner du temps. Garder le contrôle." [level=2]
+  - paragraph: Les bons gestes avant de confier une tâche à l’IA.
+  - link "Lire le dossier":
+    - /url: /blog/ia-confidentialite
+    - text: Lire le dossier
+    - img
+  - img
+- img
+- paragraph:
+  - strong: Votre travail reste le vôtre.
+  - text: Sans compte obligatoire. Sans publicité. Sans envoi automatique de vos documents.
+- link "Notre approche →":
+  - /url: /confidentialite
+- contentinfo:
+  - link "BureauClair.":
+    - /url: /
+  - paragraph: Un bureau plus simple. Un quotidien plus serein.
+  - strong: À explorer
+  - link "Tutoriels pas à pas":
+    - /url: /guides
+  - link "Studio de transcription":
+    - /url: /studio
+  - link "Bibliothèque de prompts":
+    - /url: /prompts
+  - strong: Pour avancer
+  - link "Annuaire d’outils":
+    - /url: /annuaire
+  - link "Le journal":
+    - /url: /blog
+  - link "À propos & contact":
+    - /url: /a-propos
+  - strong: En confiance
+  - link "Confidentialité":
+    - /url: /confidentialite
+  - link "Accessibilité":
+    - /url: /accessibilite
+  - link "Charte éditoriale":
+    - /url: /editorial
+  - text: © 2026 BureauClair · Nom de travail Guides et prompts prêts hors ligne

@@ -1,0 +1,83 @@
+- link "Aller au contenu":
+  - /url: "#contenu"
+- banner:
+  - link "BureauClair, accueil":
+    - /url: /
+    - text: BureauClair .
+  - navigation "Navigation principale":
+    - link "Accueil":
+      - /url: /
+    - link "Tutoriels":
+      - /url: /guides
+    - link "Outils":
+      - /url: /outils
+    - link "IA & prompts":
+      - /url: /prompts
+    - link "Blog":
+      - /url: /blog
+  - link "Rechercher dans BureauClair":
+    - /url: /recherche
+    - img
+  - button "Installer l’application":
+    - img
+    - text: Installer l’application
+- main:
+  - text: BureauClair · En confiance
+  - heading "Votre confiance se construit dans les détails." [level=1]
+  - paragraph: Ce que BureauClair fait, ce qu’il ne fait pas et ce qui reste sur votre appareil.
+  - complementary:
+    - heading "Nos engagements" [level=2]
+    - 'link "Confidentialité : Votre confiance se construit dans les détails."':
+      - /url: /confidentialite
+    - 'link "Accessibilité : Simple à utiliser, de plusieurs façons."':
+      - /url: /accessibilite
+    - 'link "Charte éditoriale : Des repères que l’on peut vérifier."':
+      - /url: /editorial
+    - 'link "À propos & contact : Plus d’autonomie. Moins de complications."':
+      - /url: /a-propos
+  - article:
+    - heading "Sans compte, sans suivi publicitaire" [level=2]
+    - paragraph: "Aucun compte ni outil de mesure d’audience n’est installé. Les recherches sont traitées dans le navigateur, sans moteur distant. Les mots recherchés figurent dans l’adresse pour conserver les critères : si vous partagez ou rechargez explicitement cette adresse, ils peuvent apparaître dans l’historique ou les journaux de l’hébergeur. Évitez les informations sensibles dans vos recherches. Les prompts ne sont envoyés à aucune IA ; le bouton Copier utilise votre presse-papiers uniquement à votre demande."
+    - 'heading "Audio et texte : dans la session" [level=2]'
+    - paragraph: Le studio lit le fichier que vous choisissez et le traite dans un worker local. Aucun point d’API ne reçoit vos fichiers, transcriptions ou notes. Le texte n’est pas enregistré dans localStorage ou IndexedDB par l’application ; actualiser, quitter ou effacer la session le fait perdre. Exportez-le avant. Aucun microphone n’est ouvert par l’application.
+    - heading "Téléchargement du moteur" [level=2]
+    - paragraph: Le chargement de Whisper est déclenché par le bouton dédié. Hugging Face et ses hébergeurs de fichiers reçoivent une requête réseau, votre adresse IP et les informations techniques habituelles. Ils fournissent les modèles et peuvent tenir leurs propres journaux. Les fichiers audio et les textes ne sont pas inclus dans ces requêtes. Le téléchargement peut dépasser 100 Mo avec le moteur ; commencez sur un réseau adapté.
+    - heading "Caches et fichiers exportés" [level=2]
+    - paragraph: La PWA met en cache les pages, images et ressources nécessaires aux guides et prompts. Le moteur utilise un cache distinct pour les modèles. Effacer une session arrête le worker et libère les références aux données en mémoire ; cela n’efface pas vos fichiers exportés ni tous les caches du navigateur. La suppression physique immédiate de la mémoire n’est pas garantie par JavaScript. Vous pouvez effacer les données du site dans les réglages du navigateur.
+    - heading "Vidéos et sites externes" [level=2]
+    - paragraph: Les liens externes s’ouvrent uniquement à votre demande. Aucune vidéo YouTube, police externe ou pixel publicitaire n’est chargé automatiquement. La démonstration pédagogique fournie est hébergée avec le site et comporte une piste de sous-titres. Les illustrations et icônes de l’interface sont servies localement.
+    - heading "Avant une mise en ligne publique" [level=2]
+    - paragraph: L’opérateur devra renseigner ses mentions légales, son contact, l’hébergeur et la conservation des journaux techniques. Ce projet local n’annonce ni certification RGPD ni audit de sécurité complet. Avant un enregistrement, informez les personnes concernées et appliquez les règles de votre organisation.
+    - paragraph: "Dernière mise à jour : 24 novembre 2026."
+- img
+- paragraph:
+  - strong: Votre travail reste le vôtre.
+  - text: Sans compte obligatoire. Sans publicité. Sans envoi automatique de vos documents.
+- link "Notre approche →":
+  - /url: /confidentialite
+- contentinfo:
+  - link "BureauClair.":
+    - /url: /
+  - paragraph: Un bureau plus simple. Un quotidien plus serein.
+  - strong: À explorer
+  - link "Tutoriels pas à pas":
+    - /url: /guides
+  - link "Studio de transcription":
+    - /url: /studio
+  - link "Bibliothèque de prompts":
+    - /url: /prompts
+  - strong: Pour avancer
+  - link "Annuaire d’outils":
+    - /url: /annuaire
+  - link "Le journal":
+    - /url: /blog
+  - link "À propos & contact":
+    - /url: /a-propos
+  - strong: En confiance
+  - link "Confidentialité":
+    - /url: /confidentialite
+  - link "Accessibilité":
+    - /url: /accessibilite
+  - link "Charte éditoriale":
+    - /url: /editorial
+  - text: © 2026 BureauClair · Nom de travail Guides et prompts prêts hors ligne

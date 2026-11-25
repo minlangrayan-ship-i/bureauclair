@@ -1,0 +1,2106 @@
+{
+  "capturedAt": "2026-11-24T22:45:31.404Z",
+  "base": "http://127.0.0.1:4175",
+  "routes": [
+    {
+      "route": "/",
+      "h1": "Votre bureau,en plus simple.",
+      "horizontalOverflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/guides",
+      "h1": "Un coup de main, au bon moment.",
+      "horizontalOverflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/recherche",
+      "h1": "Qu’aimeriez-vous savoir faire ?",
+      "horizontalOverflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/prompts",
+      "h1": "Les bons mots pour mieux avancer.",
+      "horizontalOverflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/blog",
+      "h1": "Un peu de recul. De bonnes idées.",
+      "horizontalOverflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/annuaire",
+      "h1": "Les bons outils. Les bonnes questions.",
+      "horizontalOverflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/outils",
+      "h1": "Moins de manipulations. Plus de clarté.",
+      "horizontalOverflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/studio",
+      "h1": "Vos paroles, posées sur le papier.",
+      "horizontalOverflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/confidentialite",
+      "h1": "Votre confiance se construit dans les détails.",
+      "horizontalOverflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/accessibilite",
+      "h1": "Simple à utiliser, de plusieurs façons.",
+      "horizontalOverflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/editorial",
+      "h1": "Des repères que l’on peut vérifier.",
+      "horizontalOverflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/a-propos",
+      "h1": "Plus d’autonomie. Moins de complications.",
+      "horizontalOverflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/guides/capture-ecran",
+      "h1": "Capturer une zone de l’écran",
+      "horizontalOverflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/guides/copier-un-fichier",
+      "h1": "Copier, déplacer et retrouver un fichier",
+      "horizontalOverflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/guides/courrier-word",
+      "h1": "Rédiger un courrier professionnel dans Word",
+      "horizontalOverflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/guides/exporter-pdf",
+      "h1": "Exporter un document Word en PDF",
+      "horizontalOverflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/guides/figer-excel",
+      "h1": "Garder les en-têtes visibles dans Excel",
+      "horizontalOverflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/guides/filtrer-excel",
+      "h1": "Filtrer les dossiers et réafficher toutes les lignes",
+      "horizontalOverflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/guides/modifier-pdf",
+      "h1": "Ouvrir une copie de PDF dans Word",
+      "horizontalOverflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/guides/notes-powerpoint",
+      "h1": "Ajouter des notes pour présenter sereinement",
+      "horizontalOverflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/guides/presentation-powerpoint",
+      "h1": "Préparer une présentation courte et lisible",
+      "horizontalOverflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/guides/raccourcis-windows",
+      "h1": "Les raccourcis utiles, sans tout mémoriser",
+      "horizontalOverflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/guides/rendez-vous-outlook",
+      "h1": "Créer un rendez-vous personnel dans Outlook",
+      "horizontalOverflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/guides/sauvegarde-windows",
+      "h1": "Choisir une sauvegarde adaptée au bureau",
+      "horizontalOverflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/guides/styles-word",
+      "h1": "Structurer un document avec les styles",
+      "horizontalOverflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/guides/suivi-modifications",
+      "h1": "Relire un document avec le suivi des modifications",
+      "horizontalOverflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/guides/tableau-excel",
+      "h1": "Créer un tableau de suivi simple dans Excel",
+      "horizontalOverflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/guides/trier-excel",
+      "h1": "Trier un tableau sans séparer les lignes",
+      "horizontalOverflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/guides/windows-10-transition",
+      "h1": "Windows 10 : préparer la transition",
+      "horizontalOverflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/blog/documents-accessibles",
+      "h1": "Des documents plus faciles à lire pour tous",
+      "horizontalOverflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/blog/ia-confidentialite",
+      "h1": "L’IA au bureau : quoi garder pour soi ?",
+      "horizontalOverflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/blog/prompts-precis",
+      "h1": "Un bon prompt commence par une demande claire",
+      "horizontalOverflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/blog/transcription-relecture",
+      "h1": "Une transcription n’est pas un compte rendu",
+      "horizontalOverflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/blog/travail-hors-ligne",
+      "h1": "Ce que « hors ligne » change vraiment",
+      "horizontalOverflow": false,
+      "brokenImages": []
+    },
+    {
+      "route": "/blog/windows-transition",
+      "h1": "Passer à Windows 11 sans improviser",
+      "horizontalOverflow": false,
+      "brokenImages": []
+    }
+  ],
+  "tests": [
+    {
+      "id": "recherche-singulier",
+      "result": [
+        "1 résultats pour « copier un fichier »"
+      ]
+    },
+    {
+      "id": "recherche-pluriel",
+      "result": [
+        "0 résultats pour « copier des fichiers »"
+      ]
+    },
+    {
+      "id": "retour-filtres",
+      "before": "/guides?categorie=Excel",
+      "opened": "/guides/tableau-excel",
+      "after": "http://127.0.0.1:4175/guides",
+      "result": [
+        "17 tutoriels"
+      ]
+    },
+    {
+      "id": "guide-copie",
+      "clipboard": "Copier, déplacer et retrouver un fichier\r\n\r\n\r\n## Votre objectif\r\n\r\nDupliquer un document dans le bon dossier et vérifier sa destination.\r\n\r\n## Les étapes\r\n\r\n### 1. Ouvrir vos fichi",
+      "video": 1,
+      "youtube": 0
+    },
+    {
+      "id": "video-locale",
+      "value": {
+        "ready": 4,
+        "duration": 12.04,
+        "tracks": 1
+      }
+    },
+    {
+      "id": "prompt-personnalise",
+      "clipboard": "Transforme ces notes anonymisées en compte rendu : Préparer une réunion de suivi de 30 minutes.. Sépare points abordés, décisions explicites et actions. Pour chaque action, indique responsable et échéance uniquement s’ils sont mentionnés. Signale toute information manquante.\r\nTon : simple et direct. Format : court. Vérifie les informations et signale tes incertitudes."
+    },
+    {
+      "id": "export-TXT",
+      "filename": "bureauclair-notes-manuelles.txt"
+    },
+    {
+      "id": "export-DOCX",
+      "filename": "bureauclair-transcription.docx"
+    },
+    {
+      "id": "perte-notes-navigation",
+      "dialogs": 0,
+      "notesAfter": "Objet :\nDate :\nPoints abordés :\nDécisions confirmées :\nActions / responsable / échéance :\nÀ confirmer :"
+    },
+    {
+      "id": "format-invalide",
+      "alert": [
+        "Format non proposé. Choisissez WAV, MP3 ou M4A. MP4, WebM et OGG restent soumis aux codecs du navigateur."
+      ]
+    },
+    {
+      "id": "annuaire-local",
+      "names": [
+        "Buzz",
+        "LibreOffice",
+        "VLC",
+        "Audacity"
+      ]
+    },
+    {
+      "id": "31-mobile-accueil",
+      "overflow": false
+    },
+    {
+      "id": "32-mobile-guides",
+      "overflow": false
+    },
+    {
+      "id": "33-mobile-studio",
+      "overflow": false
+    },
+    {
+      "id": "34-mobile-guide",
+      "overflow": false
+    },
+    {
+      "id": "menu-mobile",
+      "expanded": "true"
+    }
+  ],
+  "errors": [],
+  "requests": [
+    {
+      "url": "http://127.0.0.1:4175/",
+      "method": "GET",
+      "type": "document"
+    },
+    {
+      "url": "http://127.0.0.1:4175/assets/index-f35hbEVe.js",
+      "method": "GET",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:4175/assets/index-CqwyxVAC.css",
+      "method": "GET",
+      "type": "stylesheet"
+    },
+    {
+      "url": "http://127.0.0.1:4175/icon.svg",
+      "method": "GET",
+      "type": "image"
+    },
+    {
+      "url": "http://127.0.0.1:4175/assets/hero-photo.webp",
+      "method": "GET",
+      "type": "image"
+    },
+    {
+      "url": "http://127.0.0.1:4175/icon.svg",
+      "method": "GET",
+      "type": "other"
+    },
+    {
+      "url": "http://127.0.0.1:4175/guides",
+      "method": "GET",
+      "type": "document"
+    },
+    {
+      "url": "http://127.0.0.1:4175/assets/index-f35hbEVe.js",
+      "method": "GET",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:4175/assets/index-CqwyxVAC.css",
+      "method": "GET",
+      "type": "stylesheet"
+    },
+    {
+      "url": "http://127.0.0.1:4175/icon.svg",
+      "method": "GET",
+      "type": "image"
+    },
+    {
+      "url": "http://127.0.0.1:4175/icon.svg",
+      "method": "GET",
+      "type": "other"
+    },
+    {
+      "url": "http://127.0.0.1:4175/guides/copier-un-fichier",
+      "method": "GET",
+      "type": "document"
+    },
+    {
+      "url": "http://127.0.0.1:4175/assets/index-f35hbEVe.js",
+      "method": "GET",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:4175/assets/index-CqwyxVAC.css",
+      "method": "GET",
+      "type": "stylesheet"
+    },
+    {
+      "url": "http://127.0.0.1:4175/assets/Markdown-uIFD_PcZ.js",
+      "method": "GET",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:4175/icon.svg",
+      "method": "GET",
+      "type": "image"
+    },
+    {
+      "url": "http://127.0.0.1:4175/icon.svg",
+      "method": "GET",
+      "type": "other"
+    },
+    {
+      "url": "http://127.0.0.1:4175/media/copier-un-fichier.fr.vtt",
+      "method": "GET",
+      "type": "texttrack"
+    },
+    {
+      "url": "http://127.0.0.1:4175/prompts",
+      "method": "GET",
+      "type": "document"
+    },
+    {
+      "url": "http://127.0.0.1:4175/assets/index-f35hbEVe.js",
+      "method": "GET",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:4175/assets/index-CqwyxVAC.css",
+      "method": "GET",
+      "type": "stylesheet"
+    },
+    {
+      "url": "http://127.0.0.1:4175/icon.svg",
+      "method": "GET",
+      "type": "image"
+    },
+    {
+      "url": "http://127.0.0.1:4175/icon.svg",
+      "method": "GET",
+      "type": "other"
+    },
+    {
+      "url": "http://127.0.0.1:4175/outils",
+      "method": "GET",
+      "type": "document"
+    },
+    {
+      "url": "http://127.0.0.1:4175/assets/index-f35hbEVe.js",
+      "method": "GET",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:4175/assets/index-CqwyxVAC.css",
+      "method": "GET",
+      "type": "stylesheet"
+    },
+    {
+      "url": "http://127.0.0.1:4175/icon.svg",
+      "method": "GET",
+      "type": "image"
+    },
+    {
+      "url": "http://127.0.0.1:4175/icon.svg",
+      "method": "GET",
+      "type": "other"
+    },
+    {
+      "url": "http://127.0.0.1:4175/studio",
+      "method": "GET",
+      "type": "document"
+    },
+    {
+      "url": "http://127.0.0.1:4175/assets/index-f35hbEVe.js",
+      "method": "GET",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:4175/assets/index-CqwyxVAC.css",
+      "method": "GET",
+      "type": "stylesheet"
+    },
+    {
+      "url": "http://127.0.0.1:4175/icon.svg",
+      "method": "GET",
+      "type": "image"
+    },
+    {
+      "url": "http://127.0.0.1:4175/assets/Studio-fzRFRgWq.js",
+      "method": "GET",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:4175/icon.svg",
+      "method": "GET",
+      "type": "other"
+    },
+    {
+      "url": "http://127.0.0.1:4175/icon.svg",
+      "method": "GET",
+      "type": "image"
+    },
+    {
+      "url": "http://127.0.0.1:4175/blog",
+      "method": "GET",
+      "type": "document"
+    },
+    {
+      "url": "http://127.0.0.1:4175/assets/index-f35hbEVe.js",
+      "method": "GET",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:4175/assets/index-CqwyxVAC.css",
+      "method": "GET",
+      "type": "stylesheet"
+    },
+    {
+      "url": "http://127.0.0.1:4175/icon.svg",
+      "method": "GET",
+      "type": "image"
+    },
+    {
+      "url": "http://127.0.0.1:4175/icon.svg",
+      "method": "GET",
+      "type": "other"
+    },
+    {
+      "url": "http://127.0.0.1:4175/annuaire",
+      "method": "GET",
+      "type": "document"
+    },
+    {
+      "url": "http://127.0.0.1:4175/assets/index-f35hbEVe.js",
+      "method": "GET",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:4175/assets/index-CqwyxVAC.css",
+      "method": "GET",
+      "type": "stylesheet"
+    },
+    {
+      "url": "http://127.0.0.1:4175/icon.svg",
+      "method": "GET",
+      "type": "image"
+    },
+    {
+      "url": "http://127.0.0.1:4175/icon.svg",
+      "method": "GET",
+      "type": "other"
+    },
+    {
+      "url": "http://127.0.0.1:4175/confidentialite",
+      "method": "GET",
+      "type": "document"
+    },
+    {
+      "url": "http://127.0.0.1:4175/assets/index-f35hbEVe.js",
+      "method": "GET",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:4175/assets/index-CqwyxVAC.css",
+      "method": "GET",
+      "type": "stylesheet"
+    },
+    {
+      "url": "http://127.0.0.1:4175/icon.svg",
+      "method": "GET",
+      "type": "image"
+    },
+    {
+      "url": "http://127.0.0.1:4175/icon.svg",
+      "method": "GET",
+      "type": "other"
+    },
+    {
+      "url": "http://127.0.0.1:4175/accessibilite",
+      "method": "GET",
+      "type": "document"
+    },
+    {
+      "url": "http://127.0.0.1:4175/assets/index-f35hbEVe.js",
+      "method": "GET",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:4175/assets/index-CqwyxVAC.css",
+      "method": "GET",
+      "type": "stylesheet"
+    },
+    {
+      "url": "http://127.0.0.1:4175/icon.svg",
+      "method": "GET",
+      "type": "image"
+    },
+    {
+      "url": "http://127.0.0.1:4175/icon.svg",
+      "method": "GET",
+      "type": "other"
+    },
+    {
+      "url": "http://127.0.0.1:4175/editorial",
+      "method": "GET",
+      "type": "document"
+    },
+    {
+      "url": "http://127.0.0.1:4175/assets/index-f35hbEVe.js",
+      "method": "GET",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:4175/assets/index-CqwyxVAC.css",
+      "method": "GET",
+      "type": "stylesheet"
+    },
+    {
+      "url": "http://127.0.0.1:4175/icon.svg",
+      "method": "GET",
+      "type": "image"
+    },
+    {
+      "url": "http://127.0.0.1:4175/icon.svg",
+      "method": "GET",
+      "type": "other"
+    },
+    {
+      "url": "http://127.0.0.1:4175/a-propos",
+      "method": "GET",
+      "type": "document"
+    },
+    {
+      "url": "http://127.0.0.1:4175/assets/index-f35hbEVe.js",
+      "method": "GET",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:4175/assets/index-CqwyxVAC.css",
+      "method": "GET",
+      "type": "stylesheet"
+    },
+    {
+      "url": "http://127.0.0.1:4175/icon.svg",
+      "method": "GET",
+      "type": "image"
+    },
+    {
+      "url": "http://127.0.0.1:4175/icon.svg",
+      "method": "GET",
+      "type": "other"
+    },
+    {
+      "url": "http://127.0.0.1:4175/recherche?q=copier+un+fichier",
+      "method": "GET",
+      "type": "document"
+    },
+    {
+      "url": "http://127.0.0.1:4175/assets/index-f35hbEVe.js",
+      "method": "GET",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:4175/assets/index-CqwyxVAC.css",
+      "method": "GET",
+      "type": "stylesheet"
+    },
+    {
+      "url": "http://127.0.0.1:4175/icon.svg",
+      "method": "GET",
+      "type": "image"
+    },
+    {
+      "url": "http://127.0.0.1:4175/icon.svg",
+      "method": "GET",
+      "type": "other"
+    },
+    {
+      "url": "http://127.0.0.1:4175/recherche?q=copier+des+fichiers",
+      "method": "GET",
+      "type": "document"
+    },
+    {
+      "url": "http://127.0.0.1:4175/assets/index-f35hbEVe.js",
+      "method": "GET",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:4175/assets/index-CqwyxVAC.css",
+      "method": "GET",
+      "type": "stylesheet"
+    },
+    {
+      "url": "http://127.0.0.1:4175/icon.svg",
+      "method": "GET",
+      "type": "image"
+    },
+    {
+      "url": "http://127.0.0.1:4175/icon.svg",
+      "method": "GET",
+      "type": "other"
+    },
+    {
+      "url": "http://127.0.0.1:4175/guides?categorie=Excel",
+      "method": "GET",
+      "type": "document"
+    },
+    {
+      "url": "http://127.0.0.1:4175/assets/index-f35hbEVe.js",
+      "method": "GET",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:4175/assets/index-CqwyxVAC.css",
+      "method": "GET",
+      "type": "stylesheet"
+    },
+    {
+      "url": "http://127.0.0.1:4175/icon.svg",
+      "method": "GET",
+      "type": "image"
+    },
+    {
+      "url": "http://127.0.0.1:4175/icon.svg",
+      "method": "GET",
+      "type": "other"
+    },
+    {
+      "url": "http://127.0.0.1:4175/assets/Markdown-uIFD_PcZ.js",
+      "method": "GET",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:4175/icon.svg",
+      "method": "GET",
+      "type": "other"
+    },
+    {
+      "url": "http://127.0.0.1:4175/icon.svg",
+      "method": "GET",
+      "type": "other"
+    },
+    {
+      "url": "http://127.0.0.1:4175/guides/copier-un-fichier",
+      "method": "GET",
+      "type": "document"
+    },
+    {
+      "url": "http://127.0.0.1:4175/assets/index-f35hbEVe.js",
+      "method": "GET",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:4175/assets/index-CqwyxVAC.css",
+      "method": "GET",
+      "type": "stylesheet"
+    },
+    {
+      "url": "http://127.0.0.1:4175/assets/Markdown-uIFD_PcZ.js",
+      "method": "GET",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:4175/icon.svg",
+      "method": "GET",
+      "type": "image"
+    },
+    {
+      "url": "http://127.0.0.1:4175/media/copier-un-fichier.fr.vtt",
+      "method": "GET",
+      "type": "texttrack"
+    },
+    {
+      "url": "http://127.0.0.1:4175/icon.svg",
+      "method": "GET",
+      "type": "other"
+    },
+    {
+      "url": "http://127.0.0.1:4175/media/copier-un-fichier.webm",
+      "method": "GET",
+      "type": "media"
+    },
+    {
+      "url": "http://127.0.0.1:4175/prompts",
+      "method": "GET",
+      "type": "document"
+    },
+    {
+      "url": "http://127.0.0.1:4175/assets/index-f35hbEVe.js",
+      "method": "GET",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:4175/assets/index-CqwyxVAC.css",
+      "method": "GET",
+      "type": "stylesheet"
+    },
+    {
+      "url": "http://127.0.0.1:4175/icon.svg",
+      "method": "GET",
+      "type": "image"
+    },
+    {
+      "url": "http://127.0.0.1:4175/icon.svg",
+      "method": "GET",
+      "type": "other"
+    },
+    {
+      "url": "http://127.0.0.1:4175/studio",
+      "method": "GET",
+      "type": "document"
+    },
+    {
+      "url": "http://127.0.0.1:4175/assets/index-f35hbEVe.js",
+      "method": "GET",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:4175/assets/index-CqwyxVAC.css",
+      "method": "GET",
+      "type": "stylesheet"
+    },
+    {
+      "url": "http://127.0.0.1:4175/icon.svg",
+      "method": "GET",
+      "type": "image"
+    },
+    {
+      "url": "http://127.0.0.1:4175/assets/Studio-fzRFRgWq.js",
+      "method": "GET",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:4175/icon.svg",
+      "method": "GET",
+      "type": "other"
+    },
+    {
+      "url": "http://127.0.0.1:4175/icon.svg",
+      "method": "GET",
+      "type": "image"
+    },
+    {
+      "url": "http://127.0.0.1:4175/assets/dist-DBS2E1s_.js",
+      "method": "GET",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:4175/icon.svg",
+      "method": "GET",
+      "type": "other"
+    },
+    {
+      "url": "http://127.0.0.1:4175/studio",
+      "method": "GET",
+      "type": "document"
+    },
+    {
+      "url": "http://127.0.0.1:4175/assets/index-f35hbEVe.js",
+      "method": "GET",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:4175/assets/index-CqwyxVAC.css",
+      "method": "GET",
+      "type": "stylesheet"
+    },
+    {
+      "url": "http://127.0.0.1:4175/icon.svg",
+      "method": "GET",
+      "type": "image"
+    },
+    {
+      "url": "http://127.0.0.1:4175/assets/Studio-fzRFRgWq.js",
+      "method": "GET",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:4175/icon.svg",
+      "method": "GET",
+      "type": "other"
+    },
+    {
+      "url": "http://127.0.0.1:4175/icon.svg",
+      "method": "GET",
+      "type": "image"
+    },
+    {
+      "url": "http://127.0.0.1:4175/annuaire",
+      "method": "GET",
+      "type": "document"
+    },
+    {
+      "url": "http://127.0.0.1:4175/assets/index-f35hbEVe.js",
+      "method": "GET",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:4175/assets/index-CqwyxVAC.css",
+      "method": "GET",
+      "type": "stylesheet"
+    },
+    {
+      "url": "http://127.0.0.1:4175/icon.svg",
+      "method": "GET",
+      "type": "image"
+    },
+    {
+      "url": "http://127.0.0.1:4175/icon.svg",
+      "method": "GET",
+      "type": "other"
+    },
+    {
+      "url": "http://127.0.0.1:4175/blog/ia-confidentialite",
+      "method": "GET",
+      "type": "document"
+    },
+    {
+      "url": "http://127.0.0.1:4175/assets/index-f35hbEVe.js",
+      "method": "GET",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:4175/assets/index-CqwyxVAC.css",
+      "method": "GET",
+      "type": "stylesheet"
+    },
+    {
+      "url": "http://127.0.0.1:4175/assets/Markdown-uIFD_PcZ.js",
+      "method": "GET",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:4175/icon.svg",
+      "method": "GET",
+      "type": "image"
+    },
+    {
+      "url": "http://127.0.0.1:4175/icon.svg",
+      "method": "GET",
+      "type": "other"
+    },
+    {
+      "url": "http://127.0.0.1:4175/introuvable-audit",
+      "method": "GET",
+      "type": "document"
+    },
+    {
+      "url": "http://127.0.0.1:4175/assets/index-f35hbEVe.js",
+      "method": "GET",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:4175/assets/index-CqwyxVAC.css",
+      "method": "GET",
+      "type": "stylesheet"
+    },
+    {
+      "url": "http://127.0.0.1:4175/icon.svg",
+      "method": "GET",
+      "type": "image"
+    },
+    {
+      "url": "http://127.0.0.1:4175/icon.svg",
+      "method": "GET",
+      "type": "other"
+    },
+    {
+      "url": "http://127.0.0.1:4175/",
+      "method": "GET",
+      "type": "document"
+    },
+    {
+      "url": "http://127.0.0.1:4175/assets/index-f35hbEVe.js",
+      "method": "GET",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:4175/assets/index-CqwyxVAC.css",
+      "method": "GET",
+      "type": "stylesheet"
+    },
+    {
+      "url": "http://127.0.0.1:4175/icon.svg",
+      "method": "GET",
+      "type": "image"
+    },
+    {
+      "url": "http://127.0.0.1:4175/assets/hero-photo.webp",
+      "method": "GET",
+      "type": "image"
+    },
+    {
+      "url": "http://127.0.0.1:4175/icon.svg",
+      "method": "GET",
+      "type": "other"
+    },
+    {
+      "url": "http://127.0.0.1:4175/",
+      "method": "GET",
+      "type": "document"
+    },
+    {
+      "url": "http://127.0.0.1:4175/assets/index-f35hbEVe.js",
+      "method": "GET",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:4175/assets/index-CqwyxVAC.css",
+      "method": "GET",
+      "type": "stylesheet"
+    },
+    {
+      "url": "http://127.0.0.1:4175/assets/hero-photo.webp",
+      "method": "GET",
+      "type": "image"
+    },
+    {
+      "url": "http://127.0.0.1:4175/icon.svg",
+      "method": "GET",
+      "type": "image"
+    },
+    {
+      "url": "http://127.0.0.1:4175/icon.svg",
+      "method": "GET",
+      "type": "other"
+    },
+    {
+      "url": "http://127.0.0.1:4175/guides",
+      "method": "GET",
+      "type": "document"
+    },
+    {
+      "url": "http://127.0.0.1:4175/assets/index-f35hbEVe.js",
+      "method": "GET",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:4175/assets/index-CqwyxVAC.css",
+      "method": "GET",
+      "type": "stylesheet"
+    },
+    {
+      "url": "http://127.0.0.1:4175/icon.svg",
+      "method": "GET",
+      "type": "image"
+    },
+    {
+      "url": "http://127.0.0.1:4175/icon.svg",
+      "method": "GET",
+      "type": "other"
+    },
+    {
+      "url": "http://127.0.0.1:4175/recherche",
+      "method": "GET",
+      "type": "document"
+    },
+    {
+      "url": "http://127.0.0.1:4175/assets/index-f35hbEVe.js",
+      "method": "GET",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:4175/assets/index-CqwyxVAC.css",
+      "method": "GET",
+      "type": "stylesheet"
+    },
+    {
+      "url": "http://127.0.0.1:4175/icon.svg",
+      "method": "GET",
+      "type": "image"
+    },
+    {
+      "url": "http://127.0.0.1:4175/icon.svg",
+      "method": "GET",
+      "type": "other"
+    },
+    {
+      "url": "http://127.0.0.1:4175/prompts",
+      "method": "GET",
+      "type": "document"
+    },
+    {
+      "url": "http://127.0.0.1:4175/assets/index-f35hbEVe.js",
+      "method": "GET",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:4175/assets/index-CqwyxVAC.css",
+      "method": "GET",
+      "type": "stylesheet"
+    },
+    {
+      "url": "http://127.0.0.1:4175/icon.svg",
+      "method": "GET",
+      "type": "image"
+    },
+    {
+      "url": "http://127.0.0.1:4175/icon.svg",
+      "method": "GET",
+      "type": "other"
+    },
+    {
+      "url": "http://127.0.0.1:4175/blog",
+      "method": "GET",
+      "type": "document"
+    },
+    {
+      "url": "http://127.0.0.1:4175/assets/index-f35hbEVe.js",
+      "method": "GET",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:4175/assets/index-CqwyxVAC.css",
+      "method": "GET",
+      "type": "stylesheet"
+    },
+    {
+      "url": "http://127.0.0.1:4175/icon.svg",
+      "method": "GET",
+      "type": "image"
+    },
+    {
+      "url": "http://127.0.0.1:4175/icon.svg",
+      "method": "GET",
+      "type": "other"
+    },
+    {
+      "url": "http://127.0.0.1:4175/annuaire",
+      "method": "GET",
+      "type": "document"
+    },
+    {
+      "url": "http://127.0.0.1:4175/assets/index-f35hbEVe.js",
+      "method": "GET",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:4175/assets/index-CqwyxVAC.css",
+      "method": "GET",
+      "type": "stylesheet"
+    },
+    {
+      "url": "http://127.0.0.1:4175/icon.svg",
+      "method": "GET",
+      "type": "image"
+    },
+    {
+      "url": "http://127.0.0.1:4175/icon.svg",
+      "method": "GET",
+      "type": "other"
+    },
+    {
+      "url": "http://127.0.0.1:4175/outils",
+      "method": "GET",
+      "type": "document"
+    },
+    {
+      "url": "http://127.0.0.1:4175/assets/index-f35hbEVe.js",
+      "method": "GET",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:4175/assets/index-CqwyxVAC.css",
+      "method": "GET",
+      "type": "stylesheet"
+    },
+    {
+      "url": "http://127.0.0.1:4175/icon.svg",
+      "method": "GET",
+      "type": "image"
+    },
+    {
+      "url": "http://127.0.0.1:4175/icon.svg",
+      "method": "GET",
+      "type": "other"
+    },
+    {
+      "url": "http://127.0.0.1:4175/studio",
+      "method": "GET",
+      "type": "document"
+    },
+    {
+      "url": "http://127.0.0.1:4175/assets/index-f35hbEVe.js",
+      "method": "GET",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:4175/assets/index-CqwyxVAC.css",
+      "method": "GET",
+      "type": "stylesheet"
+    },
+    {
+      "url": "http://127.0.0.1:4175/icon.svg",
+      "method": "GET",
+      "type": "image"
+    },
+    {
+      "url": "http://127.0.0.1:4175/assets/Studio-fzRFRgWq.js",
+      "method": "GET",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:4175/icon.svg",
+      "method": "GET",
+      "type": "other"
+    },
+    {
+      "url": "http://127.0.0.1:4175/icon.svg",
+      "method": "GET",
+      "type": "image"
+    },
+    {
+      "url": "http://127.0.0.1:4175/confidentialite",
+      "method": "GET",
+      "type": "document"
+    },
+    {
+      "url": "http://127.0.0.1:4175/assets/index-f35hbEVe.js",
+      "method": "GET",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:4175/assets/index-CqwyxVAC.css",
+      "method": "GET",
+      "type": "stylesheet"
+    },
+    {
+      "url": "http://127.0.0.1:4175/icon.svg",
+      "method": "GET",
+      "type": "image"
+    },
+    {
+      "url": "http://127.0.0.1:4175/icon.svg",
+      "method": "GET",
+      "type": "other"
+    },
+    {
+      "url": "http://127.0.0.1:4175/accessibilite",
+      "method": "GET",
+      "type": "document"
+    },
+    {
+      "url": "http://127.0.0.1:4175/assets/index-f35hbEVe.js",
+      "method": "GET",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:4175/assets/index-CqwyxVAC.css",
+      "method": "GET",
+      "type": "stylesheet"
+    },
+    {
+      "url": "http://127.0.0.1:4175/icon.svg",
+      "method": "GET",
+      "type": "image"
+    },
+    {
+      "url": "http://127.0.0.1:4175/icon.svg",
+      "method": "GET",
+      "type": "other"
+    },
+    {
+      "url": "http://127.0.0.1:4175/editorial",
+      "method": "GET",
+      "type": "document"
+    },
+    {
+      "url": "http://127.0.0.1:4175/assets/index-f35hbEVe.js",
+      "method": "GET",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:4175/assets/index-CqwyxVAC.css",
+      "method": "GET",
+      "type": "stylesheet"
+    },
+    {
+      "url": "http://127.0.0.1:4175/icon.svg",
+      "method": "GET",
+      "type": "image"
+    },
+    {
+      "url": "http://127.0.0.1:4175/icon.svg",
+      "method": "GET",
+      "type": "other"
+    },
+    {
+      "url": "http://127.0.0.1:4175/a-propos",
+      "method": "GET",
+      "type": "document"
+    },
+    {
+      "url": "http://127.0.0.1:4175/assets/index-f35hbEVe.js",
+      "method": "GET",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:4175/assets/index-CqwyxVAC.css",
+      "method": "GET",
+      "type": "stylesheet"
+    },
+    {
+      "url": "http://127.0.0.1:4175/icon.svg",
+      "method": "GET",
+      "type": "image"
+    },
+    {
+      "url": "http://127.0.0.1:4175/icon.svg",
+      "method": "GET",
+      "type": "other"
+    },
+    {
+      "url": "http://127.0.0.1:4175/guides/capture-ecran",
+      "method": "GET",
+      "type": "document"
+    },
+    {
+      "url": "http://127.0.0.1:4175/assets/index-f35hbEVe.js",
+      "method": "GET",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:4175/assets/index-CqwyxVAC.css",
+      "method": "GET",
+      "type": "stylesheet"
+    },
+    {
+      "url": "http://127.0.0.1:4175/assets/Markdown-uIFD_PcZ.js",
+      "method": "GET",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:4175/icon.svg",
+      "method": "GET",
+      "type": "image"
+    },
+    {
+      "url": "http://127.0.0.1:4175/icon.svg",
+      "method": "GET",
+      "type": "other"
+    },
+    {
+      "url": "http://127.0.0.1:4175/guides/copier-un-fichier",
+      "method": "GET",
+      "type": "document"
+    },
+    {
+      "url": "http://127.0.0.1:4175/assets/index-f35hbEVe.js",
+      "method": "GET",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:4175/assets/index-CqwyxVAC.css",
+      "method": "GET",
+      "type": "stylesheet"
+    },
+    {
+      "url": "http://127.0.0.1:4175/assets/Markdown-uIFD_PcZ.js",
+      "method": "GET",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:4175/icon.svg",
+      "method": "GET",
+      "type": "image"
+    },
+    {
+      "url": "http://127.0.0.1:4175/media/copier-un-fichier.fr.vtt",
+      "method": "GET",
+      "type": "texttrack"
+    },
+    {
+      "url": "http://127.0.0.1:4175/icon.svg",
+      "method": "GET",
+      "type": "other"
+    },
+    {
+      "url": "http://127.0.0.1:4175/guides/courrier-word",
+      "method": "GET",
+      "type": "document"
+    },
+    {
+      "url": "http://127.0.0.1:4175/assets/index-f35hbEVe.js",
+      "method": "GET",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:4175/assets/index-CqwyxVAC.css",
+      "method": "GET",
+      "type": "stylesheet"
+    },
+    {
+      "url": "http://127.0.0.1:4175/assets/Markdown-uIFD_PcZ.js",
+      "method": "GET",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:4175/icon.svg",
+      "method": "GET",
+      "type": "image"
+    },
+    {
+      "url": "http://127.0.0.1:4175/icon.svg",
+      "method": "GET",
+      "type": "other"
+    },
+    {
+      "url": "http://127.0.0.1:4175/guides/exporter-pdf",
+      "method": "GET",
+      "type": "document"
+    },
+    {
+      "url": "http://127.0.0.1:4175/assets/index-f35hbEVe.js",
+      "method": "GET",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:4175/assets/index-CqwyxVAC.css",
+      "method": "GET",
+      "type": "stylesheet"
+    },
+    {
+      "url": "http://127.0.0.1:4175/assets/Markdown-uIFD_PcZ.js",
+      "method": "GET",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:4175/icon.svg",
+      "method": "GET",
+      "type": "image"
+    },
+    {
+      "url": "http://127.0.0.1:4175/icon.svg",
+      "method": "GET",
+      "type": "other"
+    },
+    {
+      "url": "http://127.0.0.1:4175/guides/figer-excel",
+      "method": "GET",
+      "type": "document"
+    },
+    {
+      "url": "http://127.0.0.1:4175/assets/index-f35hbEVe.js",
+      "method": "GET",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:4175/assets/index-CqwyxVAC.css",
+      "method": "GET",
+      "type": "stylesheet"
+    },
+    {
+      "url": "http://127.0.0.1:4175/assets/Markdown-uIFD_PcZ.js",
+      "method": "GET",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:4175/icon.svg",
+      "method": "GET",
+      "type": "image"
+    },
+    {
+      "url": "http://127.0.0.1:4175/icon.svg",
+      "method": "GET",
+      "type": "other"
+    },
+    {
+      "url": "http://127.0.0.1:4175/guides/filtrer-excel",
+      "method": "GET",
+      "type": "document"
+    },
+    {
+      "url": "http://127.0.0.1:4175/assets/index-f35hbEVe.js",
+      "method": "GET",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:4175/assets/index-CqwyxVAC.css",
+      "method": "GET",
+      "type": "stylesheet"
+    },
+    {
+      "url": "http://127.0.0.1:4175/assets/Markdown-uIFD_PcZ.js",
+      "method": "GET",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:4175/icon.svg",
+      "method": "GET",
+      "type": "image"
+    },
+    {
+      "url": "http://127.0.0.1:4175/icon.svg",
+      "method": "GET",
+      "type": "other"
+    },
+    {
+      "url": "http://127.0.0.1:4175/guides/modifier-pdf",
+      "method": "GET",
+      "type": "document"
+    },
+    {
+      "url": "http://127.0.0.1:4175/assets/index-f35hbEVe.js",
+      "method": "GET",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:4175/assets/index-CqwyxVAC.css",
+      "method": "GET",
+      "type": "stylesheet"
+    },
+    {
+      "url": "http://127.0.0.1:4175/assets/Markdown-uIFD_PcZ.js",
+      "method": "GET",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:4175/icon.svg",
+      "method": "GET",
+      "type": "image"
+    },
+    {
+      "url": "http://127.0.0.1:4175/icon.svg",
+      "method": "GET",
+      "type": "other"
+    },
+    {
+      "url": "http://127.0.0.1:4175/guides/notes-powerpoint",
+      "method": "GET",
+      "type": "document"
+    },
+    {
+      "url": "http://127.0.0.1:4175/assets/index-f35hbEVe.js",
+      "method": "GET",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:4175/assets/index-CqwyxVAC.css",
+      "method": "GET",
+      "type": "stylesheet"
+    },
+    {
+      "url": "http://127.0.0.1:4175/assets/Markdown-uIFD_PcZ.js",
+      "method": "GET",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:4175/icon.svg",
+      "method": "GET",
+      "type": "image"
+    },
+    {
+      "url": "http://127.0.0.1:4175/icon.svg",
+      "method": "GET",
+      "type": "other"
+    },
+    {
+      "url": "http://127.0.0.1:4175/guides/presentation-powerpoint",
+      "method": "GET",
+      "type": "document"
+    },
+    {
+      "url": "http://127.0.0.1:4175/assets/index-f35hbEVe.js",
+      "method": "GET",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:4175/assets/index-CqwyxVAC.css",
+      "method": "GET",
+      "type": "stylesheet"
+    },
+    {
+      "url": "http://127.0.0.1:4175/assets/Markdown-uIFD_PcZ.js",
+      "method": "GET",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:4175/icon.svg",
+      "method": "GET",
+      "type": "image"
+    },
+    {
+      "url": "http://127.0.0.1:4175/icon.svg",
+      "method": "GET",
+      "type": "other"
+    },
+    {
+      "url": "http://127.0.0.1:4175/guides/raccourcis-windows",
+      "method": "GET",
+      "type": "document"
+    },
+    {
+      "url": "http://127.0.0.1:4175/assets/index-f35hbEVe.js",
+      "method": "GET",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:4175/assets/index-CqwyxVAC.css",
+      "method": "GET",
+      "type": "stylesheet"
+    },
+    {
+      "url": "http://127.0.0.1:4175/assets/Markdown-uIFD_PcZ.js",
+      "method": "GET",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:4175/icon.svg",
+      "method": "GET",
+      "type": "image"
+    },
+    {
+      "url": "http://127.0.0.1:4175/icon.svg",
+      "method": "GET",
+      "type": "other"
+    },
+    {
+      "url": "http://127.0.0.1:4175/guides/rendez-vous-outlook",
+      "method": "GET",
+      "type": "document"
+    },
+    {
+      "url": "http://127.0.0.1:4175/assets/index-f35hbEVe.js",
+      "method": "GET",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:4175/assets/index-CqwyxVAC.css",
+      "method": "GET",
+      "type": "stylesheet"
+    },
+    {
+      "url": "http://127.0.0.1:4175/assets/Markdown-uIFD_PcZ.js",
+      "method": "GET",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:4175/icon.svg",
+      "method": "GET",
+      "type": "image"
+    },
+    {
+      "url": "http://127.0.0.1:4175/icon.svg",
+      "method": "GET",
+      "type": "other"
+    },
+    {
+      "url": "http://127.0.0.1:4175/guides/sauvegarde-windows",
+      "method": "GET",
+      "type": "document"
+    },
+    {
+      "url": "http://127.0.0.1:4175/assets/index-f35hbEVe.js",
+      "method": "GET",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:4175/assets/index-CqwyxVAC.css",
+      "method": "GET",
+      "type": "stylesheet"
+    },
+    {
+      "url": "http://127.0.0.1:4175/assets/Markdown-uIFD_PcZ.js",
+      "method": "GET",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:4175/icon.svg",
+      "method": "GET",
+      "type": "image"
+    },
+    {
+      "url": "http://127.0.0.1:4175/icon.svg",
+      "method": "GET",
+      "type": "other"
+    },
+    {
+      "url": "http://127.0.0.1:4175/guides/styles-word",
+      "method": "GET",
+      "type": "document"
+    },
+    {
+      "url": "http://127.0.0.1:4175/assets/index-f35hbEVe.js",
+      "method": "GET",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:4175/assets/index-CqwyxVAC.css",
+      "method": "GET",
+      "type": "stylesheet"
+    },
+    {
+      "url": "http://127.0.0.1:4175/assets/Markdown-uIFD_PcZ.js",
+      "method": "GET",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:4175/icon.svg",
+      "method": "GET",
+      "type": "image"
+    },
+    {
+      "url": "http://127.0.0.1:4175/icon.svg",
+      "method": "GET",
+      "type": "other"
+    },
+    {
+      "url": "http://127.0.0.1:4175/guides/suivi-modifications",
+      "method": "GET",
+      "type": "document"
+    },
+    {
+      "url": "http://127.0.0.1:4175/assets/index-f35hbEVe.js",
+      "method": "GET",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:4175/assets/index-CqwyxVAC.css",
+      "method": "GET",
+      "type": "stylesheet"
+    },
+    {
+      "url": "http://127.0.0.1:4175/assets/Markdown-uIFD_PcZ.js",
+      "method": "GET",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:4175/icon.svg",
+      "method": "GET",
+      "type": "image"
+    },
+    {
+      "url": "http://127.0.0.1:4175/icon.svg",
+      "method": "GET",
+      "type": "other"
+    },
+    {
+      "url": "http://127.0.0.1:4175/guides/tableau-excel",
+      "method": "GET",
+      "type": "document"
+    },
+    {
+      "url": "http://127.0.0.1:4175/assets/index-f35hbEVe.js",
+      "method": "GET",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:4175/assets/index-CqwyxVAC.css",
+      "method": "GET",
+      "type": "stylesheet"
+    },
+    {
+      "url": "http://127.0.0.1:4175/assets/Markdown-uIFD_PcZ.js",
+      "method": "GET",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:4175/icon.svg",
+      "method": "GET",
+      "type": "image"
+    },
+    {
+      "url": "http://127.0.0.1:4175/icon.svg",
+      "method": "GET",
+      "type": "other"
+    },
+    {
+      "url": "http://127.0.0.1:4175/guides/trier-excel",
+      "method": "GET",
+      "type": "document"
+    },
+    {
+      "url": "http://127.0.0.1:4175/assets/index-f35hbEVe.js",
+      "method": "GET",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:4175/assets/index-CqwyxVAC.css",
+      "method": "GET",
+      "type": "stylesheet"
+    },
+    {
+      "url": "http://127.0.0.1:4175/assets/Markdown-uIFD_PcZ.js",
+      "method": "GET",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:4175/icon.svg",
+      "method": "GET",
+      "type": "image"
+    },
+    {
+      "url": "http://127.0.0.1:4175/icon.svg",
+      "method": "GET",
+      "type": "other"
+    },
+    {
+      "url": "http://127.0.0.1:4175/guides/windows-10-transition",
+      "method": "GET",
+      "type": "document"
+    },
+    {
+      "url": "http://127.0.0.1:4175/assets/index-f35hbEVe.js",
+      "method": "GET",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:4175/assets/index-CqwyxVAC.css",
+      "method": "GET",
+      "type": "stylesheet"
+    },
+    {
+      "url": "http://127.0.0.1:4175/assets/Markdown-uIFD_PcZ.js",
+      "method": "GET",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:4175/icon.svg",
+      "method": "GET",
+      "type": "image"
+    },
+    {
+      "url": "http://127.0.0.1:4175/icon.svg",
+      "method": "GET",
+      "type": "other"
+    },
+    {
+      "url": "http://127.0.0.1:4175/blog/documents-accessibles",
+      "method": "GET",
+      "type": "document"
+    },
+    {
+      "url": "http://127.0.0.1:4175/assets/index-f35hbEVe.js",
+      "method": "GET",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:4175/assets/index-CqwyxVAC.css",
+      "method": "GET",
+      "type": "stylesheet"
+    },
+    {
+      "url": "http://127.0.0.1:4175/assets/Markdown-uIFD_PcZ.js",
+      "method": "GET",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:4175/icon.svg",
+      "method": "GET",
+      "type": "image"
+    },
+    {
+      "url": "http://127.0.0.1:4175/icon.svg",
+      "method": "GET",
+      "type": "other"
+    },
+    {
+      "url": "http://127.0.0.1:4175/blog/ia-confidentialite",
+      "method": "GET",
+      "type": "document"
+    },
+    {
+      "url": "http://127.0.0.1:4175/assets/index-f35hbEVe.js",
+      "method": "GET",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:4175/assets/index-CqwyxVAC.css",
+      "method": "GET",
+      "type": "stylesheet"
+    },
+    {
+      "url": "http://127.0.0.1:4175/assets/Markdown-uIFD_PcZ.js",
+      "method": "GET",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:4175/icon.svg",
+      "method": "GET",
+      "type": "image"
+    },
+    {
+      "url": "http://127.0.0.1:4175/icon.svg",
+      "method": "GET",
+      "type": "other"
+    },
+    {
+      "url": "http://127.0.0.1:4175/blog/prompts-precis",
+      "method": "GET",
+      "type": "document"
+    },
+    {
+      "url": "http://127.0.0.1:4175/assets/index-f35hbEVe.js",
+      "method": "GET",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:4175/assets/index-CqwyxVAC.css",
+      "method": "GET",
+      "type": "stylesheet"
+    },
+    {
+      "url": "http://127.0.0.1:4175/assets/Markdown-uIFD_PcZ.js",
+      "method": "GET",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:4175/icon.svg",
+      "method": "GET",
+      "type": "image"
+    },
+    {
+      "url": "http://127.0.0.1:4175/icon.svg",
+      "method": "GET",
+      "type": "other"
+    },
+    {
+      "url": "http://127.0.0.1:4175/blog/transcription-relecture",
+      "method": "GET",
+      "type": "document"
+    },
+    {
+      "url": "http://127.0.0.1:4175/assets/index-f35hbEVe.js",
+      "method": "GET",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:4175/assets/index-CqwyxVAC.css",
+      "method": "GET",
+      "type": "stylesheet"
+    },
+    {
+      "url": "http://127.0.0.1:4175/assets/Markdown-uIFD_PcZ.js",
+      "method": "GET",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:4175/icon.svg",
+      "method": "GET",
+      "type": "image"
+    },
+    {
+      "url": "http://127.0.0.1:4175/icon.svg",
+      "method": "GET",
+      "type": "other"
+    },
+    {
+      "url": "http://127.0.0.1:4175/blog/travail-hors-ligne",
+      "method": "GET",
+      "type": "document"
+    },
+    {
+      "url": "http://127.0.0.1:4175/assets/index-f35hbEVe.js",
+      "method": "GET",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:4175/assets/index-CqwyxVAC.css",
+      "method": "GET",
+      "type": "stylesheet"
+    },
+    {
+      "url": "http://127.0.0.1:4175/assets/Markdown-uIFD_PcZ.js",
+      "method": "GET",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:4175/icon.svg",
+      "method": "GET",
+      "type": "image"
+    },
+    {
+      "url": "http://127.0.0.1:4175/icon.svg",
+      "method": "GET",
+      "type": "other"
+    },
+    {
+      "url": "http://127.0.0.1:4175/blog/windows-transition",
+      "method": "GET",
+      "type": "document"
+    },
+    {
+      "url": "http://127.0.0.1:4175/assets/index-f35hbEVe.js",
+      "method": "GET",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:4175/assets/index-CqwyxVAC.css",
+      "method": "GET",
+      "type": "stylesheet"
+    },
+    {
+      "url": "http://127.0.0.1:4175/assets/Markdown-uIFD_PcZ.js",
+      "method": "GET",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:4175/icon.svg",
+      "method": "GET",
+      "type": "image"
+    },
+    {
+      "url": "http://127.0.0.1:4175/icon.svg",
+      "method": "GET",
+      "type": "other"
+    }
+  ],
+  "screens": [
+    {
+      "name": "01-accueil",
+      "url": "http://127.0.0.1:4175/"
+    },
+    {
+      "name": "02-tutoriels",
+      "url": "http://127.0.0.1:4175/guides"
+    },
+    {
+      "name": "03-guide",
+      "url": "http://127.0.0.1:4175/guides/copier-un-fichier"
+    },
+    {
+      "name": "04-prompts",
+      "url": "http://127.0.0.1:4175/prompts"
+    },
+    {
+      "name": "05-outils",
+      "url": "http://127.0.0.1:4175/outils"
+    },
+    {
+      "name": "06-studio",
+      "url": "http://127.0.0.1:4175/studio"
+    },
+    {
+      "name": "07-blog",
+      "url": "http://127.0.0.1:4175/blog"
+    },
+    {
+      "name": "08-annuaire",
+      "url": "http://127.0.0.1:4175/annuaire"
+    },
+    {
+      "name": "09-confidentialite",
+      "url": "http://127.0.0.1:4175/confidentialite"
+    },
+    {
+      "name": "10-accessibilite",
+      "url": "http://127.0.0.1:4175/accessibilite"
+    },
+    {
+      "name": "11-editorial",
+      "url": "http://127.0.0.1:4175/editorial"
+    },
+    {
+      "name": "12-a-propos",
+      "url": "http://127.0.0.1:4175/a-propos"
+    },
+    {
+      "name": "13-recherche",
+      "url": "http://127.0.0.1:4175/recherche?q=copier+un+fichier"
+    },
+    {
+      "name": "14-recherche-pluriel",
+      "url": "http://127.0.0.1:4175/recherche?q=copier+des+fichiers"
+    },
+    {
+      "name": "15-filtre-excel",
+      "url": "http://127.0.0.1:4175/guides?categorie=Excel"
+    },
+    {
+      "name": "16-retour-filtres",
+      "url": "http://127.0.0.1:4175/guides"
+    },
+    {
+      "name": "17-guide-actions",
+      "url": "http://127.0.0.1:4175/guides/copier-un-fichier"
+    },
+    {
+      "name": "19-video",
+      "url": "http://127.0.0.1:4175/guides/copier-un-fichier"
+    },
+    {
+      "name": "20-prompts-action",
+      "url": "http://127.0.0.1:4175/prompts"
+    },
+    {
+      "name": "21-prompt-dialogue",
+      "url": "http://127.0.0.1:4175/prompts"
+    },
+    {
+      "name": "22-studio-notes",
+      "url": "http://127.0.0.1:4175/studio"
+    },
+    {
+      "name": "23-notes",
+      "url": "http://127.0.0.1:4175/studio"
+    },
+    {
+      "name": "24-format-refuse",
+      "url": "http://127.0.0.1:4175/studio"
+    },
+    {
+      "name": "25-annuaire-local",
+      "url": "http://127.0.0.1:4175/annuaire"
+    },
+    {
+      "name": "26-annuaire-filtre",
+      "url": "http://127.0.0.1:4175/annuaire"
+    },
+    {
+      "name": "27-article",
+      "url": "http://127.0.0.1:4175/blog/ia-confidentialite"
+    },
+    {
+      "name": "28-introuvable",
+      "url": "http://127.0.0.1:4175/introuvable-audit"
+    },
+    {
+      "name": "29-installation",
+      "url": "http://127.0.0.1:4175/"
+    },
+    {
+      "name": "30-dialogue-installation",
+      "url": "http://127.0.0.1:4175/"
+    }
+  ]
+}

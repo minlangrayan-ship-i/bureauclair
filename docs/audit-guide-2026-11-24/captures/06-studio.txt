@@ -1,0 +1,111 @@
+- link "Aller au contenu":
+  - /url: "#contenu"
+- banner:
+  - link "BureauClair, accueil":
+    - /url: /
+    - text: BureauClair .
+  - navigation "Navigation principale":
+    - link "Accueil":
+      - /url: /
+    - link "Tutoriels":
+      - /url: /guides
+    - link "Outils":
+      - /url: /outils
+    - link "IA & prompts":
+      - /url: /prompts
+    - link "Blog":
+      - /url: /blog
+  - link "Rechercher dans BureauClair":
+    - /url: /recherche
+    - img
+  - button "Installer l’application":
+    - img
+    - text: Installer l’application
+- main:
+  - text: Les outils · Studio local expérimental
+  - heading "Vos paroles, posées sur le papier." [level=1]
+  - paragraph: Transcrivez un court enregistrement sur votre appareil. Relisez, corrigez et emportez le texte, sans compte.
+  - img
+  - paragraph:
+    - strong: Traitement sur votre appareil.
+    - text: Le moteur est téléchargé à votre demande ; l’audio et le texte restent dans cette session. Aucun compte rendu n’est généré automatiquement.
+    - link "Comprendre les caches et téléchargements":
+      - /url: /confidentialite
+  - text: 01 · PRÉPARER
+  - heading "Votre enregistrement" [level=2]
+  - img
+  - heading "Déposez votre fichier ici" [level=3]
+  - paragraph: ou choisissez-le sur votre appareil
+  - button "Choisir un fichier"
+  - text: Choisir un fichier WAV, MP3, M4A · 50 Mo maximum Pilote limité à 10 minutes. Vidéo selon le codec. Langue de l’enregistrement
+  - combobox "Langue de l’enregistrement":
+    - option "Français" [selected]
+    - option "Anglais"
+    - option "Arabe · non validé sur ce poste"
+  - checkbox "J’autorise le téléchargement du modèle depuis Hugging Face et de son moteur (plus de 100 Mo possibles). Cela n’envoie pas mon enregistrement."
+  - text: J’autorise le téléchargement du modèle depuis Hugging Face et de son moteur (plus de 100 Mo possibles). Cela n’envoie pas mon enregistrement.
+  - button "Charger le moteur local" [disabled]:
+    - img
+    - text: Charger le moteur local
+  - button "Transcrire cet audio" [disabled]:
+    - img
+    - text: Transcrire cet audio
+  - img
+  - paragraph: Informez les participants avant d’enregistrer et appliquez les règles de votre organisation. Commencez par un extrait non sensible. Les noms, chiffres et négations doivent être vérifiés.
+  - paragraph:
+    - text: "CPU / WebAssembly. Qualité et vitesse variables. Sur appareil limité :"
+    - link "voir les alternatives locales":
+      - /url: /annuaire
+    - text: .
+  - text: 02 · RELIRE & EMPORTER
+  - tablist "Documents du studio":
+    - tab "Transcription" [selected]
+    - tab "Notes manuelles"
+  - status:
+    - img
+    - text: Le moteur n’est pas chargé.
+  - tabpanel "Transcription":
+    - heading "Le texte apparaîtra ici." [level=3]
+    - paragraph: Choisissez un fichier, chargez le moteur puis lancez la transcription. Aucun texte d’exemple ne remplace votre résultat.
+  - button "Exporter TXT" [disabled]:
+    - img
+    - text: Exporter TXT
+  - button "Exporter DOCX" [disabled]:
+    - img
+    - text: Exporter DOCX
+  - button "Effacer la session":
+    - img
+    - text: Effacer la session
+  - paragraph: En quittant cette page, le fichier et le texte sont libérés. Exportez votre travail avant de partir. Effacer la session ne supprime pas le cache des modèles.
+- img
+- paragraph:
+  - strong: Votre travail reste le vôtre.
+  - text: Sans compte obligatoire. Sans publicité. Sans envoi automatique de vos documents.
+- link "Notre approche →":
+  - /url: /confidentialite
+- contentinfo:
+  - link "BureauClair.":
+    - /url: /
+  - paragraph: Un bureau plus simple. Un quotidien plus serein.
+  - strong: À explorer
+  - link "Tutoriels pas à pas":
+    - /url: /guides
+  - link "Studio de transcription":
+    - /url: /studio
+  - link "Bibliothèque de prompts":
+    - /url: /prompts
+  - strong: Pour avancer
+  - link "Annuaire d’outils":
+    - /url: /annuaire
+  - link "Le journal":
+    - /url: /blog
+  - link "À propos & contact":
+    - /url: /a-propos
+  - strong: En confiance
+  - link "Confidentialité":
+    - /url: /confidentialite
+  - link "Accessibilité":
+    - /url: /accessibilite
+  - link "Charte éditoriale":
+    - /url: /editorial
+  - text: © 2026 BureauClair · Nom de travail Guides et prompts prêts hors ligne

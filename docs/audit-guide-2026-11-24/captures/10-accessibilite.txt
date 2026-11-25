@@ -1,0 +1,79 @@
+- link "Aller au contenu":
+  - /url: "#contenu"
+- banner:
+  - link "BureauClair, accueil":
+    - /url: /
+    - text: BureauClair .
+  - navigation "Navigation principale":
+    - link "Accueil":
+      - /url: /
+    - link "Tutoriels":
+      - /url: /guides
+    - link "Outils":
+      - /url: /outils
+    - link "IA & prompts":
+      - /url: /prompts
+    - link "Blog":
+      - /url: /blog
+  - link "Rechercher dans BureauClair":
+    - /url: /recherche
+    - img
+  - button "Installer l’application":
+    - img
+    - text: Installer l’application
+- main:
+  - text: BureauClair · En confiance
+  - heading "Simple à utiliser, de plusieurs façons." [level=1]
+  - paragraph: Une démarche d’accessibilité, sans prétendre à une conformité non auditée.
+  - complementary:
+    - heading "Nos engagements" [level=2]
+    - 'link "Confidentialité : Votre confiance se construit dans les détails."':
+      - /url: /confidentialite
+    - 'link "Accessibilité : Simple à utiliser, de plusieurs façons."':
+      - /url: /accessibilite
+    - 'link "Charte éditoriale : Des repères que l’on peut vérifier."':
+      - /url: /editorial
+    - 'link "À propos & contact : Plus d’autonomie. Moins de complications."':
+      - /url: /a-propos
+  - article:
+    - heading "Des repères dans le code" [level=2]
+    - paragraph: Navigation sémantique, lien d’évitement, titres hiérarchisés, libellés des champs, focus visible et retours d’action annoncés par les technologies d’assistance. Les cartes et contrôles sont de vrais liens et boutons.
+    - heading "Lire et se déplacer" [level=2]
+    - paragraph: L’interface s’adapte aux petits écrans et à l’agrandissement du texte. Les animations respectent prefers-reduced-motion. Le contenu reste accessible sans animation et aucune information indispensable ne dépend uniquement de la couleur ou du son.
+    - heading "Audio et vidéo" [level=2]
+    - paragraph: Les guides sont disponibles en texte. Le studio propose un texte éditable, sans garantir la précision d’une transcription automatique. La démonstration locale comporte des sous-titres et une alternative textuelle. Aucun son ne démarre automatiquement.
+    - heading "État des vérifications" [level=2]
+    - paragraph: L’objectif est WCAG 2.2 AA. Les contrôles automatisés et parcours clavier réalisés sont consignés dans docs/VERIFICATION.md. Un audit complet avec lecteurs d’écran et des tests avec des personnes concernées restent nécessaires.
+    - paragraph: "Dernière mise à jour : 24 novembre 2026."
+- img
+- paragraph:
+  - strong: Votre travail reste le vôtre.
+  - text: Sans compte obligatoire. Sans publicité. Sans envoi automatique de vos documents.
+- link "Notre approche →":
+  - /url: /confidentialite
+- contentinfo:
+  - link "BureauClair.":
+    - /url: /
+  - paragraph: Un bureau plus simple. Un quotidien plus serein.
+  - strong: À explorer
+  - link "Tutoriels pas à pas":
+    - /url: /guides
+  - link "Studio de transcription":
+    - /url: /studio
+  - link "Bibliothèque de prompts":
+    - /url: /prompts
+  - strong: Pour avancer
+  - link "Annuaire d’outils":
+    - /url: /annuaire
+  - link "Le journal":
+    - /url: /blog
+  - link "À propos & contact":
+    - /url: /a-propos
+  - strong: En confiance
+  - link "Confidentialité":
+    - /url: /confidentialite
+  - link "Accessibilité":
+    - /url: /accessibilite
+  - link "Charte éditoriale":
+    - /url: /editorial
+  - text: © 2026 BureauClair · Nom de travail Guides et prompts prêts hors ligne

@@ -1,0 +1,133 @@
+- link "Aller au contenu":
+  - /url: "#contenu"
+- banner:
+  - link "BureauClair, accueil":
+    - /url: /
+    - text: BureauClair .
+  - navigation "Navigation principale":
+    - link "Accueil":
+      - /url: /
+    - link "Tutoriels":
+      - /url: /guides
+    - link "Outils":
+      - /url: /outils
+    - link "IA & prompts":
+      - /url: /prompts
+    - link "Blog":
+      - /url: /blog
+  - link "Rechercher dans BureauClair":
+    - /url: /recherche
+    - img
+  - button "Installer l’application":
+    - img
+    - text: Installer l’application
+- main:
+  - text: Le journal · 3 min · Pour tous
+  - 'heading "L’IA au bureau : quoi garder pour soi ?" [level=1]'
+  - paragraph: Avant de copier un document, distinguer public, personnel et confidentiel.
+  - article:
+    - text: Dossier pratique Sources consultées le 24/11/2026
+    - heading "Commencer par la règle interne" [level=2]
+    - paragraph: Demandez quels outils sont autorisés et pour quelles données. Une interface pratique ne constitue pas une autorisation de transmettre des informations professionnelles.
+    - heading "Préparer un exemple sans données réelles" [level=2]
+    - paragraph: Travaillez avec une structure de document, des champs entre crochets et un contexte fictif. Retirer un nom peut ne pas suffire à rendre un texte anonyme.
+    - heading "Vérifier avant d’envoyer" [level=2]
+    - paragraph: Relisez noms, dates, chiffres et engagements. Une réponse plausible peut être incorrecte. Si vous ne pouvez pas vérifier un élément, signalez-le plutôt que le présenter comme acquis.
+    - strong: Pour vérifier avec votre version
+    - paragraph: BureauClair — rédaction initiale. Instructions rédigées à partir de la documentation ; elles ne remplacent pas les règles de votre organisation. Pas de validation sur toutes les versions d’Office.
+    - link "Source de référence":
+      - /url: https://www.cnil.fr/fr/les-questions-reponses-de-la-cnil-sur-lutilisation-dun-systeme-dia-generative
+    - button "Marquer comme lu":
+      - img
+      - text: Marquer comme lu
+    - button "Imprimer":
+      - img
+      - text: Imprimer
+    - button "Copier les étapes":
+      - img
+      - text: Copier les étapes
+    - status
+    - link "Tous les articles":
+      - /url: /blog
+      - text: Tous les articles
+      - img
+  - complementary:
+    - text: VOS REPÈRES
+    - heading "À votre rythme" [level=2]
+    - paragraph:
+      - img
+      - text: 3 minutes de lecture
+    - paragraph:
+      - img
+      - text: Pour tous
+    - list:
+      - listitem:
+        - link "Commencer par la règle interne":
+          - /url: "#section-0"
+      - listitem:
+        - link "Préparer un exemple sans données réelles":
+          - /url: "#section-1"
+      - listitem:
+        - link "Vérifier avant d’envoyer":
+          - /url: "#section-2"
+    - paragraph: Vous pouvez imprimer les étapes ou les copier pour les garder près de vous.
+    - img
+    - heading "Un doute ? Gardez l’original." [level=3]
+    - paragraph: Testez d’abord sur une copie sans données sensibles.
+  - heading "Pour continuer simplement" [level=2]
+  - article:
+    - link "Accessibilité Des documents plus faciles à lire pour tous Structurer les titres et ne pas compter uniquement sur la couleur. 3 min · Pour tous":
+      - /url: /blog/documents-accessibles
+      - text: Accessibilité
+      - heading "Des documents plus faciles à lire pour tous" [level=3]
+      - paragraph: Structurer les titres et ne pas compter uniquement sur la couleur.
+      - text: 3 min · Pour tous
+      - img
+  - article:
+    - 'link "IA pratique Un bon prompt commence par une demande claire Objectif, contexte non sensible et format : une base simple. 3 min · Pour tous"':
+      - /url: /blog/prompts-precis
+      - text: IA pratique
+      - heading "Un bon prompt commence par une demande claire" [level=3]
+      - paragraph: "Objectif, contexte non sensible et format : une base simple."
+      - text: 3 min · Pour tous
+      - img
+  - article:
+    - link "Réunions Une transcription n’est pas un compte rendu Conserver les mots entendus et séparer les décisions validées. 3 min · Pour tous":
+      - /url: /blog/transcription-relecture
+      - text: Réunions
+      - heading "Une transcription n’est pas un compte rendu" [level=3]
+      - paragraph: Conserver les mots entendus et séparer les décisions validées.
+      - text: 3 min · Pour tous
+      - img
+- img
+- paragraph:
+  - strong: Votre travail reste le vôtre.
+  - text: Sans compte obligatoire. Sans publicité. Sans envoi automatique de vos documents.
+- link "Notre approche →":
+  - /url: /confidentialite
+- contentinfo:
+  - link "BureauClair.":
+    - /url: /
+  - paragraph: Un bureau plus simple. Un quotidien plus serein.
+  - strong: À explorer
+  - link "Tutoriels pas à pas":
+    - /url: /guides
+  - link "Studio de transcription":
+    - /url: /studio
+  - link "Bibliothèque de prompts":
+    - /url: /prompts
+  - strong: Pour avancer
+  - link "Annuaire d’outils":
+    - /url: /annuaire
+  - link "Le journal":
+    - /url: /blog
+  - link "À propos & contact":
+    - /url: /a-propos
+  - strong: En confiance
+  - link "Confidentialité":
+    - /url: /confidentialite
+  - link "Accessibilité":
+    - /url: /accessibilite
+  - link "Charte éditoriale":
+    - /url: /editorial
+  - text: © 2026 BureauClair · Nom de travail Guides et prompts prêts hors ligne

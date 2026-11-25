@@ -1,0 +1,233 @@
+- link "Aller au contenu":
+  - /url: "#contenu"
+- banner:
+  - link "BureauClair, accueil":
+    - /url: /
+    - text: BureauClair .
+  - navigation "Navigation principale":
+    - link "Accueil":
+      - /url: /
+    - link "Tutoriels":
+      - /url: /guides
+    - link "Outils":
+      - /url: /outils
+    - link "IA & prompts":
+      - /url: /prompts
+    - link "Blog":
+      - /url: /blog
+  - link "Rechercher dans BureauClair":
+    - /url: /recherche
+    - img
+  - button "Installer l’application":
+    - img
+    - text: Installer l’application
+- main:
+  - text: IA & prompts · Comprendre avant de copier
+  - heading "Les bons mots pour mieux avancer." [level=1]
+  - paragraph: Un prompt est une consigne donnée à une IA. Ici, vous l’adaptez à votre besoin et vous gardez la main.
+  - img
+  - paragraph:
+    - strong: "Le bon réflexe :"
+    - text: "ne saisissez pas de données confidentielles ou personnelles. Copier ne signifie pas envoyer : aucun outil d’IA externe n’est appelé ici."
+  - img
+  - text: Rechercher un prompt
+  - searchbox "Rechercher un prompt"
+  - button "Tous" [pressed]
+  - button "Réunion"
+  - button "Courriers"
+  - button "Excel"
+  - button "Organisation"
+  - button "Documents"
+  - status: 20 prompts à adapter
+  - article:
+    - img
+    - text: Réunion
+    - heading "Structurer un compte rendu" [level=2]
+    - paragraph: Organiser des notes sans inventer les décisions.
+    - button "Adapter ce prompt":
+      - text: Adapter ce prompt
+      - img
+  - article:
+    - img
+    - text: Réunion
+    - heading "Préparer un ordre du jour" [level=2]
+    - paragraph: Donner une structure à une réunion.
+    - button "Adapter ce prompt":
+      - text: Adapter ce prompt
+      - img
+  - article:
+    - img
+    - text: Réunion
+    - heading "Extraire les actions" [level=2]
+    - paragraph: Repérer ce qui doit être fait.
+    - button "Adapter ce prompt":
+      - text: Adapter ce prompt
+      - img
+  - article:
+    - img
+    - text: Courriers
+    - heading "Inviter à une réunion" [level=2]
+    - paragraph: Rédiger une invitation courte.
+    - button "Adapter ce prompt":
+      - text: Adapter ce prompt
+      - img
+  - article:
+    - img
+    - text: Courriers
+    - heading "Répondre avec diplomatie" [level=2]
+    - paragraph: Garder un ton professionnel et factuel.
+    - button "Adapter ce prompt":
+      - text: Adapter ce prompt
+      - img
+  - article:
+    - img
+    - text: Courriers
+    - heading "Relancer sans brusquer" [level=2]
+    - paragraph: Demander un retour avec tact.
+    - button "Adapter ce prompt":
+      - text: Adapter ce prompt
+      - img
+  - article:
+    - img
+    - text: Courriers
+    - heading "Corriger un texte" [level=2]
+    - paragraph: Améliorer la langue en préservant le sens.
+    - button "Adapter ce prompt":
+      - text: Adapter ce prompt
+      - img
+  - article:
+    - img
+    - text: Courriers
+    - heading "Trouver un objet d’e-mail" [level=2]
+    - paragraph: Rendre une demande identifiable.
+    - button "Adapter ce prompt":
+      - text: Adapter ce prompt
+      - img
+  - article:
+    - img
+    - text: Courriers
+    - heading "Formuler un refus respectueux" [level=2]
+    - paragraph: Expliquer une limite sans promesse.
+    - button "Adapter ce prompt":
+      - text: Adapter ce prompt
+      - img
+  - article:
+    - img
+    - text: Courriers
+    - heading "Rendre un courrier plus clair" [level=2]
+    - paragraph: Utiliser des phrases accessibles.
+    - button "Adapter ce prompt":
+      - text: Adapter ce prompt
+      - img
+  - article:
+    - img
+    - text: Excel
+    - heading "Concevoir un tableau de suivi" [level=2]
+    - paragraph: Choisir des colonnes avant de saisir.
+    - button "Adapter ce prompt":
+      - text: Adapter ce prompt
+      - img
+  - article:
+    - img
+    - text: Excel
+    - heading "Expliquer une formule" [level=2]
+    - paragraph: Comprendre avant de coller.
+    - button "Adapter ce prompt":
+      - text: Adapter ce prompt
+      - img
+  - article:
+    - img
+    - text: Excel
+    - heading "Préparer un contrôle de tableau" [level=2]
+    - paragraph: Repérer les erreurs possibles.
+    - button "Adapter ce prompt":
+      - text: Adapter ce prompt
+      - img
+  - article:
+    - img
+    - text: Organisation
+    - heading "Planifier une semaine" [level=2]
+    - paragraph: Mettre les contraintes en évidence.
+    - button "Adapter ce prompt":
+      - text: Adapter ce prompt
+      - img
+  - article:
+    - img
+    - text: Organisation
+    - heading "Créer une checklist" [level=2]
+    - paragraph: Ne plus oublier les étapes importantes.
+    - button "Adapter ce prompt":
+      - text: Adapter ce prompt
+      - img
+  - article:
+    - img
+    - text: Organisation
+    - heading "Clarifier une procédure" [level=2]
+    - paragraph: Décrire une tâche étape par étape.
+    - button "Adapter ce prompt":
+      - text: Adapter ce prompt
+      - img
+  - article:
+    - img
+    - text: Organisation
+    - heading "Préparer l’arrivée d’un collègue" [level=2]
+    - paragraph: Organiser les vérifications utiles.
+    - button "Adapter ce prompt":
+      - text: Adapter ce prompt
+      - img
+  - article:
+    - img
+    - text: Documents
+    - heading "Faire une synthèse prudente" [level=2]
+    - paragraph: Distinguer les faits des interprétations.
+    - button "Adapter ce prompt":
+      - text: Adapter ce prompt
+      - img
+  - article:
+    - img
+    - text: Documents
+    - heading "Construire un plan de présentation" [level=2]
+    - paragraph: Trouver un fil conducteur.
+    - button "Adapter ce prompt":
+      - text: Adapter ce prompt
+      - img
+  - article:
+    - img
+    - text: Documents
+    - heading "Préparer des questions de clarification" [level=2]
+    - paragraph: Identifier ce qui manque avant d’agir.
+    - button "Adapter ce prompt":
+      - text: Adapter ce prompt
+      - img
+- img
+- paragraph:
+  - strong: Votre travail reste le vôtre.
+  - text: Sans compte obligatoire. Sans publicité. Sans envoi automatique de vos documents.
+- link "Notre approche →":
+  - /url: /confidentialite
+- contentinfo:
+  - link "BureauClair.":
+    - /url: /
+  - paragraph: Un bureau plus simple. Un quotidien plus serein.
+  - strong: À explorer
+  - link "Tutoriels pas à pas":
+    - /url: /guides
+  - link "Studio de transcription":
+    - /url: /studio
+  - link "Bibliothèque de prompts":
+    - /url: /prompts
+  - strong: Pour avancer
+  - link "Annuaire d’outils":
+    - /url: /annuaire
+  - link "Le journal":
+    - /url: /blog
+  - link "À propos & contact":
+    - /url: /a-propos
+  - strong: En confiance
+  - link "Confidentialité":
+    - /url: /confidentialite
+  - link "Accessibilité":
+    - /url: /accessibilite
+  - link "Charte éditoriale":
+    - /url: /editorial
+  - text: © 2026 BureauClair · Nom de travail Guides et prompts prêts hors ligne

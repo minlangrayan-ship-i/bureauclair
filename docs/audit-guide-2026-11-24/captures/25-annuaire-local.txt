@@ -1,0 +1,150 @@
+- link "Aller au contenu":
+  - /url: "#contenu"
+- banner:
+  - link "BureauClair, accueil":
+    - /url: /
+    - text: BureauClair .
+  - navigation "Navigation principale":
+    - link "Accueil":
+      - /url: /
+    - link "Tutoriels":
+      - /url: /guides
+    - link "Outils":
+      - /url: /outils
+    - link "IA & prompts":
+      - /url: /prompts
+    - link "Blog":
+      - /url: /blog
+  - link "Rechercher dans BureauClair":
+    - /url: /recherche
+    - img
+  - button "Installer l’application":
+    - img
+    - text: Installer l’application
+- main:
+  - text: L’annuaire · Choisir en connaissance de cause
+  - heading "Les bons outils. Les bonnes questions." [level=1]
+  - paragraph: Des ressources identifiées, leurs usages et leurs limites. Ni classement sponsorisé, ni promesse universelle.
+  - img
+  - text: Rechercher un outil
+  - searchbox "Rechercher un outil"
+  - checkbox "Options avec usage local"
+  - text: Options avec usage local
+  - paragraph: "Sources consultées le 24 novembre 2026. Les offres et conditions peuvent changer : vérifiez-les avant de choisir."
+  - status: 6 ressources
+  - article:
+    - text: Usage local possible
+    - heading "Buzz" [level=2]
+    - paragraph: Une alternative de transcription sur ordinateur si le navigateur est trop limité.
+    - term: Compte
+    - definition: Aucun compte pour les modèles locaux
+    - term: Coût
+    - definition: Application libre ; aucun tarif d’abonnement annoncé ici
+    - term: Licence
+    - definition: MIT
+    - term: À savoir
+    - definition: Installation sur ordinateur et téléchargement de modèles. Choisir un modèle local ; les options cloud ont des règles différentes.
+    - link "Consulter le site officiel ↗":
+      - /url: https://github.com/chidiwilliams/buzz
+  - article:
+    - text: Usage local possible
+    - heading "LibreOffice" [level=2]
+    - paragraph: Traitement de texte, tableur et présentation sur ordinateur.
+    - term: Compte
+    - definition: Aucun compte pour les fonctions de bureau
+    - term: Coût
+    - definition: Logiciel libre, téléchargement gratuit
+    - term: Licence
+    - definition: MPL 2.0 / LGPL v3+
+    - term: À savoir
+    - definition: Vérifier la fidélité des fichiers Microsoft Office complexes. Les fonctions et macros peuvent différer.
+    - link "Consulter le site officiel ↗":
+      - /url: https://www.libreoffice.org/
+  - article:
+    - text: Ressource / services cloud
+    - heading "Microsoft 365" [level=2]
+    - paragraph: Word, Excel, PowerPoint et Outlook, selon la licence choisie.
+    - term: Compte
+    - definition: Compte et licence selon l’offre
+    - term: Coût
+    - definition: "Offres variables : consulter le fournisseur"
+    - term: Licence
+    - definition: Propriétaire
+    - term: À savoir
+    - definition: Certaines applications existent sur ordinateur ; synchronisation, partage et fonctions IA peuvent utiliser le cloud. Vérifier les paramètres de l’organisation.
+    - link "Consulter le site officiel ↗":
+      - /url: https://www.microsoft.com/fr-fr/microsoft-365
+  - article:
+    - text: Usage local possible
+    - heading "VLC" [level=2]
+    - paragraph: Lire un enregistrement et vérifier son contenu avant de travailler dessus.
+    - term: Compte
+    - definition: Aucun compte pour la lecture locale
+    - term: Coût
+    - definition: Logiciel libre, téléchargement gratuit
+    - term: Licence
+    - definition: GPL v2 ou ultérieure
+    - term: À savoir
+    - definition: Lecture et conversion de médias ; ne produit pas de transcription. Les formats dépendent des codecs.
+    - link "Consulter le site officiel ↗":
+      - /url: https://www.videolan.org/vlc/
+  - article:
+    - text: Usage local possible
+    - heading "Audacity" [level=2]
+    - paragraph: Découper un long audio en extraits et exporter une copie WAV.
+    - term: Compte
+    - definition: Aucun compte pour l’édition locale
+    - term: Coût
+    - definition: Logiciel libre, téléchargement gratuit
+    - term: Licence
+    - definition: GPL v3
+    - term: À savoir
+    - definition: Éditeur audio, pas un service de transcription par défaut. Vérifier les préférences réseau et les extensions installées.
+    - link "Consulter le site officiel ↗":
+      - /url: https://www.audacityteam.org/
+  - article:
+    - text: Ressource / services cloud
+    - heading "Microsoft Support" [level=2]
+    - paragraph: Consulter les instructions de l’éditeur et comparer avec sa version.
+    - term: Compte
+    - definition: Consultation généralement sans compte
+    - term: Coût
+    - definition: Guides en accès libre
+    - term: Licence
+    - definition: Contenus propriétaires
+    - term: À savoir
+    - definition: Site externe. Certaines fonctions présentées dépendent d’une licence et de la version du produit.
+    - link "Consulter le site officiel ↗":
+      - /url: https://support.microsoft.com/fr-fr
+- img
+- paragraph:
+  - strong: Votre travail reste le vôtre.
+  - text: Sans compte obligatoire. Sans publicité. Sans envoi automatique de vos documents.
+- link "Notre approche →":
+  - /url: /confidentialite
+- contentinfo:
+  - link "BureauClair.":
+    - /url: /
+  - paragraph: Un bureau plus simple. Un quotidien plus serein.
+  - strong: À explorer
+  - link "Tutoriels pas à pas":
+    - /url: /guides
+  - link "Studio de transcription":
+    - /url: /studio
+  - link "Bibliothèque de prompts":
+    - /url: /prompts
+  - strong: Pour avancer
+  - link "Annuaire d’outils":
+    - /url: /annuaire
+  - link "Le journal":
+    - /url: /blog
+  - link "À propos & contact":
+    - /url: /a-propos
+  - strong: En confiance
+  - link "Confidentialité":
+    - /url: /confidentialite
+  - link "Accessibilité":
+    - /url: /accessibilite
+  - link "Charte éditoriale":
+    - /url: /editorial
+  - text: © 2026 BureauClair · Nom de travail Guides et prompts prêts hors ligne

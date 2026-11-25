@@ -1,0 +1,741 @@
+{
+  "guides": [
+    {
+      "title": "Capturer une zone de l’écran",
+      "category": "Windows 11",
+      "description": "Préparer une illustration utile sans partager tout son écran.",
+      "minutes": 3,
+      "level": "Débutant",
+      "version": "Windows 11",
+      "updated": "2026-11-24",
+      "author": "BureauClair — rédaction initiale",
+      "source": "https://support.microsoft.com/fr-fr/office/copy-the-window-or-screen-contents",
+      "sourceLabel": "Documentation Microsoft",
+      "keywords": [
+        "capture écran image photo"
+      ],
+      "shortcuts": [
+        "Windows + Maj + S : capturer une zone"
+      ],
+      "slug": "capture-ecran",
+      "body": "## Votre objectif\n\nPréparer une illustration utile sans partager tout son écran.\n\n## Les étapes\n\n### 1. Préparer la zone\n\nMasquez les notifications et les données personnelles.\n\n### 2. Capturer\n\nAppuyez sur Windows + Maj + S puis tracez la zone souhaitée.\n\n### 3. Enregistrer\n\nOuvrez la capture dans la notification et enregistrez une copie dans un dossier choisi.\n\n## Le bon réflexe\n\nRelisez l’image : noms, adresses, onglets et notifications peuvent exposer des informations.\n\n## Si votre écran est différent\n\nLes intitulés peuvent varier selon la langue, la version et les règles de votre organisation. Vérifiez votre version dans les informations du logiciel. Consultez la documentation liée avant toute modification d’un fichier important."
+    },
+    {
+      "title": "Copier, déplacer et retrouver un fichier",
+      "category": "Windows 11",
+      "description": "Dupliquer un document dans le bon dossier et vérifier sa destination.",
+      "minutes": 4,
+      "level": "Débutant",
+      "version": "Windows 11",
+      "updated": "2026-11-24",
+      "author": "BureauClair — rédaction initiale",
+      "source": "https://support.microsoft.com/fr-fr/windows/experience/fileexplorer/file-explorer-in-windows",
+      "sourceLabel": "Documentation Microsoft",
+      "keywords": [
+        "copier fichier déplacer dossier retrouver document transfert"
+      ],
+      "shortcuts": [
+        "Windows + E : Explorateur",
+        "Ctrl + C : copier",
+        "Ctrl + X : couper",
+        "Ctrl + V : coller"
+      ],
+      "slug": "copier-un-fichier",
+      "body": "## Votre objectif\n\nDupliquer un document dans le bon dossier et vérifier sa destination.\n\n## Les étapes\n\n### 1. Ouvrir vos fichiers\n\nAppuyez sur Windows + E. Repérez le document dans son dossier.\n\n### 2. Choisir l’action\n\nSélectionnez le fichier. Ctrl + C le copie ; Ctrl + X prépare son déplacement.\n\n### 3. Choisir la destination\n\nOuvrez le dossier de destination. Vérifiez son nom dans la barre d’adresse.\n\n### 4. Coller et vérifier\n\nAppuyez sur Ctrl + V. Ouvrez le document obtenu avant de supprimer un original.\n\n## Le bon réflexe\n\nLors d’un déplacement entre emplacements, vérifiez le résultat avant de fermer l’Explorateur. Ne déplacez pas les fichiers système.\n\n## Si votre écran est différent\n\nLes intitulés peuvent varier selon la langue, la version et les règles de votre organisation. Vérifiez votre version dans les informations du logiciel. Consultez la documentation liée avant toute modification d’un fichier important."
+    },
+    {
+      "title": "Rédiger un courrier professionnel dans Word",
+      "category": "Word",
+      "description": "Créer un courrier lisible et conserver une version modifiable.",
+      "minutes": 6,
+      "level": "Débutant",
+      "version": "Word Microsoft 365 / 2024 — Windows",
+      "updated": "2026-11-24",
+      "author": "BureauClair — rédaction initiale",
+      "source": "https://support.microsoft.com/fr-fr/word/basic-tasks-in-word",
+      "sourceLabel": "Documentation Microsoft",
+      "keywords": [
+        "lettre courrier rédiger document mise page"
+      ],
+      "shortcuts": [],
+      "slug": "courrier-word",
+      "body": "## Votre objectif\n\nCréer un courrier lisible et conserver une version modifiable.\n\n## Les étapes\n\n### 1. Préparer le document\n\nCréez un document vierge ou un modèle autorisé par votre organisation.\n\n### 2. Structurer le courrier\n\nSéparez destinataire, date, objet, corps et signature avec des paragraphes.\n\n### 3. Relire\n\nContrôlez les noms, les dates et les engagements avant de partager.\n\n### 4. Enregistrer\n\nChoisissez un dossier autorisé et un nom explicite. Conservez le DOCX pour les corrections.\n\n## Le bon réflexe\n\nÉvitez les suites d’espaces pour aligner le texte : elles se décalent sur un autre poste.\n\n## Si votre écran est différent\n\nLes intitulés peuvent varier selon la langue, la version et les règles de votre organisation. Vérifiez votre version dans les informations du logiciel. Consultez la documentation liée avant toute modification d’un fichier important."
+    },
+    {
+      "title": "Exporter un document Word en PDF",
+      "category": "PDF",
+      "description": "Produire un PDF de diffusion tout en gardant le document source.",
+      "minutes": 4,
+      "level": "Débutant",
+      "version": "Word Microsoft 365 / 2024 — Windows",
+      "updated": "2026-11-24",
+      "author": "BureauClair — rédaction initiale",
+      "source": "https://support.microsoft.com/fr-fr/office/collab-files/save-or-convert-to-pdf-or-xps-in-office-desktop-apps",
+      "sourceLabel": "Documentation Microsoft",
+      "keywords": [
+        "convertir pdf enregistrer exporter document"
+      ],
+      "shortcuts": [],
+      "slug": "exporter-pdf",
+      "body": "## Votre objectif\n\nProduire un PDF de diffusion tout en gardant le document source.\n\n## Les étapes\n\n### 1. Enregistrer le source\n\nConservez d’abord une copie DOCX modifiable.\n\n### 2. Choisir le format\n\nUtilisez Fichier puis Enregistrer sous ou Exporter et sélectionnez PDF.\n\n### 3. Contrôler les options\n\nVérifiez les pages et l’inclusion éventuelle des marques de révision.\n\n### 4. Ouvrir le PDF\n\nRelisez le PDF créé : pagination, liens, tableaux et caractères.\n\n## Le bon réflexe\n\nLe PDF ne garantit pas l’absence de données personnelles ou de commentaires.\n\n## Si votre écran est différent\n\nLes intitulés peuvent varier selon la langue, la version et les règles de votre organisation. Vérifiez votre version dans les informations du logiciel. Consultez la documentation liée avant toute modification d’un fichier important."
+    },
+    {
+      "title": "Garder les en-têtes visibles dans Excel",
+      "category": "Excel",
+      "description": "Lire un tableau long sans perdre les noms des colonnes.",
+      "minutes": 3,
+      "level": "Débutant",
+      "version": "Excel Microsoft 365 / 2024 — Windows",
+      "updated": "2026-11-24",
+      "author": "BureauClair — rédaction initiale",
+      "source": "https://support.microsoft.com/fr-fr/excel/get-started/freeze-panes-to-lock-rows-and-columns",
+      "sourceLabel": "Documentation Microsoft",
+      "keywords": [
+        "figer volets en-tête défiler"
+      ],
+      "shortcuts": [],
+      "slug": "figer-excel",
+      "body": "## Votre objectif\n\nLire un tableau long sans perdre les noms des colonnes.\n\n## Les étapes\n\n### 1. Revenir au début\n\nPlacez les en-têtes dans la première ligne du tableau.\n\n### 2. Figer\n\nDans Affichage > Figer les volets, choisissez Figer la ligne supérieure.\n\n### 3. Tester et annuler\n\nFaites défiler les lignes. Pour annuler, utilisez Libérer les volets dans le même menu.\n\n## Le bon réflexe\n\nPour figer plusieurs lignes, le choix de la cellule active est déterminant : consultez la source.\n\n## Si votre écran est différent\n\nLes intitulés peuvent varier selon la langue, la version et les règles de votre organisation. Vérifiez votre version dans les informations du logiciel. Consultez la documentation liée avant toute modification d’un fichier important."
+    },
+    {
+      "title": "Filtrer les dossiers et réafficher toutes les lignes",
+      "category": "Excel",
+      "description": "Afficher une partie du tableau sans supprimer les autres données.",
+      "minutes": 4,
+      "level": "Débutant",
+      "version": "Excel Microsoft 365 / 2024 — Windows",
+      "updated": "2026-11-24",
+      "author": "BureauClair — rédaction initiale",
+      "source": "https://support.microsoft.com/fr-fr/excel/reapply-a-filter-and-sort-or-clear-a-filter",
+      "sourceLabel": "Documentation Microsoft",
+      "keywords": [
+        "filtre filtrer masquer réafficher statut"
+      ],
+      "shortcuts": [],
+      "slug": "filtrer-excel",
+      "body": "## Votre objectif\n\nAfficher une partie du tableau sans supprimer les autres données.\n\n## Les étapes\n\n### 1. Ouvrir le filtre\n\nCliquez sur la flèche de l’en-tête Statut de votre tableau.\n\n### 2. Choisir les valeurs\n\nGardez les statuts utiles, puis validez.\n\n### 3. Repérer les lignes masquées\n\nVérifiez l’icône de filtre pour savoir qu’une sélection est active.\n\n### 4. Tout réafficher\n\nOuvrez à nouveau la flèche puis effacez le filtre de cette colonne.\n\n## Le bon réflexe\n\nUne ligne masquée par un filtre reste dans le fichier et peut être partagée.\n\n## Si votre écran est différent\n\nLes intitulés peuvent varier selon la langue, la version et les règles de votre organisation. Vérifiez votre version dans les informations du logiciel. Consultez la documentation liée avant toute modification d’un fichier important."
+    },
+    {
+      "title": "Ouvrir une copie de PDF dans Word",
+      "category": "PDF",
+      "description": "Évaluer les limites de la conversion avant de modifier un PDF.",
+      "minutes": 4,
+      "level": "Débutant",
+      "version": "Word Microsoft 365 / 2024 — Windows",
+      "updated": "2026-11-24",
+      "author": "BureauClair — rédaction initiale",
+      "source": "https://support.microsoft.com/fr-fr/word/training/edit-a-pdf",
+      "sourceLabel": "Documentation Microsoft",
+      "keywords": [
+        "modifier pdf conversion scan"
+      ],
+      "shortcuts": [],
+      "slug": "modifier-pdf",
+      "body": "## Votre objectif\n\nÉvaluer les limites de la conversion avant de modifier un PDF.\n\n## Les étapes\n\n### 1. Faire une copie\n\nGardez l’original intact et travaillez sur une copie.\n\n### 2. Ouvrir dans Word\n\nChoisissez Fichier puis Ouvrir et le PDF à convertir.\n\n### 3. Comparer\n\nContrôlez tableaux, colonnes et sauts de page après conversion.\n\n### 4. Enregistrer séparément\n\nCréez une nouvelle version et comparez-la à l’original.\n\n## Le bon réflexe\n\nLes scans et mises en page complexes se convertissent mal. N’écrasez pas l’original.\n\n## Si votre écran est différent\n\nLes intitulés peuvent varier selon la langue, la version et les règles de votre organisation. Vérifiez votre version dans les informations du logiciel. Consultez la documentation liée avant toute modification d’un fichier important."
+    },
+    {
+      "title": "Ajouter des notes pour présenter sereinement",
+      "category": "PowerPoint",
+      "description": "Distinguer le contenu projeté des notes destinées au présentateur.",
+      "minutes": 4,
+      "level": "Débutant",
+      "version": "PowerPoint Microsoft 365 / 2024 — Windows",
+      "updated": "2026-11-24",
+      "author": "BureauClair — rédaction initiale",
+      "source": "https://support.microsoft.com/fr-fr/powerpoint/training/give-a-presentation-in-powerpoint",
+      "sourceLabel": "Documentation Microsoft",
+      "keywords": [
+        "notes oral présentateur diaporama"
+      ],
+      "shortcuts": [],
+      "slug": "notes-powerpoint",
+      "body": "## Votre objectif\n\nDistinguer le contenu projeté des notes destinées au présentateur.\n\n## Les étapes\n\n### 1. Ouvrir les notes\n\nSélectionnez une diapositive et affichez le volet Notes.\n\n### 2. Préparer les repères\n\nAjoutez vos points de parole sans recopier tout le texte.\n\n### 3. Tester le mode Présentateur\n\nUtilisez le matériel prévu et vérifiez quel écran voit les notes.\n\n### 4. Contrôler le partage\n\nAvant une visioconférence, partagez uniquement la fenêtre souhaitée.\n\n## Le bon réflexe\n\nUne capture ou un partage de tout l’écran peut montrer vos notes privées.\n\n## Si votre écran est différent\n\nLes intitulés peuvent varier selon la langue, la version et les règles de votre organisation. Vérifiez votre version dans les informations du logiciel. Consultez la documentation liée avant toute modification d’un fichier important."
+    },
+    {
+      "title": "Préparer une présentation courte et lisible",
+      "category": "PowerPoint",
+      "description": "Créer une structure simple pour présenter un sujet au bureau.",
+      "minutes": 6,
+      "level": "Débutant",
+      "version": "PowerPoint Microsoft 365 / 2024 — Windows",
+      "updated": "2026-11-24",
+      "author": "BureauClair — rédaction initiale",
+      "source": "https://support.microsoft.com/fr-fr/powerpoint/basic-tasks-for-creating-a-powerpoint-presentation",
+      "sourceLabel": "Documentation Microsoft",
+      "keywords": [
+        "présentation diapositives créer powerpoint"
+      ],
+      "shortcuts": [],
+      "slug": "presentation-powerpoint",
+      "body": "## Votre objectif\n\nCréer une structure simple pour présenter un sujet au bureau.\n\n## Les étapes\n\n### 1. Choisir une structure\n\nPréparez une diapositive d’objectif, les points clés et une conclusion.\n\n### 2. Créer les diapositives\n\nUtilisez Accueil > Nouvelle diapositive et une disposition adaptée.\n\n### 3. Alléger\n\nGardez une idée par diapositive et des caractères lisibles.\n\n### 4. Tester\n\nLancez le diaporama et vérifiez la lecture sur l’écran utilisé.\n\n## Le bon réflexe\n\nDes contrastes suffisants et des textes alternatifs aident davantage qu’un effet décoratif.\n\n## Si votre écran est différent\n\nLes intitulés peuvent varier selon la langue, la version et les règles de votre organisation. Vérifiez votre version dans les informations du logiciel. Consultez la documentation liée avant toute modification d’un fichier important."
+    },
+    {
+      "title": "Les raccourcis utiles, sans tout mémoriser",
+      "category": "Windows 11",
+      "description": "Retenir trois gestes pour naviguer plus facilement au clavier.",
+      "minutes": 3,
+      "level": "Débutant",
+      "version": "Windows 11",
+      "updated": "2026-11-24",
+      "author": "BureauClair — rédaction initiale",
+      "source": "https://support.microsoft.com/fr-fr/accessibility/windows/keyboard-shortcuts-in-windows",
+      "sourceLabel": "Documentation Microsoft",
+      "keywords": [
+        "clavier raccourci fenêtre verrouiller"
+      ],
+      "shortcuts": [
+        "Alt + Tab : changer de fenêtre",
+        "Windows + D : bureau",
+        "Windows + L : verrouiller"
+      ],
+      "slug": "raccourcis-windows",
+      "body": "## Votre objectif\n\nRetenir trois gestes pour naviguer plus facilement au clavier.\n\n## Les étapes\n\n### 1. Changer de fenêtre\n\nMaintenez Alt puis appuyez sur Tab pour sélectionner une autre application.\n\n### 2. Retrouver le bureau\n\nWindows + D affiche le bureau. La même combinaison rétablit vos fenêtres.\n\n### 3. Verrouiller votre session\n\nWindows + L verrouille le PC lorsque vous vous absentez.\n\n## Le bon réflexe\n\nEnregistrez votre travail régulièrement : verrouiller ne remplace pas une sauvegarde.\n\n## Si votre écran est différent\n\nLes intitulés peuvent varier selon la langue, la version et les règles de votre organisation. Vérifiez votre version dans les informations du logiciel. Consultez la documentation liée avant toute modification d’un fichier important."
+    },
+    {
+      "title": "Créer un rendez-vous personnel dans Outlook",
+      "category": "Outlook",
+      "description": "Bloquer un créneau sans envoyer d’invitation à d’autres personnes.",
+      "minutes": 4,
+      "level": "Débutant",
+      "version": "Outlook classique Microsoft 365 / 2024 — Windows",
+      "updated": "2026-11-24",
+      "author": "BureauClair — rédaction initiale",
+      "source": "https://support.microsoft.com/fr-fr/outlook/create-or-schedule-an-appointment",
+      "sourceLabel": "Documentation Microsoft",
+      "keywords": [
+        "agenda calendrier rendez-vous organiser créneau rappel"
+      ],
+      "shortcuts": [],
+      "slug": "rendez-vous-outlook",
+      "body": "## Votre objectif\n\nBloquer un créneau sans envoyer d’invitation à d’autres personnes.\n\n## Les étapes\n\n### 1. Ouvrir le calendrier\n\nPassez à la vue Calendrier et choisissez Nouveau rendez-vous.\n\n### 2. Définir le créneau\n\nRenseignez le titre, le lieu et les heures de début et de fin.\n\n### 3. Vérifier le rappel\n\nChoisissez un rappel utile et vérifiez le fuseau horaire si nécessaire.\n\n### 4. Enregistrer\n\nEnregistrez et fermez. Contrôlez l’événement dans votre calendrier.\n\n## Le bon réflexe\n\nUn rendez-vous personnel diffère d’une réunion avec des destinataires invités.\n\n## Si votre écran est différent\n\nLes intitulés peuvent varier selon la langue, la version et les règles de votre organisation. Vérifiez votre version dans les informations du logiciel. Consultez la documentation liée avant toute modification d’un fichier important."
+    },
+    {
+      "title": "Choisir une sauvegarde adaptée au bureau",
+      "category": "Windows 11",
+      "description": "Distinguer une copie locale d’une sauvegarde Windows liée au cloud.",
+      "minutes": 5,
+      "level": "Débutant",
+      "version": "Windows 11",
+      "updated": "2026-11-24",
+      "author": "BureauClair — rédaction initiale",
+      "source": "https://support.microsoft.com/fr-fr/windows/experience/backup-recovery/back-up-and-restore-with-windows-backup",
+      "sourceLabel": "Documentation Microsoft",
+      "keywords": [
+        "sauvegarder sauvegarde sécurité cloud restauration"
+      ],
+      "shortcuts": [],
+      "slug": "sauvegarde-windows",
+      "body": "## Votre objectif\n\nDistinguer une copie locale d’une sauvegarde Windows liée au cloud.\n\n## Les étapes\n\n### 1. Identifier les règles\n\nDemandez où les documents professionnels doivent être conservés.\n\n### 2. Examiner Sauvegarde Windows\n\nOuvrez l’application et identifiez les éléments proposés et le compte utilisé.\n\n### 3. Choisir consciemment\n\nN’activez une synchronisation de dossiers que si son stockage distant est autorisé.\n\n### 4. Contrôler la restauration\n\nSur une copie non sensible, vérifiez que le fichier peut être récupéré.\n\n## Le bon réflexe\n\nSynchronisation et sauvegarde ne sont pas équivalentes : une suppression peut être synchronisée.\n\n## Si votre écran est différent\n\nLes intitulés peuvent varier selon la langue, la version et les règles de votre organisation. Vérifiez votre version dans les informations du logiciel. Consultez la documentation liée avant toute modification d’un fichier important."
+    },
+    {
+      "title": "Structurer un document avec les styles",
+      "category": "Word",
+      "description": "Rendre les titres cohérents et faciliter la navigation dans un document.",
+      "minutes": 5,
+      "level": "Débutant",
+      "version": "Word Microsoft 365 / 2024 — Windows",
+      "updated": "2026-11-24",
+      "author": "BureauClair — rédaction initiale",
+      "source": "https://support.microsoft.com/fr-fr/word/word-for-new-users",
+      "sourceLabel": "Documentation Microsoft",
+      "keywords": [
+        "titre titres style sommaire accessibilité"
+      ],
+      "shortcuts": [],
+      "slug": "styles-word",
+      "body": "## Votre objectif\n\nRendre les titres cohérents et faciliter la navigation dans un document.\n\n## Les étapes\n\n### 1. Repérer les niveaux\n\nDistinguez le titre général, les sections et les sous-sections.\n\n### 2. Appliquer un style\n\nDans Accueil, sélectionnez un paragraphe puis le style Titre 1 ou Titre 2 adapté.\n\n### 3. Contrôler la structure\n\nOuvrez le volet de navigation et vérifiez l’ordre des titres.\n\n### 4. Relire le résultat\n\nVérifiez les sauts de page et les titres isolés avant l’envoi.\n\n## Le bon réflexe\n\nUn texte simplement agrandi n’est pas un titre structuré pour un lecteur d’écran.\n\n## Si votre écran est différent\n\nLes intitulés peuvent varier selon la langue, la version et les règles de votre organisation. Vérifiez votre version dans les informations du logiciel. Consultez la documentation liée avant toute modification d’un fichier important."
+    },
+    {
+      "title": "Relire un document avec le suivi des modifications",
+      "category": "Word",
+      "description": "Afficher les corrections et les examiner une par une.",
+      "minutes": 5,
+      "level": "Débutant",
+      "version": "Word Microsoft 365 / 2024 — Windows",
+      "updated": "2026-11-24",
+      "author": "BureauClair — rédaction initiale",
+      "source": "https://support.microsoft.com/fr-fr/word/training/track-changes-in-word",
+      "sourceLabel": "Documentation Microsoft",
+      "keywords": [
+        "correction révision suivi modifications commentaires"
+      ],
+      "shortcuts": [],
+      "slug": "suivi-modifications",
+      "body": "## Votre objectif\n\nAfficher les corrections et les examiner une par une.\n\n## Les étapes\n\n### 1. Préserver une copie\n\nEnregistrez une version de travail avant la relecture.\n\n### 2. Activer le suivi\n\nDans Révision, activez Suivi des modifications puis corrigez le texte.\n\n### 3. Examiner\n\nParcourez les modifications et acceptez ou refusez chacune selon son sens.\n\n### 4. Vérifier avant l’envoi\n\nAffichez toutes les marques pour repérer les commentaires ou modifications encore présents.\n\n## Le bon réflexe\n\nMasquer les marques ne supprime pas les corrections enregistrées.\n\n## Si votre écran est différent\n\nLes intitulés peuvent varier selon la langue, la version et les règles de votre organisation. Vérifiez votre version dans les informations du logiciel. Consultez la documentation liée avant toute modification d’un fichier important."
+    },
+    {
+      "title": "Créer un tableau de suivi simple dans Excel",
+      "category": "Excel",
+      "description": "Organiser des dossiers avec une ligne par élément et des en-têtes clairs.",
+      "minutes": 7,
+      "level": "Débutant",
+      "version": "Excel Microsoft 365 / 2024 — Windows",
+      "updated": "2026-11-24",
+      "author": "BureauClair — rédaction initiale",
+      "source": "https://support.microsoft.com/fr-fr/excel/basic-tasks-in-excel",
+      "sourceLabel": "Documentation Microsoft",
+      "keywords": [
+        "tableau suivi liste dossiers créer excel"
+      ],
+      "shortcuts": [],
+      "slug": "tableau-excel",
+      "body": "## Votre objectif\n\nOrganiser des dossiers avec une ligne par élément et des en-têtes clairs.\n\n## Les étapes\n\n### 1. Définir les colonnes\n\nPréparez Dossier, Responsable, Échéance et Statut. Utilisez des exemples non sensibles.\n\n### 2. Saisir les lignes\n\nGardez une seule information par cellule et une seule ligne d’en-têtes.\n\n### 3. Créer le tableau\n\nSélectionnez la plage puis Insertion > Tableau. Confirmez la présence d’en-têtes.\n\n### 4. Vérifier\n\nAjoutez une ligne et contrôlez la cohérence des dates et des statuts.\n\n## Le bon réflexe\n\nLes cellules fusionnées compliquent souvent le tri et le filtrage.\n\n## Si votre écran est différent\n\nLes intitulés peuvent varier selon la langue, la version et les règles de votre organisation. Vérifiez votre version dans les informations du logiciel. Consultez la documentation liée avant toute modification d’un fichier important."
+    },
+    {
+      "title": "Trier un tableau sans séparer les lignes",
+      "category": "Excel",
+      "description": "Classer les dossiers par échéance en gardant les colonnes associées.",
+      "minutes": 4,
+      "level": "Débutant",
+      "version": "Excel Microsoft 365 / 2024 — Windows",
+      "updated": "2026-11-24",
+      "author": "BureauClair — rédaction initiale",
+      "source": "https://support.microsoft.com/fr-fr/excel/sort-data-in-a-range-or-table-in-excel",
+      "sourceLabel": "Documentation Microsoft",
+      "keywords": [
+        "trier tri dates croissant ordre"
+      ],
+      "shortcuts": [],
+      "slug": "trier-excel",
+      "body": "## Votre objectif\n\nClasser les dossiers par échéance en gardant les colonnes associées.\n\n## Les étapes\n\n### 1. Préserver le fichier\n\nEnregistrez une copie de votre classeur avant un premier essai.\n\n### 2. Sélectionner le tableau\n\nCliquez dans le tableau complet, avec ses en-têtes.\n\n### 3. Choisir le tri\n\nDans l’en-tête Échéance, choisissez un tri de la plus ancienne à la plus récente.\n\n### 4. Contrôler\n\nVérifiez que chaque responsable correspond toujours au bon dossier.\n\n## Le bon réflexe\n\nSi Excel demande d’étendre la sélection, vérifiez que toutes les colonnes liées sont incluses.\n\n## Si votre écran est différent\n\nLes intitulés peuvent varier selon la langue, la version et les règles de votre organisation. Vérifiez votre version dans les informations du logiciel. Consultez la documentation liée avant toute modification d’un fichier important."
+    },
+    {
+      "title": "Windows 10 : préparer la transition",
+      "category": "Windows 10",
+      "description": "Faire l’inventaire de son poste avant une migration vers Windows 11.",
+      "minutes": 6,
+      "level": "Débutant",
+      "version": "Windows 10 — fin du support standard",
+      "updated": "2026-11-24",
+      "author": "BureauClair — rédaction initiale",
+      "source": "https://support.microsoft.com/en-gb/windows/deployment/updates-lifecycle/windows-10-support-has-ended-on-october-14-2025",
+      "sourceLabel": "Documentation Microsoft",
+      "keywords": [
+        "migration ancien ordinateur support Windows 10 11"
+      ],
+      "shortcuts": [],
+      "slug": "windows-10-transition",
+      "body": "## Votre objectif\n\nFaire l’inventaire de son poste avant une migration vers Windows 11.\n\n## Les étapes\n\n### 1. Vérifier le poste\n\nNotez la version Windows et les logiciels indispensables sans publier les identifiants du PC.\n\n### 2. Préparer les documents\n\nVérifiez la sauvegarde et les accès avec votre service informatique.\n\n### 3. Contrôler la compatibilité\n\nFaites vérifier la compatibilité Windows 11 et celle de vos logiciels métier.\n\n### 4. Planifier le passage\n\nPrévoyez un créneau, les mises à jour et un contrôle après migration.\n\n## Le bon réflexe\n\nLe support standard a pris fin le 14 octobre 2025. Les programmes ESU et leurs conditions sont distincts : consultez Microsoft et votre organisation.\n\n## Si votre écran est différent\n\nLes intitulés peuvent varier selon la langue, la version et les règles de votre organisation. Vérifiez votre version dans les informations du logiciel. Consultez la documentation liée avant toute modification d’un fichier important."
+    }
+  ],
+  "articles": [
+    {
+      "title": "Des documents plus faciles à lire pour tous",
+      "category": "Accessibilité",
+      "description": "Structurer les titres et ne pas compter uniquement sur la couleur.",
+      "minutes": 3,
+      "level": "Pour tous",
+      "version": "Dossier pratique",
+      "updated": "2026-11-24",
+      "author": "BureauClair — rédaction initiale",
+      "source": "https://www.w3.org/WAI/tutorials/page-structure/headings/",
+      "sourceLabel": "Source de référence",
+      "keywords": [
+        "Accessibilité",
+        "Des documents plus faciles à lire pour tous"
+      ],
+      "slug": "documents-accessibles",
+      "body": "## Organiser les titres\n\nUtilisez une hiérarchie logique. Un titre principal, puis des sections et sous-sections donnent des repères pour lire et naviguer.\n\n## Donner du sens aux visuels\n\nUne illustration informative a besoin d’une alternative textuelle. Une décoration ne doit pas être annoncée comme une information indispensable.\n\n## Tester un parcours simple\n\nAgrandissez le texte, naviguez au clavier et demandez une relecture à une personne utilisant des technologies d’assistance. Un test automatique ne couvre pas toutes les situations."
+    },
+    {
+      "title": "L’IA au bureau : quoi garder pour soi ?",
+      "category": "Confidentialité",
+      "description": "Avant de copier un document, distinguer public, personnel et confidentiel.",
+      "minutes": 3,
+      "level": "Pour tous",
+      "version": "Dossier pratique",
+      "updated": "2026-11-24",
+      "author": "BureauClair — rédaction initiale",
+      "source": "https://www.cnil.fr/fr/les-questions-reponses-de-la-cnil-sur-lutilisation-dun-systeme-dia-generative",
+      "sourceLabel": "Source de référence",
+      "keywords": [
+        "Confidentialité",
+        "L’IA au bureau : quoi garder pour soi ?"
+      ],
+      "slug": "ia-confidentialite",
+      "body": "## Commencer par la règle interne\n\nDemandez quels outils sont autorisés et pour quelles données. Une interface pratique ne constitue pas une autorisation de transmettre des informations professionnelles.\n\n## Préparer un exemple sans données réelles\n\nTravaillez avec une structure de document, des champs entre crochets et un contexte fictif. Retirer un nom peut ne pas suffire à rendre un texte anonyme.\n\n## Vérifier avant d’envoyer\n\nRelisez noms, dates, chiffres et engagements. Une réponse plausible peut être incorrecte. Si vous ne pouvez pas vérifier un élément, signalez-le plutôt que le présenter comme acquis."
+    },
+    {
+      "title": "Un bon prompt commence par une demande claire",
+      "category": "IA pratique",
+      "description": "Objectif, contexte non sensible et format : une base simple.",
+      "minutes": 3,
+      "level": "Pour tous",
+      "version": "Dossier pratique",
+      "updated": "2026-11-24",
+      "author": "BureauClair — rédaction initiale",
+      "source": "https://www.cnil.fr/fr/les-questions-reponses-de-la-cnil-sur-lutilisation-dun-systeme-dia-generative",
+      "sourceLabel": "Source de référence",
+      "keywords": [
+        "IA pratique",
+        "Un bon prompt commence par une demande claire"
+      ],
+      "slug": "prompts-precis",
+      "body": "## Dire le résultat attendu\n\n« Prépare un plan de courrier » est plus précis que « aide-moi ». Ajoutez le public visé et les éléments déjà validés.\n\n## Laisser les manques visibles\n\nDemandez à l’outil d’écrire « à confirmer » lorsqu’une donnée manque. Cela aide la relecture sans garantir que le modèle respecte toujours la consigne.\n\n## Garder la décision\n\nLe brouillon est une proposition. Vérifiez chaque affirmation utile à votre travail et faites valider les sujets sensibles."
+    },
+    {
+      "title": "Une transcription n’est pas un compte rendu",
+      "category": "Réunions",
+      "description": "Conserver les mots entendus et séparer les décisions validées.",
+      "minutes": 3,
+      "level": "Pour tous",
+      "version": "Dossier pratique",
+      "updated": "2026-11-24",
+      "author": "BureauClair — rédaction initiale",
+      "source": "https://github.com/openai/whisper/blob/main/model-card.md",
+      "sourceLabel": "Source de référence",
+      "keywords": [
+        "Réunions",
+        "Une transcription n’est pas un compte rendu"
+      ],
+      "slug": "transcription-relecture",
+      "body": "## Revenir à l’audio\n\nLa reconnaissance vocale peut omettre, répéter ou inventer des mots, notamment en présence de bruit ou de silence. Réécoutez les passages ambigus.\n\n## Séparer les documents\n\nConservez d’un côté la transcription corrigée, de l’autre un compte rendu de travail. Dans ce dernier, ne notez une décision ou un responsable que si vous pouvez le vérifier.\n\n## Relire les éléments critiques\n\nNoms, montants, négations et échéances méritent une vérification spécifique. BureauClair ne génère pas automatiquement de compte rendu dans cette version."
+    },
+    {
+      "title": "Ce que « hors ligne » change vraiment",
+      "category": "Outils",
+      "description": "Comprendre ce qui est installé, téléchargé et conservé.",
+      "minutes": 3,
+      "level": "Pour tous",
+      "version": "Dossier pratique",
+      "updated": "2026-11-24",
+      "author": "BureauClair — rédaction initiale",
+      "source": "https://developer.mozilla.org/en-US/docs/Web/Progressive_web_apps/Guides/Offline_and_background_operation",
+      "sourceLabel": "Source de référence",
+      "keywords": [
+        "Outils",
+        "Ce que « hors ligne » change vraiment"
+      ],
+      "slug": "travail-hors-ligne",
+      "body": "## Préparer avant de partir\n\nChargez l’application une première fois avec une connexion et attendez la confirmation de sa disponibilité hors ligne. Les pages textuelles sont alors conservées dans le cache de l’application.\n\n## Distinguer les caches\n\nLe cache des pages et celui d’un modèle de reconnaissance vocale sont différents. Un navigateur peut les supprimer en cas de manque d’espace.\n\n## Prévoir les limites\n\nLes liens externes et les vidéos distantes ont besoin d’une connexion. Le studio reste expérimental et ne garantit pas une première initialisation du moteur hors ligne."
+    },
+    {
+      "title": "Passer à Windows 11 sans improviser",
+      "category": "Windows",
+      "description": "Un inventaire et une sauvegarde avant toute migration.",
+      "minutes": 3,
+      "level": "Pour tous",
+      "version": "Dossier pratique",
+      "updated": "2026-11-24",
+      "author": "BureauClair — rédaction initiale",
+      "source": "https://www.microsoft.com/en-us/windows/end-of-support",
+      "sourceLabel": "Source de référence",
+      "keywords": [
+        "Windows",
+        "Passer à Windows 11 sans improviser"
+      ],
+      "slug": "windows-transition",
+      "body": "## Faire l’inventaire\n\nListez les logiciels métier, périphériques et modes d’accès indispensables. Faites vérifier leur compatibilité par votre service informatique.\n\n## Protéger le travail\n\nVérifiez les sauvegardes sur un fichier non sensible et prévoyez le temps de restauration. Ne lancez pas une migration au milieu d’une tâche urgente.\n\n## Planifier avec le bon interlocuteur\n\nLe support standard Windows 10 est terminé. Les conditions des éditions particulières et programmes ESU se vérifient séparément auprès de Microsoft et de votre organisation."
+    }
+  ],
+  "prompts": [
+    {
+      "slug": "compte-rendu",
+      "category": "Réunion",
+      "title": "Structurer un compte rendu",
+      "description": "Organiser des notes sans inventer les décisions.",
+      "template": "Transforme ces notes anonymisées en compte rendu : [contexte]. Sépare points abordés, décisions explicites et actions. Pour chaque action, indique responsable et échéance uniquement s’ils sont mentionnés. Signale toute information manquante.",
+      "keywords": [
+        "Structurer un compte rendu",
+        "Réunion",
+        "Organiser des notes sans inventer les décisions."
+      ]
+    },
+    {
+      "slug": "ordre-du-jour",
+      "category": "Réunion",
+      "title": "Préparer un ordre du jour",
+      "description": "Donner une structure à une réunion.",
+      "template": "Propose un ordre du jour à partir de ces thèmes : [contexte]. Ordonne les sujets et propose une durée indicative. Distingue mes contraintes de tes suggestions.",
+      "keywords": [
+        "Préparer un ordre du jour",
+        "Réunion",
+        "Donner une structure à une réunion."
+      ]
+    },
+    {
+      "slug": "actions",
+      "category": "Réunion",
+      "title": "Extraire les actions",
+      "description": "Repérer ce qui doit être fait.",
+      "template": "À partir de ces notes anonymisées : [contexte], extrais les actions explicitement convenues sous forme de tableau. N’invente ni responsable ni date ; écris « à confirmer » si nécessaire.",
+      "keywords": [
+        "Extraire les actions",
+        "Réunion",
+        "Repérer ce qui doit être fait."
+      ]
+    },
+    {
+      "slug": "invitation",
+      "category": "Courriers",
+      "title": "Inviter à une réunion",
+      "description": "Rédiger une invitation courte.",
+      "template": "Prépare un e-mail d’invitation à partir de : [contexte]. Fais apparaître objectif, date, lieu et réponse attendue. Remplace les données absentes par des crochets.",
+      "keywords": [
+        "Inviter à une réunion",
+        "Courriers",
+        "Rédiger une invitation courte."
+      ]
+    },
+    {
+      "slug": "reponse",
+      "category": "Courriers",
+      "title": "Répondre avec diplomatie",
+      "description": "Garder un ton professionnel et factuel.",
+      "template": "Propose une réponse à cet e-mail anonymisé : [contexte]. Reste factuel, courtois et sans engagement supplémentaire. Signale les points à confirmer avant envoi.",
+      "keywords": [
+        "Répondre avec diplomatie",
+        "Courriers",
+        "Garder un ton professionnel et factuel."
+      ]
+    },
+    {
+      "slug": "relance",
+      "category": "Courriers",
+      "title": "Relancer sans brusquer",
+      "description": "Demander un retour avec tact.",
+      "template": "Rédige une relance à partir de : [contexte]. Rappelle la demande, demande un retour et n’invente aucune échéance.",
+      "keywords": [
+        "Relancer sans brusquer",
+        "Courriers",
+        "Demander un retour avec tact."
+      ]
+    },
+    {
+      "slug": "correction",
+      "category": "Courriers",
+      "title": "Corriger un texte",
+      "description": "Améliorer la langue en préservant le sens.",
+      "template": "Corrige ce texte anonymisé : [contexte]. Préserve le sens, les nuances et les engagements. Explique les changements qui pourraient modifier l’interprétation.",
+      "keywords": [
+        "Corriger un texte",
+        "Courriers",
+        "Améliorer la langue en préservant le sens."
+      ]
+    },
+    {
+      "slug": "objet",
+      "category": "Courriers",
+      "title": "Trouver un objet d’e-mail",
+      "description": "Rendre une demande identifiable.",
+      "template": "Propose trois objets courts pour ce message anonymisé : [contexte]. Évite l’urgence artificielle et les données personnelles.",
+      "keywords": [
+        "Trouver un objet d’e-mail",
+        "Courriers",
+        "Rendre une demande identifiable."
+      ]
+    },
+    {
+      "slug": "refus",
+      "category": "Courriers",
+      "title": "Formuler un refus respectueux",
+      "description": "Expliquer une limite sans promesse.",
+      "template": "Rédige un refus professionnel fondé uniquement sur ces éléments : [contexte]. Ne crée ni justification ni solution non validée.",
+      "keywords": [
+        "Formuler un refus respectueux",
+        "Courriers",
+        "Expliquer une limite sans promesse."
+      ]
+    },
+    {
+      "slug": "simplifier",
+      "category": "Courriers",
+      "title": "Rendre un courrier plus clair",
+      "description": "Utiliser des phrases accessibles.",
+      "template": "Réécris ce texte anonymisé en langage clair : [contexte]. Garde les obligations et précautions ; ne donne pas d’avis juridique.",
+      "keywords": [
+        "Rendre un courrier plus clair",
+        "Courriers",
+        "Utiliser des phrases accessibles."
+      ]
+    },
+    {
+      "slug": "suivi",
+      "category": "Excel",
+      "title": "Concevoir un tableau de suivi",
+      "description": "Choisir des colonnes avant de saisir.",
+      "template": "Propose les colonnes d’un tableau Excel pour : [contexte]. Utilise des exemples fictifs explicitement signalés. Ne demande pas de données réelles.",
+      "keywords": [
+        "Concevoir un tableau de suivi",
+        "Excel",
+        "Choisir des colonnes avant de saisir."
+      ]
+    },
+    {
+      "slug": "formule",
+      "category": "Excel",
+      "title": "Expliquer une formule",
+      "description": "Comprendre avant de coller.",
+      "template": "Explique une méthode Excel pour : [contexte]. Précise les hypothèses, la langue des fonctions et les séparateurs. Donne un petit cas fictif et une façon de vérifier le résultat.",
+      "keywords": [
+        "Expliquer une formule",
+        "Excel",
+        "Comprendre avant de coller."
+      ]
+    },
+    {
+      "slug": "controle",
+      "category": "Excel",
+      "title": "Préparer un contrôle de tableau",
+      "description": "Repérer les erreurs possibles.",
+      "template": "Propose une liste de contrôles pour un tableau décrit ainsi : [contexte]. Couvre doublons, dates, cellules vides et totaux. Ne prétends pas avoir examiné le fichier.",
+      "keywords": [
+        "Préparer un contrôle de tableau",
+        "Excel",
+        "Repérer les erreurs possibles."
+      ]
+    },
+    {
+      "slug": "plan",
+      "category": "Organisation",
+      "title": "Planifier une semaine",
+      "description": "Mettre les contraintes en évidence.",
+      "template": "Propose un planning indicatif à partir de : [contexte]. Sépare contraintes fixes, priorités à confirmer et marges. Ne suppose pas des disponibilités absentes.",
+      "keywords": [
+        "Planifier une semaine",
+        "Organisation",
+        "Mettre les contraintes en évidence."
+      ]
+    },
+    {
+      "slug": "checklist",
+      "category": "Organisation",
+      "title": "Créer une checklist",
+      "description": "Ne plus oublier les étapes importantes.",
+      "template": "Prépare une checklist pour : [contexte]. Distingue préparation, réalisation et vérification. Signale les validations humaines nécessaires.",
+      "keywords": [
+        "Créer une checklist",
+        "Organisation",
+        "Ne plus oublier les étapes importantes."
+      ]
+    },
+    {
+      "slug": "procedure",
+      "category": "Organisation",
+      "title": "Clarifier une procédure",
+      "description": "Décrire une tâche étape par étape.",
+      "template": "À partir de : [contexte], rédige une procédure courte pour une personne débutante. N’invente pas de règle interne ; indique les points à faire valider.",
+      "keywords": [
+        "Clarifier une procédure",
+        "Organisation",
+        "Décrire une tâche étape par étape."
+      ]
+    },
+    {
+      "slug": "accueil",
+      "category": "Organisation",
+      "title": "Préparer l’arrivée d’un collègue",
+      "description": "Organiser les vérifications utiles.",
+      "template": "Propose une checklist d’accueil pour : [contexte]. Ne demande ni mot de passe ni identifiant. Sépare les actions du service informatique et de l’équipe.",
+      "keywords": [
+        "Préparer l’arrivée d’un collègue",
+        "Organisation",
+        "Organiser les vérifications utiles."
+      ]
+    },
+    {
+      "slug": "synthese",
+      "category": "Documents",
+      "title": "Faire une synthèse prudente",
+      "description": "Distinguer les faits des interprétations.",
+      "template": "Synthétise ces informations publiques ou anonymisées : [contexte]. Sépare faits, hypothèses et questions ouvertes. Ne complète pas les manques par des suppositions.",
+      "keywords": [
+        "Faire une synthèse prudente",
+        "Documents",
+        "Distinguer les faits des interprétations."
+      ]
+    },
+    {
+      "slug": "presentation",
+      "category": "Documents",
+      "title": "Construire un plan de présentation",
+      "description": "Trouver un fil conducteur.",
+      "template": "Propose un plan de présentation à partir de : [contexte]. Une idée par diapositive, pas de chiffres ni de résultats inventés.",
+      "keywords": [
+        "Construire un plan de présentation",
+        "Documents",
+        "Trouver un fil conducteur."
+      ]
+    },
+    {
+      "slug": "questions",
+      "category": "Documents",
+      "title": "Préparer des questions de clarification",
+      "description": "Identifier ce qui manque avant d’agir.",
+      "template": "Lis cette demande anonymisée : [contexte]. Liste au maximum cinq questions pour clarifier l’objectif, le délai, le public et les contraintes. N’exécute pas encore la demande.",
+      "keywords": [
+        "Préparer des questions de clarification",
+        "Documents",
+        "Identifier ce qui manque avant d’agir."
+      ]
+    }
+  ],
+  "tools": [
+    {
+      "name": "Buzz",
+      "category": "Transcription",
+      "local": true,
+      "account": "Aucun compte pour les modèles locaux",
+      "price": "Application libre ; aucun tarif d’abonnement annoncé ici",
+      "limit": "Installation sur ordinateur et téléchargement de modèles. Choisir un modèle local ; les options cloud ont des règles différentes.",
+      "url": "https://github.com/chidiwilliams/buzz",
+      "license": "MIT",
+      "description": "Une alternative de transcription sur ordinateur si le navigateur est trop limité."
+    },
+    {
+      "name": "LibreOffice",
+      "category": "Bureautique",
+      "local": true,
+      "account": "Aucun compte pour les fonctions de bureau",
+      "price": "Logiciel libre, téléchargement gratuit",
+      "limit": "Vérifier la fidélité des fichiers Microsoft Office complexes. Les fonctions et macros peuvent différer.",
+      "url": "https://www.libreoffice.org/",
+      "license": "MPL 2.0 / LGPL v3+",
+      "description": "Traitement de texte, tableur et présentation sur ordinateur."
+    },
+    {
+      "name": "Microsoft 365",
+      "category": "Bureautique",
+      "local": false,
+      "account": "Compte et licence selon l’offre",
+      "price": "Offres variables : consulter le fournisseur",
+      "limit": "Certaines applications existent sur ordinateur ; synchronisation, partage et fonctions IA peuvent utiliser le cloud. Vérifier les paramètres de l’organisation.",
+      "url": "https://www.microsoft.com/fr-fr/microsoft-365",
+      "license": "Propriétaire",
+      "description": "Word, Excel, PowerPoint et Outlook, selon la licence choisie."
+    },
+    {
+      "name": "VLC",
+      "category": "Audio & vidéo",
+      "local": true,
+      "account": "Aucun compte pour la lecture locale",
+      "price": "Logiciel libre, téléchargement gratuit",
+      "limit": "Lecture et conversion de médias ; ne produit pas de transcription. Les formats dépendent des codecs.",
+      "url": "https://www.videolan.org/vlc/",
+      "license": "GPL v2 ou ultérieure",
+      "description": "Lire un enregistrement et vérifier son contenu avant de travailler dessus."
+    },
+    {
+      "name": "Audacity",
+      "category": "Audio & vidéo",
+      "local": true,
+      "account": "Aucun compte pour l’édition locale",
+      "price": "Logiciel libre, téléchargement gratuit",
+      "limit": "Éditeur audio, pas un service de transcription par défaut. Vérifier les préférences réseau et les extensions installées.",
+      "url": "https://www.audacityteam.org/",
+      "license": "GPL v3",
+      "description": "Découper un long audio en extraits et exporter une copie WAV."
+    },
+    {
+      "name": "Microsoft Support",
+      "category": "Formation",
+      "local": false,
+      "account": "Consultation généralement sans compte",
+      "price": "Guides en accès libre",
+      "limit": "Site externe. Certaines fonctions présentées dépendent d’une licence et de la version du produit.",
+      "url": "https://support.microsoft.com/fr-fr",
+      "license": "Contenus propriétaires",
+      "description": "Consulter les instructions de l’éditeur et comparer avec sa version."
+    }
+  ]
+}

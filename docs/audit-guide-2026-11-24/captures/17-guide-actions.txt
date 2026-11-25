@@ -1,0 +1,169 @@
+- link "Aller au contenu":
+  - /url: "#contenu"
+- banner:
+  - link "BureauClair, accueil":
+    - /url: /
+    - text: BureauClair .
+  - navigation "Navigation principale":
+    - link "Accueil":
+      - /url: /
+    - link "Tutoriels":
+      - /url: /guides
+    - link "Outils":
+      - /url: /outils
+    - link "IA & prompts":
+      - /url: /prompts
+    - link "Blog":
+      - /url: /blog
+  - link "Rechercher dans BureauClair":
+    - /url: /recherche
+    - img
+  - button "Installer l’application":
+    - img
+    - text: Installer l’application
+- main:
+  - text: Windows 11 · 4 min · Débutant
+  - heading "Copier, déplacer et retrouver un fichier" [level=1]
+  - paragraph: Dupliquer un document dans le bon dossier et vérifier sa destination.
+  - article:
+    - text: Windows 11 Sources consultées le 24/11/2026
+    - figure "Schéma pédagogique BureauClair, pas une capture du logiciel.":
+      - text: Windows 11 · repère visuel 1. Préparer 2. Réaliser 3. Vérifier
+      - img
+      - text: Schéma pédagogique BureauClair, pas une capture du logiciel.
+    - heading "Voir le principe en quelques secondes" [level=2]
+    - text: Votre navigateur ne lit pas cette vidéo. Les étapes textuelles ci-dessous expliquent la même manipulation.
+    - paragraph: "Illustration pédagogique locale, sans son et sans service vidéo externe. Ce schéma montre une copie ; l’interface de Windows est différente. Alternative textuelle : sélectionner, copier avec Ctrl + C, ouvrir la destination, coller avec Ctrl + V, vérifier."
+    - heading "Votre objectif" [level=2]
+    - paragraph: Dupliquer un document dans le bon dossier et vérifier sa destination.
+    - heading "Les étapes" [level=2]
+    - heading "1. Ouvrir vos fichiers" [level=3]
+    - paragraph: Appuyez sur Windows + E. Repérez le document dans son dossier.
+    - heading "2. Choisir l’action" [level=3]
+    - paragraph: Sélectionnez le fichier. Ctrl + C le copie ; Ctrl + X prépare son déplacement.
+    - heading "3. Choisir la destination" [level=3]
+    - paragraph: Ouvrez le dossier de destination. Vérifiez son nom dans la barre d’adresse.
+    - heading "4. Coller et vérifier" [level=3]
+    - paragraph: Appuyez sur Ctrl + V. Ouvrez le document obtenu avant de supprimer un original.
+    - heading "Le bon réflexe" [level=2]
+    - paragraph: Lors d’un déplacement entre emplacements, vérifiez le résultat avant de fermer l’Explorateur. Ne déplacez pas les fichiers système.
+    - heading "Si votre écran est différent" [level=2]
+    - paragraph: Les intitulés peuvent varier selon la langue, la version et les règles de votre organisation. Vérifiez votre version dans les informations du logiciel. Consultez la documentation liée avant toute modification d’un fichier important.
+    - heading "Votre progression" [level=2]
+    - status: 0 étape sur 4 · repères conservés dans cette page
+    - progressbar "Progression dans le tutoriel"
+    - checkbox "1. Ouvrir vos fichiers"
+    - text: 1. Ouvrir vos fichiers
+    - checkbox "2. Choisir l’action"
+    - text: 2. Choisir l’action
+    - checkbox "3. Choisir la destination"
+    - text: 3. Choisir la destination
+    - checkbox "4. Coller et vérifier"
+    - text: 4. Coller et vérifier
+    - complementary:
+      - heading "À garder sous la main" [level=2]
+      - paragraph: Windows + E Explorateur
+      - paragraph: Ctrl + C copier
+      - paragraph: Ctrl + X couper
+      - paragraph: Ctrl + V coller
+    - strong: Pour vérifier avec votre version
+    - paragraph: BureauClair — rédaction initiale. Instructions rédigées à partir de la documentation ; elles ne remplacent pas les règles de votre organisation. Pas de validation sur toutes les versions d’Office.
+    - link "Documentation Microsoft":
+      - /url: https://support.microsoft.com/fr-fr/windows/experience/fileexplorer/file-explorer-in-windows
+    - button "Marquer comme lu":
+      - img
+      - text: Marquer comme lu
+    - button "Imprimer":
+      - img
+      - text: Imprimer
+    - button "Copier les étapes":
+      - img
+      - text: Copier les étapes
+    - status
+    - link "Retour aux tutoriels":
+      - /url: /guides
+      - text: Retour aux tutoriels
+      - img
+  - complementary:
+    - text: VOS REPÈRES
+    - heading "À votre rythme" [level=2]
+    - paragraph:
+      - img
+      - text: 4 minutes de lecture
+    - paragraph:
+      - img
+      - text: Débutant
+    - list:
+      - listitem:
+        - link "Votre objectif":
+          - /url: "#section-0"
+      - listitem:
+        - link "Les étapes":
+          - /url: "#section-1"
+      - listitem:
+        - link "Le bon réflexe":
+          - /url: "#section-2"
+      - listitem:
+        - link "Si votre écran est différent":
+          - /url: "#section-3"
+    - paragraph: Vous pouvez imprimer les étapes ou les copier pour les garder près de vous.
+    - img
+    - heading "Un doute ? Gardez l’original." [level=3]
+    - paragraph: Testez d’abord sur une copie sans données sensibles.
+  - heading "Pour continuer simplement" [level=2]
+  - article:
+    - link "PowerPoint Ajouter des notes pour présenter sereinement Distinguer le contenu projeté des notes destinées au présentateur. 4 min · Débutant":
+      - /url: /guides/notes-powerpoint
+      - text: PowerPoint
+      - heading "Ajouter des notes pour présenter sereinement" [level=3]
+      - paragraph: Distinguer le contenu projeté des notes destinées au présentateur.
+      - text: 4 min · Débutant
+      - img
+  - article:
+    - link "Windows 11 Capturer une zone de l’écran Préparer une illustration utile sans partager tout son écran. 3 min · Débutant":
+      - /url: /guides/capture-ecran
+      - text: Windows 11
+      - heading "Capturer une zone de l’écran" [level=3]
+      - paragraph: Préparer une illustration utile sans partager tout son écran.
+      - text: 3 min · Débutant
+      - img
+  - article:
+    - link "Windows 11 Choisir une sauvegarde adaptée au bureau Distinguer une copie locale d’une sauvegarde Windows liée au cloud. 5 min · Débutant":
+      - /url: /guides/sauvegarde-windows
+      - text: Windows 11
+      - heading "Choisir une sauvegarde adaptée au bureau" [level=3]
+      - paragraph: Distinguer une copie locale d’une sauvegarde Windows liée au cloud.
+      - text: 5 min · Débutant
+      - img
+- img
+- paragraph:
+  - strong: Votre travail reste le vôtre.
+  - text: Sans compte obligatoire. Sans publicité. Sans envoi automatique de vos documents.
+- link "Notre approche →":
+  - /url: /confidentialite
+- contentinfo:
+  - link "BureauClair.":
+    - /url: /
+  - paragraph: Un bureau plus simple. Un quotidien plus serein.
+  - strong: À explorer
+  - link "Tutoriels pas à pas":
+    - /url: /guides
+  - link "Studio de transcription":
+    - /url: /studio
+  - link "Bibliothèque de prompts":
+    - /url: /prompts
+  - strong: Pour avancer
+  - link "Annuaire d’outils":
+    - /url: /annuaire
+  - link "Le journal":
+    - /url: /blog
+  - link "À propos & contact":
+    - /url: /a-propos
+  - strong: En confiance
+  - link "Confidentialité":
+    - /url: /confidentialite
+  - link "Accessibilité":
+    - /url: /accessibilite
+  - link "Charte éditoriale":
+    - /url: /editorial
+  - text: © 2026 BureauClair · Nom de travail Guides et prompts prêts hors ligne

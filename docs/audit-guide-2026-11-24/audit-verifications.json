@@ -1,0 +1,446 @@
+{
+  "date": "2026-11-24T22:46:55.289Z",
+  "axe": [
+    {
+      "width": 1440,
+      "route": "/",
+      "violations": [],
+      "overflow": false
+    },
+    {
+      "width": 1440,
+      "route": "/guides",
+      "violations": [],
+      "overflow": false
+    },
+    {
+      "width": 1440,
+      "route": "/recherche",
+      "violations": [],
+      "overflow": false
+    },
+    {
+      "width": 1440,
+      "route": "/prompts",
+      "violations": [],
+      "overflow": false
+    },
+    {
+      "width": 1440,
+      "route": "/blog",
+      "violations": [],
+      "overflow": false
+    },
+    {
+      "width": 1440,
+      "route": "/annuaire",
+      "violations": [],
+      "overflow": false
+    },
+    {
+      "width": 1440,
+      "route": "/outils",
+      "violations": [],
+      "overflow": false
+    },
+    {
+      "width": 1440,
+      "route": "/studio",
+      "violations": [],
+      "overflow": false
+    },
+    {
+      "width": 1440,
+      "route": "/confidentialite",
+      "violations": [],
+      "overflow": false
+    },
+    {
+      "width": 1440,
+      "route": "/accessibilite",
+      "violations": [],
+      "overflow": false
+    },
+    {
+      "width": 1440,
+      "route": "/editorial",
+      "violations": [],
+      "overflow": false
+    },
+    {
+      "width": 1440,
+      "route": "/a-propos",
+      "violations": [],
+      "overflow": false
+    },
+    {
+      "width": 1440,
+      "route": "/guides/capture-ecran",
+      "violations": [],
+      "overflow": false
+    },
+    {
+      "width": 1440,
+      "route": "/guides/copier-un-fichier",
+      "violations": [],
+      "overflow": false
+    },
+    {
+      "width": 1440,
+      "route": "/guides/courrier-word",
+      "violations": [],
+      "overflow": false
+    },
+    {
+      "width": 1440,
+      "route": "/guides/exporter-pdf",
+      "violations": [],
+      "overflow": false
+    },
+    {
+      "width": 1440,
+      "route": "/guides/figer-excel",
+      "violations": [],
+      "overflow": false
+    },
+    {
+      "width": 1440,
+      "route": "/guides/filtrer-excel",
+      "violations": [],
+      "overflow": false
+    },
+    {
+      "width": 1440,
+      "route": "/guides/modifier-pdf",
+      "violations": [],
+      "overflow": false
+    },
+    {
+      "width": 1440,
+      "route": "/guides/notes-powerpoint",
+      "violations": [],
+      "overflow": false
+    },
+    {
+      "width": 1440,
+      "route": "/guides/presentation-powerpoint",
+      "violations": [],
+      "overflow": false
+    },
+    {
+      "width": 1440,
+      "route": "/guides/raccourcis-windows",
+      "violations": [],
+      "overflow": false
+    },
+    {
+      "width": 1440,
+      "route": "/guides/rendez-vous-outlook",
+      "violations": [],
+      "overflow": false
+    },
+    {
+      "width": 1440,
+      "route": "/guides/sauvegarde-windows",
+      "violations": [],
+      "overflow": false
+    },
+    {
+      "width": 1440,
+      "route": "/guides/styles-word",
+      "violations": [],
+      "overflow": false
+    },
+    {
+      "width": 1440,
+      "route": "/guides/suivi-modifications",
+      "violations": [],
+      "overflow": false
+    },
+    {
+      "width": 1440,
+      "route": "/guides/tableau-excel",
+      "violations": [],
+      "overflow": false
+    },
+    {
+      "width": 1440,
+      "route": "/guides/trier-excel",
+      "violations": [],
+      "overflow": false
+    },
+    {
+      "width": 1440,
+      "route": "/guides/windows-10-transition",
+      "violations": [],
+      "overflow": false
+    },
+    {
+      "width": 1440,
+      "route": "/blog/documents-accessibles",
+      "violations": [],
+      "overflow": false
+    },
+    {
+      "width": 1440,
+      "route": "/blog/ia-confidentialite",
+      "violations": [],
+      "overflow": false
+    },
+    {
+      "width": 1440,
+      "route": "/blog/prompts-precis",
+      "violations": [],
+      "overflow": false
+    },
+    {
+      "width": 1440,
+      "route": "/blog/transcription-relecture",
+      "violations": [],
+      "overflow": false
+    },
+    {
+      "width": 1440,
+      "route": "/blog/travail-hors-ligne",
+      "violations": [],
+      "overflow": false
+    },
+    {
+      "width": 1440,
+      "route": "/blog/windows-transition",
+      "violations": [],
+      "overflow": false
+    },
+    {
+      "width": 390,
+      "route": "/",
+      "violations": [],
+      "overflow": false
+    },
+    {
+      "width": 390,
+      "route": "/guides",
+      "violations": [],
+      "overflow": false
+    },
+    {
+      "width": 390,
+      "route": "/recherche",
+      "violations": [],
+      "overflow": false
+    },
+    {
+      "width": 390,
+      "route": "/prompts",
+      "violations": [],
+      "overflow": false
+    },
+    {
+      "width": 390,
+      "route": "/blog",
+      "violations": [],
+      "overflow": false
+    },
+    {
+      "width": 390,
+      "route": "/annuaire",
+      "violations": [],
+      "overflow": false
+    },
+    {
+      "width": 390,
+      "route": "/outils",
+      "violations": [],
+      "overflow": false
+    },
+    {
+      "width": 390,
+      "route": "/studio",
+      "violations": [],
+      "overflow": false
+    },
+    {
+      "width": 390,
+      "route": "/confidentialite",
+      "violations": [],
+      "overflow": false
+    },
+    {
+      "width": 390,
+      "route": "/accessibilite",
+      "violations": [],
+      "overflow": false
+    },
+    {
+      "width": 390,
+      "route": "/editorial",
+      "violations": [],
+      "overflow": false
+    },
+    {
+      "width": 390,
+      "route": "/a-propos",
+      "violations": [],
+      "overflow": false
+    },
+    {
+      "width": 390,
+      "route": "/guides/capture-ecran",
+      "violations": [],
+      "overflow": false
+    },
+    {
+      "width": 390,
+      "route": "/guides/copier-un-fichier",
+      "violations": [],
+      "overflow": false
+    },
+    {
+      "width": 390,
+      "route": "/guides/courrier-word",
+      "violations": [],
+      "overflow": false
+    },
+    {
+      "width": 390,
+      "route": "/guides/exporter-pdf",
+      "violations": [],
+      "overflow": false
+    },
+    {
+      "width": 390,
+      "route": "/guides/figer-excel",
+      "violations": [],
+      "overflow": false
+    },
+    {
+      "width": 390,
+      "route": "/guides/filtrer-excel",
+      "violations": [],
+      "overflow": false
+    },
+    {
+      "width": 390,
+      "route": "/guides/modifier-pdf",
+      "violations": [],
+      "overflow": false
+    },
+    {
+      "width": 390,
+      "route": "/guides/notes-powerpoint",
+      "violations": [],
+      "overflow": false
+    },
+    {
+      "width": 390,
+      "route": "/guides/presentation-powerpoint",
+      "violations": [],
+      "overflow": false
+    },
+    {
+      "width": 390,
+      "route": "/guides/raccourcis-windows",
+      "violations": [],
+      "overflow": false
+    },
+    {
+      "width": 390,
+      "route": "/guides/rendez-vous-outlook",
+      "violations": [],
+      "overflow": false
+    },
+    {
+      "width": 390,
+      "route": "/guides/sauvegarde-windows",
+      "violations": [],
+      "overflow": false
+    },
+    {
+      "width": 390,
+      "route": "/guides/styles-word",
+      "violations": [],
+      "overflow": false
+    },
+    {
+      "width": 390,
+      "route": "/guides/suivi-modifications",
+      "violations": [],
+      "overflow": false
+    },
+    {
+      "width": 390,
+      "route": "/guides/tableau-excel",
+      "violations": [],
+      "overflow": false
+    },
+    {
+      "width": 390,
+      "route": "/guides/trier-excel",
+      "violations": [],
+      "overflow": false
+    },
+    {
+      "width": 390,
+      "route": "/guides/windows-10-transition",
+      "violations": [],
+      "overflow": false
+    },
+    {
+      "width": 390,
+      "route": "/blog/documents-accessibles",
+      "violations": [],
+      "overflow": false
+    },
+    {
+      "width": 390,
+      "route": "/blog/ia-confidentialite",
+      "violations": [],
+      "overflow": false
+    },
+    {
+      "width": 390,
+      "route": "/blog/prompts-precis",
+      "violations": [],
+      "overflow": false
+    },
+    {
+      "width": 390,
+      "route": "/blog/transcription-relecture",
+      "violations": [],
+      "overflow": false
+    },
+    {
+      "width": 390,
+      "route": "/blog/travail-hors-ligne",
+      "violations": [],
+      "overflow": false
+    },
+    {
+      "width": 390,
+      "route": "/blog/windows-transition",
+      "violations": [],
+      "overflow": false
+    }
+  ],
+  "errors": [],
+  "transcription": {
+    "loadMs": 4605,
+    "inferMs": 4450,
+    "text": "Bonjour! La réunion commence à neuf heures. Nous préparons les documents pour demain.",
+    "posts": [],
+    "externalHosts": [
+      "",
+      "huggingface.co",
+      "us.aws.cdn.hf.co"
+    ]
+  },
+  "offline": {
+    "guides": 17,
+    "prompts": 20
+  },
+  "video": {
+    "time": 2.2352,
+    "paused": false,
+    "duration": 12.04
+  }
+}

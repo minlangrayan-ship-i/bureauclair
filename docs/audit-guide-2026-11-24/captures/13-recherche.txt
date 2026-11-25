@@ -1,0 +1,74 @@
+- link "Aller au contenu":
+  - /url: "#contenu"
+- banner:
+  - link "BureauClair, accueil":
+    - /url: /
+    - text: BureauClair .
+  - navigation "Navigation principale":
+    - link "Accueil":
+      - /url: /
+    - link "Tutoriels":
+      - /url: /guides
+    - link "Outils":
+      - /url: /outils
+    - link "IA & prompts":
+      - /url: /prompts
+    - link "Blog":
+      - /url: /blog
+  - link "Rechercher dans BureauClair":
+    - /url: /recherche
+    - img
+  - button "Installer l’application":
+    - img
+    - text: Installer l’application
+- main:
+  - text: Recherche dans BureauClair
+  - heading "Qu’aimeriez-vous savoir faire ?" [level=1]
+  - paragraph: "Cherchez une tâche avec vos mots : la recherche fonctionne sans IA distante."
+  - text: Que souhaitez-vous faire aujourd’hui ?
+  - searchbox "Que souhaitez-vous faire aujourd’hui ?": copier un fichier
+  - button "Rechercher":
+    - text: Rechercher
+    - img
+  - status: 1 résultats pour « copier un fichier »
+  - heading "Tutoriels" [level=2]
+  - article:
+    - link "Windows 11 Copier, déplacer et retrouver un fichier Dupliquer un document dans le bon dossier et vérifier sa destination. 4 min · Débutant":
+      - /url: /guides/copier-un-fichier
+      - text: Windows 11
+      - heading "Copier, déplacer et retrouver un fichier" [level=3]
+      - paragraph: Dupliquer un document dans le bon dossier et vérifier sa destination.
+      - text: 4 min · Débutant
+      - img
+- img
+- paragraph:
+  - strong: Votre travail reste le vôtre.
+  - text: Sans compte obligatoire. Sans publicité. Sans envoi automatique de vos documents.
+- link "Notre approche →":
+  - /url: /confidentialite
+- contentinfo:
+  - link "BureauClair.":
+    - /url: /
+  - paragraph: Un bureau plus simple. Un quotidien plus serein.
+  - strong: À explorer
+  - link "Tutoriels pas à pas":
+    - /url: /guides
+  - link "Studio de transcription":
+    - /url: /studio
+  - link "Bibliothèque de prompts":
+    - /url: /prompts
+  - strong: Pour avancer
+  - link "Annuaire d’outils":
+    - /url: /annuaire
+  - link "Le journal":
+    - /url: /blog
+  - link "À propos & contact":
+    - /url: /a-propos
+  - strong: En confiance
+  - link "Confidentialité":
+    - /url: /confidentialite
+  - link "Accessibilité":
+    - /url: /accessibilite
+  - link "Charte éditoriale":
+    - /url: /editorial
+  - text: © 2026 BureauClair · Nom de travail Guides et prompts prêts hors ligne

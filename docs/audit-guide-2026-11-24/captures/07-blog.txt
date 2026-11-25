@@ -1,0 +1,114 @@
+- link "Aller au contenu":
+  - /url: "#contenu"
+- banner:
+  - link "BureauClair, accueil":
+    - /url: /
+    - text: BureauClair .
+  - navigation "Navigation principale":
+    - link "Accueil":
+      - /url: /
+    - link "Tutoriels":
+      - /url: /guides
+    - link "Outils":
+      - /url: /outils
+    - link "IA & prompts":
+      - /url: /prompts
+    - link "Blog":
+      - /url: /blog
+  - link "Rechercher dans BureauClair":
+    - /url: /recherche
+    - img
+  - button "Installer l’application":
+    - img
+    - text: Installer l’application
+- main:
+  - text: Le journal · Des repères pour le quotidien
+  - heading "Un peu de recul. De bonnes idées." [level=1]
+  - paragraph: Des conseils concrets pour travailler avec plus de clarté, sans courir après chaque nouveauté.
+  - button "Tous" [pressed]
+  - button "Accessibilité"
+  - button "Confidentialité"
+  - button "IA pratique"
+  - button "Réunions"
+  - button "Outils"
+  - button "Windows"
+  - article:
+    - link "Accessibilité Des documents plus faciles à lire pour tous Structurer les titres et ne pas compter uniquement sur la couleur. 3 min · Pour tous":
+      - /url: /blog/documents-accessibles
+      - text: Accessibilité
+      - heading "Des documents plus faciles à lire pour tous" [level=3]
+      - paragraph: Structurer les titres et ne pas compter uniquement sur la couleur.
+      - text: 3 min · Pour tous
+      - img
+  - article:
+    - 'link "Confidentialité L’IA au bureau : quoi garder pour soi ? Avant de copier un document, distinguer public, personnel et confidentiel. 3 min · Pour tous"':
+      - /url: /blog/ia-confidentialite
+      - text: Confidentialité
+      - 'heading "L’IA au bureau : quoi garder pour soi ?" [level=3]'
+      - paragraph: Avant de copier un document, distinguer public, personnel et confidentiel.
+      - text: 3 min · Pour tous
+      - img
+  - article:
+    - 'link "IA pratique Un bon prompt commence par une demande claire Objectif, contexte non sensible et format : une base simple. 3 min · Pour tous"':
+      - /url: /blog/prompts-precis
+      - text: IA pratique
+      - heading "Un bon prompt commence par une demande claire" [level=3]
+      - paragraph: "Objectif, contexte non sensible et format : une base simple."
+      - text: 3 min · Pour tous
+      - img
+  - article:
+    - link "Réunions Une transcription n’est pas un compte rendu Conserver les mots entendus et séparer les décisions validées. 3 min · Pour tous":
+      - /url: /blog/transcription-relecture
+      - text: Réunions
+      - heading "Une transcription n’est pas un compte rendu" [level=3]
+      - paragraph: Conserver les mots entendus et séparer les décisions validées.
+      - text: 3 min · Pour tous
+      - img
+  - article:
+    - link "Outils Ce que « hors ligne » change vraiment Comprendre ce qui est installé, téléchargé et conservé. 3 min · Pour tous":
+      - /url: /blog/travail-hors-ligne
+      - text: Outils
+      - heading "Ce que « hors ligne » change vraiment" [level=3]
+      - paragraph: Comprendre ce qui est installé, téléchargé et conservé.
+      - text: 3 min · Pour tous
+      - img
+  - article:
+    - link "Windows Passer à Windows 11 sans improviser Un inventaire et une sauvegarde avant toute migration. 3 min · Pour tous":
+      - /url: /blog/windows-transition
+      - text: Windows
+      - heading "Passer à Windows 11 sans improviser" [level=3]
+      - paragraph: Un inventaire et une sauvegarde avant toute migration.
+      - text: 3 min · Pour tous
+      - img
+- img
+- paragraph:
+  - strong: Votre travail reste le vôtre.
+  - text: Sans compte obligatoire. Sans publicité. Sans envoi automatique de vos documents.
+- link "Notre approche →":
+  - /url: /confidentialite
+- contentinfo:
+  - link "BureauClair.":
+    - /url: /
+  - paragraph: Un bureau plus simple. Un quotidien plus serein.
+  - strong: À explorer
+  - link "Tutoriels pas à pas":
+    - /url: /guides
+  - link "Studio de transcription":
+    - /url: /studio
+  - link "Bibliothèque de prompts":
+    - /url: /prompts
+  - strong: Pour avancer
+  - link "Annuaire d’outils":
+    - /url: /annuaire
+  - link "Le journal":
+    - /url: /blog
+  - link "À propos & contact":
+    - /url: /a-propos
+  - strong: En confiance
+  - link "Confidentialité":
+    - /url: /confidentialite
+  - link "Accessibilité":
+    - /url: /accessibilite
+  - link "Charte éditoriale":
+    - /url: /editorial
+  - text: © 2026 BureauClair · Nom de travail Guides et prompts prêts hors ligne

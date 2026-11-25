@@ -1,0 +1,229 @@
+- link "Aller au contenu":
+  - /url: "#contenu"
+- banner:
+  - link "BureauClair, accueil":
+    - /url: /
+    - text: BureauClair .
+  - navigation "Navigation principale":
+    - link "Accueil":
+      - /url: /
+    - link "Tutoriels":
+      - /url: /guides
+    - link "Outils":
+      - /url: /outils
+    - link "IA & prompts":
+      - /url: /prompts
+    - link "Blog":
+      - /url: /blog
+  - link "Rechercher dans BureauClair":
+    - /url: /recherche
+    - img
+  - button "Installer l’application":
+    - img
+    - text: Installer l’application
+- main:
+  - text: Les tutoriels · Windows & bureautique
+  - heading "Un coup de main, au bon moment." [level=1]
+  - paragraph: Des explications concrètes. Des étapes courtes. Et le plaisir de savoir faire.
+  - img
+  - text: Rechercher un tutoriel
+  - searchbox "Rechercher un tutoriel"
+  - text: Durée
+  - combobox "Durée":
+    - option "Tous" [selected]
+    - option "4 min maximum"
+    - option "6 min maximum"
+  - text: Niveau
+  - combobox "Niveau":
+    - option "Tous" [selected]
+    - option "Débutant"
+  - text: Version
+  - combobox "Version":
+    - option "Toutes" [selected]
+    - option "Windows 11"
+    - option "Windows 10"
+    - option "Microsoft 365"
+    - option "2024"
+  - button "Tous" [pressed]
+  - button "Windows 11"
+  - button "Windows 10"
+  - button "Word"
+  - button "Excel"
+  - button "Outlook"
+  - button "PowerPoint"
+  - button "PDF"
+  - status: 17 tutoriels
+  - article:
+    - link "PowerPoint Ajouter des notes pour présenter sereinement Distinguer le contenu projeté des notes destinées au présentateur. 4 min · Débutant":
+      - /url: /guides/notes-powerpoint
+      - text: PowerPoint
+      - heading "Ajouter des notes pour présenter sereinement" [level=3]
+      - paragraph: Distinguer le contenu projeté des notes destinées au présentateur.
+      - text: 4 min · Débutant
+      - img
+  - article:
+    - link "Windows 11 Capturer une zone de l’écran Préparer une illustration utile sans partager tout son écran. 3 min · Débutant":
+      - /url: /guides/capture-ecran
+      - text: Windows 11
+      - heading "Capturer une zone de l’écran" [level=3]
+      - paragraph: Préparer une illustration utile sans partager tout son écran.
+      - text: 3 min · Débutant
+      - img
+  - article:
+    - link "Windows 11 Choisir une sauvegarde adaptée au bureau Distinguer une copie locale d’une sauvegarde Windows liée au cloud. 5 min · Débutant":
+      - /url: /guides/sauvegarde-windows
+      - text: Windows 11
+      - heading "Choisir une sauvegarde adaptée au bureau" [level=3]
+      - paragraph: Distinguer une copie locale d’une sauvegarde Windows liée au cloud.
+      - text: 5 min · Débutant
+      - img
+  - article:
+    - link "Windows 11 Copier, déplacer et retrouver un fichier Dupliquer un document dans le bon dossier et vérifier sa destination. 4 min · Débutant":
+      - /url: /guides/copier-un-fichier
+      - text: Windows 11
+      - heading "Copier, déplacer et retrouver un fichier" [level=3]
+      - paragraph: Dupliquer un document dans le bon dossier et vérifier sa destination.
+      - text: 4 min · Débutant
+      - img
+  - article:
+    - link "Outlook Créer un rendez-vous personnel dans Outlook Bloquer un créneau sans envoyer d’invitation à d’autres personnes. 4 min · Débutant":
+      - /url: /guides/rendez-vous-outlook
+      - text: Outlook
+      - heading "Créer un rendez-vous personnel dans Outlook" [level=3]
+      - paragraph: Bloquer un créneau sans envoyer d’invitation à d’autres personnes.
+      - text: 4 min · Débutant
+      - img
+  - article:
+    - link "Excel Créer un tableau de suivi simple dans Excel Organiser des dossiers avec une ligne par élément et des en-têtes clairs. 7 min · Débutant":
+      - /url: /guides/tableau-excel
+      - text: Excel
+      - heading "Créer un tableau de suivi simple dans Excel" [level=3]
+      - paragraph: Organiser des dossiers avec une ligne par élément et des en-têtes clairs.
+      - text: 7 min · Débutant
+      - img
+  - article:
+    - link "PDF Exporter un document Word en PDF Produire un PDF de diffusion tout en gardant le document source. 4 min · Débutant":
+      - /url: /guides/exporter-pdf
+      - text: PDF
+      - heading "Exporter un document Word en PDF" [level=3]
+      - paragraph: Produire un PDF de diffusion tout en gardant le document source.
+      - text: 4 min · Débutant
+      - img
+  - article:
+    - link "Excel Filtrer les dossiers et réafficher toutes les lignes Afficher une partie du tableau sans supprimer les autres données. 4 min · Débutant":
+      - /url: /guides/filtrer-excel
+      - text: Excel
+      - heading "Filtrer les dossiers et réafficher toutes les lignes" [level=3]
+      - paragraph: Afficher une partie du tableau sans supprimer les autres données.
+      - text: 4 min · Débutant
+      - img
+  - article:
+    - link "Excel Garder les en-têtes visibles dans Excel Lire un tableau long sans perdre les noms des colonnes. 3 min · Débutant":
+      - /url: /guides/figer-excel
+      - text: Excel
+      - heading "Garder les en-têtes visibles dans Excel" [level=3]
+      - paragraph: Lire un tableau long sans perdre les noms des colonnes.
+      - text: 3 min · Débutant
+      - img
+  - article:
+    - link "Windows 11 Les raccourcis utiles, sans tout mémoriser Retenir trois gestes pour naviguer plus facilement au clavier. 3 min · Débutant":
+      - /url: /guides/raccourcis-windows
+      - text: Windows 11
+      - heading "Les raccourcis utiles, sans tout mémoriser" [level=3]
+      - paragraph: Retenir trois gestes pour naviguer plus facilement au clavier.
+      - text: 3 min · Débutant
+      - img
+  - article:
+    - link "PDF Ouvrir une copie de PDF dans Word Évaluer les limites de la conversion avant de modifier un PDF. 4 min · Débutant":
+      - /url: /guides/modifier-pdf
+      - text: PDF
+      - heading "Ouvrir une copie de PDF dans Word" [level=3]
+      - paragraph: Évaluer les limites de la conversion avant de modifier un PDF.
+      - text: 4 min · Débutant
+      - img
+  - article:
+    - link "PowerPoint Préparer une présentation courte et lisible Créer une structure simple pour présenter un sujet au bureau. 6 min · Débutant":
+      - /url: /guides/presentation-powerpoint
+      - text: PowerPoint
+      - heading "Préparer une présentation courte et lisible" [level=3]
+      - paragraph: Créer une structure simple pour présenter un sujet au bureau.
+      - text: 6 min · Débutant
+      - img
+  - article:
+    - link "Word Rédiger un courrier professionnel dans Word Créer un courrier lisible et conserver une version modifiable. 6 min · Débutant":
+      - /url: /guides/courrier-word
+      - text: Word
+      - heading "Rédiger un courrier professionnel dans Word" [level=3]
+      - paragraph: Créer un courrier lisible et conserver une version modifiable.
+      - text: 6 min · Débutant
+      - img
+  - article:
+    - link "Word Relire un document avec le suivi des modifications Afficher les corrections et les examiner une par une. 5 min · Débutant":
+      - /url: /guides/suivi-modifications
+      - text: Word
+      - heading "Relire un document avec le suivi des modifications" [level=3]
+      - paragraph: Afficher les corrections et les examiner une par une.
+      - text: 5 min · Débutant
+      - img
+  - article:
+    - link "Word Structurer un document avec les styles Rendre les titres cohérents et faciliter la navigation dans un document. 5 min · Débutant":
+      - /url: /guides/styles-word
+      - text: Word
+      - heading "Structurer un document avec les styles" [level=3]
+      - paragraph: Rendre les titres cohérents et faciliter la navigation dans un document.
+      - text: 5 min · Débutant
+      - img
+  - article:
+    - link "Excel Trier un tableau sans séparer les lignes Classer les dossiers par échéance en gardant les colonnes associées. 4 min · Débutant":
+      - /url: /guides/trier-excel
+      - text: Excel
+      - heading "Trier un tableau sans séparer les lignes" [level=3]
+      - paragraph: Classer les dossiers par échéance en gardant les colonnes associées.
+      - text: 4 min · Débutant
+      - img
+  - article:
+    - 'link "Windows 10 Windows 10 : préparer la transition Faire l’inventaire de son poste avant une migration vers Windows 11. 6 min · Débutant"':
+      - /url: /guides/windows-10-transition
+      - text: Windows 10
+      - 'heading "Windows 10 : préparer la transition" [level=3]'
+      - paragraph: Faire l’inventaire de son poste avant une migration vers Windows 11.
+      - text: 6 min · Débutant
+      - img
+  - img
+  - paragraph:
+    - strong: Vous utilisez encore Windows 10 ?
+    - text: Son support standard a pris fin le 14 octobre 2025.
+    - link "Préparer la transition →":
+      - /url: /guides/windows-10-transition
+- img
+- paragraph:
+  - strong: Votre travail reste le vôtre.
+  - text: Sans compte obligatoire. Sans publicité. Sans envoi automatique de vos documents.
+- link "Notre approche →":
+  - /url: /confidentialite
+- contentinfo:
+  - link "BureauClair.":
+    - /url: /
+  - paragraph: Un bureau plus simple. Un quotidien plus serein.
+  - strong: À explorer
+  - link "Tutoriels pas à pas":
+    - /url: /guides
+  - link "Studio de transcription":
+    - /url: /studio
+  - link "Bibliothèque de prompts":
+    - /url: /prompts
+  - strong: Pour avancer
+  - link "Annuaire d’outils":
+    - /url: /annuaire
+  - link "Le journal":
+    - /url: /blog
+  - link "À propos & contact":
+    - /url: /a-propos
+  - strong: En confiance
+  - link "Confidentialité":
+    - /url: /confidentialite
+  - link "Accessibilité":
+    - /url: /accessibilite
+  - link "Charte éditoriale":
+    - /url: /editorial
+  - text: © 2026 BureauClair · Nom de travail Guides et prompts prêts hors ligne

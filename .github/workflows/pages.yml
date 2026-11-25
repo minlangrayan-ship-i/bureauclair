@@ -4,6 +4,8 @@ on:
 permissions:
   contents: read
 env:
+  # Browser inference uses WebAssembly; the Linux build runner needs no CUDA.
+  ONNXRUNTIME_NODE_INSTALL_CUDA: skip
   VITE_PUBLIC_EDITOR: Rayan Minlang
   VITE_PUBLIC_CONTACT_EMAIL: minlangrayan@gmail.com
   VITE_PUBLIC_HOST: GitHub Pages — GitHub, Inc.

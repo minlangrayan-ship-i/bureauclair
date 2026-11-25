@@ -16,3 +16,7 @@ Lecture réelle locale contrôlée séparément dans Edge, à travers le lecteur
 Le test porte sur quelques secondes de lecture, pas sur un visionnage intégral ni sur une validation pédagogique complète. L’autorisation des chaînes et les conditions réseau peuvent évoluer. La vérification publique et le résultat GitHub Actions seront ajoutés après déploiement effectif.
 
 Références techniques : [IFrame Player API](https://developers.google.com/youtube/iframe_api_reference), [paramètres du lecteur](https://developers.google.com/youtube/player_parameters), [GitHub Pages](https://docs.github.com/en/pages/getting-started-with-github-pages/what-is-github-pages).
+
+## Première exécution Linux
+
+Le premier run GitHub Actions (`45612818411`) a échoué pendant `npm ci` : le postinstall d’`onnxruntime-node` tentait de télécharger une archive CUDA Linux renvoyant HTTP 404. Le projet utilise le moteur navigateur WebAssembly ; le runner de build n’a pas besoin de CUDA. La variable officiellement prise en charge par ce postinstall, `ONNXRUNTIME_NODE_INSTALL_CUDA=skip`, est donc ajoutée au workflow. Aucun test ou script d’installation général désactivé. Le déploiement reste conditionné à la réussite des tests.
